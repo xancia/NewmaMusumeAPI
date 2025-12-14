@@ -6,26 +6,6 @@ This is a community REST API based on [Uma Musume: Pretty Derby](https://umamusu
 
 The original [loader app](https://github.com/SimpleSandman/UmaMusumeLoadSqlData) allows you to load the `meta` and `master.mdb`'s data from the [DMM version](https://dmg.umamusume.jp/) of this game into a MySQL/MariaDB database.
 
-## Features
-
-This API not only has endpoints to the tables, but I've created views for basic info for frequently used tables. I've even implemented stored procedures for a few particular calculations like parent compatibility and recommendations.
-
-The overall endpoint structure is:
-- Raw table data (imported straight from the `meta` and `master.mdb` files)
-- Basic indexing of frequently used tables (endpoints prefixed with `Basic`)
-- Condensed data of foreign keys to allow easier reporting (endpoints prefixed with `Condensed`)
-- Nicely displayed data of frequently used info (endpoints prefixed with `Nice`)
-- Stored procedures (endpoints prefixed with `Sp`)
-- **Custom endpoints** (see below)
-
-The stored procedures are:
-- [SpSuccessionGrandparentRecommendation](https://github.com/SimpleSandman/UmaMusumeAPI/blob/master/UmaMusumeAPI/SqlScripts/StoredProcedureCreation.sql#L232)
-  - This is the recommended grandparents based on the child's parent
-- [SpSuccessionParentRecommendation](https://github.com/SimpleSandman/UmaMusumeAPI/blob/master/UmaMusumeAPI/SqlScripts/StoredProcedureCreation.sql#L213)
-  - This is the recommended parents based on the child
-- [SpSuccessionPointSum](https://github.com/SimpleSandman/UmaMusumeAPI/blob/master/UmaMusumeAPI/SqlScripts/StoredProcedureCreation.sql#L36)
-  - This is the overall calculation based on the child's compatibility with the proposed parents and grandparents
-
 ## Custom Endpoints Added in This Fork
 
 ### TerumiSimpleSkillData
