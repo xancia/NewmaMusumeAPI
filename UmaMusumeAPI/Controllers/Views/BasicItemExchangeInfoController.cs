@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 using UmaMusumeAPI.Context;
 using UmaMusumeAPI.Models.Views;
 
@@ -22,7 +20,9 @@ namespace UmaMusumeAPI.Controllers.Views
 
         // GET: api/BasicItemExchangeInfo
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<BasicItemExchangeInfo>>> GetBasicItemExchangeInfos()
+        public async Task<
+            ActionResult<IEnumerable<BasicItemExchangeInfo>>
+        > GetBasicItemExchangeInfos()
         {
             return await _context.BasicItemExchangeInfos.ToListAsync();
         }
@@ -32,7 +32,9 @@ namespace UmaMusumeAPI.Controllers.Views
         public async Task<ActionResult<BasicItemExchangeInfo>> GetBasicItemExchangeInfo(int id)
         {
             // Since views don't have PKs, we need to use .SingleOrDefaultAsync() to best imitate .FindAsync()
-            var basicItemExchangeInfo = await _context.BasicItemExchangeInfos.SingleOrDefaultAsync(c => c.ItemExchangeId == id);
+            var basicItemExchangeInfo = await _context.BasicItemExchangeInfos.SingleOrDefaultAsync(
+                c => c.ItemExchangeId == id
+            );
 
             if (basicItemExchangeInfo == null)
             {

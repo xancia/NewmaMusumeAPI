@@ -72,6 +72,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         var skillSetId = reader.GetInt32(reader.GetOrdinal("SkillSetId"));
                         var uniqueEffectId = reader.GetInt32(reader.GetOrdinal("UniqueEffectId"));
 
+                        var commandId = reader.GetInt32(reader.GetOrdinal("CommandId"));
+
                         var card = new TerumiSupportCardData
                         {
                             SupportCardId = supportCardId,
@@ -87,12 +89,12 @@ namespace UmaMusumeAPI.Controllers.Views
                             Rarity = rarity,
                             RarityDisplay = GetRarityDisplay(rarity),
                             SupportCardType = supportCardType,
-                            SupportCardTypeName = GetSupportCardTypeName(supportCardType),
+                            SupportCardTypeName = GetSupportCardTypeName(commandId),
                             EffectTableId = effectTableId,
                             UniqueEffectId = uniqueEffectId,
                             SkillSetId = skillSetId,
                             CommandType = reader.GetInt32(reader.GetOrdinal("CommandType")),
-                            CommandId = reader.GetInt32(reader.GetOrdinal("CommandId")),
+                            CommandId = commandId,
                             StartDate = reader.IsDBNull(reader.GetOrdinal("StartDate"))
                                 ? null
                                 : reader.GetDateTime(reader.GetOrdinal("StartDate")),
@@ -111,7 +113,7 @@ namespace UmaMusumeAPI.Controllers.Views
             foreach (var card in result)
             {
                 card.Effects = await GetSupportCardEffects(card.EffectTableId);
-                card.SkillHints = await GetSkillHints(card.SkillSetId);
+                card.SkillHints = await GetSkillHints(card.SkillSetId, card.SupportCardId);
                 card.Events = await GetEvents(card.SupportCardId, card.CharaId);
                 card.UniqueEffect = await GetUniqueEffect(card.UniqueEffectId);
             }
@@ -191,7 +193,7 @@ namespace UmaMusumeAPI.Controllers.Views
                             Rarity = rarity,
                             RarityDisplay = GetRarityDisplay(rarity),
                             SupportCardType = supportCardType,
-                            SupportCardTypeName = GetSupportCardTypeName(supportCardType),
+                            SupportCardTypeName = GetSupportCardTypeName(commandId),
                             EffectTableId = effectTableId,
                             UniqueEffectId = uniqueEffectId,
                             SkillSetId = skillSetId,
@@ -211,7 +213,7 @@ namespace UmaMusumeAPI.Controllers.Views
             if (card != null)
             {
                 card.Effects = await GetSupportCardEffects(effectTableId);
-                card.SkillHints = await GetSkillHints(skillSetId);
+                card.SkillHints = await GetSkillHints(skillSetId, supportCardId);
                 card.Events = await GetEvents(supportCardId, charaId);
                 card.UniqueEffect = await GetUniqueEffect(uniqueEffectId);
             }
@@ -272,7 +274,7 @@ namespace UmaMusumeAPI.Controllers.Views
             return effects;
         }
 
-        private async Task<List<SkillHint>> GetSkillHints(int skillSetId)
+        private async Task<List<SkillHint>> GetSkillHints(int skillSetId, int supportCardId)
         {
             var hints = new List<SkillHint>();
 
@@ -280,11 +282,12 @@ namespace UmaMusumeAPI.Controllers.Views
                 return hints;
 
             // Query single_mode_hint_gain for both skill hints (type 0) and stat gains (type 1)
+            // Must filter by support_card_id since multiple cards share the same skillSetId
             var query =
                 @"
                 SELECT hint_gain_type, hint_value_1, hint_value_2
                 FROM single_mode_hint_gain
-                WHERE hint_id = @skillSetId
+                WHERE hint_id = @skillSetId AND support_card_id = @supportCardId
                 ORDER BY hint_gain_type, hint_group";
 
             var skillIds = new List<int>();
@@ -294,6 +297,7 @@ namespace UmaMusumeAPI.Controllers.Views
             {
                 command.CommandText = query;
                 command.Parameters.Add(new MySqlParameter("@skillSetId", skillSetId));
+                command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
 
                 if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
                     await _context.Database.OpenConnectionAsync();
@@ -542,16 +546,16 @@ namespace UmaMusumeAPI.Controllers.Views
             };
         }
 
-        private string GetSupportCardTypeName(int type)
+        private string GetSupportCardTypeName(int commandId)
         {
-            return type switch
+            return commandId switch
             {
-                1 => "Speed",
-                2 => "Stamina",
-                3 => "Power",
-                4 => "Guts",
-                5 => "Intelligence",
-                6 => "Friend",
+                0 => "Friend",
+                101 => "Speed",
+                102 => "Power",
+                103 => "Guts",
+                105 => "Stamina",
+                106 => "Intelligence",
                 _ => "Unknown",
             };
         }
