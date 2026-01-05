@@ -4,6 +4,26 @@
         <name>UmaMusumeAPI</name>
     </assembly>
     <members>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiCharacterDataController.GetTerumiCharacterData">
+            <summary>
+            Get all Uma Musume characters with detailed information
+            </summary>
+        </member>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiCharacterDataController.GetTerumiCharacterData(System.Int32)">
+            <summary>
+            Get a specific Uma Musume character by ID
+            </summary>
+        </member>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiSupportCardDataController.GetTerumiSupportCardData">
+            <summary>
+            Get all support cards with detailed information including effects at each level, skill hints, and unique effects
+            </summary>
+        </member>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiSupportCardDataController.GetTerumiSupportCardData(System.Int32)">
+            <summary>
+            Get a specific support card by ID with all detailed information
+            </summary>
+        </member>
         <member name="P:UmaMusumeAPI.DTO.SpSuccessionPointSumDTO.Child">
             <example>1008</example>
         </member>
