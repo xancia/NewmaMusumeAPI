@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 using UmaMusumeAPI.Context;
 using UmaMusumeAPI.Models.Views;
 
@@ -32,7 +30,9 @@ namespace UmaMusumeAPI.Controllers.Views
         public async Task<ActionResult<NiceCardDataInfo>> GetNiceCardDataInfo(int charaId)
         {
             // Since views don't have PKs, we need to use .SingleOrDefaultAsync() to best imitate .FindAsync()
-            var niceCardDataInfo = await _context.NiceCardDataInfos.SingleOrDefaultAsync(c => c.CardId == charaId);
+            var niceCardDataInfo = await _context.NiceCardDataInfos.SingleOrDefaultAsync(c =>
+                c.CardId == charaId
+            );
 
             if (niceCardDataInfo == null)
             {
