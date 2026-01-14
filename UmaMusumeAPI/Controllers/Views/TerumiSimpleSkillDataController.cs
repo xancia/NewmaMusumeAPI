@@ -47,6 +47,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_1_1,
                         s.ability_type_1_2,
                         s.float_ability_value_1_2,
+                        s.float_ability_time_1 as duration,
+                        s.float_cooldown_time_1 as cooldownTime,
                         s.icon_id as iconId,
                         smsnp.need_skill_point as needSkillPoint,
                         t_name.text as skillName,
@@ -88,6 +90,12 @@ namespace UmaMusumeAPI.Controllers.Views
                             SkillDesc = reader.IsDBNull(reader.GetOrdinal("skillDesc"))
                                 ? ""
                                 : reader.GetString("skillDesc"),
+                            Duration = reader.IsDBNull(reader.GetOrdinal("duration"))
+                                ? null
+                                : (decimal?)reader.GetInt32("duration") / 10000m,
+                            CooldownTime = reader.IsDBNull(reader.GetOrdinal("cooldownTime"))
+                                ? null
+                                : (decimal?)reader.GetInt32("cooldownTime") / 10000m,
                             Effects = new List<SkillEffect>(),
                         };
 
@@ -154,6 +162,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_1_1,
                         s.ability_type_1_2,
                         s.float_ability_value_1_2,
+                        s.float_ability_time_1 as duration,
+                        s.float_cooldown_time_1 as cooldownTime,
                         s.icon_id as iconId,
                         smsnp.need_skill_point as needSkillPoint,
                         t_name.text as skillName,
@@ -203,6 +213,12 @@ namespace UmaMusumeAPI.Controllers.Views
                                 SkillDesc = reader.IsDBNull(reader.GetOrdinal("skillDesc"))
                                     ? ""
                                     : reader.GetString("skillDesc"),
+                                Duration = reader.IsDBNull(reader.GetOrdinal("duration"))
+                                    ? null
+                                    : (decimal?)reader.GetInt32("duration") / 10000m,
+                                CooldownTime = reader.IsDBNull(reader.GetOrdinal("cooldownTime"))
+                                    ? null
+                                    : (decimal?)reader.GetInt32("cooldownTime") / 10000m,
                                 Effects = new List<SkillEffect>(),
                             };
 

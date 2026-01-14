@@ -17,6 +17,8 @@ namespace UmaMusumeAPI.Models.Views
         public string SkillName { get; set; }
         public string SkillDesc { get; set; }
         public int NeedSkillPoint { get; set; }
+        public decimal? Duration { get; set; }
+        public decimal? CooldownTime { get; set; }
     }
 
     public class SkillEffect
