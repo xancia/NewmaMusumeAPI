@@ -34,8 +34,9 @@ namespace UmaMusumeAPI.Controllers.Views
                     t_name.text as CharaName,
                     t_cv.text as VoiceActor,
                     card.id as CardId,
+                    t_card.text as CardTitle,
                     scd.id as SupportCardId,
-                    FROM_UNIXTIME_SECONDS(cd.start_date) as StartDate,
+                    FROM_UNIXTIME(cd.start_date) as StartDate,
                     
                     -- Base Stats from 5-star card
                     r5.speed as BaseSpeed,
@@ -75,16 +76,21 @@ namespace UmaMusumeAPI.Controllers.Views
                     -- URA Objectives
                     ura.race_set_id as UraObjectives
                     
-                FROM chara_data cd
+                FROM card_data card
+                LEFT JOIN chara_data cd ON card.chara_id = cd.id
                 LEFT JOIN text_data t_name ON t_name.`index` = cd.id AND t_name.category = 6
                 LEFT JOIN text_data t_cv ON t_cv.`index` = cd.id AND t_cv.category = 7
-                LEFT JOIN card_data card ON card.chara_id = cd.id
+                LEFT JOIN text_data t_card ON t_card.`index` = card.id AND t_card.category = 5
                 LEFT JOIN card_rarity_data r5 ON r5.card_id = card.id AND r5.rarity = 5
-                LEFT JOIN support_card_data scd ON scd.chara_id = cd.id
+                LEFT JOIN (
+                    SELECT chara_id, MIN(id) as id 
+                    FROM support_card_data 
+                    WHERE support_card_type = 1 
+                    GROUP BY chara_id
+                ) scd ON scd.chara_id = cd.id
                 LEFT JOIN single_mode_route ura ON ura.chara_id = cd.id AND ura.scenario_id = 0
-                WHERE t_name.text IS NOT NULL
-                GROUP BY cd.id
-                ORDER BY cd.id";
+                WHERE t_name.text IS NOT NULL AND card.id IS NOT NULL
+                ORDER BY card.id";
 
             var result = new List<TerumiCharacterData>();
 
@@ -110,6 +116,9 @@ namespace UmaMusumeAPI.Controllers.Views
                                 CardId = reader.IsDBNull(reader.GetOrdinal("CardId"))
                                     ? null
                                     : reader.GetInt32(reader.GetOrdinal("CardId")),
+                                CardTitle = reader.IsDBNull(reader.GetOrdinal("CardTitle"))
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("CardTitle")),
                                 SupportCardId = reader.IsDBNull(reader.GetOrdinal("SupportCardId"))
                                     ? null
                                     : reader.GetInt32(reader.GetOrdinal("SupportCardId")),

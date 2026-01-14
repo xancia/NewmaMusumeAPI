@@ -8,6 +8,7 @@ namespace UmaMusumeAPI.Models.Views
         public string CharaName { get; set; }
         public string VoiceActor { get; set; }
         public int? CardId { get; set; }
+        public string CardTitle { get; set; }
         public int? SupportCardId { get; set; }
         public DateTime? StartDate { get; set; }
 
