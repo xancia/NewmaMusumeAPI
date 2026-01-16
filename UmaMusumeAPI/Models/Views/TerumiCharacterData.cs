@@ -55,5 +55,8 @@ namespace UmaMusumeAPI.Models.Views
 
         // URA Objectives
         public int? UraObjectives { get; set; }
+
+        // Skills
+        public string SkillIds { get; set; }
     }
 }

@@ -74,7 +74,16 @@ namespace UmaMusumeAPI.Controllers.Views
                     cd.chara_category as CharaCategory,
                     
                     -- URA Objectives
-                    ura.race_set_id as UraObjectives
+                    ura.race_set_id as UraObjectives,
+                    
+                    -- Skills: unique skill (100xxx/110xxx) from skill_set.skill_id1 + regular skills (200xxx) from available_skill_set
+                    TRIM(BOTH ',' FROM CONCAT(
+                        IFNULL((SELECT ss.skill_id1 FROM skill_set ss WHERE ss.id = CONCAT('1', card.id) AND ss.skill_id1 >= 100000 AND ss.skill_id1 < 200000), ''),
+                        ',',
+                        IFNULL((SELECT crd_ss.skill_id1 FROM card_rarity_data crd INNER JOIN skill_set crd_ss ON crd_ss.id = crd.skill_set WHERE crd.card_id = card.id AND crd_ss.skill_id1 >= 100000 AND crd_ss.skill_id1 < 200000 LIMIT 1), ''),
+                        ',',
+                        IFNULL((SELECT GROUP_CONCAT(DISTINCT ass.skill_id ORDER BY ass.skill_id SEPARATOR ',') FROM available_skill_set ass WHERE ass.available_skill_set_id = card.available_skill_set_id), '')
+                    )) as SkillIds
                     
                 FROM card_data card
                 LEFT JOIN chara_data cd ON card.chara_id = cd.id
@@ -243,6 +252,11 @@ namespace UmaMusumeAPI.Controllers.Views
                                 UraObjectives = reader.IsDBNull(reader.GetOrdinal("UraObjectives"))
                                     ? null
                                     : reader.GetInt32(reader.GetOrdinal("UraObjectives")),
+                                SkillIds = reader.IsDBNull(reader.GetOrdinal("SkillIds"))
+                                    ? ""
+                                    : RemoveDuplicateSkillIds(
+                                        reader.GetString(reader.GetOrdinal("SkillIds"))
+                                    ),
                             }
                         );
                     }
@@ -305,7 +319,16 @@ namespace UmaMusumeAPI.Controllers.Views
                     cd.chara_category as CharaCategory,
                     
                     -- URA Objectives
-                    ura.race_set_id as UraObjectives
+                    ura.race_set_id as UraObjectives,
+                    
+                    -- Skills: unique skill (100xxx/110xxx) from skill_set.skill_id1 + regular skills (200xxx) from available_skill_set
+                    TRIM(BOTH ',' FROM CONCAT(
+                        IFNULL((SELECT ss.skill_id1 FROM skill_set ss WHERE ss.id = CONCAT('1', card.id) AND ss.skill_id1 >= 100000 AND ss.skill_id1 < 200000), ''),
+                        ',',
+                        IFNULL((SELECT crd_ss.skill_id1 FROM card_rarity_data crd INNER JOIN skill_set crd_ss ON crd_ss.id = crd.skill_set WHERE crd.card_id = card.id AND crd_ss.skill_id1 >= 100000 AND crd_ss.skill_id1 < 200000 LIMIT 1), ''),
+                        ',',
+                        IFNULL((SELECT GROUP_CONCAT(DISTINCT ass.skill_id ORDER BY ass.skill_id SEPARATOR ',') FROM available_skill_set ass WHERE ass.available_skill_set_id = card.available_skill_set_id), '')
+                    )) as SkillIds
                     
                 FROM chara_data cd
                 LEFT JOIN text_data t_name ON t_name.`index` = cd.id AND t_name.category = 6
@@ -455,6 +478,11 @@ namespace UmaMusumeAPI.Controllers.Views
                             UraObjectives = reader.IsDBNull(reader.GetOrdinal("UraObjectives"))
                                 ? null
                                 : reader.GetInt32(reader.GetOrdinal("UraObjectives")),
+                            SkillIds = reader.IsDBNull(reader.GetOrdinal("SkillIds"))
+                                ? ""
+                                : RemoveDuplicateSkillIds(
+                                    reader.GetString(reader.GetOrdinal("SkillIds"))
+                                ),
                         };
                     }
                 }
@@ -477,6 +505,21 @@ namespace UmaMusumeAPI.Controllers.Views
                 8 => "S",
                 _ => "Unknown",
             };
+        }
+
+        private string RemoveDuplicateSkillIds(string skillIds)
+        {
+            if (string.IsNullOrEmpty(skillIds))
+                return skillIds;
+
+            var skillIdArray = skillIds
+                .Split(',')
+                .Where(id => !string.IsNullOrWhiteSpace(id))
+                .Select(id => id.Trim())
+                .Distinct()
+                .ToArray();
+
+            return string.Join(",", skillIdArray);
         }
     }
 }

@@ -49,10 +49,44 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_1_2,
                         s.float_ability_time_1 as duration,
                         s.float_cooldown_time_1 as cooldownTime,
+                        s.condition_2 as activationCondition2,
+                        s.precondition_2 as precondition2,
+                        s.ability_type_2_1,
+                        s.float_ability_value_2_1,
+                        s.ability_type_2_2,
+                        s.float_ability_value_2_2,
+                        s.float_ability_time_2 as duration2,
+                        s.float_cooldown_time_2 as cooldownTime2,
                         s.icon_id as iconId,
                         smsnp.need_skill_point as needSkillPoint,
                         t_name.text as skillName,
-                        t_desc.text as skillDesc
+                        t_desc.text as skillDesc,
+                        (SELECT GROUP_CONCAT(DISTINCT support_card_id ORDER BY support_card_id SEPARATOR ',')
+                         FROM single_mode_hint_gain
+                         WHERE hint_gain_type = 0 AND hint_value_1 = s.id) as supportCardIds,
+                        TRIM(BOTH ',' FROM CONCAT(
+                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
+                                    FROM card_data cd
+                                    INNER JOIN available_skill_set ass ON ass.available_skill_set_id = cd.available_skill_set_id
+                                    WHERE ass.skill_id = s.id), ''),
+                            ',',
+                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
+                                    FROM card_data cd
+                                    INNER JOIN skill_set ss ON ss.id = CONCAT('1', cd.id)
+                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
+                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
+                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
+                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), ''),
+                            ',',
+                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
+                                    FROM card_data cd
+                                    INNER JOIN card_rarity_data crd ON crd.card_id = cd.id
+                                    INNER JOIN skill_set ss ON ss.id = crd.skill_set
+                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
+                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
+                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
+                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), '')
+                        )) as characterCardIds
                     FROM skill_data s
                     LEFT JOIN text_data t_name ON t_name.category = 47 AND t_name.index = s.id
                     LEFT JOIN text_data t_desc ON t_desc.category = 48 AND t_desc.index = s.id
@@ -80,6 +114,14 @@ namespace UmaMusumeAPI.Controllers.Views
                             Precondition = reader.IsDBNull(reader.GetOrdinal("precondition"))
                                 ? ""
                                 : reader.GetString("precondition"),
+                            ActivationCondition2 = reader.IsDBNull(
+                                reader.GetOrdinal("activationCondition2")
+                            )
+                                ? ""
+                                : reader.GetString("activationCondition2"),
+                            Precondition2 = reader.IsDBNull(reader.GetOrdinal("precondition2"))
+                                ? ""
+                                : reader.GetString("precondition2"),
                             IconId = reader.GetInt32("iconId"),
                             NeedSkillPoint = reader.IsDBNull(reader.GetOrdinal("needSkillPoint"))
                                 ? 0
@@ -96,10 +138,25 @@ namespace UmaMusumeAPI.Controllers.Views
                             CooldownTime = reader.IsDBNull(reader.GetOrdinal("cooldownTime"))
                                 ? null
                                 : (decimal?)reader.GetInt32("cooldownTime") / 10000m,
+                            Duration2 = reader.IsDBNull(reader.GetOrdinal("duration2"))
+                                ? null
+                                : (decimal?)reader.GetInt32("duration2") / 10000m,
+                            CooldownTime2 = reader.IsDBNull(reader.GetOrdinal("cooldownTime2"))
+                                ? null
+                                : (decimal?)reader.GetInt32("cooldownTime2") / 10000m,
+                            SupportCardIds = reader.IsDBNull(reader.GetOrdinal("supportCardIds"))
+                                ? ""
+                                : reader.GetString("supportCardIds"),
+                            CharacterCardIds = reader.IsDBNull(
+                                reader.GetOrdinal("characterCardIds")
+                            )
+                                ? ""
+                                : reader.GetString("characterCardIds"),
                             Effects = new List<SkillEffect>(),
+                            Effects2 = new List<SkillEffect>(),
                         };
 
-                        // Parse effects
+                        // Parse condition 1 effects
                         var abilityType1 = reader.GetInt32("ability_type_1_1");
                         var abilityValue1 = reader.IsDBNull(
                             reader.GetOrdinal("float_ability_value_1_1")
@@ -124,11 +181,47 @@ namespace UmaMusumeAPI.Controllers.Views
                             skill.Effects.Add(CreateSkillEffect(abilityType2, abilityValue2));
                         }
 
-                        // Build effect summary
+                        // Parse condition 2 effects
+                        var abilityType2_1 = reader.IsDBNull(reader.GetOrdinal("ability_type_2_1"))
+                            ? 0
+                            : reader.GetInt32("ability_type_2_1");
+                        var abilityValue2_1 = reader.IsDBNull(
+                            reader.GetOrdinal("float_ability_value_2_1")
+                        )
+                            ? 0
+                            : reader.GetInt32("float_ability_value_2_1");
+
+                        if (abilityType2_1 > 0)
+                        {
+                            skill.Effects2.Add(CreateSkillEffect(abilityType2_1, abilityValue2_1));
+                        }
+
+                        var abilityType2_2 = reader.IsDBNull(reader.GetOrdinal("ability_type_2_2"))
+                            ? 0
+                            : reader.GetInt32("ability_type_2_2");
+                        var abilityValue2_2 = reader.IsDBNull(
+                            reader.GetOrdinal("float_ability_value_2_2")
+                        )
+                            ? 0
+                            : reader.GetInt32("float_ability_value_2_2");
+
+                        if (abilityType2_2 > 0)
+                        {
+                            skill.Effects2.Add(CreateSkillEffect(abilityType2_2, abilityValue2_2));
+                        }
+
+                        // Build effect summaries
                         skill.EffectSummary = string.Join(
                             " | ",
                             skill
                                 .Effects.Select(e => e.DisplayText)
+                                .Where(t => !string.IsNullOrEmpty(t))
+                        );
+
+                        skill.EffectSummary2 = string.Join(
+                            " | ",
+                            skill
+                                .Effects2.Select(e => e.DisplayText)
                                 .Where(t => !string.IsNullOrEmpty(t))
                         );
 
@@ -164,10 +257,44 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_1_2,
                         s.float_ability_time_1 as duration,
                         s.float_cooldown_time_1 as cooldownTime,
+                        s.condition_2 as activationCondition2,
+                        s.precondition_2 as precondition2,
+                        s.ability_type_2_1,
+                        s.float_ability_value_2_1,
+                        s.ability_type_2_2,
+                        s.float_ability_value_2_2,
+                        s.float_ability_time_2 as duration2,
+                        s.float_cooldown_time_2 as cooldownTime2,
                         s.icon_id as iconId,
                         smsnp.need_skill_point as needSkillPoint,
                         t_name.text as skillName,
-                        t_desc.text as skillDesc
+                        t_desc.text as skillDesc,
+                        (SELECT GROUP_CONCAT(DISTINCT support_card_id ORDER BY support_card_id SEPARATOR ',')
+                         FROM single_mode_hint_gain
+                         WHERE hint_gain_type = 0 AND hint_value_1 = s.id) as supportCardIds,
+                        TRIM(BOTH ',' FROM CONCAT(
+                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
+                                    FROM card_data cd
+                                    INNER JOIN available_skill_set ass ON ass.available_skill_set_id = cd.available_skill_set_id
+                                    WHERE ass.skill_id = s.id), ''),
+                            ',',
+                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
+                                    FROM card_data cd
+                                    INNER JOIN skill_set ss ON ss.id = CONCAT('1', cd.id)
+                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
+                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
+                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
+                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), ''),
+                            ',',
+                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
+                                    FROM card_data cd
+                                    INNER JOIN card_rarity_data crd ON crd.card_id = cd.id
+                                    INNER JOIN skill_set ss ON ss.id = crd.skill_set
+                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
+                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
+                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
+                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), '')
+                        )) as characterCardIds
                     FROM skill_data s
                     LEFT JOIN text_data t_name ON t_name.category = 47 AND t_name.index = s.id
                     LEFT JOIN text_data t_desc ON t_desc.category = 48 AND t_desc.index = s.id
@@ -201,6 +328,14 @@ namespace UmaMusumeAPI.Controllers.Views
                                 Precondition = reader.IsDBNull(reader.GetOrdinal("precondition"))
                                     ? ""
                                     : reader.GetString("precondition"),
+                                ActivationCondition2 = reader.IsDBNull(
+                                    reader.GetOrdinal("activationCondition2")
+                                )
+                                    ? ""
+                                    : reader.GetString("activationCondition2"),
+                                Precondition2 = reader.IsDBNull(reader.GetOrdinal("precondition2"))
+                                    ? ""
+                                    : reader.GetString("precondition2"),
                                 IconId = reader.GetInt32("iconId"),
                                 NeedSkillPoint = reader.IsDBNull(
                                     reader.GetOrdinal("needSkillPoint")
@@ -219,10 +354,27 @@ namespace UmaMusumeAPI.Controllers.Views
                                 CooldownTime = reader.IsDBNull(reader.GetOrdinal("cooldownTime"))
                                     ? null
                                     : (decimal?)reader.GetInt32("cooldownTime") / 10000m,
+                                Duration2 = reader.IsDBNull(reader.GetOrdinal("duration2"))
+                                    ? null
+                                    : (decimal?)reader.GetInt32("duration2") / 10000m,
+                                CooldownTime2 = reader.IsDBNull(reader.GetOrdinal("cooldownTime2"))
+                                    ? null
+                                    : (decimal?)reader.GetInt32("cooldownTime2") / 10000m,
+                                SupportCardIds = reader.IsDBNull(
+                                    reader.GetOrdinal("supportCardIds")
+                                )
+                                    ? ""
+                                    : reader.GetString("supportCardIds"),
+                                CharacterCardIds = reader.IsDBNull(
+                                    reader.GetOrdinal("characterCardIds")
+                                )
+                                    ? ""
+                                    : reader.GetString("characterCardIds"),
                                 Effects = new List<SkillEffect>(),
+                                Effects2 = new List<SkillEffect>(),
                             };
 
-                            // Parse effects
+                            // Parse condition 1 effects
                             var abilityType1 = reader.GetInt32("ability_type_1_1");
                             var abilityValue1 = reader.IsDBNull(
                                 reader.GetOrdinal("float_ability_value_1_1")
@@ -247,11 +399,55 @@ namespace UmaMusumeAPI.Controllers.Views
                                 skill.Effects.Add(CreateSkillEffect(abilityType2, abilityValue2));
                             }
 
-                            // Build effect summary
+                            // Parse condition 2 effects
+                            var abilityType2_1 = reader.IsDBNull(
+                                reader.GetOrdinal("ability_type_2_1")
+                            )
+                                ? 0
+                                : reader.GetInt32("ability_type_2_1");
+                            var abilityValue2_1 = reader.IsDBNull(
+                                reader.GetOrdinal("float_ability_value_2_1")
+                            )
+                                ? 0
+                                : reader.GetInt32("float_ability_value_2_1");
+
+                            if (abilityType2_1 > 0)
+                            {
+                                skill.Effects2.Add(
+                                    CreateSkillEffect(abilityType2_1, abilityValue2_1)
+                                );
+                            }
+
+                            var abilityType2_2 = reader.IsDBNull(
+                                reader.GetOrdinal("ability_type_2_2")
+                            )
+                                ? 0
+                                : reader.GetInt32("ability_type_2_2");
+                            var abilityValue2_2 = reader.IsDBNull(
+                                reader.GetOrdinal("float_ability_value_2_2")
+                            )
+                                ? 0
+                                : reader.GetInt32("float_ability_value_2_2");
+
+                            if (abilityType2_2 > 0)
+                            {
+                                skill.Effects2.Add(
+                                    CreateSkillEffect(abilityType2_2, abilityValue2_2)
+                                );
+                            }
+
+                            // Build effect summaries
                             skill.EffectSummary = string.Join(
                                 " | ",
                                 skill
                                     .Effects.Select(e => e.DisplayText)
+                                    .Where(t => !string.IsNullOrEmpty(t))
+                            );
+
+                            skill.EffectSummary2 = string.Join(
+                                " | ",
+                                skill
+                                    .Effects2.Select(e => e.DisplayText)
                                     .Where(t => !string.IsNullOrEmpty(t))
                             );
 
