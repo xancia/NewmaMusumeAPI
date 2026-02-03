@@ -402,10 +402,10 @@ namespace UmaMusumeAPI.Controllers.Views
         {
             var events = new List<EventDetail>();
 
-            // Get both card-specific chain events AND character-shared random events
+            // Get both card-specific chain events AND character-shared random/date events
             var query =
                 @"
-                SELECT s.story_id, t.text as event_title, s.support_card_id, s.show_progress_1
+                SELECT s.story_id, t.text as event_title, s.support_card_id, s.show_progress_1, s.show_progress_2
                 FROM single_mode_story_data s
                 LEFT JOIN text_data t ON s.story_id = t.`index` AND t.category = 181
                 WHERE (s.support_card_id = @supportCardId) 
@@ -430,17 +430,42 @@ namespace UmaMusumeAPI.Controllers.Views
                             ? $"Event {storyId}"
                             : reader.GetString(1);
                         var cardId = reader.GetInt32(2);
-                        var showProgress = reader.GetInt32(3);
+                        var showProgress1 = reader.GetInt32(3);
+                        var showProgress2 = reader.GetInt32(4);
 
+                        // Determine event type:
+                        // - Chain Event: support_card_id > 0 (card-specific chain events)
+                        // - Date Event: support_card_id = 0 AND show_progress_1 > 0 AND show_progress_2 > 0
+                        // - Random Event: support_card_id = 0 AND (show_progress_1 = 0 OR show_progress_2 = 0)
                         var isChainEvent = cardId > 0;
+                        var isDateEvent = cardId == 0 && showProgress1 > 0 && showProgress2 > 0;
+
+                        string eventType;
+                        int eventOrder;
+
+                        if (isChainEvent)
+                        {
+                            eventType = "Chain Event";
+                            eventOrder = showProgress1;
+                        }
+                        else if (isDateEvent)
+                        {
+                            eventType = "Date Event";
+                            eventOrder = showProgress1;
+                        }
+                        else
+                        {
+                            eventType = "Random Event";
+                            eventOrder = 0;
+                        }
 
                         events.Add(
                             new EventDetail
                             {
                                 StoryId = storyId,
                                 EventTitle = eventTitle,
-                                EventType = isChainEvent ? "Chain Event" : "Random Event",
-                                EventOrder = isChainEvent ? showProgress : 0,
+                                EventType = eventType,
+                                EventOrder = eventOrder,
                             }
                         );
                     }
