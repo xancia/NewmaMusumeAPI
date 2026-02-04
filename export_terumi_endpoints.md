@@ -22,6 +22,11 @@ Invoke-RestMethod -Uri "http://localhost:5000/api/TerumiCharacterData" -Method G
 Invoke-RestMethod -Uri "http://localhost:5000/api/TerumiSupportCardData" -Method GET | ConvertTo-Json -Depth 10 | Out-File -FilePath "C:\Users\cminh\Desktop\TerumiSupportCardData.json" -Encoding UTF8
 ```
 
+## TerumiRaceData
+```powershell
+Invoke-RestMethod -Uri "http://localhost:5000/api/TerumiRaceData" -Method GET | ConvertTo-Json -Depth 10 | Out-File -FilePath "C:\Users\cminh\Desktop\TerumiRaceData.json" -Encoding UTF8
+```
+
 
 ## For accessing DB:
 

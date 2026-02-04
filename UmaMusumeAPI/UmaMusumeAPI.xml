@@ -14,6 +14,16 @@
             Get a specific Uma Musume character by ID
             </summary>
         </member>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiRaceDataController.GetTerumiRaceData">
+            <summary>
+            Get all races with detailed information including track, distance, ground type, and schedules
+            </summary>
+        </member>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiRaceDataController.GetTerumiRaceData(System.Int32)">
+            <summary>
+            Get a specific race by ID with detailed information
+            </summary>
+        </member>
         <member name="M:UmaMusumeAPI.Controllers.Views.TerumiSupportCardDataController.GetTerumiSupportCardData">
             <summary>
             Get all support cards with detailed information including effects at each level, skill hints, and unique effects
