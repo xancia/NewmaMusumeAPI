@@ -629,43 +629,8 @@ namespace UmaMusumeAPI.Controllers.Views
             if (type == 0)
                 return "None";
 
-            // Mappings from text_data category 180
-            return type switch
-            {
-                1 => "Increases the effectiveness of Friendship Training",
-                2 => "Amplifies the effect of mood when training together",
-                3 => "Increases Speed gain when training together",
-                4 => "Increases Stamina gain when training together",
-                5 => "Increases Power gain when training together",
-                6 => "Increases Guts gain when training together",
-                7 => "Increases Wit gain when training together",
-                8 => "Increases the effectiveness of training performed together",
-                9 => "Increases initial Speed when beginning a Career playthrough",
-                10 => "Increases initial Stamina when beginning a Career playthrough",
-                11 => "Increases initial Power when beginning a Career playthrough",
-                12 => "Increases initial Guts when beginning a Career playthrough",
-                13 => "Increases initial Wit when beginning a Career playthrough",
-                14 => "Increases initial Friendship Gauge when beginning a Career playthrough",
-                15 => "Increases stat gain from races",
-                16 => "Increases fan gain from races",
-                17 => "Increases the level of hints gained through events",
-                18 => "Increases the frequency at which hint events occur",
-                19 =>
-                    "Increases the frequency at which the character participates in their preferred training type",
-                20 => "Increases max Speed value when beginning a Career playthrough",
-                21 => "Increases max Stamina value when beginning a Career playthrough",
-                22 => "Increases max Power value when beginning a Career playthrough",
-                23 => "Increases max Guts value when beginning a Career playthrough",
-                24 => "Increases max Wit value when beginning a Career playthrough",
-                25 => "Increases Energy recovery from this Support Card's events",
-                26 => "Increases stat gain from this Support Card's events",
-                27 => "Increases stat gain from Wit Training",
-                28 => "Increases initial bond with the character",
-                29 => "Increases stat gain from minigames",
-                30 => "Increases skill point gain when training together",
-                31 => "Increases Energy recovery from Wit Friendship Training",
-                _ => $"Special Effect (Type {type})",
-            };
+            // Use the same mapping as regular effects since they share the same type system
+            return GetEffectTypeName(type);
         }
     }
 }

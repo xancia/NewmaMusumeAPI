@@ -20,7 +20,6 @@ namespace UmaMusumeAPI.Models.Views
         public decimal? Duration { get; set; }
         public decimal? CooldownTime { get; set; }
         public string SupportCardIds { get; set; }
-        public string CharacterCardIds { get; set; }
 
         // Hybrid skill fields (condition 2)
         public string ActivationCondition2 { get; set; }

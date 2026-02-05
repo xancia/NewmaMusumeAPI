@@ -63,30 +63,7 @@ namespace UmaMusumeAPI.Controllers.Views
                         t_desc.text as skillDesc,
                         (SELECT GROUP_CONCAT(DISTINCT support_card_id ORDER BY support_card_id SEPARATOR ',')
                          FROM single_mode_hint_gain
-                         WHERE hint_gain_type = 0 AND hint_value_1 = s.id) as supportCardIds,
-                        TRIM(BOTH ',' FROM CONCAT(
-                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
-                                    FROM card_data cd
-                                    INNER JOIN available_skill_set ass ON ass.available_skill_set_id = cd.available_skill_set_id
-                                    WHERE ass.skill_id = s.id), ''),
-                            ',',
-                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
-                                    FROM card_data cd
-                                    INNER JOIN skill_set ss ON ss.id = CONCAT('1', cd.id)
-                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
-                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
-                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
-                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), ''),
-                            ',',
-                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
-                                    FROM card_data cd
-                                    INNER JOIN card_rarity_data crd ON crd.card_id = cd.id
-                                    INNER JOIN skill_set ss ON ss.id = crd.skill_set
-                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
-                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
-                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
-                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), '')
-                        )) as characterCardIds
+                         WHERE hint_gain_type = 0 AND hint_value_1 = s.id) as supportCardIds
                     FROM skill_data s
                     LEFT JOIN text_data t_name ON t_name.category = 47 AND t_name.index = s.id
                     LEFT JOIN text_data t_desc ON t_desc.category = 48 AND t_desc.index = s.id
@@ -97,12 +74,25 @@ namespace UmaMusumeAPI.Controllers.Views
                 {
                     while (await reader.ReadAsync())
                     {
+                        // Read ability info first to determine category
+                        var dbSkillCategory = reader.GetInt32("skillCategory");
+                        var abilityType1 = reader.GetInt32("ability_type_1_1");
+                        var abilityValue1 = reader.IsDBNull(
+                            reader.GetOrdinal("float_ability_value_1_1")
+                        )
+                            ? 0
+                            : reader.GetInt32("float_ability_value_1_1");
+
                         var skill = new TerumiSimpleSkillData
                         {
                             SkillId = reader.GetInt32("skillId"),
                             Rarity = reader.GetInt32("rarity"),
                             GradeValue = reader.GetInt32("gradeValue"),
-                            SkillCategory = GetSkillCategoryName(reader.GetInt32("skillCategory")),
+                            SkillCategory = DetermineSkillCategory(
+                                dbSkillCategory,
+                                abilityType1,
+                                abilityValue1
+                            ),
                             TagId = reader.IsDBNull(reader.GetOrdinal("tagId"))
                                 ? ""
                                 : reader.GetString("tagId"),
@@ -147,23 +137,11 @@ namespace UmaMusumeAPI.Controllers.Views
                             SupportCardIds = reader.IsDBNull(reader.GetOrdinal("supportCardIds"))
                                 ? ""
                                 : reader.GetString("supportCardIds"),
-                            CharacterCardIds = reader.IsDBNull(
-                                reader.GetOrdinal("characterCardIds")
-                            )
-                                ? ""
-                                : reader.GetString("characterCardIds"),
                             Effects = new List<SkillEffect>(),
                             Effects2 = new List<SkillEffect>(),
                         };
 
                         // Parse condition 1 effects
-                        var abilityType1 = reader.GetInt32("ability_type_1_1");
-                        var abilityValue1 = reader.IsDBNull(
-                            reader.GetOrdinal("float_ability_value_1_1")
-                        )
-                            ? 0
-                            : reader.GetInt32("float_ability_value_1_1");
-
                         if (abilityType1 > 0)
                         {
                             skill.Effects.Add(CreateSkillEffect(abilityType1, abilityValue1));
@@ -271,30 +249,7 @@ namespace UmaMusumeAPI.Controllers.Views
                         t_desc.text as skillDesc,
                         (SELECT GROUP_CONCAT(DISTINCT support_card_id ORDER BY support_card_id SEPARATOR ',')
                          FROM single_mode_hint_gain
-                         WHERE hint_gain_type = 0 AND hint_value_1 = s.id) as supportCardIds,
-                        TRIM(BOTH ',' FROM CONCAT(
-                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
-                                    FROM card_data cd
-                                    INNER JOIN available_skill_set ass ON ass.available_skill_set_id = cd.available_skill_set_id
-                                    WHERE ass.skill_id = s.id), ''),
-                            ',',
-                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
-                                    FROM card_data cd
-                                    INNER JOIN skill_set ss ON ss.id = CONCAT('1', cd.id)
-                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
-                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
-                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
-                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), ''),
-                            ',',
-                            IFNULL((SELECT GROUP_CONCAT(DISTINCT cd.id ORDER BY cd.id SEPARATOR ',')
-                                    FROM card_data cd
-                                    INNER JOIN card_rarity_data crd ON crd.card_id = cd.id
-                                    INNER JOIN skill_set ss ON ss.id = crd.skill_set
-                                    WHERE s.id IN (ss.skill_id1, ss.skill_id2, ss.skill_id3, ss.skill_id4, ss.skill_id5,
-                                                   ss.skill_id6, ss.skill_id7, ss.skill_id8, ss.skill_id9, ss.skill_id10,
-                                                   ss.skill_id11, ss.skill_id12, ss.skill_id13, ss.skill_id14, ss.skill_id15,
-                                                   ss.skill_id16, ss.skill_id17, ss.skill_id18, ss.skill_id19, ss.skill_id20)), '')
-                        )) as characterCardIds
+                         WHERE hint_gain_type = 0 AND hint_value_1 = s.id) as supportCardIds
                     FROM skill_data s
                     LEFT JOIN text_data t_name ON t_name.category = 47 AND t_name.index = s.id
                     LEFT JOIN text_data t_desc ON t_desc.category = 48 AND t_desc.index = s.id
@@ -309,13 +264,24 @@ namespace UmaMusumeAPI.Controllers.Views
                     {
                         if (await reader.ReadAsync())
                         {
+                            // Read ability info first to determine category
+                            var dbSkillCategory = reader.GetInt32("skillCategory");
+                            var abilityType1 = reader.GetInt32("ability_type_1_1");
+                            var abilityValue1 = reader.IsDBNull(
+                                reader.GetOrdinal("float_ability_value_1_1")
+                            )
+                                ? 0
+                                : reader.GetInt32("float_ability_value_1_1");
+
                             var skill = new TerumiSimpleSkillData
                             {
                                 SkillId = reader.GetInt32("skillId"),
                                 Rarity = reader.GetInt32("rarity"),
                                 GradeValue = reader.GetInt32("gradeValue"),
-                                SkillCategory = GetSkillCategoryName(
-                                    reader.GetInt32("skillCategory")
+                                SkillCategory = DetermineSkillCategory(
+                                    dbSkillCategory,
+                                    abilityType1,
+                                    abilityValue1
                                 ),
                                 TagId = reader.IsDBNull(reader.GetOrdinal("tagId"))
                                     ? ""
@@ -365,23 +331,11 @@ namespace UmaMusumeAPI.Controllers.Views
                                 )
                                     ? ""
                                     : reader.GetString("supportCardIds"),
-                                CharacterCardIds = reader.IsDBNull(
-                                    reader.GetOrdinal("characterCardIds")
-                                )
-                                    ? ""
-                                    : reader.GetString("characterCardIds"),
                                 Effects = new List<SkillEffect>(),
                                 Effects2 = new List<SkillEffect>(),
                             };
 
                             // Parse condition 1 effects
-                            var abilityType1 = reader.GetInt32("ability_type_1_1");
-                            var abilityValue1 = reader.IsDBNull(
-                                reader.GetOrdinal("float_ability_value_1_1")
-                            )
-                                ? 0
-                                : reader.GetInt32("float_ability_value_1_1");
-
                             if (abilityType1 > 0)
                             {
                                 skill.Effects.Add(CreateSkillEffect(abilityType1, abilityValue1));
@@ -462,16 +416,105 @@ namespace UmaMusumeAPI.Controllers.Views
 
         private string GetSkillCategoryName(int category)
         {
+            // skill_category 5 is always "Unique" regardless of effect
+            if (category == 5)
+                return "Unique";
+
+            // skill_category 0 is always "Passive" (stat-based skills)
+            if (category == 0)
+                return "Passive";
+
+            // For other categories, we'll determine later based on effect type
             return category switch
             {
-                0 => "Passive",
                 1 => "Debuff",
                 2 => "Recovery",
                 3 => "Speed Boost",
                 4 => "Lane Effect",
-                5 => "Unique",
                 _ => $"Category{category}",
             };
+        }
+
+        private string DetermineSkillCategory(int dbCategory, int abilityType, int abilityValue)
+        {
+            // skill_category 5 is always "Unique"
+            if (dbCategory == 5)
+                return "Unique";
+
+            // skill_category 0 is always "Passive" (conditional stat boosts like course/turn preferences)
+            if (dbCategory == 0)
+                return "Passive";
+
+            // Check if this is a debuff (negative value on normally positive effects, or positive on negative effects like "morale down")
+            bool isDebuff = false;
+
+            // For most effect types, negative value = debuff
+            // But type 21 (mood/give-up tendency) is always a debuff (makes opponents lose motivation)
+            // And type 13 (frenzy time) is always a debuff when applied to enemies
+            switch (abilityType)
+            {
+                case 1: // Speed stat
+                case 2: // Stamina stat
+                case 3: // Power stat
+                case 4: // Guts stat
+                case 5: // Intelligence stat
+                    isDebuff = abilityValue < 0;
+                    break;
+                case 9: // Stamina Recovery
+                    if (abilityValue < 0)
+                        isDebuff = true;
+                    else
+                        return "Recovery";
+                    break;
+                case 27: // Target Speed
+                    if (abilityValue < 0)
+                        isDebuff = true;
+                    else
+                        return "Speed Boost";
+                    break;
+                case 31: // Acceleration
+                    if (abilityValue < 0)
+                        isDebuff = true;
+                    else
+                        return "Acceleration";
+                    break;
+                case 28: // Navigation/Lane positioning
+                    if (abilityValue < 0)
+                        isDebuff = true;
+                    else
+                        return "Lane Effect";
+                    break;
+                case 10: // Gate/Start reaction
+                    if (abilityValue < 0) // Negative = faster start
+                        return "Gate";
+                    else
+                        isDebuff = true; // Positive = slower start
+                    break;
+                case 8: // Field of view
+                    if (abilityValue < 0)
+                        isDebuff = true;
+                    else
+                        return "Vision";
+                    break;
+                case 21: // Mood/Give-up tendency - always affects opponents negatively
+                    isDebuff = true;
+                    break;
+                case 13: // Frenzy/calm-down time - always a debuff when applied to enemies
+                    isDebuff = true;
+                    break;
+                case 6: // Unknown type 6
+                    return "Special";
+                case 502: // Unknown type 502
+                    return "Special";
+                default:
+                    // Fall back to database category
+                    return GetSkillCategoryName(dbCategory);
+            }
+
+            if (isDebuff)
+                return "Debuff";
+
+            return GetSkillCategoryName(dbCategory);
         }
 
         private SkillEffect CreateSkillEffect(int abilityType, int abilityValue)
