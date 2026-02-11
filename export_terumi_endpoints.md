@@ -1,5 +1,11 @@
 # Export All Terumi Endpoints
 
+# EN Database (default)
+dotnet run --launch-profile "UmaMusumeAPI"
+
+# JP Database
+dotnet run --launch-profile "UmaMusumeAPI-JP"
+
 Run these commands individually to export each Terumi endpoint:
 
 ## TerumiFactorData
