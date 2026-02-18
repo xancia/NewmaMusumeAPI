@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 using UmaMusumeAPI.Context;
 using UmaMusumeAPI.Models.Views;
 
@@ -13,11 +14,11 @@ namespace UmaMusumeAPI.Controllers.Views
     [ApiController]
     public class TerumiRaceDataController : ControllerBase
     {
-        private readonly UmaMusumeDbContext _context;
+        private readonly string _connectionString;
 
         public TerumiRaceDataController(UmaMusumeDbContext context)
         {
-            _context = context;
+            _connectionString = context.Database.GetConnectionString();
         }
 
         // GET: api/TerumiRaceData
@@ -51,44 +52,47 @@ namespace UmaMusumeAPI.Controllers.Views
 
             var races = new Dictionary<int, TerumiRaceData>();
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = raceQuery;
-                await _context.Database.OpenConnectionAsync();
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    while (await reader.ReadAsync())
+                    command.CommandText = raceQuery;
+
+                    await using (var reader = await command.ExecuteReaderAsync())
                     {
-                        var raceId = reader.GetInt32(reader.GetOrdinal("RaceId"));
-                        var grade = reader.GetInt32(reader.GetOrdinal("Grade"));
-                        var distance = reader.GetInt32(reader.GetOrdinal("Distance"));
-                        var ground = reader.GetInt32(reader.GetOrdinal("Ground"));
-                        var turn = reader.GetInt32(reader.GetOrdinal("Turn"));
-
-                        var race = new TerumiRaceData
+                        while (await reader.ReadAsync())
                         {
-                            RaceId = raceId,
-                            RaceName = reader.IsDBNull(reader.GetOrdinal("RaceName"))
-                                ? null
-                                : reader.GetString(reader.GetOrdinal("RaceName")),
-                            Grade = grade,
-                            GradeName = GetGradeName(grade),
-                            Distance = distance,
-                            DistanceCategory = GetDistanceCategory(distance),
-                            Ground = ground,
-                            GroundName = GetGroundName(ground),
-                            Turn = turn,
-                            TurnName = GetTurnName(turn),
-                            TrackId = reader.GetInt32(reader.GetOrdinal("TrackId")),
-                            TrackName = reader.IsDBNull(reader.GetOrdinal("TrackName"))
-                                ? null
-                                : reader.GetString(reader.GetOrdinal("TrackName")),
-                            EntryNum = reader.GetInt32(reader.GetOrdinal("EntryNum")),
-                            Schedules = new List<RaceSchedule>(),
-                        };
+                            var raceId = reader.GetInt32(reader.GetOrdinal("RaceId"));
+                            var grade = reader.GetInt32(reader.GetOrdinal("Grade"));
+                            var distance = reader.GetInt32(reader.GetOrdinal("Distance"));
+                            var ground = reader.GetInt32(reader.GetOrdinal("Ground"));
+                            var turn = reader.GetInt32(reader.GetOrdinal("Turn"));
 
-                        races[raceId] = race;
+                            var race = new TerumiRaceData
+                            {
+                                RaceId = raceId,
+                                RaceName = reader.IsDBNull(reader.GetOrdinal("RaceName"))
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("RaceName")),
+                                Grade = grade,
+                                GradeName = GetGradeName(grade),
+                                Distance = distance,
+                                DistanceCategory = GetDistanceCategory(distance),
+                                Ground = ground,
+                                GroundName = GetGroundName(ground),
+                                Turn = turn,
+                                TurnName = GetTurnName(turn),
+                                TrackId = reader.GetInt32(reader.GetOrdinal("TrackId")),
+                                TrackName = reader.IsDBNull(reader.GetOrdinal("TrackName"))
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("TrackName")),
+                                EntryNum = reader.GetInt32(reader.GetOrdinal("EntryNum")),
+                                Schedules = new List<RaceSchedule>(),
+                            };
+
+                            races[raceId] = race;
+                        }
                     }
                 }
             }
@@ -105,39 +109,43 @@ namespace UmaMusumeAPI.Controllers.Views
                 WHERE ri.date > 0
                 ORDER BY ri.race_id, ri.date";
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection2 = new MySqlConnection(_connectionString))
             {
-                command.CommandText = instanceQuery;
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection2.OpenAsync();
+                await using (var command = connection2.CreateCommand())
                 {
-                    while (await reader.ReadAsync())
+                    command.CommandText = instanceQuery;
+
+                    await using (var reader = await command.ExecuteReaderAsync())
                     {
-                        var raceId = reader.GetInt32(reader.GetOrdinal("RaceId"));
-
-                        if (!races.ContainsKey(raceId))
-                            continue;
-
-                        var date = reader.GetInt32(reader.GetOrdinal("Date"));
-                        var time = reader.GetInt32(reader.GetOrdinal("Time"));
-
-                        // Date format is MMDD (e.g., 825 = August 25)
-                        var month = date / 100;
-                        var day = date % 100;
-                        var half = day <= 15 ? 1 : 2;
-
-                        var schedule = new RaceSchedule
+                        while (await reader.ReadAsync())
                         {
-                            InstanceId = reader.GetInt32(reader.GetOrdinal("InstanceId")),
-                            Month = month,
-                            Day = day,
-                            Half = half,
-                            HalfName = half == 1 ? "First Half" : "Second Half",
-                            Time = time,
-                            TimeName = GetTimeName(time),
-                        };
+                            var raceId = reader.GetInt32(reader.GetOrdinal("RaceId"));
 
-                        races[raceId].Schedules.Add(schedule);
+                            if (!races.ContainsKey(raceId))
+                                continue;
+
+                            var date = reader.GetInt32(reader.GetOrdinal("Date"));
+                            var time = reader.GetInt32(reader.GetOrdinal("Time"));
+
+                            // Date format is MMDD (e.g., 825 = August 25)
+                            var month = date / 100;
+                            var day = date % 100;
+                            var half = day <= 15 ? 1 : 2;
+
+                            var schedule = new RaceSchedule
+                            {
+                                InstanceId = reader.GetInt32(reader.GetOrdinal("InstanceId")),
+                                Month = month,
+                                Day = day,
+                                Half = half,
+                                HalfName = half == 1 ? "First Half" : "Second Half",
+                                Time = time,
+                                TimeName = GetTimeName(time),
+                            };
+
+                            races[raceId].Schedules.Add(schedule);
+                        }
                     }
                 }
             }

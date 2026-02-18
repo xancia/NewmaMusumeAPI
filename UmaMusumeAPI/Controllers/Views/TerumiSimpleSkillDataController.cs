@@ -14,11 +14,11 @@ namespace UmaMusumeAPI.Controllers.Views
     [ApiController]
     public class TerumiSimpleSkillDataController : ControllerBase
     {
-        private readonly UmaMusumeDbContext _context;
+        private readonly string _connectionString;
 
         public TerumiSimpleSkillDataController(UmaMusumeDbContext context)
         {
-            _context = context;
+            _connectionString = context.Database.GetConnectionString();
         }
 
         // GET: api/TerumiSimpleSkillData
@@ -29,7 +29,7 @@ namespace UmaMusumeAPI.Controllers.Views
         {
             var skills = new List<TerumiSimpleSkillData>();
 
-            using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+            using (var connection = new MySqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
 
@@ -215,7 +215,7 @@ namespace UmaMusumeAPI.Controllers.Views
         [HttpGet("{skillId}")]
         public async Task<ActionResult<TerumiSimpleSkillData>> GetTerumiSimpleSkillData(int skillId)
         {
-            using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+            using (var connection = new MySqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
 

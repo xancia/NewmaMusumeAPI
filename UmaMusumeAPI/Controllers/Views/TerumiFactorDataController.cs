@@ -12,11 +12,11 @@ namespace UmaMusumeAPI.Controllers.Views
     [ApiController]
     public class TerumiFactorDataController : ControllerBase
     {
-        private readonly UmaMusumeDbContext _context;
+        private readonly string _connectionString;
 
         public TerumiFactorDataController(UmaMusumeDbContext context)
         {
-            _context = context;
+            _connectionString = context.Database.GetConnectionString();
         }
 
         // GET: api/TerumiFactorData
@@ -25,7 +25,7 @@ namespace UmaMusumeAPI.Controllers.Views
         {
             var result = new List<TerumiFactorData>();
 
-            using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+            using (var connection = new MySqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
 
@@ -70,7 +70,7 @@ namespace UmaMusumeAPI.Controllers.Views
         [HttpGet("debug/categories")]
         public async Task<ActionResult<object>> GetTextCategories()
         {
-            using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+            using (var connection = new MySqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
 
@@ -106,7 +106,7 @@ namespace UmaMusumeAPI.Controllers.Views
         [HttpGet("debug/text/{factorId}")]
         public async Task<ActionResult<object>> GetFactorText(int factorId)
         {
-            using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+            using (var connection = new MySqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
 
@@ -145,7 +145,7 @@ namespace UmaMusumeAPI.Controllers.Views
         [HttpGet("{id}")]
         public async Task<ActionResult<TerumiFactorData>> GetFactorData(int id)
         {
-            using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+            using (var connection = new MySqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
 

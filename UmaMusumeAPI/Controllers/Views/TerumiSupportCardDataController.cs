@@ -14,11 +14,11 @@ namespace UmaMusumeAPI.Controllers.Views
     [ApiController]
     public class TerumiSupportCardDataController : ControllerBase
     {
-        private readonly UmaMusumeDbContext _context;
+        private readonly string _connectionString;
 
         public TerumiSupportCardDataController(UmaMusumeDbContext context)
         {
-            _context = context;
+            _connectionString = context.Database.GetConnectionString();
         }
 
         // GET: api/TerumiSupportCardData
@@ -56,55 +56,62 @@ namespace UmaMusumeAPI.Controllers.Views
                 WHERE t_card.text IS NOT NULL
                 ORDER BY scd.id";
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                await _context.Database.OpenConnectionAsync();
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    while (await reader.ReadAsync())
+                    command.CommandText = query;
+
+                    await using (var reader = await command.ExecuteReaderAsync())
                     {
-                        var supportCardId = reader.GetInt32(reader.GetOrdinal("SupportCardId"));
-                        var rarity = reader.GetInt32(reader.GetOrdinal("Rarity"));
-                        var supportCardType = reader.GetInt32(reader.GetOrdinal("SupportCardType"));
-                        var effectTableId = reader.GetInt32(reader.GetOrdinal("EffectTableId"));
-                        var skillSetId = reader.GetInt32(reader.GetOrdinal("SkillSetId"));
-                        var uniqueEffectId = reader.GetInt32(reader.GetOrdinal("UniqueEffectId"));
-
-                        var commandId = reader.GetInt32(reader.GetOrdinal("CommandId"));
-
-                        var card = new TerumiSupportCardData
+                        while (await reader.ReadAsync())
                         {
-                            SupportCardId = supportCardId,
-                            CharaId = reader.GetInt32(reader.GetOrdinal("CharaId")),
-                            CharaName = reader.IsDBNull(reader.GetOrdinal("CharaName"))
-                                ? null
-                                : reader.GetString(reader.GetOrdinal("CharaName")),
-                            SupportCardTitle = reader.IsDBNull(
-                                reader.GetOrdinal("SupportCardTitle")
-                            )
-                                ? null
-                                : reader.GetString(reader.GetOrdinal("SupportCardTitle")),
-                            Rarity = rarity,
-                            RarityDisplay = GetRarityDisplay(rarity),
-                            SupportCardType = supportCardType,
-                            SupportCardTypeName = GetSupportCardTypeName(commandId),
-                            EffectTableId = effectTableId,
-                            UniqueEffectId = uniqueEffectId,
-                            SkillSetId = skillSetId,
-                            CommandType = reader.GetInt32(reader.GetOrdinal("CommandType")),
-                            CommandId = commandId,
-                            StartDate = reader.IsDBNull(reader.GetOrdinal("StartDate"))
-                                ? null
-                                : reader.GetDateTime(reader.GetOrdinal("StartDate")),
-                            OutingMax = reader.GetInt32(reader.GetOrdinal("OutingMax")),
-                            EffectId = reader.GetInt32(reader.GetOrdinal("EffectId")),
-                            Effects = new List<SupportCardEffect>(),
-                            SkillHints = new List<SkillHint>(),
-                        };
+                            var supportCardId = reader.GetInt32(reader.GetOrdinal("SupportCardId"));
+                            var rarity = reader.GetInt32(reader.GetOrdinal("Rarity"));
+                            var supportCardType = reader.GetInt32(
+                                reader.GetOrdinal("SupportCardType")
+                            );
+                            var effectTableId = reader.GetInt32(reader.GetOrdinal("EffectTableId"));
+                            var skillSetId = reader.GetInt32(reader.GetOrdinal("SkillSetId"));
+                            var uniqueEffectId = reader.GetInt32(
+                                reader.GetOrdinal("UniqueEffectId")
+                            );
 
-                        result.Add(card);
+                            var commandId = reader.GetInt32(reader.GetOrdinal("CommandId"));
+
+                            var card = new TerumiSupportCardData
+                            {
+                                SupportCardId = supportCardId,
+                                CharaId = reader.GetInt32(reader.GetOrdinal("CharaId")),
+                                CharaName = reader.IsDBNull(reader.GetOrdinal("CharaName"))
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("CharaName")),
+                                SupportCardTitle = reader.IsDBNull(
+                                    reader.GetOrdinal("SupportCardTitle")
+                                )
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("SupportCardTitle")),
+                                Rarity = rarity,
+                                RarityDisplay = GetRarityDisplay(rarity),
+                                SupportCardType = supportCardType,
+                                SupportCardTypeName = GetSupportCardTypeName(commandId),
+                                EffectTableId = effectTableId,
+                                UniqueEffectId = uniqueEffectId,
+                                SkillSetId = skillSetId,
+                                CommandType = reader.GetInt32(reader.GetOrdinal("CommandType")),
+                                CommandId = commandId,
+                                StartDate = reader.IsDBNull(reader.GetOrdinal("StartDate"))
+                                    ? null
+                                    : reader.GetDateTime(reader.GetOrdinal("StartDate")),
+                                OutingMax = reader.GetInt32(reader.GetOrdinal("OutingMax")),
+                                EffectId = reader.GetInt32(reader.GetOrdinal("EffectId")),
+                                Effects = new List<SupportCardEffect>(),
+                                SkillHints = new List<SkillHint>(),
+                            };
+
+                            result.Add(card);
+                        }
                     }
                 }
             }
@@ -160,51 +167,56 @@ namespace UmaMusumeAPI.Controllers.Views
             int skillSetId = 0;
             int charaId = 0;
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
-                await _context.Database.OpenConnectionAsync();
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    if (await reader.ReadAsync())
-                    {
-                        var rarity = reader.GetInt32(reader.GetOrdinal("Rarity"));
-                        var supportCardType = reader.GetInt32(reader.GetOrdinal("SupportCardType"));
-                        effectTableId = reader.GetInt32(reader.GetOrdinal("EffectTableId"));
-                        skillSetId = reader.GetInt32(reader.GetOrdinal("SkillSetId"));
-                        uniqueEffectId = reader.GetInt32(reader.GetOrdinal("UniqueEffectId"));
-                        commandId = reader.GetInt32(reader.GetOrdinal("CommandId"));
-                        charaId = reader.GetInt32(reader.GetOrdinal("CharaId"));
+                    command.CommandText = query;
+                    command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
 
-                        card = new TerumiSupportCardData
+                    await using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
                         {
-                            SupportCardId = reader.GetInt32(reader.GetOrdinal("SupportCardId")),
-                            CharaId = reader.GetInt32(reader.GetOrdinal("CharaId")),
-                            CharaName = reader.IsDBNull(reader.GetOrdinal("CharaName"))
-                                ? null
-                                : reader.GetString(reader.GetOrdinal("CharaName")),
-                            SupportCardTitle = reader.IsDBNull(
-                                reader.GetOrdinal("SupportCardTitle")
-                            )
-                                ? null
-                                : reader.GetString(reader.GetOrdinal("SupportCardTitle")),
-                            Rarity = rarity,
-                            RarityDisplay = GetRarityDisplay(rarity),
-                            SupportCardType = supportCardType,
-                            SupportCardTypeName = GetSupportCardTypeName(commandId),
-                            EffectTableId = effectTableId,
-                            UniqueEffectId = uniqueEffectId,
-                            SkillSetId = skillSetId,
-                            CommandType = reader.GetInt32(reader.GetOrdinal("CommandType")),
-                            CommandId = commandId,
-                            StartDate = reader.IsDBNull(reader.GetOrdinal("StartDate"))
-                                ? null
-                                : reader.GetDateTime(reader.GetOrdinal("StartDate")),
-                            OutingMax = reader.GetInt32(reader.GetOrdinal("OutingMax")),
-                            EffectId = reader.GetInt32(reader.GetOrdinal("EffectId")),
-                        };
+                            var rarity = reader.GetInt32(reader.GetOrdinal("Rarity"));
+                            var supportCardType = reader.GetInt32(
+                                reader.GetOrdinal("SupportCardType")
+                            );
+                            effectTableId = reader.GetInt32(reader.GetOrdinal("EffectTableId"));
+                            skillSetId = reader.GetInt32(reader.GetOrdinal("SkillSetId"));
+                            uniqueEffectId = reader.GetInt32(reader.GetOrdinal("UniqueEffectId"));
+                            commandId = reader.GetInt32(reader.GetOrdinal("CommandId"));
+                            charaId = reader.GetInt32(reader.GetOrdinal("CharaId"));
+
+                            card = new TerumiSupportCardData
+                            {
+                                SupportCardId = reader.GetInt32(reader.GetOrdinal("SupportCardId")),
+                                CharaId = reader.GetInt32(reader.GetOrdinal("CharaId")),
+                                CharaName = reader.IsDBNull(reader.GetOrdinal("CharaName"))
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("CharaName")),
+                                SupportCardTitle = reader.IsDBNull(
+                                    reader.GetOrdinal("SupportCardTitle")
+                                )
+                                    ? null
+                                    : reader.GetString(reader.GetOrdinal("SupportCardTitle")),
+                                Rarity = rarity,
+                                RarityDisplay = GetRarityDisplay(rarity),
+                                SupportCardType = supportCardType,
+                                SupportCardTypeName = GetSupportCardTypeName(commandId),
+                                EffectTableId = effectTableId,
+                                UniqueEffectId = uniqueEffectId,
+                                SkillSetId = skillSetId,
+                                CommandType = reader.GetInt32(reader.GetOrdinal("CommandType")),
+                                CommandId = commandId,
+                                StartDate = reader.IsDBNull(reader.GetOrdinal("StartDate"))
+                                    ? null
+                                    : reader.GetDateTime(reader.GetOrdinal("StartDate")),
+                                OutingMax = reader.GetInt32(reader.GetOrdinal("OutingMax")),
+                                EffectId = reader.GetInt32(reader.GetOrdinal("EffectId")),
+                            };
+                        }
                     }
                 }
             }
@@ -236,37 +248,38 @@ namespace UmaMusumeAPI.Controllers.Views
                 FROM support_card_effect_table
                 WHERE id = @effectTableId";
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                command.Parameters.Add(new MySqlParameter("@effectTableId", effectTableId));
-
-                if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
-                    await _context.Database.OpenConnectionAsync();
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    while (await reader.ReadAsync())
+                    command.CommandText = query;
+                    command.Parameters.Add(new MySqlParameter("@effectTableId", effectTableId));
+
+                    await using (var reader = await command.ExecuteReaderAsync())
                     {
-                        var effectType = reader.GetInt32(0);
-                        effects.Add(
-                            new SupportCardEffect
-                            {
-                                EffectType = effectType,
-                                EffectTypeName = GetEffectTypeName(effectType),
-                                InitValue = reader.GetInt32(1),
-                                Level5Value = reader.GetInt32(2),
-                                Level10Value = reader.GetInt32(3),
-                                Level15Value = reader.GetInt32(4),
-                                Level20Value = reader.GetInt32(5),
-                                Level25Value = reader.GetInt32(6),
-                                Level30Value = reader.GetInt32(7),
-                                Level35Value = reader.GetInt32(8),
-                                Level40Value = reader.GetInt32(9),
-                                Level45Value = reader.GetInt32(10),
-                                Level50Value = reader.GetInt32(11),
-                            }
-                        );
+                        while (await reader.ReadAsync())
+                        {
+                            var effectType = reader.GetInt32(0);
+                            effects.Add(
+                                new SupportCardEffect
+                                {
+                                    EffectType = effectType,
+                                    EffectTypeName = GetEffectTypeName(effectType),
+                                    InitValue = reader.GetInt32(1),
+                                    Level5Value = reader.GetInt32(2),
+                                    Level10Value = reader.GetInt32(3),
+                                    Level15Value = reader.GetInt32(4),
+                                    Level20Value = reader.GetInt32(5),
+                                    Level25Value = reader.GetInt32(6),
+                                    Level30Value = reader.GetInt32(7),
+                                    Level35Value = reader.GetInt32(8),
+                                    Level40Value = reader.GetInt32(9),
+                                    Level45Value = reader.GetInt32(10),
+                                    Level50Value = reader.GetInt32(11),
+                                }
+                            );
+                        }
                     }
                 }
             }
@@ -293,38 +306,39 @@ namespace UmaMusumeAPI.Controllers.Views
             var skillIds = new List<int>();
             var statGains = new List<(int statType, int amount)>();
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                command.Parameters.Add(new MySqlParameter("@skillSetId", skillSetId));
-                command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
-
-                if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
-                    await _context.Database.OpenConnectionAsync();
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    while (await reader.ReadAsync())
-                    {
-                        var hintType = reader.GetInt32(0); // hint_gain_type
-                        var value1 = reader.GetInt32(1); // hint_value_1
-                        var value2 = reader.GetInt32(2); // hint_value_2
+                    command.CommandText = query;
+                    command.Parameters.Add(new MySqlParameter("@skillSetId", skillSetId));
+                    command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
 
-                        if (hintType == 0)
+                    await using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
                         {
-                            // Skill hint
-                            if (value1 > 0 && !skillIds.Contains(value1))
+                            var hintType = reader.GetInt32(0); // hint_gain_type
+                            var value1 = reader.GetInt32(1); // hint_value_1
+                            var value2 = reader.GetInt32(2); // hint_value_2
+
+                            if (hintType == 0)
                             {
-                                skillIds.Add(value1);
+                                // Skill hint
+                                if (value1 > 0 && !skillIds.Contains(value1))
+                                {
+                                    skillIds.Add(value1);
+                                }
                             }
-                        }
-                        else if (hintType == 1)
-                        {
-                            // Stat gain event - check for duplicates
-                            var statGain = (value1, value2);
-                            if (!statGains.Contains(statGain))
+                            else if (hintType == 1)
                             {
-                                statGains.Add(statGain);
+                                // Stat gain event - check for duplicates
+                                var statGain = (value1, value2);
+                                if (!statGains.Contains(statGain))
+                                {
+                                    statGains.Add(statGain);
+                                }
                             }
                         }
                     }
@@ -385,16 +399,17 @@ namespace UmaMusumeAPI.Controllers.Views
                 WHERE text_data.index = @skillId AND category = 47 
                 LIMIT 1";
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                command.Parameters.Add(new MySqlParameter("@skillId", skillId));
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
+                {
+                    command.CommandText = query;
+                    command.Parameters.Add(new MySqlParameter("@skillId", skillId));
 
-                if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
-                    await _context.Database.OpenConnectionAsync();
-
-                var result = await command.ExecuteScalarAsync();
-                return result?.ToString();
+                    var result = await command.ExecuteScalarAsync();
+                    return result?.ToString();
+                }
             }
         }
 
@@ -412,62 +427,63 @@ namespace UmaMusumeAPI.Controllers.Views
                    OR (s.support_chara_id = @charaId AND s.support_card_id = 0)
                 ORDER BY s.support_card_id DESC, s.show_progress_1";
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
-                command.Parameters.Add(new MySqlParameter("@charaId", charaId));
-
-                if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
-                    await _context.Database.OpenConnectionAsync();
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    while (await reader.ReadAsync())
+                    command.CommandText = query;
+                    command.Parameters.Add(new MySqlParameter("@supportCardId", supportCardId));
+                    command.Parameters.Add(new MySqlParameter("@charaId", charaId));
+
+                    await using (var reader = await command.ExecuteReaderAsync())
                     {
-                        var storyId = reader.GetInt32(0);
-                        var eventTitle = reader.IsDBNull(1)
-                            ? $"Event {storyId}"
-                            : reader.GetString(1);
-                        var cardId = reader.GetInt32(2);
-                        var showProgress1 = reader.GetInt32(3);
-                        var showProgress2 = reader.GetInt32(4);
-
-                        // Determine event type:
-                        // - Chain Event: support_card_id > 0 (card-specific chain events)
-                        // - Date Event: support_card_id = 0 AND show_progress_1 > 0 AND show_progress_2 > 0
-                        // - Random Event: support_card_id = 0 AND (show_progress_1 = 0 OR show_progress_2 = 0)
-                        var isChainEvent = cardId > 0;
-                        var isDateEvent = cardId == 0 && showProgress1 > 0 && showProgress2 > 0;
-
-                        string eventType;
-                        int eventOrder;
-
-                        if (isChainEvent)
+                        while (await reader.ReadAsync())
                         {
-                            eventType = "Chain Event";
-                            eventOrder = showProgress1;
-                        }
-                        else if (isDateEvent)
-                        {
-                            eventType = "Date Event";
-                            eventOrder = showProgress1;
-                        }
-                        else
-                        {
-                            eventType = "Random Event";
-                            eventOrder = 0;
-                        }
+                            var storyId = reader.GetInt32(0);
+                            var eventTitle = reader.IsDBNull(1)
+                                ? $"Event {storyId}"
+                                : reader.GetString(1);
+                            var cardId = reader.GetInt32(2);
+                            var showProgress1 = reader.GetInt32(3);
+                            var showProgress2 = reader.GetInt32(4);
 
-                        events.Add(
-                            new EventDetail
+                            // Determine event type:
+                            // - Chain Event: support_card_id > 0 (card-specific chain events)
+                            // - Date Event: support_card_id = 0 AND show_progress_1 > 0 AND show_progress_2 > 0
+                            // - Random Event: support_card_id = 0 AND (show_progress_1 = 0 OR show_progress_2 = 0)
+                            var isChainEvent = cardId > 0;
+                            var isDateEvent = cardId == 0 && showProgress1 > 0 && showProgress2 > 0;
+
+                            string eventType;
+                            int eventOrder;
+
+                            if (isChainEvent)
                             {
-                                StoryId = storyId,
-                                EventTitle = eventTitle,
-                                EventType = eventType,
-                                EventOrder = eventOrder,
+                                eventType = "Chain Event";
+                                eventOrder = showProgress1;
                             }
-                        );
+                            else if (isDateEvent)
+                            {
+                                eventType = "Date Event";
+                                eventOrder = showProgress1;
+                            }
+                            else
+                            {
+                                eventType = "Random Event";
+                                eventOrder = 0;
+                            }
+
+                            events.Add(
+                                new EventDetail
+                                {
+                                    StoryId = storyId,
+                                    EventTitle = eventTitle,
+                                    EventType = eventType,
+                                    EventOrder = eventOrder,
+                                }
+                            );
+                        }
                     }
                 }
             }
@@ -488,72 +504,73 @@ namespace UmaMusumeAPI.Controllers.Views
                 FROM support_card_unique_effect
                 WHERE id = @uniqueEffectId";
 
-            await using (var command = _context.Database.GetDbConnection().CreateCommand())
+            await using (var connection = new MySqlConnection(_connectionString))
             {
-                command.CommandText = query;
-                command.Parameters.Add(new MySqlParameter("@uniqueEffectId", uniqueEffectId));
-
-                if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
-                    await _context.Database.OpenConnectionAsync();
-
-                // Read all data first, then close reader before getting names
-                int level = 0,
-                    type0 = 0,
-                    type1 = 0;
-                int value0 = 0,
-                    value01 = 0,
-                    value02 = 0,
-                    value03 = 0,
-                    value04 = 0;
-                int value1 = 0,
-                    value11 = 0,
-                    value12 = 0,
-                    value13 = 0,
-                    value14 = 0;
-                bool hasData = false;
-
-                await using (var reader = await command.ExecuteReaderAsync())
+                await connection.OpenAsync();
+                await using (var command = connection.CreateCommand())
                 {
-                    if (await reader.ReadAsync())
+                    command.CommandText = query;
+                    command.Parameters.Add(new MySqlParameter("@uniqueEffectId", uniqueEffectId));
+
+                    // Read all data first, then close reader before getting names
+                    int level = 0,
+                        type0 = 0,
+                        type1 = 0;
+                    int value0 = 0,
+                        value01 = 0,
+                        value02 = 0,
+                        value03 = 0,
+                        value04 = 0;
+                    int value1 = 0,
+                        value11 = 0,
+                        value12 = 0,
+                        value13 = 0,
+                        value14 = 0;
+                    bool hasData = false;
+
+                    await using (var reader = await command.ExecuteReaderAsync())
                     {
-                        hasData = true;
-                        level = reader.GetInt32(0);
-                        type0 = reader.GetInt32(1);
-                        value0 = reader.GetInt32(2);
-                        value01 = reader.GetInt32(3);
-                        value02 = reader.GetInt32(4);
-                        value03 = reader.GetInt32(5);
-                        value04 = reader.GetInt32(6);
-                        type1 = reader.GetInt32(7);
-                        value1 = reader.GetInt32(8);
-                        value11 = reader.GetInt32(9);
-                        value12 = reader.GetInt32(10);
-                        value13 = reader.GetInt32(11);
-                        value14 = reader.GetInt32(12);
+                        if (await reader.ReadAsync())
+                        {
+                            hasData = true;
+                            level = reader.GetInt32(0);
+                            type0 = reader.GetInt32(1);
+                            value0 = reader.GetInt32(2);
+                            value01 = reader.GetInt32(3);
+                            value02 = reader.GetInt32(4);
+                            value03 = reader.GetInt32(5);
+                            value04 = reader.GetInt32(6);
+                            type1 = reader.GetInt32(7);
+                            value1 = reader.GetInt32(8);
+                            value11 = reader.GetInt32(9);
+                            value12 = reader.GetInt32(10);
+                            value13 = reader.GetInt32(11);
+                            value14 = reader.GetInt32(12);
+                        }
                     }
-                }
 
-                if (hasData)
-                {
-                    // Now get the names after reader is closed
-                    return new UniqueEffectDetail
+                    if (hasData)
                     {
-                        Level = level,
-                        Type0 = type0,
-                        Type0Name = GetUniqueEffectTypeName(type0),
-                        Value0 = value0,
-                        Value01 = value01,
-                        Value02 = value02,
-                        Value03 = value03,
-                        Value04 = value04,
-                        Type1 = type1,
-                        Type1Name = GetUniqueEffectTypeName(type1),
-                        Value1 = value1,
-                        Value11 = value11,
-                        Value12 = value12,
-                        Value13 = value13,
-                        Value14 = value14,
-                    };
+                        // Now get the names after reader is closed
+                        return new UniqueEffectDetail
+                        {
+                            Level = level,
+                            Type0 = type0,
+                            Type0Name = GetUniqueEffectTypeName(type0),
+                            Value0 = value0,
+                            Value01 = value01,
+                            Value02 = value02,
+                            Value03 = value03,
+                            Value04 = value04,
+                            Type1 = type1,
+                            Type1Name = GetUniqueEffectTypeName(type1),
+                            Value1 = value1,
+                            Value11 = value11,
+                            Value12 = value12,
+                            Value13 = value13,
+                            Value14 = value14,
+                        };
+                    }
                 }
             }
 
