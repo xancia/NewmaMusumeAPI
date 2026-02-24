@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: SayaDuck/umaguide
-          token: ${{ secrets.DEPENDENT_REPO_TOKEN }}
+          token: ${{ secrets.UMAGUIDE_REPO_TOKEN }}
           path: umaguide
 
       - name: Copy JSONs to umaguide
@@ -27,14 +27,16 @@ jobs:
           mkdir -p umaguide/docs/.vitepress/theme/data
           cp -r api/latest-data/*.json umaguide/docs/.vitepress/theme/data/
 
-      - name: Commit & push to umaguide
-        run: |
-          cd umaguide
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git add docs/.vitepress/theme/data/
-          git diff --staged --quiet && echo "No changes" || git commit -m "chore: update JSONs from API repo"
-          git push || echo "Push failed or no changes"
+      - name: Open PR on umaguide
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.UMAGUIDE_REPO_TOKEN }}
+          path: umaguide
+          commit-message: "chore: update JSON data from API repo"
+          branch: chore/update-json-data
+          base: dev
+          title: "chore: update JSON data from API repo"
+          body: "Automated update of JSON data files from NewmaMusumeAPI."
 
   update-uma-rosterview:
     runs-on: ubuntu-latest
@@ -48,7 +50,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: cBachoo/uma-rosterview
-          token: ${{ secrets.DEPENDENT_REPO_TOKEN }}
+          token: ${{ secrets.ROSTERVIEW_REPO_TOKEN }}
           path: uma-rosterview
 
       - name: Copy JSONs to uma-rosterview
@@ -56,11 +58,13 @@ jobs:
           mkdir -p uma-rosterview/src/assets
           cp -r api/latest-data/*.json uma-rosterview/src/assets/
 
-      - name: Commit & push to uma-rosterview
-        run: |
-          cd uma-rosterview
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git add src/assets/
-          git diff --staged --quiet && echo "No changes" || git commit -m "chore: update JSONs from API repo"
-          git push || echo "Push failed or no changes"
+      - name: Open PR on uma-rosterview
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.ROSTERVIEW_REPO_TOKEN }}
+          path: uma-rosterview
+          commit-message: "chore: update JSON data from API repo"
+          branch: chore/update-json-data
+          base: dev
+          title: "chore: update JSON data from API repo"
+          body: "Automated update of JSON data files from NewmaMusumeAPI."
