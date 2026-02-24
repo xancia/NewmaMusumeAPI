@@ -1,0 +1,66 @@
+name: Update Dependent Repos with JSONs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "latest-data/**"
+
+jobs:
+  update-umaguide:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout API repo
+        uses: actions/checkout@v4
+        with:
+          path: api
+
+      - name: Checkout umaguide
+        uses: actions/checkout@v4
+        with:
+          repository: SayaDuck/umaguide
+          token: ${{ secrets.DEPENDENT_REPO_TOKEN }}
+          path: umaguide
+
+      - name: Copy JSONs to umaguide
+        run: |
+          mkdir -p umaguide/docs/.vitepress/theme/data
+          cp -r api/latest-data/*.json umaguide/docs/.vitepress/theme/data/
+
+      - name: Commit & push to umaguide
+        run: |
+          cd umaguide
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add docs/.vitepress/theme/data/
+          git diff --staged --quiet && echo "No changes" || git commit -m "chore: update JSONs from API repo"
+          git push || echo "Push failed or no changes"
+
+  update-uma-rosterview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout API repo
+        uses: actions/checkout@v4
+        with:
+          path: api
+
+      - name: Checkout uma-rosterview
+        uses: actions/checkout@v4
+        with:
+          repository: cBachoo/uma-rosterview
+          token: ${{ secrets.DEPENDENT_REPO_TOKEN }}
+          path: uma-rosterview
+
+      - name: Copy JSONs to uma-rosterview
+        run: |
+          mkdir -p uma-rosterview/src/assets
+          cp -r api/latest-data/*.json uma-rosterview/src/assets/
+
+      - name: Commit & push to uma-rosterview
+        run: |
+          cd uma-rosterview
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add src/assets/
+          git diff --staged --quiet && echo "No changes" || git commit -m "chore: update JSONs from API repo"
+          git push || echo "Push failed or no changes"
