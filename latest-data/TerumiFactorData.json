@@ -6894,5 +6894,29 @@
     "rarity": 3,
     "grade": 2,
     "type": 3
+  },
+  {
+    "id": 10710101,
+    "name": "A Lifelong Dream, A Moment's Flight",
+    "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10710102,
+    "name": "A Lifelong Dream, A Moment's Flight",
+    "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10710103,
+    "name": "A Lifelong Dream, A Moment's Flight",
+    "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
   }
 ]
