@@ -389,3 +389,6 @@ FodyWeavers.xsd
 
 # Project include(s)
 !NuGet.config
+
+# Uma related stuff
+master.mdb

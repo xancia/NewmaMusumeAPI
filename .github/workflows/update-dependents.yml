@@ -1,0 +1,70 @@
+name: Update Dependent Repos with JSONs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "latest-data/**"
+
+jobs:
+  update-umaguide:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout API repo
+        uses: actions/checkout@v4
+        with:
+          path: api
+
+      - name: Checkout umaguide
+        uses: actions/checkout@v4
+        with:
+          repository: SayaDuck/umaguide
+          token: ${{ secrets.UMAGUIDE_REPO_TOKEN }}
+          path: umaguide
+
+      - name: Copy JSONs to umaguide
+        run: |
+          mkdir -p umaguide/docs/.vitepress/theme/data
+          cp -r api/latest-data/*.json umaguide/docs/.vitepress/theme/data/
+
+      - name: Open PR on umaguide
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.UMAGUIDE_REPO_TOKEN }}
+          path: umaguide
+          commit-message: "chore: update JSON data from API repo"
+          branch: chore/update-json-data
+          base: dev
+          title: "chore: update JSON data from API repo"
+          body: "Automated update of JSON data files from NewmaMusumeAPI."
+
+  update-uma-rosterview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout API repo
+        uses: actions/checkout@v4
+        with:
+          path: api
+
+      - name: Checkout uma-rosterview
+        uses: actions/checkout@v4
+        with:
+          repository: cBachoo/uma-rosterview
+          token: ${{ secrets.ROSTERVIEW_REPO_TOKEN }}
+          path: uma-rosterview
+
+      - name: Copy JSONs to uma-rosterview
+        run: |
+          mkdir -p uma-rosterview/src/assets
+          cp -r api/latest-data/*.json uma-rosterview/src/assets/
+
+      - name: Open PR on uma-rosterview
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.ROSTERVIEW_REPO_TOKEN }}
+          path: uma-rosterview
+          commit-message: "chore: update JSON data from API repo"
+          branch: chore/update-json-data
+          base: dev
+          title: "chore: update JSON data from API repo"
+          body: "Automated update of JSON data files from NewmaMusumeAPI."

@@ -1,0 +1,116 @@
+services:
+  umamusume-db:
+    image: mariadb:latest
+    container_name: umamusume-db
+    environment:
+      MYSQL_ROOT_PASSWORD: yourpassword
+      MYSQL_DATABASE: umamusume
+    ports:
+      - "3306:3306"
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci
+    volumes:
+      - umamusume-db-data:/var/lib/mysql
+      - ./master.mdb:/data/master.mdb:ro
+      - ./UmaMusumeAPI/SqlScripts/TableCreation.sql:/docker-entrypoint-initdb.d/01-tables.sql
+      - ./UmaMusumeAPI/SqlScripts/Functions/FROM_UNIXTIME_SECONDS.sql:/docker-entrypoint-initdb.d/02-functions.sql
+      - ./UmaMusumeAPI/SqlScripts/ViewCreation.sql:/docker-entrypoint-initdb.d/03-views.sql
+      - ./UmaMusumeAPI/SqlScripts/StoredProcedureCreation.sql:/docker-entrypoint-initdb.d/04-procedures.sql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  db-loader:
+    image: python:3.12-slim
+    container_name: umamusume-db-loader
+    depends_on:
+      umamusume-db:
+        condition: service_healthy
+    environment:
+      DB_HOST: umamusume-db
+      DB_USER: root
+      DB_PASSWORD: yourpassword
+      DB_NAME: umamusume
+      MDB_PATH: /data/master.mdb
+    volumes:
+      - ./master.mdb:/data/master.mdb:ro
+    command:
+      - sh
+      - -c
+      - |
+        pip install pymysql -q
+        python3 << 'PYEOF'
+        import sqlite3, pymysql, os, sys, time
+
+        host=os.environ["DB_HOST"]; user=os.environ["DB_USER"]
+        pw=os.environ["DB_PASSWORD"]; db=os.environ["DB_NAME"]
+        mdb=os.environ["MDB_PATH"]
+
+        conn = None
+        for i in range(30):
+            try:
+                conn = pymysql.connect(host=host, user=user, password=pw, database=db, charset="utf8mb4")
+                print("Connected to MariaDB."); break
+            except Exception as e:
+                print(f"Waiting... ({i+1}/30): {e}"); time.sleep(3)
+        if not conn: sys.exit("ERROR: Could not connect.")
+
+        sq = sqlite3.connect(mdb)
+        sq.row_factory = sqlite3.Row
+        sqc = sq.cursor()
+        myc = conn.cursor()
+        myc.execute("SET FOREIGN_KEY_CHECKS=0")
+
+        sqc.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
+        tables = [r[0] for r in sqc.fetchall()]
+        print(f"Importing data from {len(tables)} tables...")
+
+        total = 0
+        for table in tables:
+            sqc.execute(f"SELECT * FROM `{table}` LIMIT 1")
+            if not sqc.fetchone():
+                continue
+
+            # get columns from sqlite
+            sqc.execute(f"PRAGMA table_info(`{table}`)")
+            sq_cols = {row[1] for row in sqc.fetchall()}
+
+            # get columns from mariadb, skip table if it doesn't exist
+            try:
+                myc.execute(f"SHOW COLUMNS FROM `{table}`")
+            except Exception:
+                print(f"  {table}: SKIP (not in MariaDB schema)")
+                continue
+            my_cols = {row[0] for row in myc.fetchall()}
+
+            # only use columns present in both
+            common_cols = [c for c in sq_cols if c in my_cols]
+            if not common_cols:
+                print(f"  {table}: SKIP (no matching columns)")
+                continue
+
+            col_list = ",".join(f"`{c}`" for c in common_cols)
+            sqc.execute(f"SELECT {col_list} FROM `{table}`")
+            rows = sqc.fetchall()
+            ph = ",".join(["%s"] * len(common_cols))
+            data = [tuple(r) for r in rows]
+            try:
+                for i in range(0, len(data), 1000):
+                    myc.executemany(f"INSERT IGNORE INTO `{table}` ({col_list}) VALUES ({ph})", data[i:i+1000])
+                    conn.commit()
+                print(f"  {table}: {len(data)} rows")
+                total += len(data)
+            except Exception as e:
+                conn.rollback()
+                print(f"  {table}: ERROR - {e}")
+
+        myc.execute("SET FOREIGN_KEY_CHECKS=1")
+        conn.commit()
+        sq.close(); conn.close()
+        print(f"\nDone. {total} total rows imported.")
+        PYEOF
+    restart: "no"
+
+volumes:
+  umamusume-db-data:
