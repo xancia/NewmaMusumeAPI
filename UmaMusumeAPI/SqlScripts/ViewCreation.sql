@@ -11,177 +11,177 @@ USE umamusume;
 --
 -- Drop view `vw_basic_card_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_card_data_info;
+DROP VIEW IF EXISTS vw_basic_card_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_chara_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_chara_data_info;
+DROP VIEW IF EXISTS vw_basic_chara_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_dress_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_dress_data_info;
+DROP VIEW IF EXISTS vw_basic_dress_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_gacha_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_gacha_data_info;
+DROP VIEW IF EXISTS vw_basic_gacha_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_gift_message_info`
 --
-DROP VIEW IF EXISTS vw_basic_gift_message_info;
+DROP VIEW IF EXISTS vw_basic_gift_message_info CASCADE;
 
 --
 -- Drop view `vw_basic_item_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_item_data_info;
+DROP VIEW IF EXISTS vw_basic_item_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_item_exchange_info`
 --
-DROP VIEW IF EXISTS vw_basic_item_exchange_info;
+DROP VIEW IF EXISTS vw_basic_item_exchange_info CASCADE;
 
 --
 -- Drop view `vw_basic_item_exchange_top_info`
 --
-DROP VIEW IF EXISTS vw_basic_item_exchange_top_info;
+DROP VIEW IF EXISTS vw_basic_item_exchange_top_info CASCADE;
 
 --
 -- Drop view `vw_basic_live_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_live_data_info;
+DROP VIEW IF EXISTS vw_basic_live_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_login_bonus_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_login_bonus_data_info;
+DROP VIEW IF EXISTS vw_basic_login_bonus_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_main_story_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_main_story_data_info;
+DROP VIEW IF EXISTS vw_basic_main_story_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_mission_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_mission_data_info;
+DROP VIEW IF EXISTS vw_basic_mission_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_mob_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_mob_data_info;
+DROP VIEW IF EXISTS vw_basic_mob_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_piece_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_piece_data_info;
+DROP VIEW IF EXISTS vw_basic_piece_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_race_info`
 --
-DROP VIEW IF EXISTS vw_basic_race_info;
+DROP VIEW IF EXISTS vw_basic_race_info CASCADE;
 
 --
 -- Drop view `vw_basic_race_instance_info`
 --
-DROP VIEW IF EXISTS vw_basic_race_instance_info;
+DROP VIEW IF EXISTS vw_basic_race_instance_info CASCADE;
 
 --
 -- Drop view `vw_basic_race_track_info`
 --
-DROP VIEW IF EXISTS vw_basic_race_track_info;
+DROP VIEW IF EXISTS vw_basic_race_track_info CASCADE;
 
 --
 -- Drop view `vw_basic_single_mode_chara_grade_info`
 --
-DROP VIEW IF EXISTS vw_basic_single_mode_chara_grade_info;
+DROP VIEW IF EXISTS vw_basic_single_mode_chara_grade_info CASCADE;
 
 --
 -- Drop view `vw_basic_skill_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_skill_data_info;
+DROP VIEW IF EXISTS vw_basic_skill_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_story_event_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_story_event_data_info;
+DROP VIEW IF EXISTS vw_basic_story_event_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_story_event_mission_info`
 --
-DROP VIEW IF EXISTS vw_basic_story_event_mission_info;
+DROP VIEW IF EXISTS vw_basic_story_event_mission_info CASCADE;
 
 --
 -- Drop view `vw_basic_story_event_story_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_story_event_story_data_info;
+DROP VIEW IF EXISTS vw_basic_story_event_story_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_support_card_data_info`
 --
-DROP VIEW IF EXISTS vw_basic_support_card_data_info;
+DROP VIEW IF EXISTS vw_basic_support_card_data_info CASCADE;
 
 --
 -- Drop view `vw_basic_support_card_unique_effect_info`
 --
-DROP VIEW IF EXISTS vw_basic_support_card_unique_effect_info;
+DROP VIEW IF EXISTS vw_basic_support_card_unique_effect_info CASCADE;
 
 --
 -- Drop view `vw_basic_team_stadium_score_bonus_info`
 --
-DROP VIEW IF EXISTS vw_basic_team_stadium_score_bonus_info;
+DROP VIEW IF EXISTS vw_basic_team_stadium_score_bonus_info CASCADE;
 
 --
 -- Drop view `vw_condensed_skill_data_info`
 --
-DROP VIEW IF EXISTS vw_condensed_skill_data_info;
+DROP VIEW IF EXISTS vw_condensed_skill_data_info CASCADE;
 
 --
 -- Drop view `vw_error_messages`
 --
-DROP VIEW IF EXISTS vw_error_messages;
+DROP VIEW IF EXISTS vw_error_messages CASCADE;
 
 --
 -- Drop view `vw_nice_card_data_info`
 --
-DROP VIEW IF EXISTS vw_nice_card_data_info;
+DROP VIEW IF EXISTS vw_nice_card_data_info CASCADE;
 
 --
 -- Drop view `vw_nice_chara_bio_info`
 --
-DROP VIEW IF EXISTS vw_nice_chara_bio_info;
+DROP VIEW IF EXISTS vw_nice_chara_bio_info CASCADE;
 
 --
 -- Drop view `vw_nice_item_names_comments_info`
 --
-DROP VIEW IF EXISTS vw_nice_item_names_comments_info;
+DROP VIEW IF EXISTS vw_nice_item_names_comments_info CASCADE;
 
 --
 -- Drop view `vw_nice_objectives_info`
 --
-DROP VIEW IF EXISTS vw_nice_objectives_info;
+DROP VIEW IF EXISTS vw_nice_objectives_info CASCADE;
 
 --
 -- Drop view `vw_nice_race_info`
 --
-DROP VIEW IF EXISTS vw_nice_race_info;
+DROP VIEW IF EXISTS vw_nice_race_info CASCADE;
 
 --
 -- Drop view `vw_nice_skill_data_info`
 --
-DROP VIEW IF EXISTS vw_nice_skill_data_info;
+DROP VIEW IF EXISTS vw_nice_skill_data_info CASCADE;
 
 --
 -- Drop view `vw_succession_relation_member_types`
 --
-DROP VIEW IF EXISTS vw_succession_relation_member_types;
+DROP VIEW IF EXISTS vw_succession_relation_member_types CASCADE;
 
 --
 -- Drop view `vw_tutorial_messages`
 --
-DROP VIEW IF EXISTS vw_tutorial_messages;
+DROP VIEW IF EXISTS vw_tutorial_messages CASCADE;
 
 --
 -- Set default database

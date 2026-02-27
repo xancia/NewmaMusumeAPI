@@ -1,12 +1,36 @@
+-- 
+-- Set character set the client will use to send SQL statements to the server
+--
 SET NAMES 'utf8mb4';
+
+--
+-- Set default database
+--
 USE umamusume;
 
+--
+-- Drop procedure `sp_succession_grandparent_recommendation`
+--
 DROP PROCEDURE IF EXISTS sp_succession_grandparent_recommendation;
+
+--
+-- Drop procedure `sp_succession_parent_recommendation`
+--
 DROP PROCEDURE IF EXISTS sp_succession_parent_recommendation;
+
+--
+-- Drop procedure `sp_succession_point_sum`
+--
 DROP PROCEDURE IF EXISTS sp_succession_point_sum;
 
-DELIMITER //
+--
+-- Set default database
+--
+USE umamusume;
 
+--
+-- Create procedure `sp_succession_point_sum`
+--
 CREATE PROCEDURE sp_succession_point_sum (IN child INT
                                         , IN parent1 INT
                                         , IN grand_parent_1a INT
@@ -178,8 +202,11 @@ BEGIN
          , CONVERT(@gpb_pc2, INT) AS grandparentB_parent2
          , CONVERT(@pp, INT) AS parent1_parent2
          , CONVERT(@point_sum, INT) AS point_sum;
-END //
+END;
 
+--
+-- Create procedure `sp_succession_parent_recommendation`
+--
 CREATE PROCEDURE sp_succession_parent_recommendation (IN child INT)
 BEGIN
     SELECT cd.id AS parent_recommendation_id
@@ -193,8 +220,11 @@ BEGIN
     GROUP BY cd.id
     ORDER BY parent_compatibility DESC
            , cd.id ASC;
-END //
+END;
 
+--
+-- Create procedure `sp_succession_grandparent_recommendation`
+--
 CREATE PROCEDURE sp_succession_grandparent_recommendation (IN child INT
                                                          , IN parent INT)
 BEGIN
@@ -224,6 +254,4 @@ BEGIN
     GROUP BY cd.id
     ORDER BY grandparent_compatibility DESC
            , cd.id ASC;
-END //
-
-DELIMITER ;
+END;

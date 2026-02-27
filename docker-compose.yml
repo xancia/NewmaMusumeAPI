@@ -15,6 +15,7 @@ services:
       - ./UmaMusumeAPI/SqlScripts/Functions/FROM_UNIXTIME_SECONDS.sql:/docker-entrypoint-initdb.d/02-functions.sql
       - ./UmaMusumeAPI/SqlScripts/ViewCreation.sql:/docker-entrypoint-initdb.d/03-views.sql
       - ./UmaMusumeAPI/SqlScripts/StoredProcedureCreation.sql:/docker-entrypoint-initdb.d/04-procedures.sql
+      - ./UmaMusumeAPI/SqlScripts/AddMissingColumns.sql:/docker-entrypoint-initdb.d/05-add-missing-columns.sql
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 10s
