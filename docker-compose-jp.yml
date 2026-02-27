@@ -1,16 +1,16 @@
 services:
-  umamusume-db:
+  umamusume-db-jp:
     image: mariadb:latest
-    container_name: umamusume-db
+    container_name: umamusume-db-jp
     environment:
       MYSQL_ROOT_PASSWORD: yourpassword
       MYSQL_DATABASE: umamusume
     ports:
-      - "3306:3306"
+      - "3308:3306"
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci
     volumes:
-      - umamusume-db-data:/var/lib/mysql
-      - ./Global/master.mdb:/data/master.mdb:ro
+      - umamusume-db-data-jp:/var/lib/mysql
+      - ./JP/master.mdb:/data/master.mdb:ro
       - ./UmaMusumeAPI/SqlScripts/TableCreation.sql:/docker-entrypoint-initdb.d/01-tables.sql
       - ./UmaMusumeAPI/SqlScripts/Functions/FROM_UNIXTIME_SECONDS.sql:/docker-entrypoint-initdb.d/02-functions.sql
       - ./UmaMusumeAPI/SqlScripts/ViewCreation.sql:/docker-entrypoint-initdb.d/03-views.sql
@@ -22,20 +22,20 @@ services:
       timeout: 5s
       retries: 5
 
-  db-loader:
+  db-loader-jp:
     image: python:3.12-slim
-    container_name: umamusume-db-loader
+    container_name: umamusume-db-loader-jp
     depends_on:
-      umamusume-db:
+      umamusume-db-jp:
         condition: service_healthy
     environment:
-      DB_HOST: umamusume-db
+      DB_HOST: umamusume-db-jp
       DB_USER: root
       DB_PASSWORD: yourpassword
       DB_NAME: umamusume
       MDB_PATH: /data/master.mdb
     volumes:
-      - ./Global/master.mdb:/data/master.mdb:ro
+      - ./JP/master.mdb:/data/master.mdb:ro
     command:
       - sh
       - -c
@@ -114,4 +114,4 @@ services:
     restart: "no"
 
 volumes:
-  umamusume-db-data:
+  umamusume-db-data-jp:

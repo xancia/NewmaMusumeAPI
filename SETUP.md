@@ -5,36 +5,57 @@
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker](https://www.docker.com/products/docker-desktop)
 - Python 3 (only needed for `export_data.py`)
-- `master.mdb` game data file placed in the project root
+- `master.mdb` game data files:
+  - Global version: place in `Global/master.mdb`
+  - JP version: place in `JP/master.mdb`
 
 ---
 
 ## 1. Database Setup
 
-The API requires a MariaDB instance populated with data from `master.mdb`. (placed in the root directory or same location as `docker-compose.yml`)
+The API requires a MariaDB instance populated with data from `master.mdb`.
 
-### Start the database
+### Global Database (port 3306)
+
+Place the Global `master.mdb` in the `Global/` folder, then:
 
 ```bash
 docker compose up -d
 ```
 
-This will:
-1. Start a MariaDB container on port `3306`
-2. Run the SQL scripts to create all tables, views, functions, and stored procedures
-3. Import all data from `master.mdb` into the database via the loader service
-
-The loader service exits automatically when the import is complete. Monitor its progress with:
-
+Monitor import progress:
 ```bash
 docker logs -f umamusume-db-loader
 ```
 
-> **Note:** The init scripts and data import only run on first startup. To reset the database with a new `master.mdb`, run:
-> ```bash
-> docker compose down -v
-> docker compose up -d
-> ```
+### JP Database (port 3308)
+
+Place the JP `master.mdb` in the `JP/` folder, then:
+
+```bash
+docker compose -f docker-compose-jp.yml up -d
+```
+
+Monitor import progress:
+```bash
+docker logs -f umamusume-db-loader-jp
+```
+
+> **Note:** Both databases can run simultaneously on different ports.
+
+### Reset a Database
+
+To reset with a new `master.mdb`:
+
+```bash
+# Global
+docker compose down -v
+docker compose up -d
+
+# JP
+docker compose -f docker-compose-jp.yml down -v
+docker compose -f docker-compose-jp.yml up -d
+```
 
 ---
 
@@ -80,21 +101,31 @@ The API will be available at:
 
 ## 4. Export Data to JSON
 
-With the API running, or automatically via the script:
+### Global Data
 
 ```bash
 python export_data.py
 ```
 
-This starts the API, fetches all Terumi endpoints, and saves the results as JSON files to the `latest-data/` folder. The API is shut down automatically when the export is complete.
+Exports to `latest-data/` folder.
+
+### JP Data
+
+```bash
+python export_data.py --jp
+```
+
+Exports to `latest-data-jp/` folder.
+
+The script starts the API, fetches all Terumi endpoints, saves the results as JSON files, and shuts down automatically.
 
 Exported files:
-- `latest-data/TerumiFactorData.json`
-- `latest-data/TerumiSimpleSkillData.json`
-- `latest-data/TerumiCharacterData.json`
-- `latest-data/TerumiSupportCardData.json`
-- `latest-data/TerumiRaceData.json`
-- `latest-data/SuccessionRelationMember.json`
-- `latest-data/SuccessionRelation.json`
+- `TerumiFactorData.json`
+- `TerumiSimpleSkillData.json`
+- `TerumiCharacterData.json`
+- `TerumiSupportCardData.json`
+- `TerumiRaceData.json`
+- `SuccessionRelationMember.json`
+- `SuccessionRelation.json`
 
 ---

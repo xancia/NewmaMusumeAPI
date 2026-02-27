@@ -6,9 +6,12 @@ import sys
 import time
 import urllib.request
 
-PROFILE = "UmaMusumeAPI"
+# Check for --jp flag
+IS_JP = "--jp" in sys.argv
+
+PROFILE = "UmaMusumeAPI-JP" if IS_JP else "UmaMusumeAPI"
 BASE_URL = "https://localhost:5001/api"
-OUTPUT_DIR = "latest-data"
+OUTPUT_DIR = "latest-data-jp" if IS_JP else "latest-data"
 STARTUP_TIMEOUT = 120  # seconds to wait for API to start
 
 ENDPOINTS = [

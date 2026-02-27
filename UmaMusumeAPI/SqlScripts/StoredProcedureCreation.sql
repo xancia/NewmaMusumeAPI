@@ -31,6 +31,7 @@ USE umamusume;
 --
 -- Create procedure `sp_succession_point_sum`
 --
+DELIMITER //
 CREATE PROCEDURE sp_succession_point_sum (IN child INT
                                         , IN parent1 INT
                                         , IN grand_parent_1a INT
@@ -202,11 +203,13 @@ BEGIN
          , CONVERT(@gpb_pc2, INT) AS grandparentB_parent2
          , CONVERT(@pp, INT) AS parent1_parent2
          , CONVERT(@point_sum, INT) AS point_sum;
-END;
+END //
+DELIMITER ;
 
 --
 -- Create procedure `sp_succession_parent_recommendation`
 --
+DELIMITER //
 CREATE PROCEDURE sp_succession_parent_recommendation (IN child INT)
 BEGIN
     SELECT cd.id AS parent_recommendation_id
@@ -220,11 +223,13 @@ BEGIN
     GROUP BY cd.id
     ORDER BY parent_compatibility DESC
            , cd.id ASC;
-END;
+END //
+DELIMITER ;
 
 --
 -- Create procedure `sp_succession_grandparent_recommendation`
 --
+DELIMITER //
 CREATE PROCEDURE sp_succession_grandparent_recommendation (IN child INT
                                                          , IN parent INT)
 BEGIN
@@ -254,4 +259,5 @@ BEGIN
     GROUP BY cd.id
     ORDER BY grandparent_compatibility DESC
            , cd.id ASC;
-END;
+END //
+DELIMITER ;
