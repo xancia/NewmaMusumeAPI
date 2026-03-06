@@ -6368,6 +6368,30 @@
     "type": 3
   },
   {
+    "id": 10330101,
+    "name": "Shooting Star of Dioskouroi",
+    "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10330102,
+    "name": "Shooting Star of Dioskouroi",
+    "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10330103,
+    "name": "Shooting Star of Dioskouroi",
+    "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10350101,
     "name": "Our Ticket to Win!",
     "description": "A Spark that gives a skill hint for \"Our Ticket to Win!\".",

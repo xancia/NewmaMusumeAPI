@@ -1456,6 +1456,42 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 100331,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "is_finalcorner==1&corner==0&distance_diff_top>=5&order_rate<80",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20013,
+    "skillName": "Shooting Star of Dioskouroi",
+    "skillDesc": "Increase velocity with guidance from the stars when far from the lead on the final straight. If positioned around the very back, greatly increase velocity instead.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "is_finalcorner==1&corner==0&distance_diff_top>=5&order_rate>=80",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.45",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 100351,
     "rarity": 4,
     "gradeValue": 340,
@@ -14887,6 +14923,42 @@
     "effectSummary2": "",
     "duration2": 0,
     "cooldownTime2": 0
+  },
+  {
+    "skillId": 900331,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "is_finalcorner==1&corner==0&distance_diff_top>=5&order_rate<80",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20011,
+    "skillName": "Shooting Star of Dioskouroi",
+    "skillDesc": "Slightly increase velocity when far from the lead on the final straight. If positioned around the very back, moderately increase velocity instead.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "is_finalcorner==1&corner==0&distance_diff_top>=5&order_rate>=80",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.25",
+    "duration2": 3,
+    "cooldownTime2": 500
   },
   {
     "skillId": 900351,
