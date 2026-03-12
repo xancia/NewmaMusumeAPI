@@ -5,7 +5,7 @@
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "MARIA_CONNECTION_STRING": "user id=root;password=yourpassword;host=192.168.1.101;database=umamusume;character set=utf8mb4"
+        "MARIA_CONNECTION_STRING": "user id=root;password=yourpassword;host=localhost;database=umamusume;character set=utf8mb4"
       }
     },
     "UmaMusumeAPI": {

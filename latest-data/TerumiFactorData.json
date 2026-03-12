@@ -5256,6 +5256,30 @@
     "type": 4
   },
   {
+    "id": 2100601,
+    "name": "Glittering Star",
+    "description": "A Spark that gives a skill hint for \"Glittering Star\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100602,
+    "name": "Glittering Star",
+    "description": "A Spark that gives a skill hint for \"Glittering Star\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100603,
+    "name": "Glittering Star",
+    "description": "A Spark that gives a skill hint for \"Glittering Star\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 3000101,
     "name": "URA Finale",
     "description": "A Spark that increases Speed and Stamina.",
@@ -5299,6 +5323,30 @@
     "id": 3000203,
     "name": "Unity Cup",
     "description": "A Spark that increases power and wits.",
+    "rarity": 3,
+    "grade": 1,
+    "type": 6
+  },
+  {
+    "id": 3000301,
+    "name": "TS Climax Scenario",
+    "description": "A Spark that increases Stamina and Guts.",
+    "rarity": 1,
+    "grade": 1,
+    "type": 6
+  },
+  {
+    "id": 3000302,
+    "name": "TS Climax Scenario",
+    "description": "A Spark that increases Stamina and Guts.",
+    "rarity": 2,
+    "grade": 1,
+    "type": 6
+  },
+  {
+    "id": 3000303,
+    "name": "TS Climax Scenario",
+    "description": "A Spark that increases Stamina and Guts.",
     "rarity": 3,
     "grade": 1,
     "type": 6
@@ -6891,6 +6939,54 @@
     "id": 10610103,
     "name": "Prideful King",
     "description": "A Spark that gives a skill hint for \"Prideful King\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10620101,
+    "name": "Go, Go, Mun!",
+    "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10620102,
+    "name": "Go, Go, Mun!",
+    "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10620103,
+    "name": "Go, Go, Mun!",
+    "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10680101,
+    "name": "Victory Cheer!",
+    "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10680102,
+    "name": "Victory Cheer!",
+    "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10680103,
+    "name": "Victory Cheer!",
+    "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

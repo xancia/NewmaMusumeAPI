@@ -57,6 +57,8 @@ docker compose -f docker-compose-jp.yml down -v
 docker compose -f docker-compose-jp.yml up -d
 ```
 
+> If you see `Host '172.x.x.x' is not allowed to connect to this MariaDB server`, your DB volume was initialized with old grants. Run the reset commands above so MariaDB recreates users/database from compose env vars.
+
 ---
 
 ## 2. Configure the Connection String
