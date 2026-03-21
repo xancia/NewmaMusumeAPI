@@ -1852,7 +1852,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 594002,
+        "instanceId": 594003,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -1861,7 +1861,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 594003,
+        "instanceId": 594002,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -2035,7 +2035,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 595501,
+        "instanceId": 595503,
         "month": 12,
         "day": 22,
         "half": 2,
@@ -2053,7 +2053,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 595503,
+        "instanceId": 595501,
         "month": 12,
         "day": 22,
         "half": 2,
@@ -2079,7 +2079,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 596003,
+        "instanceId": 596001,
         "month": 12,
         "day": 15,
         "half": 1,
@@ -2097,7 +2097,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 596001,
+        "instanceId": 596003,
         "month": 12,
         "day": 15,
         "half": 1,
@@ -2123,7 +2123,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 596501,
+        "instanceId": 596503,
         "month": 10,
         "day": 29,
         "half": 2,
@@ -2141,7 +2141,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 596503,
+        "instanceId": 596501,
         "month": 10,
         "day": 29,
         "half": 2,
@@ -2167,7 +2167,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 597003,
+        "instanceId": 597001,
         "month": 12,
         "day": 8,
         "half": 1,
@@ -2185,9 +2185,53 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 597001,
+        "instanceId": 597003,
         "month": 12,
         "day": 8,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 5975,
+    "raceName": "Satsuki Sho",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 18,
+    "schedules": [
+      {
+        "instanceId": 597503,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      },
+      {
+        "instanceId": 597502,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      },
+      {
+        "instanceId": 597501,
+        "month": 4,
+        "day": 14,
         "half": 1,
         "halfName": "First Half",
         "time": 2,
@@ -23214,6 +23258,32 @@
     ]
   },
   {
+    "raceId": 5804,
+    "raceName": "Moonlight Sho",
+    "grade": 999,
+    "gradeName": "URA Finals",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 18,
+    "schedules": [
+      {
+        "instanceId": 580004,
+        "month": 5,
+        "day": 5,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
     "raceId": 5831,
     "raceName": "Jupiter Cup",
     "grade": 999,
@@ -23282,6 +23352,32 @@
     "schedules": [
       {
         "instanceId": 580033,
+        "month": 5,
+        "day": 5,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 5834,
+    "raceName": "Jupiter Cup",
+    "grade": 999,
+    "gradeName": "URA Finals",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 18,
+    "schedules": [
+      {
+        "instanceId": 580034,
         "month": 5,
         "day": 5,
         "half": 1,

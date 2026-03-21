@@ -2062,6 +2062,42 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 100671,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "is_last_straight_onetime==1&order>=2&order<=5&distance_diff_top<=5",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      }
+    ],
+    "effectSummary": "Target Speed +0.45",
+    "iconId": 20013,
+    "skillName": "Eternal Encompassing Shine",
+    "skillDesc": "If well-positioned at the start of the final straight, her strong willpower to win increases velocity. If positioned near the front, greatly increase velocity instead.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "is_last_straight_onetime==1&order>=2&order<=5&distance_diff_top>5",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.35",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 100681,
     "rarity": 5,
     "gradeValue": 340,
@@ -2275,9 +2311,14 @@
         "type": "Acceleration",
         "value": 0.3,
         "displayText": "Acceleration +0.3"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": 0.035,
+        "displayText": "Stamina Recovery +0.035"
       }
     ],
-    "effectSummary": "Target Speed +0.25 | Acceleration +0.3",
+    "effectSummary": "Target Speed +0.25 | Acceleration +0.3 | Stamina Recovery +0.035",
     "iconId": 20013,
     "skillName": "Festive Miracle",
     "skillDesc": "Control breathing and kick forward hard toward victory in the second half of the race after recovering endurance with skills at least 3 times.",
@@ -2854,6 +2895,41 @@
     "skillName": "Right-Handed ×",
     "skillDesc": "Moderately decrease performance on right-handed tracks.",
     "needSkillPoint": 50,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 200014,
+    "rarity": 2,
+    "gradeValue": 461,
+    "skillCategory": "Passive",
+    "tagId": "401/403",
+    "activationCondition": "rotation==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Speed Stat",
+        "value": 60,
+        "displayText": "Speed +60"
+      },
+      {
+        "type": "Power Stat",
+        "value": 60,
+        "displayText": "Power +60"
+      }
+    ],
+    "effectSummary": "Speed +60 | Power +60",
+    "iconId": 10012,
+    "skillName": "Right-Handed Demon",
+    "skillDesc": "Increase proficiency in right-handed tracks, increasing Speed and Power.",
+    "needSkillPoint": 130,
     "duration": -0.0001,
     "cooldownTime": 0,
     "supportCardIds": "",
@@ -5816,7 +5892,7 @@
     "needSkillPoint": 170,
     "duration": 2.4,
     "cooldownTime": 30,
-    "supportCardIds": "10007,10030,10043,10059,10065,20007,20015,20028,20039,30005,30022,30042,30065,30072,30074",
+    "supportCardIds": "10007,10030,10043,10059,10065,20007,20015,20028,20039,30005,30022,30042,30065,30072,30074,30089",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6326,7 +6402,7 @@
     "needSkillPoint": 170,
     "duration": 1.8,
     "cooldownTime": 30,
-    "supportCardIds": "10019,10043,10052,10058,10068,20015,20024,20032,30016,30032,30071,30074",
+    "supportCardIds": "10019,10043,10052,10058,10068,20015,20024,20032,30016,30032,30071,30074,30089",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -7446,7 +7522,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10018,10061,10073,20029,20042,30015,30068,30083",
+    "supportCardIds": "10018,10061,10073,20029,20042,20044,30015,30068,30083",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8411,7 +8487,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10043,10066,20015,20031,30074",
+    "supportCardIds": "10043,10066,20015,20031,30074,30089",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8501,7 +8577,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10014,10019,10043,20015,30008,30016,30055,30074",
+    "supportCardIds": "10014,10019,10043,20015,30008,30016,30055,30074,30089",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8591,7 +8667,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10047,10073,20019,20026,30054,30068",
+    "supportCardIds": "10047,10073,20019,20026,20044,30054,30068",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8831,7 +8907,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10018,10061,10073,20029,20042,30015,30068,30083",
+    "supportCardIds": "10018,10061,10073,20029,20042,20044,30015,30068,30083",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -9081,7 +9157,7 @@
     "needSkillPoint": 140,
     "duration": 4,
     "cooldownTime": 500,
-    "supportCardIds": "10042,10064,10073,30020,30040,30068",
+    "supportCardIds": "10042,10064,10073,20044,30020,30040,30068",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11351,7 +11427,7 @@
     "needSkillPoint": 110,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10010,10015,10073,30023,30034,30068",
+    "supportCardIds": "10010,10015,10073,20044,30023,30034,30068",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12497,9 +12573,14 @@
         "type": "Stamina Stat",
         "value": 60,
         "displayText": "Stamina +60"
+      },
+      {
+        "type": "Power Stat",
+        "value": 60,
+        "displayText": "Power +60"
       }
     ],
-    "effectSummary": "Speed +60 | Stamina +60",
+    "effectSummary": "Speed +60 | Stamina +60 | Power +60",
     "iconId": 10062,
     "skillName": "Super Lucky Seven",
     "skillDesc": "Good things may happen when in bracket 7.",
@@ -12532,9 +12613,14 @@
         "type": "Stamina Stat",
         "value": 40,
         "displayText": "Stamina +40"
+      },
+      {
+        "type": "Power Stat",
+        "value": 40,
+        "displayText": "Power +40"
       }
     ],
-    "effectSummary": "Speed +40 | Stamina +40",
+    "effectSummary": "Speed +40 | Stamina +40 | Power +40",
     "iconId": 10061,
     "skillName": "Lucky Seven",
     "skillDesc": "Moderately good things may happen when in bracket 7.",
@@ -12721,7 +12807,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10014,10043,10058,10068,20015,20032,30008,30032,30055,30074",
+    "supportCardIds": "10014,10043,10058,10068,20015,20032,30008,30032,30055,30074,30089",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13867,9 +13953,14 @@
         "type": "Acceleration",
         "value": 0.3,
         "displayText": "Acceleration +0.3"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": 0.035,
+        "displayText": "Stamina Recovery +0.035"
       }
     ],
-    "effectSummary": "Target Speed +0.25 | Acceleration +0.3",
+    "effectSummary": "Target Speed +0.25 | Acceleration +0.3 | Stamina Recovery +0.035",
     "iconId": 20142,
     "skillName": "Radiant Star",
     "skillDesc": "Control breathing and kick forward in the second half of the race. Effect is increased in proportion to number of career wins.",
@@ -13902,9 +13993,14 @@
         "type": "Acceleration",
         "value": 0.1,
         "displayText": "Acceleration +0.1"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": 0.005,
+        "displayText": "Stamina Recovery +0.005"
       }
     ],
-    "effectSummary": "Target Speed +0.05 | Acceleration +0.1",
+    "effectSummary": "Target Speed +0.05 | Acceleration +0.1 | Stamina Recovery +0.005",
     "iconId": 20141,
     "skillName": "Glittering Star",
     "skillDesc": "Very slightly control breathing and kick forward in the second half of the race. Effect is increased in proportion to number of career wins.",
@@ -15742,6 +15838,42 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 900671,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "is_last_straight_onetime==1&order>=2&order<=5&distance_diff_top<=5",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25",
+    "iconId": 20011,
+    "skillName": "Eternal Encompassing Shine",
+    "skillDesc": "If well-positioned at the start of the final straight, slightly increase velocity. If positioned near the front, moderately increase velocity instead.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "is_last_straight_onetime==1&order>=2&order<=5&distance_diff_top>5",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.15",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 900681,
     "rarity": 1,
     "gradeValue": 180,
@@ -15955,9 +16087,14 @@
         "type": "Acceleration",
         "value": 0.1,
         "displayText": "Acceleration +0.1"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": 0.005,
+        "displayText": "Stamina Recovery +0.005"
       }
     ],
-    "effectSummary": "Target Speed +0.05 | Acceleration +0.1",
+    "effectSummary": "Target Speed +0.05 | Acceleration +0.1 | Stamina Recovery +0.005",
     "iconId": 20011,
     "skillName": "Festive Miracle",
     "skillDesc": "Very slightly control breathing and kick forward toward victory in the second half of the race after recovering endurance with skills at least 3 times.",

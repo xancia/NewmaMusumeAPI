@@ -14,6 +14,7 @@ namespace UmaMusumeAPI.Controllers.Views
     [ApiController]
     public class TerumiSimpleSkillDataController : ControllerBase
     {
+        private const int MaxAbilityEffectSlotsPerCondition = 3;
         private readonly string _connectionString;
 
         public TerumiSimpleSkillDataController(UmaMusumeDbContext context)
@@ -47,6 +48,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_1_1,
                         s.ability_type_1_2,
                         s.float_ability_value_1_2,
+                        s.ability_type_1_3,
+                        s.float_ability_value_1_3,
                         s.float_ability_time_1 as duration,
                         s.float_cooldown_time_1 as cooldownTime,
                         s.condition_2 as activationCondition2,
@@ -55,6 +58,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_2_1,
                         s.ability_type_2_2,
                         s.float_ability_value_2_2,
+                        s.ability_type_2_3,
+                        s.float_ability_value_2_3,
                         s.float_ability_time_2 as duration2,
                         s.float_cooldown_time_2 as cooldownTime2,
                         s.icon_id as iconId,
@@ -142,50 +147,33 @@ namespace UmaMusumeAPI.Controllers.Views
                         };
 
                         // Parse condition 1 effects
-                        if (abilityType1 > 0)
-                        {
-                            skill.Effects.Add(CreateSkillEffect(abilityType1, abilityValue1));
-                        }
-
-                        var abilityType2 = reader.GetInt32("ability_type_1_2");
-                        var abilityValue2 = reader.IsDBNull(
-                            reader.GetOrdinal("float_ability_value_1_2")
+                        for (
+                            var effectSlot = 1;
+                            effectSlot <= MaxAbilityEffectSlotsPerCondition;
+                            effectSlot++
                         )
-                            ? 0
-                            : reader.GetInt32("float_ability_value_1_2");
-
-                        if (abilityType2 > 0)
                         {
-                            skill.Effects.Add(CreateSkillEffect(abilityType2, abilityValue2));
+                            AddEffectIfValid(
+                                reader,
+                                skill.Effects,
+                                $"ability_type_1_{effectSlot}",
+                                $"float_ability_value_1_{effectSlot}"
+                            );
                         }
 
                         // Parse condition 2 effects
-                        var abilityType2_1 = reader.IsDBNull(reader.GetOrdinal("ability_type_2_1"))
-                            ? 0
-                            : reader.GetInt32("ability_type_2_1");
-                        var abilityValue2_1 = reader.IsDBNull(
-                            reader.GetOrdinal("float_ability_value_2_1")
+                        for (
+                            var effectSlot = 1;
+                            effectSlot <= MaxAbilityEffectSlotsPerCondition;
+                            effectSlot++
                         )
-                            ? 0
-                            : reader.GetInt32("float_ability_value_2_1");
-
-                        if (abilityType2_1 > 0)
                         {
-                            skill.Effects2.Add(CreateSkillEffect(abilityType2_1, abilityValue2_1));
-                        }
-
-                        var abilityType2_2 = reader.IsDBNull(reader.GetOrdinal("ability_type_2_2"))
-                            ? 0
-                            : reader.GetInt32("ability_type_2_2");
-                        var abilityValue2_2 = reader.IsDBNull(
-                            reader.GetOrdinal("float_ability_value_2_2")
-                        )
-                            ? 0
-                            : reader.GetInt32("float_ability_value_2_2");
-
-                        if (abilityType2_2 > 0)
-                        {
-                            skill.Effects2.Add(CreateSkillEffect(abilityType2_2, abilityValue2_2));
+                            AddEffectIfValid(
+                                reader,
+                                skill.Effects2,
+                                $"ability_type_2_{effectSlot}",
+                                $"float_ability_value_2_{effectSlot}"
+                            );
                         }
 
                         // Build effect summaries
@@ -233,6 +221,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_1_1,
                         s.ability_type_1_2,
                         s.float_ability_value_1_2,
+                        s.ability_type_1_3,
+                        s.float_ability_value_1_3,
                         s.float_ability_time_1 as duration,
                         s.float_cooldown_time_1 as cooldownTime,
                         s.condition_2 as activationCondition2,
@@ -241,6 +231,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_value_2_1,
                         s.ability_type_2_2,
                         s.float_ability_value_2_2,
+                        s.ability_type_2_3,
+                        s.float_ability_value_2_3,
                         s.float_ability_time_2 as duration2,
                         s.float_cooldown_time_2 as cooldownTime2,
                         s.icon_id as iconId,
@@ -336,57 +328,32 @@ namespace UmaMusumeAPI.Controllers.Views
                             };
 
                             // Parse condition 1 effects
-                            if (abilityType1 > 0)
-                            {
-                                skill.Effects.Add(CreateSkillEffect(abilityType1, abilityValue1));
-                            }
-
-                            var abilityType2 = reader.GetInt32("ability_type_1_2");
-                            var abilityValue2 = reader.IsDBNull(
-                                reader.GetOrdinal("float_ability_value_1_2")
+                            for (
+                                var effectSlot = 1;
+                                effectSlot <= MaxAbilityEffectSlotsPerCondition;
+                                effectSlot++
                             )
-                                ? 0
-                                : reader.GetInt32("float_ability_value_1_2");
-
-                            if (abilityType2 > 0)
                             {
-                                skill.Effects.Add(CreateSkillEffect(abilityType2, abilityValue2));
-                            }
-
-                            // Parse condition 2 effects
-                            var abilityType2_1 = reader.IsDBNull(
-                                reader.GetOrdinal("ability_type_2_1")
-                            )
-                                ? 0
-                                : reader.GetInt32("ability_type_2_1");
-                            var abilityValue2_1 = reader.IsDBNull(
-                                reader.GetOrdinal("float_ability_value_2_1")
-                            )
-                                ? 0
-                                : reader.GetInt32("float_ability_value_2_1");
-
-                            if (abilityType2_1 > 0)
-                            {
-                                skill.Effects2.Add(
-                                    CreateSkillEffect(abilityType2_1, abilityValue2_1)
+                                AddEffectIfValid(
+                                    reader,
+                                    skill.Effects,
+                                    $"ability_type_1_{effectSlot}",
+                                    $"float_ability_value_1_{effectSlot}"
                                 );
                             }
 
-                            var abilityType2_2 = reader.IsDBNull(
-                                reader.GetOrdinal("ability_type_2_2")
+                            // Parse condition 2 effects
+                            for (
+                                var effectSlot = 1;
+                                effectSlot <= MaxAbilityEffectSlotsPerCondition;
+                                effectSlot++
                             )
-                                ? 0
-                                : reader.GetInt32("ability_type_2_2");
-                            var abilityValue2_2 = reader.IsDBNull(
-                                reader.GetOrdinal("float_ability_value_2_2")
-                            )
-                                ? 0
-                                : reader.GetInt32("float_ability_value_2_2");
-
-                            if (abilityType2_2 > 0)
                             {
-                                skill.Effects2.Add(
-                                    CreateSkillEffect(abilityType2_2, abilityValue2_2)
+                                AddEffectIfValid(
+                                    reader,
+                                    skill.Effects2,
+                                    $"ability_type_2_{effectSlot}",
+                                    $"float_ability_value_2_{effectSlot}"
                                 );
                             }
 
@@ -572,6 +539,26 @@ namespace UmaMusumeAPI.Controllers.Views
             }
 
             return effect;
+        }
+
+        private void AddEffectIfValid(
+            MySqlDataReader reader,
+            List<SkillEffect> effects,
+            string abilityTypeColumn,
+            string abilityValueColumn
+        )
+        {
+            var abilityType = reader.IsDBNull(reader.GetOrdinal(abilityTypeColumn))
+                ? 0
+                : reader.GetInt32(abilityTypeColumn);
+            var abilityValue = reader.IsDBNull(reader.GetOrdinal(abilityValueColumn))
+                ? 0
+                : reader.GetInt32(abilityValueColumn);
+
+            if (abilityType > 0)
+            {
+                effects.Add(CreateSkillEffect(abilityType, abilityValue));
+            }
         }
     }
 }

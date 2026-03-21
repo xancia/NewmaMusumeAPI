@@ -6968,6 +6968,30 @@
     "type": 3
   },
   {
+    "id": 10670101,
+    "name": "Eternal Encompassing Shine",
+    "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10670102,
+    "name": "Eternal Encompassing Shine",
+    "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10670103,
+    "name": "Eternal Encompassing Shine",
+    "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10680101,
     "name": "Victory Cheer!",
     "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
