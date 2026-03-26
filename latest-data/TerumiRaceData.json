@@ -15576,10 +15576,10 @@
     "schedules": [
       {
         "instanceId": 303601,
-        "month": 6,
-        "day": 30,
-        "half": 2,
-        "halfName": "Second Half",
+        "month": 7,
+        "day": 1,
+        "half": 1,
+        "halfName": "First Half",
         "time": 2,
         "timeName": "Morning"
       }
