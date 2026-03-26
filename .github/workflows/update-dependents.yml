@@ -78,23 +78,23 @@ jobs:
         with:
           path: api
 
-      - name: Checkout UmaDrafting
+      - name: Checkout UmaDrafter
         uses: actions/checkout@v4
         with:
-          repository: xancia/UmaDrafting
+          repository: xancia/UmaDrafter
           token: ${{ secrets.DRAFTER_REPO_TOKEN }}
-          path: uma-drafting
+          path: uma-drafter
 
-      - name: Copy JSONs to UmaDrafting
+      - name: Copy JSONs to UmaDrafter
         run: |
-          mkdir -p uma-drafting/src/data
-          cp -r api/latest-data/*.json uma-drafting/src/data/
+          mkdir -p uma-drafter/packages/shared/src/data/assets
+          cp -r api/latest-data/*.json uma-drafter/packages/shared/src/data/assets/
 
-      - name: Open PR on UmaDrafting
+      - name: Open PR on UmaDrafter
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.DRAFTER_REPO_TOKEN }}
-          path: uma-drafting
+          path: uma-drafter
           commit-message: "chore: update JSON data from API repo"
           branch: chore/update-json-data
           base: main
