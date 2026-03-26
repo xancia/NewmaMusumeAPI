@@ -192,6 +192,22 @@
     "schedules": []
   },
   {
+    "raceId": 7018,
+    "raceName": "Scrimmage",
+    "grade": 0,
+    "gradeName": "Unknown (0)",
+    "distance": 3200,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
     "raceId": 1001,
     "raceName": "February Stakes",
     "grade": 100,
@@ -2272,6 +2288,22 @@
     "schedules": []
   },
   {
+    "raceId": 6003,
+    "raceName": "Champions Meeting: Pisces Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 3200,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6005,
     "raceName": "Champions Meeting: Taurus Cup",
     "grade": 100,
@@ -2428,6 +2460,22 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6015,
+    "raceName": "Champions Meeting: Pisces Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 3200,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
     "entryNum": 9,
     "schedules": []
   },
@@ -6338,6 +6386,22 @@
   {
     "raceId": 7013,
     "raceName": "Tokyo Yushun (Japanese Derby)",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 18,
+    "schedules": []
+  },
+  {
+    "raceId": 7017,
+    "raceName": "Japan Cup",
     "grade": 100,
     "gradeName": "G1",
     "distance": 2400,

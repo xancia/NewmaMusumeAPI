@@ -5136,6 +5136,30 @@
     "type": 4
   },
   {
+    "id": 2020701,
+    "name": "Free-Spirited",
+    "description": "A Spark that gives a skill hint for \"Free-Spirited\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020702,
+    "name": "Free-Spirited",
+    "description": "A Spark that gives a skill hint for \"Free-Spirited\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020703,
+    "name": "Free-Spirited",
+    "description": "A Spark that gives a skill hint for \"Free-Spirited\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -7059,6 +7083,30 @@
     "id": 10710103,
     "name": "A Lifelong Dream, A Moment's Flight",
     "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10740101,
+    "name": "Lovely Spring Breeze",
+    "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10740102,
+    "name": "Lovely Spring Breeze",
+    "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10740103,
+    "name": "Lovely Spring Breeze",
+    "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

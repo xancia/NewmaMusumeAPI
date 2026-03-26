@@ -2204,6 +2204,36 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 100741,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "distance_rate>=50&order_rate>=40&order_rate<=80",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20013,
+    "skillName": "Lovely Spring Breeze",
+    "skillDesc": "From the midpack in the second half of the race, slightly increase velocity steadily for a duration based on remaining endurance.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 110011,
     "rarity": 5,
     "gradeValue": 340,
@@ -13616,6 +13646,106 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 202061,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "204/303/401",
+    "activationCondition": "distance_type==4&is_finalcorner_random==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 2010010,
+    "skillName": "Best in Japan",
+    "skillDesc": "Everyone's expectations strongly inspire the skill user, increasing velocity on the final corner. (Long)",
+    "needSkillPoint": 360,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202071,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Recovery",
+    "tagId": "204/302/402",
+    "activationCondition": "distance_type==4&phase_firsthalf_random==1&order_rate>=40&order_rate<=80",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.075,
+        "displayText": "Stamina Recovery +0.075"
+      },
+      {
+        "type": "Type21",
+        "value": -0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.075",
+    "iconId": 20022,
+    "skillName": "Of Calm Mind",
+    "skillDesc": "If positioned in the midpack around when the mid-race starts, slightly decrease velocity and greatly recover endurance. (Long)",
+    "needSkillPoint": 170,
+    "duration": 1.2,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202072,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Recovery",
+    "tagId": "204/302/402",
+    "activationCondition": "distance_type==4&phase_firsthalf_random==1&order_rate>=40&order_rate<=80",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.035,
+        "displayText": "Stamina Recovery +0.035"
+      },
+      {
+        "type": "Type21",
+        "value": -0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.035",
+    "iconId": 20021,
+    "skillName": "Free-Spirited",
+    "skillDesc": "If positioned in the midpack around when the mid-race starts, slightly decrease velocity and moderately recover endurance. (Long)",
+    "needSkillPoint": 170,
+    "duration": 1.2,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 210011,
     "rarity": 2,
     "gradeValue": 633,
@@ -14307,6 +14437,66 @@
     "needSkillPoint": 0,
     "duration": 0,
     "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 300111,
+    "rarity": 1,
+    "gradeValue": 0,
+    "skillCategory": "Passive",
+    "tagId": "401",
+    "activationCondition": "always==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Speed Stat",
+        "value": 40,
+        "displayText": "Speed +40"
+      }
+    ],
+    "effectSummary": "Speed +40",
+    "iconId": 10011,
+    "skillName": "Chin Up, Derby Umamusume!",
+    "skillDesc": "Feel closer to being Japan's top racer, moderately increasing performance.",
+    "needSkillPoint": 0,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 300121,
+    "rarity": 2,
+    "gradeValue": 0,
+    "skillCategory": "Passive",
+    "tagId": "402",
+    "activationCondition": "always==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Stat",
+        "value": 80,
+        "displayText": "Stamina +80"
+      }
+    ],
+    "effectSummary": "Stamina +80",
+    "iconId": 10022,
+    "skillName": "For the Team",
+    "skillDesc": "The whole team feels super determined to win this special race, greatly increasing performance.",
+    "needSkillPoint": 0,
+    "duration": -0.0001,
+    "cooldownTime": 0,
     "supportCardIds": "",
     "activationCondition2": "",
     "precondition2": "",
@@ -15970,6 +16160,36 @@
     "skillDesc": "Slightly consume endurance to moderately increase velocity for a moderate duration when close to the runner behind on the final straight.",
     "needSkillPoint": 200,
     "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 900741,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "distance_rate>=50&order_rate>=40&order_rate<=80",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.035,
+        "displayText": "Target Speed +0.035"
+      }
+    ],
+    "effectSummary": "Target Speed +0.035",
+    "iconId": 20011,
+    "skillName": "Lovely Spring Breeze",
+    "skillDesc": "From the midpack in the second half of the race, minimally increase velocity steadily for a duration based on remaining endurance.",
+    "needSkillPoint": 200,
+    "duration": 3,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",

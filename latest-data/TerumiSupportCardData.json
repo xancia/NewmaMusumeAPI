@@ -43013,6 +43013,304 @@
     }
   },
   {
+    "supportCardId": 30081,
+    "charaId": 1001,
+    "charaName": "Special Week",
+    "supportCardTitle": "[Passing the Dream On]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 3,
+    "supportCardTypeName": "Friend",
+    "effectTableId": 30081,
+    "uniqueEffectId": 30081,
+    "skillSetId": 9081001,
+    "commandType": 0,
+    "commandId": 0,
+    "startDate": "2026-03-26T22:00:00",
+    "outingMax": 1,
+    "effectId": 100,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 15
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 5
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 25,
+        "effectTypeName": "Event Recovery",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 26,
+        "effectTypeName": "Event Effectiveness",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 31,
+        "effectTypeName": "Wit Friendship Recovery",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 2
+      }
+    ],
+    "skillHints": [],
+    "events": [
+      {
+        "storyId": 830081002,
+        "eventTitle": "We're All Shining Stars",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081002,
+        "eventTitle": "We're All Shining Stars",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081003,
+        "eventTitle": "A Second Serving of Training",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081001,
+        "eventTitle": "Every One of Us Has a Dream",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081004,
+        "eventTitle": "Teamwork Makes the Dream Work!",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081021,
+        "eventTitle": "Beyond the Horizon of Our Dreams",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081022,
+        "eventTitle": "Another Day, Another Step Towards Our\\nDream",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081023,
+        "eventTitle": "The Luckiest Racer in Japan",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081020,
+        "eventTitle": "The Meaning of Support",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081010,
+        "eventTitle": "I Want to Share My Dream",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081009,
+        "eventTitle": "The Scenery that Lies Beyond",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081008,
+        "eventTitle": "It's Tough Being a Little Sister",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081007,
+        "eventTitle": "Common Threads, Dreams Entwined",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081006,
+        "eventTitle": "The Secret to Her Success",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081005,
+        "eventTitle": "I Shall Have the Last Laugh",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 801001003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001002,
+        "eventTitle": "So Many Options!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001001,
+        "eventTitle": "Watch Where You're Going!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 40,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 8,
+      "value02": 10,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
     "supportCardId": 30082,
     "charaId": 1051,
     "charaName": "Nishino Flower",
