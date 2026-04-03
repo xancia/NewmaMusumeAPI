@@ -5160,6 +5160,78 @@
     "type": 4
   },
   {
+    "id": 2020801,
+    "name": "Take the Chance",
+    "description": "A Spark that gives a skill hint for \"Take the Chance\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020802,
+    "name": "Take the Chance",
+    "description": "A Spark that gives a skill hint for \"Take the Chance\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020803,
+    "name": "Take the Chance",
+    "description": "A Spark that gives a skill hint for \"Take the Chance\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020901,
+    "name": "Fighting Spirit",
+    "description": "A Spark that gives a skill hint for \"Fighting Spirit\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020902,
+    "name": "Fighting Spirit",
+    "description": "A Spark that gives a skill hint for \"Fighting Spirit\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2020903,
+    "name": "Fighting Spirit",
+    "description": "A Spark that gives a skill hint for \"Fighting Spirit\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021001,
+    "name": "Eager",
+    "description": "A Spark that gives a skill hint for \"Eager\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021002,
+    "name": "Eager",
+    "description": "A Spark that gives a skill hint for \"Eager\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021003,
+    "name": "Eager",
+    "description": "A Spark that gives a skill hint for \"Eager\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -5571,6 +5643,30 @@
     "id": 10050103,
     "name": "Lights of Vaudeville",
     "description": "A Spark that gives a skill hint for \"Lights of Vaudeville\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10050201,
+    "name": "Ravissant",
+    "description": "A Spark that gives a skill hint for \"Ravissant\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10050202,
+    "name": "Ravissant",
+    "description": "A Spark that gives a skill hint for \"Ravissant\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10050203,
+    "name": "Ravissant",
+    "description": "A Spark that gives a skill hint for \"Ravissant\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6099,6 +6195,30 @@
     "id": 10200103,
     "name": "Angling and Scheming",
     "description": "A Spark that gives a skill hint for \"Angling and Scheming\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10200201,
+    "name": "Break It Down!",
+    "description": "A Spark that gives a skill hint for \"Break It Down!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10200202,
+    "name": "Break It Down!",
+    "description": "A Spark that gives a skill hint for \"Break It Down!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10200203,
+    "name": "Break It Down!",
+    "description": "A Spark that gives a skill hint for \"Break It Down!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
