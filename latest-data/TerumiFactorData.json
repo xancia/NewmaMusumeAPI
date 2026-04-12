@@ -5456,6 +5456,14 @@
     "type": 7
   },
   {
+    "id": 4000102,
+    "name": "Carnival Bonus",
+    "description": "A Spark that gives the Carnival Bonus Lvl {0} skill.\\nThis Spark will automatically disappear after the event ends.",
+    "rarity": 1,
+    "grade": 1,
+    "type": 7
+  },
+  {
     "id": 10010101,
     "name": "Shooting Star",
     "description": "A Spark that gives a skill hint for \"Shooting Star\".",
@@ -6891,6 +6899,30 @@
     "id": 10500103,
     "name": "Nemesis",
     "description": "A Spark that gives a skill hint for \"Nemesis\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10510101,
+    "name": "Budding Blossom",
+    "description": "A Spark that gives a skill hint for \"Budding Blossom\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10510102,
+    "name": "Budding Blossom",
+    "description": "A Spark that gives a skill hint for \"Budding Blossom\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10510103,
+    "name": "Budding Blossom",
+    "description": "A Spark that gives a skill hint for \"Budding Blossom\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

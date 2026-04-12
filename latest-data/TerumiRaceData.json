@@ -13650,6 +13650,58 @@
     "schedules": []
   },
   {
+    "raceId": 11011,
+    "raceName": "Challenge Race (Very Hard)",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630011,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11012,
+    "raceName": "Challenge Race (Extreme)",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630012,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
     "raceId": 2001,
     "raceName": "Nikkei Shinshun Hai",
     "grade": 200,
@@ -14674,6 +14726,110 @@
     "trackName": "Nakayama",
     "entryNum": 12,
     "schedules": []
+  },
+  {
+    "raceId": 11007,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630007,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11008,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630008,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11009,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630009,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11010,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630010,
+        "month": 4,
+        "day": 14,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
   },
   {
     "raceId": 3001,
@@ -23234,6 +23390,32 @@
     "schedules": [
       {
         "instanceId": 904194,
+        "month": 6,
+        "day": 30,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 9401,
+    "raceName": "Junior Newcomer",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10001,
+    "trackName": "Sapporo",
+    "entryNum": 9,
+    "schedules": [
+      {
+        "instanceId": 904195,
         "month": 6,
         "day": 30,
         "half": 2,
