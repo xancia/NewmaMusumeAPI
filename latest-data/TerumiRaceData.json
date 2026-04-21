@@ -2304,6 +2304,22 @@
     "schedules": []
   },
   {
+    "raceId": 6004,
+    "raceName": "Champions Meeting: Aries Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6005,
     "raceName": "Champions Meeting: Taurus Cup",
     "grade": 100,
@@ -2476,6 +2492,22 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6016,
+    "raceName": "Champions Meeting: Aries Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
     "entryNum": 9,
     "schedules": []
   },

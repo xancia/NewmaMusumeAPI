@@ -7240,6 +7240,30 @@
     "type": 3
   },
   {
+    "id": 10720101,
+    "name": "Peerless Dance of Flowering Flames",
+    "description": "A Spark that gives a skill hint for \"Peerless Dance of Flowering Flames\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10720102,
+    "name": "Peerless Dance of Flowering Flames",
+    "description": "A Spark that gives a skill hint for \"Peerless Dance of Flowering Flames\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10720103,
+    "name": "Peerless Dance of Flowering Flames",
+    "description": "A Spark that gives a skill hint for \"Peerless Dance of Flowering Flames\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10740101,
     "name": "Lovely Spring Breeze",
     "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
