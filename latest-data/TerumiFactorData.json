@@ -5232,6 +5232,78 @@
     "type": 4
   },
   {
+    "id": 2021101,
+    "name": "Pumped",
+    "description": "A Spark that gives a skill hint for \"Pumped\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021102,
+    "name": "Pumped",
+    "description": "A Spark that gives a skill hint for \"Pumped\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021103,
+    "name": "Pumped",
+    "description": "A Spark that gives a skill hint for \"Pumped\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021201,
+    "name": "Fearless",
+    "description": "A Spark that gives a skill hint for \"Fearless\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021202,
+    "name": "Fearless",
+    "description": "A Spark that gives a skill hint for \"Fearless\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021203,
+    "name": "Fearless",
+    "description": "A Spark that gives a skill hint for \"Fearless\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021301,
+    "name": "With All My Soul",
+    "description": "A Spark that gives a skill hint for \"With All My Soul\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021302,
+    "name": "With All My Soul",
+    "description": "A Spark that gives a skill hint for \"With All My Soul\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021303,
+    "name": "With All My Soul",
+    "description": "A Spark that gives a skill hint for \"With All My Soul\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -6544,6 +6616,30 @@
     "type": 3
   },
   {
+    "id": 10310101,
+    "name": "All Charged! It's Go Time!",
+    "description": "A Spark that gives a skill hint for \"All Charged! It's Go Time!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10310102,
+    "name": "All Charged! It's Go Time!",
+    "description": "A Spark that gives a skill hint for \"All Charged! It's Go Time!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10310103,
+    "name": "All Charged! It's Go Time!",
+    "description": "A Spark that gives a skill hint for \"All Charged! It's Go Time!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10320101,
     "name": "U=ma2",
     "description": "A Spark that gives a skill hint for \"U=ma2\".",
@@ -7096,6 +7192,30 @@
     "type": 3
   },
   {
+    "id": 10600201,
+    "name": "Go☆Go☆Goal!",
+    "description": "A Spark that gives a skill hint for \"Go☆Go☆Goal!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10600202,
+    "name": "Go☆Go☆Goal!",
+    "description": "A Spark that gives a skill hint for \"Go☆Go☆Goal!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10600203,
+    "name": "Go☆Go☆Goal!",
+    "description": "A Spark that gives a skill hint for \"Go☆Go☆Goal!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10610101,
     "name": "Prideful King",
     "description": "A Spark that gives a skill hint for \"Prideful King\".",
@@ -7115,6 +7235,30 @@
     "id": 10610103,
     "name": "Prideful King",
     "description": "A Spark that gives a skill hint for \"Prideful King\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10610201,
+    "name": "Louder! Tracen Cheer!",
+    "description": "A Spark that gives a skill hint for \"Louder! Tracen Cheer!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10610202,
+    "name": "Louder! Tracen Cheer!",
+    "description": "A Spark that gives a skill hint for \"Louder! Tracen Cheer!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10610203,
+    "name": "Louder! Tracen Cheer!",
+    "description": "A Spark that gives a skill hint for \"Louder! Tracen Cheer!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
