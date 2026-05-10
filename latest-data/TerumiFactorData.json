@@ -7288,6 +7288,30 @@
     "type": 3
   },
   {
+    "id": 10640101,
+    "name": "Keep Pushing Ahead",
+    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10640102,
+    "name": "Keep Pushing Ahead",
+    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10640103,
+    "name": "Keep Pushing Ahead",
+    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10670101,
     "name": "Eternal Encompassing Shine",
     "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",

@@ -2128,6 +2128,41 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 100641,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/402",
+    "activationCondition": "distance_rate>=50&order_rate_in20_continue==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.055,
+        "displayText": "Stamina Recovery +0.055"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.055 | Target Speed +0.25",
+    "iconId": 20023,
+    "skillName": "Keep Pushing Ahead",
+    "skillDesc": "If positioned toward the front from the start of the race until the second half of the race, good vibes recover endurance and moderately increase velocity steadily.",
+    "needSkillPoint": 0,
+    "duration": 6,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 100671,
     "rarity": 5,
     "gradeValue": 340,
@@ -13289,6 +13324,36 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 201662,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "401",
+    "activationCondition": "behind_near_lane_time>=3&accumulatetime>=10",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20012,
+    "skillName": "See Ya Later!",
+    "skillDesc": "Increase velocity when followed by another runner directly behind for a long time.",
+    "needSkillPoint": 160,
+    "duration": 3,
+    "cooldownTime": 30,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 201671,
     "rarity": 2,
     "gradeValue": 508,
@@ -16767,6 +16832,41 @@
     "skillDesc": "Slightly recover endurance and very slightly increase velocity when in midpack around halfway through the race.",
     "needSkillPoint": 200,
     "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 900641,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/402",
+    "activationCondition": "distance_rate>=50&order_rate_in20_continue==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.015,
+        "displayText": "Stamina Recovery +0.015"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.05,
+        "displayText": "Target Speed +0.05"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.015 | Target Speed +0.05",
+    "iconId": 20021,
+    "skillName": "Keep Pushing Ahead",
+    "skillDesc": "If positioned toward the front from the start of the race until the second half of the race, slightly recover endurance and very slightly increase velocity steadily.",
+    "needSkillPoint": 200,
+    "duration": 3.6,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",

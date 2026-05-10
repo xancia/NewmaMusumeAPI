@@ -2640,6 +2640,38 @@
     "schedules": []
   },
   {
+    "raceId": 6029,
+    "raceName": "Champions Meeting: Taurus Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6041,
+    "raceName": "Champions Meeting: Taurus Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6100,
     "raceName": "Team Race: Sprint",
     "grade": 100,
