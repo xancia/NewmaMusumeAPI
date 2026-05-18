@@ -5304,6 +5304,30 @@
     "type": 4
   },
   {
+    "id": 2021501,
+    "name": "Full Throttle",
+    "description": "A Spark that gives a skill hint for \"Full Throttle\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021502,
+    "name": "Full Throttle",
+    "description": "A Spark that gives a skill hint for \"Full Throttle\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021503,
+    "name": "Full Throttle",
+    "description": "A Spark that gives a skill hint for \"Full Throttle\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -6352,6 +6376,30 @@
     "type": 3
   },
   {
+    "id": 10220201,
+    "name": "Best day ever",
+    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10220202,
+    "name": "Best day ever",
+    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10220203,
+    "name": "Best day ever",
+    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10230101,
     "name": "∴win Q.E.D.",
     "description": "A Spark that gives a skill hint for \"∴win Q.E.D.\".",
@@ -6779,6 +6827,30 @@
     "id": 10380103,
     "name": "#LookatCurren",
     "description": "A Spark that gives a skill hint for \"#LookatCurren\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10380201,
+    "name": "One True Color",
+    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10380202,
+    "name": "One True Color",
+    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10380203,
+    "name": "One True Color",
+    "description": "A Spark that gives a skill hint for \"One True Color\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

@@ -48352,5 +48352,751 @@
       "value13": 0,
       "value14": 0
     }
+  },
+  {
+    "supportCardId": 30098,
+    "charaId": 1052,
+    "charaName": "Haru Urara",
+    "supportCardTitle": "[Sunny Passion ♪]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Power",
+    "effectTableId": 30098,
+    "uniqueEffectId": 30098,
+    "skillSetId": 9081052,
+    "commandType": 1,
+    "commandId": 102,
+    "startDate": "2026-05-18T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 5,
+        "level50Value": 10
+      },
+      {
+        "effectType": 11,
+        "effectTypeName": "Initial Power",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 40,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 60
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 0,
+        "skillName": "+2 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Power",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830098001,
+        "eventTitle": "A Wonderful Wedding?",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830098002,
+        "eventTitle": "The Theme's Decided!",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830098003,
+        "eventTitle": "The Gift of Excitement",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801052001,
+        "eventTitle": "Urara's ☆ Study Review",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801052002,
+        "eventTitle": "Urara's ☆ Long Shot Dash!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801052003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 30,
+      "type0": 30,
+      "type0Name": "Skill Point Bonus",
+      "value0": 1,
+      "value01": 0,
+      "value02": 0,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30099,
+    "charaId": 1063,
+    "charaName": "Ikuno Dictus",
+    "supportCardTitle": "[Beloved Orchid Bouquet]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Stamina",
+    "effectTableId": 30099,
+    "uniqueEffectId": 30099,
+    "skillSetId": 9081063,
+    "commandType": 1,
+    "commandId": 105,
+    "startDate": "2026-05-18T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 4,
+        "effectTypeName": "Stamina Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": 10,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 25,
+        "level50Value": -1
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 2,
+        "level50Value": 3
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": 40
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200482,
+        "skillName": "Calm in a Crowd",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200592,
+        "skillName": "Position Pilfer",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201392,
+        "skillName": "Late Surger Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201432,
+        "skillName": "Studious",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201442,
+        "skillName": "Sharp Gaze",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201542,
+        "skillName": "Late Surger Savvy ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201692,
+        "skillName": "Be Still",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830099001,
+        "eventTitle": "Ikuno-style Cuteness Research",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830099002,
+        "eventTitle": "Glasses-style Umadol Song ☆",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830099003,
+        "eventTitle": "Ikuno-style Socializing",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801063003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801063001,
+        "eventTitle": "Ikuno-Style Flawless Method",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801063002,
+        "eventTitle": "Ikuno-Style Management",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 30,
+      "type0": 109,
+      "type0Name": "Effect Type 109",
+      "value0": 8,
+      "value01": 30,
+      "value02": 0,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30100,
+    "charaId": 1030,
+    "charaName": "Rice Shower",
+    "supportCardTitle": "[Day I Dreamed Of]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Intelligence",
+    "effectTableId": 30100,
+    "uniqueEffectId": 30100,
+    "skillSetId": 9081030,
+    "commandType": 1,
+    "commandId": 106,
+    "startDate": "2026-05-18T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 25
+      },
+      {
+        "effectType": 3,
+        "effectTypeName": "Speed Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 7,
+        "effectTypeName": "Wit Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 5,
+        "level50Value": -1
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 10,
+        "level50Value": -1
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 2,
+        "level50Value": -1
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 31,
+        "effectTypeName": "Wit Friendship Recovery",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 3,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 5
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200742,
+        "skillName": "Deep Breaths",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201322,
+        "skillName": "Pace Chaser Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201342,
+        "skillName": "Straight Descent",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201372,
+        "skillName": "Disorient",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201532,
+        "skillName": "Pace Chaser Savvy ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202012,
+        "skillName": "Feature Act",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Wits",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+5 Skill Pt",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830100001,
+        "eventTitle": "Forever a Child in Our Eyes",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830100002,
+        "eventTitle": "They Grow Up So Fast",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830100003,
+        "eventTitle": "Hearts Full of Bittersweet Joy",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801030001,
+        "eventTitle": "A Page of Flower Shop Assistance",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030002,
+        "eventTitle": "A Page About Cloudy Weather",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 40,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 8,
+      "value02": 10,
+      "value03": 0,
+      "value04": 1,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
   }
 ]

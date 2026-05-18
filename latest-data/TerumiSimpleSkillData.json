@@ -2752,6 +2752,47 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 110221,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance>=401&phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.1,
+        "displayText": "Acceleration +0.1"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35 | Acceleration +0.1",
+    "iconId": 20013,
+    "skillName": "Best Day Ever",
+    "skillDesc": "If well-positioned late-race on the final corner or later, increase velocity. If there's a large distance left to the finish, also increase acceleration very slightly with perfect form.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.35",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 110231,
     "rarity": 5,
     "gradeValue": 340,
@@ -2908,6 +2949,41 @@
     "skillDesc": "Increase velocity continuously with a patissiere's pride on the final straight after passing another runner 3 times on the final corner or later.",
     "needSkillPoint": 0,
     "duration": 6,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 110381,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance<=350&order_rate<=40&order_rate>=20&bashin_diff_behind<=1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.3,
+        "displayText": "Acceleration +0.3"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25 | Acceleration +0.3",
+    "iconId": 20013,
+    "skillName": "One True Color",
+    "skillDesc": "If positioned toward the front with 350m or less remaining and there is another Umamusume close behind, the determination to stay ahead makes it easier to break out of the pack.",
+    "needSkillPoint": 0,
+    "duration": 5,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -6820,7 +6896,7 @@
     "needSkillPoint": 170,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10026,10040,10044,10053,20005,20014,20016,20025,30063,30073,30078",
+    "supportCardIds": "10026,10040,10044,10053,20005,20014,20016,20025,30063,30073,30078,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -7460,7 +7536,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10009,10016,10070,20035,30006,30012,30033,30046,30084,30088",
+    "supportCardIds": "10009,10016,10070,20035,30006,30012,30033,30046,30084,30088,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8365,7 +8441,7 @@
     "needSkillPoint": 160,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10010,10015,10057,30022,30023,30030,30034",
+    "supportCardIds": "10010,10015,10057,30022,30023,30030,30034,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11455,7 +11531,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10041,10069,20027,20034,30018,30082,30093",
+    "supportCardIds": "10041,10069,20027,20034,30018,30082,30093,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11575,7 +11651,7 @@
     "needSkillPoint": 120,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10015,30023,30034,30093",
+    "supportCardIds": "10015,30023,30034,30093,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11755,7 +11831,7 @@
     "needSkillPoint": 110,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10010,10015,10073,20044,30023,30034,30068",
+    "supportCardIds": "10010,10015,10073,20044,30023,30034,30068,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11875,7 +11951,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10038,10044,20013,20016,30078,30088",
+    "supportCardIds": "10038,10044,20013,20016,30078,30088,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12115,7 +12191,7 @@
     "needSkillPoint": 120,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10012,10053,10056,10059,20025,20028,30029,30063,30065",
+    "supportCardIds": "10012,10053,10056,10059,20025,20028,30029,30063,30065,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12175,7 +12251,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10047,10053,10067,10068,20019,20025,20026,20032,30043,30054,30063,30095",
+    "supportCardIds": "10047,10053,10067,10068,20019,20025,20026,20032,30043,30054,30063,30095,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12735,7 +12811,7 @@
     "needSkillPoint": 110,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10013,10024,10059,10062,10069,20003,20028,20034,30038,30065,30095",
+    "supportCardIds": "10013,10024,10059,10062,10069,20003,20028,20034,30038,30065,30095,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12805,7 +12881,7 @@
     "needSkillPoint": 110,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10001,10046,10059,20018,20028,30001,30025,30041,30065,30088,30095",
+    "supportCardIds": "10001,10046,10059,20018,20028,30001,30025,30041,30065,30088,30095,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13535,7 +13611,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "30088,30091",
+    "supportCardIds": "30088,30091,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13775,7 +13851,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "",
+    "supportCardIds": "30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -14484,6 +14560,76 @@
     "skillDesc": "When positioned toward the front mid-race, slightly increase velocity and minimally decrease the velocity of runners behind the user. (Medium)",
     "needSkillPoint": 160,
     "duration": 1.8,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202151,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/302/401",
+    "activationCondition": "running_style==3&phase_random==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": -0.04,
+        "displayText": "Stamina Recovery +-0.04"
+      }
+    ],
+    "effectSummary": "Target Speed +0.45 | Stamina Recovery +-0.04",
+    "iconId": 20012,
+    "skillName": "Keep Going!",
+    "skillDesc": "Greatly consume endurance mid-race and greatly increase velocity. (Late Surger)",
+    "needSkillPoint": 160,
+    "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202152,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/302/401",
+    "activationCondition": "running_style==3&phase_random==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": -0.04,
+        "displayText": "Stamina Recovery +-0.04"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25 | Stamina Recovery +-0.04",
+    "iconId": 20011,
+    "skillName": "Full Throttle",
+    "skillDesc": "Greatly consume endurance mid-race and moderately increase velocity. (Late Surger)",
+    "needSkillPoint": 160,
+    "duration": 2.4,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -17466,6 +17612,47 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 910221,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance>=401&phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.05,
+        "displayText": "Acceleration +0.05"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15 | Acceleration +0.05",
+    "iconId": 20011,
+    "skillName": "Best day ever",
+    "skillDesc": "If well-positioned late-race on the final corner or later, slightly increase velocity. If there's a large distance left to the finish, also increase acceleration very minimally.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.15",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 910231,
     "rarity": 1,
     "gradeValue": 180,
@@ -17622,6 +17809,41 @@
     "skillDesc": "Slightly increase velocity continuously on the final straight after passing another runner 3 times on the final corner or later.",
     "needSkillPoint": 200,
     "duration": 3.6,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 910381,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance<=350&order_rate<=40&order_rate>=20&bashin_diff_behind<=1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.05,
+        "displayText": "Target Speed +0.05"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.1,
+        "displayText": "Acceleration +0.1"
+      }
+    ],
+    "effectSummary": "Target Speed +0.05 | Acceleration +0.1",
+    "iconId": 20011,
+    "skillName": "One True Color",
+    "skillDesc": "If positioned toward the front with 350m remaining and there is another Umamusume close behind, break out of the pack slightly more easily.",
+    "needSkillPoint": 200,
+    "duration": 3,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
