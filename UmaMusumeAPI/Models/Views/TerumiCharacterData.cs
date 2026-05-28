@@ -1,7 +1,14 @@
 using System;
+using System.Collections.Generic;
 
 namespace UmaMusumeAPI.Models.Views
 {
+    public class TerumiPotentialSkill
+    {
+        public int SkillId { get; set; }
+        public int NeedRank { get; set; }
+    }
+
     public class TerumiCharacterData
     {
         public int CharaId { get; set; }
@@ -58,5 +65,6 @@ namespace UmaMusumeAPI.Models.Views
 
         // Skills
         public string SkillIds { get; set; }
+        public List<TerumiPotentialSkill> PotentialSkills { get; set; } = new();
     }
 }

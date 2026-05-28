@@ -83,7 +83,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         IFNULL((SELECT crd_ss.skill_id1 FROM card_rarity_data crd INNER JOIN skill_set crd_ss ON crd_ss.id = crd.skill_set WHERE crd.card_id = card.id AND crd_ss.skill_id1 >= 100000 AND crd_ss.skill_id1 < 200000 LIMIT 1), ''),
                         ',',
                         IFNULL((SELECT GROUP_CONCAT(DISTINCT ass.skill_id ORDER BY ass.skill_id SEPARATOR ',') FROM available_skill_set ass WHERE ass.available_skill_set_id = card.available_skill_set_id), '')
-                    )) as SkillIds
+                    )) as SkillIds,
+                    IFNULL((SELECT GROUP_CONCAT(DISTINCT CONCAT(ass.skill_id, ':', ass.need_rank) ORDER BY ass.need_rank, ass.skill_id SEPARATOR ',') FROM available_skill_set ass WHERE ass.available_skill_set_id = card.available_skill_set_id), '') as PotentialSkills
                     
                 FROM card_data card
                 LEFT JOIN chara_data cd ON card.chara_id = cd.id
@@ -279,6 +280,13 @@ namespace UmaMusumeAPI.Controllers.Views
                                         : RemoveDuplicateSkillIds(
                                             reader.GetString(reader.GetOrdinal("SkillIds"))
                                         ),
+                                    PotentialSkills = reader.IsDBNull(
+                                        reader.GetOrdinal("PotentialSkills")
+                                    )
+                                        ? new List<TerumiPotentialSkill>()
+                                        : ParsePotentialSkills(
+                                            reader.GetString(reader.GetOrdinal("PotentialSkills"))
+                                        ),
                                 }
                             );
                         }
@@ -351,7 +359,8 @@ namespace UmaMusumeAPI.Controllers.Views
                         IFNULL((SELECT crd_ss.skill_id1 FROM card_rarity_data crd INNER JOIN skill_set crd_ss ON crd_ss.id = crd.skill_set WHERE crd.card_id = card.id AND crd_ss.skill_id1 >= 100000 AND crd_ss.skill_id1 < 200000 LIMIT 1), ''),
                         ',',
                         IFNULL((SELECT GROUP_CONCAT(DISTINCT ass.skill_id ORDER BY ass.skill_id SEPARATOR ',') FROM available_skill_set ass WHERE ass.available_skill_set_id = card.available_skill_set_id), '')
-                    )) as SkillIds
+                    )) as SkillIds,
+                    IFNULL((SELECT GROUP_CONCAT(DISTINCT CONCAT(ass.skill_id, ':', ass.need_rank) ORDER BY ass.need_rank, ass.skill_id SEPARATOR ',') FROM available_skill_set ass WHERE ass.available_skill_set_id = card.available_skill_set_id), '') as PotentialSkills
                     
                 FROM chara_data cd
                 LEFT JOIN text_data t_name ON t_name.`index` = cd.id AND t_name.category = 6
@@ -516,6 +525,13 @@ namespace UmaMusumeAPI.Controllers.Views
                                     : RemoveDuplicateSkillIds(
                                         reader.GetString(reader.GetOrdinal("SkillIds"))
                                     ),
+                                PotentialSkills = reader.IsDBNull(
+                                    reader.GetOrdinal("PotentialSkills")
+                                )
+                                    ? new List<TerumiPotentialSkill>()
+                                    : ParsePotentialSkills(
+                                        reader.GetString(reader.GetOrdinal("PotentialSkills"))
+                                    ),
                             };
                         }
                     }
@@ -539,6 +555,43 @@ namespace UmaMusumeAPI.Controllers.Views
                 8 => "S",
                 _ => "Unknown",
             };
+        }
+
+        private List<TerumiPotentialSkill> ParsePotentialSkills(string potentialSkills)
+        {
+            var result = new List<TerumiPotentialSkill>();
+
+            if (string.IsNullOrEmpty(potentialSkills))
+                return result;
+
+            var seen = new HashSet<string>();
+
+            foreach (var pair in potentialSkills.Split(','))
+            {
+                var parts = pair.Split(':');
+
+                if (
+                    parts.Length != 2
+                    || !int.TryParse(parts[0], out var skillId)
+                    || !int.TryParse(parts[1], out var needRank)
+                )
+                {
+                    continue;
+                }
+
+                if (!seen.Add($"{skillId}:{needRank}"))
+                    continue;
+
+                result.Add(
+                    new TerumiPotentialSkill
+                    {
+                        SkillId = skillId,
+                        NeedRank = needRank,
+                    }
+                );
+            }
+
+            return result;
         }
 
         private string RemoveDuplicateSkillIds(string skillIds)

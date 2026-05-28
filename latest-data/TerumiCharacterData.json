@@ -35,7 +35,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1001,
-    "skillIds": "100011,200162,200511,200512,200612,200732,201351,201352"
+    "skillIds": "100011,200162,200511,200512,200612,200732,201351,201352",
+    "potentialSkills": [
+      {
+        "skillId": 200512,
+        "needRank": 0
+      },
+      {
+        "skillId": 200732,
+        "needRank": 0
+      },
+      {
+        "skillId": 201352,
+        "needRank": 0
+      },
+      {
+        "skillId": 200162,
+        "needRank": 2
+      },
+      {
+        "skillId": 201351,
+        "needRank": 3
+      },
+      {
+        "skillId": 200612,
+        "needRank": 4
+      },
+      {
+        "skillId": 200511,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1001,
@@ -73,7 +103,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1001,
-    "skillIds": "100011,110011,200212,200461,200462,200591,200592,201132,201611"
+    "skillIds": "100011,110011,200212,200461,200462,200591,200592,201132,201611",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 200592,
+        "needRank": 0
+      },
+      {
+        "skillId": 201132,
+        "needRank": 0
+      },
+      {
+        "skillId": 200212,
+        "needRank": 2
+      },
+      {
+        "skillId": 200591,
+        "needRank": 3
+      },
+      {
+        "skillId": 201611,
+        "needRank": 4
+      },
+      {
+        "skillId": 200461,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1002,
@@ -111,7 +171,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1002,
-    "skillIds": "100021,200022,200431,200432,200542,200551,200552,200712"
+    "skillIds": "100021,200022,200431,200432,200542,200551,200552,200712",
+    "potentialSkills": [
+      {
+        "skillId": 200432,
+        "needRank": 0
+      },
+      {
+        "skillId": 200552,
+        "needRank": 0
+      },
+      {
+        "skillId": 200712,
+        "needRank": 0
+      },
+      {
+        "skillId": 200022,
+        "needRank": 2
+      },
+      {
+        "skillId": 200431,
+        "needRank": 3
+      },
+      {
+        "skillId": 200542,
+        "needRank": 4
+      },
+      {
+        "skillId": 200551,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1003,
@@ -149,7 +239,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1003,
-    "skillIds": "100031,200452,200502,201131,201132,201142,201331,201332"
+    "skillIds": "100031,200452,200502,201131,201132,201142,201331,201332",
+    "potentialSkills": [
+      {
+        "skillId": 200452,
+        "needRank": 0
+      },
+      {
+        "skillId": 201132,
+        "needRank": 0
+      },
+      {
+        "skillId": 201332,
+        "needRank": 0
+      },
+      {
+        "skillId": 200502,
+        "needRank": 2
+      },
+      {
+        "skillId": 201331,
+        "needRank": 3
+      },
+      {
+        "skillId": 201142,
+        "needRank": 4
+      },
+      {
+        "skillId": 201131,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1003,
@@ -187,7 +307,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1003,
-    "skillIds": "110031,200172,200352,200452,200571,200572,201141,201142"
+    "skillIds": "110031,200172,200352,200452,200571,200572,201141,201142",
+    "potentialSkills": [
+      {
+        "skillId": 200452,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201142,
+        "needRank": 0
+      },
+      {
+        "skillId": 200172,
+        "needRank": 2
+      },
+      {
+        "skillId": 200571,
+        "needRank": 3
+      },
+      {
+        "skillId": 200352,
+        "needRank": 4
+      },
+      {
+        "skillId": 201141,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1004,
@@ -225,7 +375,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1004,
-    "skillIds": "100041,200362,200432,200532,201051,201052,201061,201062"
+    "skillIds": "100041,200362,200432,200532,201051,201052,201061,201062",
+    "potentialSkills": [
+      {
+        "skillId": 200362,
+        "needRank": 0
+      },
+      {
+        "skillId": 200532,
+        "needRank": 0
+      },
+      {
+        "skillId": 201052,
+        "needRank": 0
+      },
+      {
+        "skillId": 201062,
+        "needRank": 2
+      },
+      {
+        "skillId": 201051,
+        "needRank": 3
+      },
+      {
+        "skillId": 200432,
+        "needRank": 4
+      },
+      {
+        "skillId": 201061,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1004,
@@ -263,7 +443,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1004,
-    "skillIds": "100041,110041,200352,200681,200682,201082,201281,201282,201571"
+    "skillIds": "100041,110041,200352,200681,200682,201082,201281,201282,201571",
+    "potentialSkills": [
+      {
+        "skillId": 200352,
+        "needRank": 0
+      },
+      {
+        "skillId": 200682,
+        "needRank": 0
+      },
+      {
+        "skillId": 201282,
+        "needRank": 0
+      },
+      {
+        "skillId": 201571,
+        "needRank": 2
+      },
+      {
+        "skillId": 201281,
+        "needRank": 3
+      },
+      {
+        "skillId": 201082,
+        "needRank": 4
+      },
+      {
+        "skillId": 200681,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1005,
@@ -301,7 +511,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1005,
-    "skillIds": "100051,200571,200572,200771,201042,201052,201071,201072"
+    "skillIds": "100051,200571,200572,200771,201042,201052,201071,201072",
+    "potentialSkills": [
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 200771,
+        "needRank": 0
+      },
+      {
+        "skillId": 201072,
+        "needRank": 0
+      },
+      {
+        "skillId": 201052,
+        "needRank": 2
+      },
+      {
+        "skillId": 201071,
+        "needRank": 3
+      },
+      {
+        "skillId": 201042,
+        "needRank": 4
+      },
+      {
+        "skillId": 200571,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1005,
@@ -339,7 +579,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1005,
-    "skillIds": "100051,110051,200581,200582,200771,200772,201042,201332,201902"
+    "skillIds": "100051,110051,200581,200582,200771,200772,201042,201332,201902",
+    "potentialSkills": [
+      {
+        "skillId": 200582,
+        "needRank": 0
+      },
+      {
+        "skillId": 200771,
+        "needRank": 0
+      },
+      {
+        "skillId": 201042,
+        "needRank": 0
+      },
+      {
+        "skillId": 201332,
+        "needRank": 2
+      },
+      {
+        "skillId": 200772,
+        "needRank": 3
+      },
+      {
+        "skillId": 201902,
+        "needRank": 4
+      },
+      {
+        "skillId": 200581,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1006,
@@ -377,7 +647,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1006,
-    "skillIds": "100061,200222,200341,200342,200492,201062,201351,201352"
+    "skillIds": "100061,200222,200341,200342,200492,201062,201351,201352",
+    "potentialSkills": [
+      {
+        "skillId": 200342,
+        "needRank": 0
+      },
+      {
+        "skillId": 201062,
+        "needRank": 0
+      },
+      {
+        "skillId": 201352,
+        "needRank": 0
+      },
+      {
+        "skillId": 200222,
+        "needRank": 2
+      },
+      {
+        "skillId": 201351,
+        "needRank": 3
+      },
+      {
+        "skillId": 200492,
+        "needRank": 4
+      },
+      {
+        "skillId": 200341,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1006,
@@ -415,7 +715,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1006,
-    "skillIds": "110061,200751,200752,201351,201352,201422,201571,201621"
+    "skillIds": "110061,200751,200752,201351,201352,201422,201571,201621",
+    "potentialSkills": [
+      {
+        "skillId": 200752,
+        "needRank": 0
+      },
+      {
+        "skillId": 201352,
+        "needRank": 0
+      },
+      {
+        "skillId": 201621,
+        "needRank": 0
+      },
+      {
+        "skillId": 201422,
+        "needRank": 2
+      },
+      {
+        "skillId": 201351,
+        "needRank": 3
+      },
+      {
+        "skillId": 201571,
+        "needRank": 4
+      },
+      {
+        "skillId": 200751,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1007,
@@ -453,7 +783,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1007,
-    "skillIds": "100071,200622,201212,201471,201472,201481,201482,201591"
+    "skillIds": "100071,200622,201212,201471,201472,201481,201482,201591",
+    "potentialSkills": [
+      {
+        "skillId": 201212,
+        "needRank": 0
+      },
+      {
+        "skillId": 201472,
+        "needRank": 0
+      },
+      {
+        "skillId": 201591,
+        "needRank": 0
+      },
+      {
+        "skillId": 201482,
+        "needRank": 2
+      },
+      {
+        "skillId": 201471,
+        "needRank": 3
+      },
+      {
+        "skillId": 200622,
+        "needRank": 4
+      },
+      {
+        "skillId": 201481,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1008,
@@ -491,7 +851,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1008,
-    "skillIds": "100081,200372,200381,200382,200602,200701,200702,201032"
+    "skillIds": "100081,200372,200381,200382,200602,200701,200702,201032",
+    "potentialSkills": [
+      {
+        "skillId": 200382,
+        "needRank": 0
+      },
+      {
+        "skillId": 200602,
+        "needRank": 0
+      },
+      {
+        "skillId": 200702,
+        "needRank": 0
+      },
+      {
+        "skillId": 200372,
+        "needRank": 2
+      },
+      {
+        "skillId": 200381,
+        "needRank": 3
+      },
+      {
+        "skillId": 201032,
+        "needRank": 4
+      },
+      {
+        "skillId": 200701,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1009,
@@ -529,7 +919,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1009,
-    "skillIds": "100091,200282,200562,200571,200572,200582,200721,200722"
+    "skillIds": "100091,200282,200562,200571,200572,200582,200721,200722",
+    "potentialSkills": [
+      {
+        "skillId": 200282,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 200722,
+        "needRank": 0
+      },
+      {
+        "skillId": 200562,
+        "needRank": 2
+      },
+      {
+        "skillId": 200721,
+        "needRank": 3
+      },
+      {
+        "skillId": 200582,
+        "needRank": 4
+      },
+      {
+        "skillId": 200571,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1010,
@@ -567,7 +987,37 @@
     "bust": 4,
     "charaCategory": 0,
     "uraObjectives": 1010,
-    "skillIds": "100101,200362,200681,200682,201032,201051,201052,201532"
+    "skillIds": "100101,200362,200681,200682,201032,201051,201052,201532",
+    "potentialSkills": [
+      {
+        "skillId": 200362,
+        "needRank": 0
+      },
+      {
+        "skillId": 201052,
+        "needRank": 0
+      },
+      {
+        "skillId": 201532,
+        "needRank": 0
+      },
+      {
+        "skillId": 200682,
+        "needRank": 2
+      },
+      {
+        "skillId": 201051,
+        "needRank": 3
+      },
+      {
+        "skillId": 201032,
+        "needRank": 4
+      },
+      {
+        "skillId": 200681,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1011,
@@ -605,7 +1055,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1011,
-    "skillIds": "100111,200512,200592,200601,200602,200871,201151,201152"
+    "skillIds": "100111,200512,200592,200601,200602,200871,201151,201152",
+    "potentialSkills": [
+      {
+        "skillId": 200602,
+        "needRank": 0
+      },
+      {
+        "skillId": 200871,
+        "needRank": 0
+      },
+      {
+        "skillId": 201152,
+        "needRank": 0
+      },
+      {
+        "skillId": 200512,
+        "needRank": 2
+      },
+      {
+        "skillId": 201151,
+        "needRank": 3
+      },
+      {
+        "skillId": 200592,
+        "needRank": 4
+      },
+      {
+        "skillId": 200601,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1011,
@@ -643,7 +1123,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1011,
-    "skillIds": "100111,110111,200472,200741,200742,200771,201421,201422,201542"
+    "skillIds": "100111,110111,200472,200741,200742,200771,201421,201422,201542",
+    "potentialSkills": [
+      {
+        "skillId": 200472,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 0
+      },
+      {
+        "skillId": 201422,
+        "needRank": 0
+      },
+      {
+        "skillId": 200771,
+        "needRank": 2
+      },
+      {
+        "skillId": 200741,
+        "needRank": 3
+      },
+      {
+        "skillId": 201542,
+        "needRank": 4
+      },
+      {
+        "skillId": 201421,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1012,
@@ -681,7 +1191,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1012,
-    "skillIds": "100121,200502,200631,200632,200731,200732,201452,201462"
+    "skillIds": "100121,200502,200631,200632,200731,200732,201452,201462",
+    "potentialSkills": [
+      {
+        "skillId": 200502,
+        "needRank": 0
+      },
+      {
+        "skillId": 200632,
+        "needRank": 0
+      },
+      {
+        "skillId": 200732,
+        "needRank": 0
+      },
+      {
+        "skillId": 201452,
+        "needRank": 2
+      },
+      {
+        "skillId": 200731,
+        "needRank": 3
+      },
+      {
+        "skillId": 201462,
+        "needRank": 4
+      },
+      {
+        "skillId": 200631,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1013,
@@ -719,7 +1259,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1013,
-    "skillIds": "100131,200172,200561,200562,201182,201191,201192,201352"
+    "skillIds": "100131,200172,200561,200562,201182,201191,201192,201352",
+    "potentialSkills": [
+      {
+        "skillId": 200172,
+        "needRank": 0
+      },
+      {
+        "skillId": 200562,
+        "needRank": 0
+      },
+      {
+        "skillId": 201192,
+        "needRank": 0
+      },
+      {
+        "skillId": 201182,
+        "needRank": 2
+      },
+      {
+        "skillId": 201191,
+        "needRank": 3
+      },
+      {
+        "skillId": 201352,
+        "needRank": 4
+      },
+      {
+        "skillId": 200561,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1013,
@@ -757,7 +1327,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1013,
-    "skillIds": "100131,110131,200192,200361,200362,200462,200562,200741,200742"
+    "skillIds": "100131,110131,200192,200361,200362,200462,200562,200741,200742",
+    "potentialSkills": [
+      {
+        "skillId": 200362,
+        "needRank": 0
+      },
+      {
+        "skillId": 200562,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 0
+      },
+      {
+        "skillId": 200192,
+        "needRank": 2
+      },
+      {
+        "skillId": 200741,
+        "needRank": 3
+      },
+      {
+        "skillId": 200462,
+        "needRank": 4
+      },
+      {
+        "skillId": 200361,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1014,
@@ -795,7 +1395,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1014,
-    "skillIds": "100141,200362,200561,200562,200722,201121,201122,201312"
+    "skillIds": "100141,200362,200561,200562,200722,201121,201122,201312",
+    "potentialSkills": [
+      {
+        "skillId": 200362,
+        "needRank": 0
+      },
+      {
+        "skillId": 201122,
+        "needRank": 0
+      },
+      {
+        "skillId": 201312,
+        "needRank": 0
+      },
+      {
+        "skillId": 200562,
+        "needRank": 2
+      },
+      {
+        "skillId": 201121,
+        "needRank": 3
+      },
+      {
+        "skillId": 200722,
+        "needRank": 4
+      },
+      {
+        "skillId": 200561,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1014,
@@ -833,7 +1463,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1014,
-    "skillIds": "110141,200512,200611,200612,200701,200702,201072,201412"
+    "skillIds": "110141,200512,200611,200612,200701,200702,201072,201412",
+    "potentialSkills": [
+      {
+        "skillId": 200512,
+        "needRank": 0
+      },
+      {
+        "skillId": 200612,
+        "needRank": 0
+      },
+      {
+        "skillId": 200702,
+        "needRank": 0
+      },
+      {
+        "skillId": 201072,
+        "needRank": 2
+      },
+      {
+        "skillId": 200701,
+        "needRank": 3
+      },
+      {
+        "skillId": 201412,
+        "needRank": 4
+      },
+      {
+        "skillId": 200611,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1015,
@@ -871,7 +1531,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1015,
-    "skillIds": "100151,200142,200362,200562,200581,200582,200721,200722"
+    "skillIds": "100151,200142,200362,200562,200581,200582,200721,200722",
+    "potentialSkills": [
+      {
+        "skillId": 200142,
+        "needRank": 0
+      },
+      {
+        "skillId": 200582,
+        "needRank": 0
+      },
+      {
+        "skillId": 200722,
+        "needRank": 0
+      },
+      {
+        "skillId": 200362,
+        "needRank": 2
+      },
+      {
+        "skillId": 200581,
+        "needRank": 3
+      },
+      {
+        "skillId": 200562,
+        "needRank": 4
+      },
+      {
+        "skillId": 200721,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1015,
@@ -909,7 +1599,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1015,
-    "skillIds": "110151,200202,200252,200351,200352,201312,202011,202012"
+    "skillIds": "110151,200202,200252,200351,200352,201312,202011,202012",
+    "potentialSkills": [
+      {
+        "skillId": 200352,
+        "needRank": 0
+      },
+      {
+        "skillId": 201312,
+        "needRank": 0
+      },
+      {
+        "skillId": 202012,
+        "needRank": 0
+      },
+      {
+        "skillId": 200252,
+        "needRank": 2
+      },
+      {
+        "skillId": 200351,
+        "needRank": 3
+      },
+      {
+        "skillId": 200202,
+        "needRank": 4
+      },
+      {
+        "skillId": 202011,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1016,
@@ -947,7 +1667,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1016,
-    "skillIds": "100161,200361,200362,200511,200512,200572,201102,201641"
+    "skillIds": "100161,200361,200362,200511,200512,200572,201102,201641",
+    "potentialSkills": [
+      {
+        "skillId": 200362,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 0
+      },
+      {
+        "skillId": 200512,
+        "needRank": 2
+      },
+      {
+        "skillId": 200361,
+        "needRank": 3
+      },
+      {
+        "skillId": 201641,
+        "needRank": 4
+      },
+      {
+        "skillId": 200511,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1017,
@@ -985,7 +1735,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1017,
-    "skillIds": "100171,200331,200332,200572,200891,201151,201152,201322"
+    "skillIds": "100171,200331,200332,200572,200891,201151,201152,201322",
+    "potentialSkills": [
+      {
+        "skillId": 200332,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201152,
+        "needRank": 0
+      },
+      {
+        "skillId": 200891,
+        "needRank": 2
+      },
+      {
+        "skillId": 201151,
+        "needRank": 3
+      },
+      {
+        "skillId": 201322,
+        "needRank": 4
+      },
+      {
+        "skillId": 200331,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1017,
@@ -1023,7 +1803,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1017,
-    "skillIds": "110171,200192,200194,200561,200562,200752,201312,201342"
+    "skillIds": "110171,200192,200194,200561,200562,200752,201312,201342",
+    "potentialSkills": [
+      {
+        "skillId": 200192,
+        "needRank": 0
+      },
+      {
+        "skillId": 200562,
+        "needRank": 0
+      },
+      {
+        "skillId": 200752,
+        "needRank": 0
+      },
+      {
+        "skillId": 201342,
+        "needRank": 2
+      },
+      {
+        "skillId": 200561,
+        "needRank": 3
+      },
+      {
+        "skillId": 201312,
+        "needRank": 4
+      },
+      {
+        "skillId": 200194,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1018,
@@ -1061,7 +1871,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1018,
-    "skillIds": "100181,200501,200502,200722,200931,200941,201371,201372"
+    "skillIds": "100181,200501,200502,200722,200931,200941,201371,201372",
+    "potentialSkills": [
+      {
+        "skillId": 200502,
+        "needRank": 0
+      },
+      {
+        "skillId": 200722,
+        "needRank": 0
+      },
+      {
+        "skillId": 201372,
+        "needRank": 0
+      },
+      {
+        "skillId": 200941,
+        "needRank": 2
+      },
+      {
+        "skillId": 201371,
+        "needRank": 3
+      },
+      {
+        "skillId": 200931,
+        "needRank": 4
+      },
+      {
+        "skillId": 200501,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1018,
@@ -1099,7 +1939,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1018,
-    "skillIds": "100181,110181,200341,200342,200462,201071,201072,201322,201532"
+    "skillIds": "100181,110181,200341,200342,200462,201071,201072,201322,201532",
+    "potentialSkills": [
+      {
+        "skillId": 200342,
+        "needRank": 0
+      },
+      {
+        "skillId": 201072,
+        "needRank": 0
+      },
+      {
+        "skillId": 201322,
+        "needRank": 0
+      },
+      {
+        "skillId": 201532,
+        "needRank": 2
+      },
+      {
+        "skillId": 201071,
+        "needRank": 3
+      },
+      {
+        "skillId": 200462,
+        "needRank": 4
+      },
+      {
+        "skillId": 200341,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1019,
@@ -1137,7 +2007,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1019,
-    "skillIds": "100191,200162,201102,201382,201591,201592,201681,201682"
+    "skillIds": "100191,200162,201102,201382,201591,201592,201681,201682",
+    "potentialSkills": [
+      {
+        "skillId": 201382,
+        "needRank": 0
+      },
+      {
+        "skillId": 201591,
+        "needRank": 0
+      },
+      {
+        "skillId": 201682,
+        "needRank": 0
+      },
+      {
+        "skillId": 200162,
+        "needRank": 2
+      },
+      {
+        "skillId": 201592,
+        "needRank": 3
+      },
+      {
+        "skillId": 201102,
+        "needRank": 4
+      },
+      {
+        "skillId": 201681,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1020,
@@ -1175,7 +2075,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1020,
-    "skillIds": "100201,200541,200542,200881,201191,201192,201522,201611"
+    "skillIds": "100201,200541,200542,200881,201191,201192,201522,201611",
+    "potentialSkills": [
+      {
+        "skillId": 200542,
+        "needRank": 0
+      },
+      {
+        "skillId": 200881,
+        "needRank": 0
+      },
+      {
+        "skillId": 201192,
+        "needRank": 0
+      },
+      {
+        "skillId": 201522,
+        "needRank": 2
+      },
+      {
+        "skillId": 201191,
+        "needRank": 3
+      },
+      {
+        "skillId": 201611,
+        "needRank": 4
+      },
+      {
+        "skillId": 200541,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1020,
@@ -1213,7 +2143,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1020,
-    "skillIds": "110201,200172,200532,200541,200542,200712,201271,201272"
+    "skillIds": "110201,200172,200532,200541,200542,200712,201271,201272",
+    "potentialSkills": [
+      {
+        "skillId": 200172,
+        "needRank": 0
+      },
+      {
+        "skillId": 200542,
+        "needRank": 0
+      },
+      {
+        "skillId": 200712,
+        "needRank": 0
+      },
+      {
+        "skillId": 201272,
+        "needRank": 2
+      },
+      {
+        "skillId": 200541,
+        "needRank": 3
+      },
+      {
+        "skillId": 200532,
+        "needRank": 4
+      },
+      {
+        "skillId": 201271,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1021,
@@ -1251,7 +2211,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1021,
-    "skillIds": "100211,200572,200591,200592,200642,201132,201611,201612"
+    "skillIds": "100211,200572,200591,200592,200642,201132,201611,201612",
+    "potentialSkills": [
+      {
+        "skillId": 200592,
+        "needRank": 0
+      },
+      {
+        "skillId": 201132,
+        "needRank": 0
+      },
+      {
+        "skillId": 201611,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 2
+      },
+      {
+        "skillId": 200591,
+        "needRank": 3
+      },
+      {
+        "skillId": 200642,
+        "needRank": 4
+      },
+      {
+        "skillId": 201612,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1022,
@@ -1289,7 +2279,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1022,
-    "skillIds": "100221,200012,200192,200581,200582,201112,201341,201342"
+    "skillIds": "100221,200012,200192,200581,200582,201112,201341,201342",
+    "potentialSkills": [
+      {
+        "skillId": 200192,
+        "needRank": 0
+      },
+      {
+        "skillId": 200582,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 201342,
+        "needRank": 2
+      },
+      {
+        "skillId": 200581,
+        "needRank": 3
+      },
+      {
+        "skillId": 200012,
+        "needRank": 4
+      },
+      {
+        "skillId": 201341,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1022,
@@ -1327,7 +2347,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1022,
-    "skillIds": "110221,200152,200192,201042,201051,201052,201901,201902"
+    "skillIds": "110221,200152,200192,201042,201051,201052,201901,201902",
+    "potentialSkills": [
+      {
+        "skillId": 200152,
+        "needRank": 0
+      },
+      {
+        "skillId": 201052,
+        "needRank": 0
+      },
+      {
+        "skillId": 201902,
+        "needRank": 0
+      },
+      {
+        "skillId": 201042,
+        "needRank": 2
+      },
+      {
+        "skillId": 201051,
+        "needRank": 3
+      },
+      {
+        "skillId": 200192,
+        "needRank": 4
+      },
+      {
+        "skillId": 201901,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1023,
@@ -1365,7 +2415,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1023,
-    "skillIds": "100231,200162,200262,200561,200562,200741,200742,200821"
+    "skillIds": "100231,200162,200262,200561,200562,200741,200742,200821",
+    "potentialSkills": [
+      {
+        "skillId": 200162,
+        "needRank": 0
+      },
+      {
+        "skillId": 200562,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 0
+      },
+      {
+        "skillId": 200262,
+        "needRank": 2
+      },
+      {
+        "skillId": 200561,
+        "needRank": 3
+      },
+      {
+        "skillId": 200821,
+        "needRank": 4
+      },
+      {
+        "skillId": 200741,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1023,
@@ -1403,7 +2483,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1023,
-    "skillIds": "110231,200511,200512,200572,201201,201202,201312,201532"
+    "skillIds": "110231,200511,200512,200572,201201,201202,201312,201532",
+    "potentialSkills": [
+      {
+        "skillId": 200512,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201202,
+        "needRank": 0
+      },
+      {
+        "skillId": 201532,
+        "needRank": 2
+      },
+      {
+        "skillId": 201201,
+        "needRank": 3
+      },
+      {
+        "skillId": 201312,
+        "needRank": 4
+      },
+      {
+        "skillId": 200511,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1024,
@@ -1441,7 +2551,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1024,
-    "skillIds": "100241,200381,200382,200491,200492,200502,200742,201272"
+    "skillIds": "100241,200381,200382,200491,200492,200502,200742,201272",
+    "potentialSkills": [
+      {
+        "skillId": 200382,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 0
+      },
+      {
+        "skillId": 201272,
+        "needRank": 0
+      },
+      {
+        "skillId": 200492,
+        "needRank": 2
+      },
+      {
+        "skillId": 200381,
+        "needRank": 3
+      },
+      {
+        "skillId": 200502,
+        "needRank": 4
+      },
+      {
+        "skillId": 200491,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1024,
@@ -1479,7 +2619,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1024,
-    "skillIds": "110241,200332,200351,200352,200432,201161,201162,201332"
+    "skillIds": "110241,200332,200351,200352,200432,201161,201162,201332",
+    "potentialSkills": [
+      {
+        "skillId": 200352,
+        "needRank": 0
+      },
+      {
+        "skillId": 201162,
+        "needRank": 0
+      },
+      {
+        "skillId": 201332,
+        "needRank": 0
+      },
+      {
+        "skillId": 200432,
+        "needRank": 2
+      },
+      {
+        "skillId": 201161,
+        "needRank": 3
+      },
+      {
+        "skillId": 200332,
+        "needRank": 4
+      },
+      {
+        "skillId": 200351,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1025,
@@ -1517,7 +2687,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1025,
-    "skillIds": "100251,200232,201202,201221,201222,201421,201422,201581"
+    "skillIds": "100251,200232,201202,201221,201222,201421,201422,201581",
+    "potentialSkills": [
+      {
+        "skillId": 200232,
+        "needRank": 0
+      },
+      {
+        "skillId": 201222,
+        "needRank": 0
+      },
+      {
+        "skillId": 201422,
+        "needRank": 0
+      },
+      {
+        "skillId": 201581,
+        "needRank": 2
+      },
+      {
+        "skillId": 201421,
+        "needRank": 3
+      },
+      {
+        "skillId": 201202,
+        "needRank": 4
+      },
+      {
+        "skillId": 201221,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1026,
@@ -1555,7 +2755,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1026,
-    "skillIds": "100261,200232,200531,200532,200711,200712,201242,201252"
+    "skillIds": "100261,200232,200531,200532,200711,200712,201242,201252",
+    "potentialSkills": [
+      {
+        "skillId": 200232,
+        "needRank": 0
+      },
+      {
+        "skillId": 200532,
+        "needRank": 0
+      },
+      {
+        "skillId": 200712,
+        "needRank": 0
+      },
+      {
+        "skillId": 201242,
+        "needRank": 2
+      },
+      {
+        "skillId": 200531,
+        "needRank": 3
+      },
+      {
+        "skillId": 201252,
+        "needRank": 4
+      },
+      {
+        "skillId": 200711,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1026,
@@ -1593,7 +2823,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1026,
-    "skillIds": "110261,200431,200432,200541,200542,200762,201522,201601"
+    "skillIds": "110261,200431,200432,200541,200542,200762,201522,201601",
+    "potentialSkills": [
+      {
+        "skillId": 200432,
+        "needRank": 0
+      },
+      {
+        "skillId": 200542,
+        "needRank": 0
+      },
+      {
+        "skillId": 200762,
+        "needRank": 0
+      },
+      {
+        "skillId": 201522,
+        "needRank": 2
+      },
+      {
+        "skillId": 200541,
+        "needRank": 3
+      },
+      {
+        "skillId": 201601,
+        "needRank": 4
+      },
+      {
+        "skillId": 200431,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1027,
@@ -1631,7 +2891,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1027,
-    "skillIds": "100271,200232,200472,200611,200612,200721,200722,201102"
+    "skillIds": "100271,200232,200472,200611,200612,200721,200722,201102",
+    "potentialSkills": [
+      {
+        "skillId": 200232,
+        "needRank": 0
+      },
+      {
+        "skillId": 200612,
+        "needRank": 0
+      },
+      {
+        "skillId": 200722,
+        "needRank": 0
+      },
+      {
+        "skillId": 200472,
+        "needRank": 2
+      },
+      {
+        "skillId": 200721,
+        "needRank": 3
+      },
+      {
+        "skillId": 201102,
+        "needRank": 4
+      },
+      {
+        "skillId": 200611,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1028,
@@ -1669,7 +2959,37 @@
     "bust": 4,
     "charaCategory": 0,
     "uraObjectives": 1028,
-    "skillIds": "100281,200212,201001,201002,201012,201351,201352,201362"
+    "skillIds": "100281,200212,201001,201002,201012,201351,201352,201362",
+    "potentialSkills": [
+      {
+        "skillId": 200212,
+        "needRank": 0
+      },
+      {
+        "skillId": 201002,
+        "needRank": 0
+      },
+      {
+        "skillId": 201352,
+        "needRank": 0
+      },
+      {
+        "skillId": 201362,
+        "needRank": 2
+      },
+      {
+        "skillId": 201001,
+        "needRank": 3
+      },
+      {
+        "skillId": 201012,
+        "needRank": 4
+      },
+      {
+        "skillId": 201351,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1030,
@@ -1707,7 +3027,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1030,
-    "skillIds": "100301,200741,200742,200861,201341,201342,201352,201581"
+    "skillIds": "100301,200741,200742,200861,201341,201342,201352,201581",
+    "potentialSkills": [
+      {
+        "skillId": 200742,
+        "needRank": 0
+      },
+      {
+        "skillId": 200861,
+        "needRank": 0
+      },
+      {
+        "skillId": 201342,
+        "needRank": 0
+      },
+      {
+        "skillId": 201581,
+        "needRank": 2
+      },
+      {
+        "skillId": 201341,
+        "needRank": 3
+      },
+      {
+        "skillId": 201352,
+        "needRank": 4
+      },
+      {
+        "skillId": 200741,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1030,
@@ -1745,7 +3095,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1030,
-    "skillIds": "110301,200352,200561,200562,200771,200772,200851,201172"
+    "skillIds": "110301,200352,200561,200562,200771,200772,200851,201172",
+    "potentialSkills": [
+      {
+        "skillId": 200562,
+        "needRank": 0
+      },
+      {
+        "skillId": 200771,
+        "needRank": 0
+      },
+      {
+        "skillId": 201172,
+        "needRank": 0
+      },
+      {
+        "skillId": 200352,
+        "needRank": 2
+      },
+      {
+        "skillId": 200561,
+        "needRank": 3
+      },
+      {
+        "skillId": 200851,
+        "needRank": 4
+      },
+      {
+        "skillId": 200772,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1031,
@@ -1783,7 +3163,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1031,
-    "skillIds": "100311,200032,201082,201281,201282,201651,202131,202132"
+    "skillIds": "100311,200032,201082,201281,201282,201651,202131,202132",
+    "potentialSkills": [
+      {
+        "skillId": 201282,
+        "needRank": 0
+      },
+      {
+        "skillId": 201651,
+        "needRank": 0
+      },
+      {
+        "skillId": 202132,
+        "needRank": 0
+      },
+      {
+        "skillId": 200032,
+        "needRank": 2
+      },
+      {
+        "skillId": 201281,
+        "needRank": 3
+      },
+      {
+        "skillId": 201082,
+        "needRank": 4
+      },
+      {
+        "skillId": 202131,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1032,
@@ -1821,7 +3231,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1032,
-    "skillIds": "100321,200132,200571,200572,201102,201112,201151,201152"
+    "skillIds": "100321,200132,200571,200572,201102,201112,201151,201152",
+    "potentialSkills": [
+      {
+        "skillId": 200132,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201152,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 2
+      },
+      {
+        "skillId": 201151,
+        "needRank": 3
+      },
+      {
+        "skillId": 201112,
+        "needRank": 4
+      },
+      {
+        "skillId": 200571,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1033,
@@ -1859,7 +3299,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1033,
-    "skillIds": "100331,200492,200631,200632,200861,201152,201491,201492"
+    "skillIds": "100331,200492,200631,200632,200861,201152,201491,201492",
+    "potentialSkills": [
+      {
+        "skillId": 200492,
+        "needRank": 0
+      },
+      {
+        "skillId": 201152,
+        "needRank": 0
+      },
+      {
+        "skillId": 201492,
+        "needRank": 0
+      },
+      {
+        "skillId": 200632,
+        "needRank": 2
+      },
+      {
+        "skillId": 201491,
+        "needRank": 3
+      },
+      {
+        "skillId": 200861,
+        "needRank": 4
+      },
+      {
+        "skillId": 200631,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1035,
@@ -1897,7 +3367,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1035,
-    "skillIds": "100351,200152,200591,200592,200732,201392,201401,201402"
+    "skillIds": "100351,200152,200591,200592,200732,201392,201401,201402",
+    "potentialSkills": [
+      {
+        "skillId": 200152,
+        "needRank": 0
+      },
+      {
+        "skillId": 200732,
+        "needRank": 0
+      },
+      {
+        "skillId": 201402,
+        "needRank": 0
+      },
+      {
+        "skillId": 200592,
+        "needRank": 2
+      },
+      {
+        "skillId": 201401,
+        "needRank": 3
+      },
+      {
+        "skillId": 201392,
+        "needRank": 4
+      },
+      {
+        "skillId": 200591,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1037,
@@ -1935,7 +3435,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1037,
-    "skillIds": "100371,200432,200501,200502,200511,200512,201112,201542"
+    "skillIds": "100371,200432,200501,200502,200511,200512,201112,201542",
+    "potentialSkills": [
+      {
+        "skillId": 200502,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 201542,
+        "needRank": 0
+      },
+      {
+        "skillId": 200512,
+        "needRank": 2
+      },
+      {
+        "skillId": 200501,
+        "needRank": 3
+      },
+      {
+        "skillId": 200432,
+        "needRank": 4
+      },
+      {
+        "skillId": 200511,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1037,
@@ -1973,7 +3503,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1037,
-    "skillIds": "110371,200302,200592,201102,201103,201151,201152,201392"
+    "skillIds": "110371,200302,200592,201102,201103,201151,201152,201392",
+    "potentialSkills": [
+      {
+        "skillId": 200302,
+        "needRank": 0
+      },
+      {
+        "skillId": 200592,
+        "needRank": 0
+      },
+      {
+        "skillId": 201152,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 2
+      },
+      {
+        "skillId": 201151,
+        "needRank": 3
+      },
+      {
+        "skillId": 201392,
+        "needRank": 4
+      },
+      {
+        "skillId": 201103,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1038,
@@ -2011,7 +3571,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1038,
-    "skillIds": "100381,200462,200582,201002,201011,201012,201371,201372"
+    "skillIds": "100381,200462,200582,201002,201011,201012,201371,201372",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 201012,
+        "needRank": 0
+      },
+      {
+        "skillId": 201372,
+        "needRank": 0
+      },
+      {
+        "skillId": 201002,
+        "needRank": 2
+      },
+      {
+        "skillId": 201371,
+        "needRank": 3
+      },
+      {
+        "skillId": 200582,
+        "needRank": 4
+      },
+      {
+        "skillId": 201011,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1038,
@@ -2049,7 +3639,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1038,
-    "skillIds": "110381,200651,200652,200851,201011,201012,201322,201532"
+    "skillIds": "110381,200651,200652,200851,201011,201012,201322,201532",
+    "potentialSkills": [
+      {
+        "skillId": 200851,
+        "needRank": 0
+      },
+      {
+        "skillId": 201012,
+        "needRank": 0
+      },
+      {
+        "skillId": 201322,
+        "needRank": 0
+      },
+      {
+        "skillId": 200652,
+        "needRank": 2
+      },
+      {
+        "skillId": 201011,
+        "needRank": 3
+      },
+      {
+        "skillId": 201532,
+        "needRank": 4
+      },
+      {
+        "skillId": 200651,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1039,
@@ -2087,7 +3707,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1039,
-    "skillIds": "100391,200132,200491,200492,200611,200612,201072,201382"
+    "skillIds": "100391,200132,200491,200492,200611,200612,201072,201382",
+    "potentialSkills": [
+      {
+        "skillId": 200492,
+        "needRank": 0
+      },
+      {
+        "skillId": 200612,
+        "needRank": 0
+      },
+      {
+        "skillId": 201072,
+        "needRank": 0
+      },
+      {
+        "skillId": 201382,
+        "needRank": 2
+      },
+      {
+        "skillId": 200491,
+        "needRank": 3
+      },
+      {
+        "skillId": 200132,
+        "needRank": 4
+      },
+      {
+        "skillId": 200611,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1040,
@@ -2125,7 +3775,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1040,
-    "skillIds": "100401,200052,200601,200602,200691,200692,201062,201651"
+    "skillIds": "100401,200052,200601,200602,200691,200692,201062,201651",
+    "potentialSkills": [
+      {
+        "skillId": 200052,
+        "needRank": 0
+      },
+      {
+        "skillId": 200602,
+        "needRank": 0
+      },
+      {
+        "skillId": 200692,
+        "needRank": 0
+      },
+      {
+        "skillId": 201651,
+        "needRank": 2
+      },
+      {
+        "skillId": 200691,
+        "needRank": 3
+      },
+      {
+        "skillId": 201062,
+        "needRank": 4
+      },
+      {
+        "skillId": 200601,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1040,
@@ -2163,7 +3843,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1040,
-    "skillIds": "110401,200232,201091,201092,201392,201542,201691,201692"
+    "skillIds": "110401,200232,201091,201092,201392,201542,201691,201692",
+    "potentialSkills": [
+      {
+        "skillId": 200232,
+        "needRank": 0
+      },
+      {
+        "skillId": 201092,
+        "needRank": 0
+      },
+      {
+        "skillId": 201692,
+        "needRank": 0
+      },
+      {
+        "skillId": 201542,
+        "needRank": 2
+      },
+      {
+        "skillId": 201091,
+        "needRank": 3
+      },
+      {
+        "skillId": 201392,
+        "needRank": 4
+      },
+      {
+        "skillId": 201691,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1041,
@@ -2201,7 +3911,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1041,
-    "skillIds": "100411,200651,200652,200841,200981,200982,200992,201312"
+    "skillIds": "100411,200651,200652,200841,200981,200982,200992,201312",
+    "potentialSkills": [
+      {
+        "skillId": 200652,
+        "needRank": 0
+      },
+      {
+        "skillId": 200841,
+        "needRank": 0
+      },
+      {
+        "skillId": 201312,
+        "needRank": 0
+      },
+      {
+        "skillId": 200982,
+        "needRank": 2
+      },
+      {
+        "skillId": 200651,
+        "needRank": 3
+      },
+      {
+        "skillId": 200992,
+        "needRank": 4
+      },
+      {
+        "skillId": 200981,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1045,
@@ -2239,7 +3979,37 @@
     "bust": 4,
     "charaCategory": 0,
     "uraObjectives": 1045,
-    "skillIds": "100451,200351,200352,200462,200742,200881,201371,201372"
+    "skillIds": "100451,200351,200352,200462,200742,200881,201371,201372",
+    "potentialSkills": [
+      {
+        "skillId": 200352,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 0
+      },
+      {
+        "skillId": 201372,
+        "needRank": 0
+      },
+      {
+        "skillId": 200462,
+        "needRank": 2
+      },
+      {
+        "skillId": 201371,
+        "needRank": 3
+      },
+      {
+        "skillId": 200881,
+        "needRank": 4
+      },
+      {
+        "skillId": 200351,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1045,
@@ -2277,7 +4047,37 @@
     "bust": 4,
     "charaCategory": 0,
     "uraObjectives": 1045,
-    "skillIds": "110451,200331,200332,201102,201161,201162,201322,201352"
+    "skillIds": "110451,200331,200332,201102,201161,201162,201322,201352",
+    "potentialSkills": [
+      {
+        "skillId": 200332,
+        "needRank": 0
+      },
+      {
+        "skillId": 201162,
+        "needRank": 0
+      },
+      {
+        "skillId": 201352,
+        "needRank": 0
+      },
+      {
+        "skillId": 201322,
+        "needRank": 2
+      },
+      {
+        "skillId": 200331,
+        "needRank": 3
+      },
+      {
+        "skillId": 201102,
+        "needRank": 4
+      },
+      {
+        "skillId": 201161,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1046,
@@ -2315,7 +4115,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1046,
-    "skillIds": "100461,200162,200451,200452,200952,201522,201671,201672"
+    "skillIds": "100461,200162,200451,200452,200952,201522,201671,201672",
+    "potentialSkills": [
+      {
+        "skillId": 200452,
+        "needRank": 0
+      },
+      {
+        "skillId": 201522,
+        "needRank": 0
+      },
+      {
+        "skillId": 201672,
+        "needRank": 0
+      },
+      {
+        "skillId": 200162,
+        "needRank": 2
+      },
+      {
+        "skillId": 200451,
+        "needRank": 3
+      },
+      {
+        "skillId": 200952,
+        "needRank": 4
+      },
+      {
+        "skillId": 201671,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1048,
@@ -2353,7 +4183,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1048,
-    "skillIds": "100481,200302,200571,200572,200601,200602,201102,201702"
+    "skillIds": "100481,200302,200571,200572,200601,200602,201102,201702",
+    "potentialSkills": [
+      {
+        "skillId": 200302,
+        "needRank": 0
+      },
+      {
+        "skillId": 200602,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 2
+      },
+      {
+        "skillId": 200601,
+        "needRank": 3
+      },
+      {
+        "skillId": 201702,
+        "needRank": 4
+      },
+      {
+        "skillId": 200571,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1050,
@@ -2391,7 +4251,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1050,
-    "skillIds": "100501,200621,200622,200641,200642,201162,201452,201641"
+    "skillIds": "100501,200621,200622,200641,200642,201162,201452,201641",
+    "potentialSkills": [
+      {
+        "skillId": 200622,
+        "needRank": 0
+      },
+      {
+        "skillId": 201162,
+        "needRank": 0
+      },
+      {
+        "skillId": 201641,
+        "needRank": 0
+      },
+      {
+        "skillId": 200642,
+        "needRank": 2
+      },
+      {
+        "skillId": 200621,
+        "needRank": 3
+      },
+      {
+        "skillId": 201452,
+        "needRank": 4
+      },
+      {
+        "skillId": 200641,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1051,
@@ -2429,7 +4319,37 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1051,
-    "skillIds": "100511,200361,200362,200652,201062,201341,201342,201392"
+    "skillIds": "100511,200361,200362,200652,201062,201341,201342,201392",
+    "potentialSkills": [
+      {
+        "skillId": 200362,
+        "needRank": 0
+      },
+      {
+        "skillId": 201062,
+        "needRank": 0
+      },
+      {
+        "skillId": 201342,
+        "needRank": 0
+      },
+      {
+        "skillId": 200652,
+        "needRank": 2
+      },
+      {
+        "skillId": 200361,
+        "needRank": 3
+      },
+      {
+        "skillId": 201392,
+        "needRank": 4
+      },
+      {
+        "skillId": 201341,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1052,
@@ -2467,7 +4387,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1052,
-    "skillIds": "100521,200302,200441,200442,200471,200472,200652,201412"
+    "skillIds": "100521,200302,200441,200442,200471,200472,200652,201412",
+    "potentialSkills": [
+      {
+        "skillId": 200442,
+        "needRank": 0
+      },
+      {
+        "skillId": 200652,
+        "needRank": 0
+      },
+      {
+        "skillId": 201412,
+        "needRank": 0
+      },
+      {
+        "skillId": 200472,
+        "needRank": 2
+      },
+      {
+        "skillId": 200441,
+        "needRank": 3
+      },
+      {
+        "skillId": 200302,
+        "needRank": 4
+      },
+      {
+        "skillId": 200471,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1052,
@@ -2505,7 +4455,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1052,
-    "skillIds": "110521,200242,200451,200452,201072,201401,201402,201621"
+    "skillIds": "110521,200242,200451,200452,201072,201401,201402,201621",
+    "potentialSkills": [
+      {
+        "skillId": 200452,
+        "needRank": 0
+      },
+      {
+        "skillId": 201072,
+        "needRank": 0
+      },
+      {
+        "skillId": 201402,
+        "needRank": 0
+      },
+      {
+        "skillId": 201621,
+        "needRank": 2
+      },
+      {
+        "skillId": 200451,
+        "needRank": 3
+      },
+      {
+        "skillId": 200242,
+        "needRank": 4
+      },
+      {
+        "skillId": 201401,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1056,
@@ -2543,7 +4523,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1056,
-    "skillIds": "100561,200781,201231,201232,201422,201561,201562,201571"
+    "skillIds": "100561,200781,201231,201232,201422,201561,201562,201571",
+    "potentialSkills": [
+      {
+        "skillId": 201232,
+        "needRank": 0
+      },
+      {
+        "skillId": 201422,
+        "needRank": 0
+      },
+      {
+        "skillId": 201562,
+        "needRank": 0
+      },
+      {
+        "skillId": 201571,
+        "needRank": 2
+      },
+      {
+        "skillId": 201231,
+        "needRank": 3
+      },
+      {
+        "skillId": 200781,
+        "needRank": 4
+      },
+      {
+        "skillId": 201561,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1056,
@@ -2581,7 +4591,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1056,
-    "skillIds": "110561,200012,200062,200602,200751,200752,201211,201212"
+    "skillIds": "110561,200012,200062,200602,200751,200752,201211,201212",
+    "potentialSkills": [
+      {
+        "skillId": 200012,
+        "needRank": 0
+      },
+      {
+        "skillId": 200602,
+        "needRank": 0
+      },
+      {
+        "skillId": 201212,
+        "needRank": 0
+      },
+      {
+        "skillId": 200752,
+        "needRank": 2
+      },
+      {
+        "skillId": 201211,
+        "needRank": 3
+      },
+      {
+        "skillId": 200062,
+        "needRank": 4
+      },
+      {
+        "skillId": 200751,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1058,
@@ -2619,7 +4659,37 @@
     "bust": 4,
     "charaCategory": 0,
     "uraObjectives": 1058,
-    "skillIds": "100581,200142,200471,200472,200581,200582,200861,201112"
+    "skillIds": "100581,200142,200471,200472,200581,200582,200861,201112",
+    "potentialSkills": [
+      {
+        "skillId": 200472,
+        "needRank": 0
+      },
+      {
+        "skillId": 200582,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 200142,
+        "needRank": 2
+      },
+      {
+        "skillId": 200581,
+        "needRank": 3
+      },
+      {
+        "skillId": 200861,
+        "needRank": 4
+      },
+      {
+        "skillId": 200471,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1059,
@@ -2657,7 +4727,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1059,
-    "skillIds": "100591,200062,200064,200722,201142,201382,201441,201442"
+    "skillIds": "100591,200062,200064,200722,201142,201382,201441,201442",
+    "potentialSkills": [
+      {
+        "skillId": 200062,
+        "needRank": 0
+      },
+      {
+        "skillId": 201142,
+        "needRank": 0
+      },
+      {
+        "skillId": 201442,
+        "needRank": 0
+      },
+      {
+        "skillId": 201382,
+        "needRank": 2
+      },
+      {
+        "skillId": 201441,
+        "needRank": 3
+      },
+      {
+        "skillId": 200722,
+        "needRank": 4
+      },
+      {
+        "skillId": 200064,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1060,
@@ -2695,7 +4795,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1060,
-    "skillIds": "100601,200122,200911,201161,201162,201422,201441,201442"
+    "skillIds": "100601,200122,200911,201161,201162,201422,201441,201442",
+    "potentialSkills": [
+      {
+        "skillId": 200122,
+        "needRank": 0
+      },
+      {
+        "skillId": 201162,
+        "needRank": 0
+      },
+      {
+        "skillId": 201442,
+        "needRank": 0
+      },
+      {
+        "skillId": 200911,
+        "needRank": 2
+      },
+      {
+        "skillId": 201161,
+        "needRank": 3
+      },
+      {
+        "skillId": 201422,
+        "needRank": 4
+      },
+      {
+        "skillId": 201441,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1060,
@@ -2733,7 +4863,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1060,
-    "skillIds": "110601,200302,200491,200492,201151,201152,201542,202082"
+    "skillIds": "110601,200302,200491,200492,201151,201152,201542,202082",
+    "potentialSkills": [
+      {
+        "skillId": 200492,
+        "needRank": 0
+      },
+      {
+        "skillId": 201152,
+        "needRank": 0
+      },
+      {
+        "skillId": 201542,
+        "needRank": 0
+      },
+      {
+        "skillId": 202082,
+        "needRank": 2
+      },
+      {
+        "skillId": 201151,
+        "needRank": 3
+      },
+      {
+        "skillId": 200302,
+        "needRank": 4
+      },
+      {
+        "skillId": 200491,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1061,
@@ -2771,7 +4931,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1061,
-    "skillIds": "100611,200262,200671,200672,201072,201142,201431,201432"
+    "skillIds": "100611,200262,200671,200672,201072,201142,201431,201432",
+    "potentialSkills": [
+      {
+        "skillId": 200262,
+        "needRank": 0
+      },
+      {
+        "skillId": 200672,
+        "needRank": 0
+      },
+      {
+        "skillId": 201432,
+        "needRank": 0
+      },
+      {
+        "skillId": 201142,
+        "needRank": 2
+      },
+      {
+        "skillId": 200671,
+        "needRank": 3
+      },
+      {
+        "skillId": 201072,
+        "needRank": 4
+      },
+      {
+        "skillId": 201431,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1061,
@@ -2809,7 +4999,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1061,
-    "skillIds": "110611,200172,200174,200611,200612,200672,200692,201382"
+    "skillIds": "110611,200172,200174,200611,200612,200672,200692,201382",
+    "potentialSkills": [
+      {
+        "skillId": 200172,
+        "needRank": 0
+      },
+      {
+        "skillId": 200612,
+        "needRank": 0
+      },
+      {
+        "skillId": 200672,
+        "needRank": 0
+      },
+      {
+        "skillId": 200692,
+        "needRank": 2
+      },
+      {
+        "skillId": 200611,
+        "needRank": 3
+      },
+      {
+        "skillId": 201382,
+        "needRank": 4
+      },
+      {
+        "skillId": 200174,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1062,
@@ -2847,7 +5067,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1062,
-    "skillIds": "100621,200481,200482,200512,200602,201211,201212,201621"
+    "skillIds": "100621,200481,200482,200512,200602,201211,201212,201621",
+    "potentialSkills": [
+      {
+        "skillId": 200482,
+        "needRank": 0
+      },
+      {
+        "skillId": 200602,
+        "needRank": 0
+      },
+      {
+        "skillId": 201212,
+        "needRank": 0
+      },
+      {
+        "skillId": 201621,
+        "needRank": 2
+      },
+      {
+        "skillId": 200481,
+        "needRank": 3
+      },
+      {
+        "skillId": 200512,
+        "needRank": 4
+      },
+      {
+        "skillId": 201211,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1064,
@@ -2885,7 +5135,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1064,
-    "skillIds": "100641,200302,200532,201191,201192,201242,201661,201662"
+    "skillIds": "100641,200302,200532,201191,201192,201242,201661,201662",
+    "potentialSkills": [
+      {
+        "skillId": 201192,
+        "needRank": 0
+      },
+      {
+        "skillId": 201242,
+        "needRank": 0
+      },
+      {
+        "skillId": 201661,
+        "needRank": 0
+      },
+      {
+        "skillId": 200532,
+        "needRank": 2
+      },
+      {
+        "skillId": 201662,
+        "needRank": 3
+      },
+      {
+        "skillId": 200302,
+        "needRank": 4
+      },
+      {
+        "skillId": 201191,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1067,
@@ -2923,7 +5203,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1067,
-    "skillIds": "100671,200012,200014,200152,201102,201691,201692,202012"
+    "skillIds": "100671,200012,200014,200152,201102,201691,201692,202012",
+    "potentialSkills": [
+      {
+        "skillId": 200012,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 0
+      },
+      {
+        "skillId": 201692,
+        "needRank": 0
+      },
+      {
+        "skillId": 202012,
+        "needRank": 2
+      },
+      {
+        "skillId": 201691,
+        "needRank": 3
+      },
+      {
+        "skillId": 200152,
+        "needRank": 4
+      },
+      {
+        "skillId": 200014,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1068,
@@ -2961,7 +5271,37 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1068,
-    "skillIds": "100681,200432,200531,200532,201102,201172,201173,201272"
+    "skillIds": "100681,200432,200531,200532,201102,201172,201173,201272",
+    "potentialSkills": [
+      {
+        "skillId": 200432,
+        "needRank": 0
+      },
+      {
+        "skillId": 200532,
+        "needRank": 0
+      },
+      {
+        "skillId": 201172,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 2
+      },
+      {
+        "skillId": 200531,
+        "needRank": 3
+      },
+      {
+        "skillId": 201272,
+        "needRank": 4
+      },
+      {
+        "skillId": 201173,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1069,
@@ -2999,7 +5339,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1069,
-    "skillIds": "100691,200172,200174,200342,200581,200582,201112,201532"
+    "skillIds": "100691,200172,200174,200342,200581,200582,201112,201532",
+    "potentialSkills": [
+      {
+        "skillId": 200172,
+        "needRank": 0
+      },
+      {
+        "skillId": 200582,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 200342,
+        "needRank": 2
+      },
+      {
+        "skillId": 200581,
+        "needRank": 3
+      },
+      {
+        "skillId": 201532,
+        "needRank": 4
+      },
+      {
+        "skillId": 200174,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1071,
@@ -3037,7 +5407,37 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1071,
-    "skillIds": "100711,200022,200571,200572,201142,201322,201701,201702"
+    "skillIds": "100711,200022,200571,200572,201142,201322,201701,201702",
+    "potentialSkills": [
+      {
+        "skillId": 200022,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201702,
+        "needRank": 0
+      },
+      {
+        "skillId": 201322,
+        "needRank": 2
+      },
+      {
+        "skillId": 200571,
+        "needRank": 3
+      },
+      {
+        "skillId": 201142,
+        "needRank": 4
+      },
+      {
+        "skillId": 201701,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1072,
@@ -3075,7 +5475,37 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1072,
-    "skillIds": "100721,200342,200461,200462,200731,200732,201322,202092"
+    "skillIds": "100721,200342,200461,200462,200731,200732,201322,202092",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 200732,
+        "needRank": 0
+      },
+      {
+        "skillId": 201322,
+        "needRank": 0
+      },
+      {
+        "skillId": 202092,
+        "needRank": 2
+      },
+      {
+        "skillId": 200461,
+        "needRank": 3
+      },
+      {
+        "skillId": 200342,
+        "needRank": 4
+      },
+      {
+        "skillId": 200731,
+        "needRank": 5
+      }
+    ]
   },
   {
     "charaId": 1074,
@@ -3113,6 +5543,36 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1074,
-    "skillIds": "100741,200471,200472,201212,201222,201462,202071,202072"
+    "skillIds": "100741,200471,200472,201212,201222,201462,202071,202072",
+    "potentialSkills": [
+      {
+        "skillId": 200472,
+        "needRank": 0
+      },
+      {
+        "skillId": 201462,
+        "needRank": 0
+      },
+      {
+        "skillId": 202072,
+        "needRank": 0
+      },
+      {
+        "skillId": 201212,
+        "needRank": 2
+      },
+      {
+        "skillId": 200471,
+        "needRank": 3
+      },
+      {
+        "skillId": 201222,
+        "needRank": 4
+      },
+      {
+        "skillId": 202071,
+        "needRank": 5
+      }
+    ]
   }
 ]
