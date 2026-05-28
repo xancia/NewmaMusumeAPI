@@ -582,13 +582,7 @@ namespace UmaMusumeAPI.Controllers.Views
                 if (!seen.Add($"{skillId}:{needRank}"))
                     continue;
 
-                result.Add(
-                    new TerumiPotentialSkill
-                    {
-                        SkillId = skillId,
-                        NeedRank = needRank,
-                    }
-                );
+                result.Add(new TerumiPotentialSkill { SkillId = skillId, NeedRank = needRank });
             }
 
             return result;
