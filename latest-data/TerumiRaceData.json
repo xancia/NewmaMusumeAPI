@@ -2656,12 +2656,44 @@
     "schedules": []
   },
   {
+    "raceId": 6030,
+    "raceName": "Champions Meeting: Gemini Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6041,
     "raceName": "Champions Meeting: Taurus Cup Finals",
     "grade": 100,
     "gradeName": "G1",
     "distance": 2400,
     "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6042,
+    "raceName": "Champions Meeting: Gemini Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
     "ground": 1,
     "groundName": "Turf",
     "turn": 2,
@@ -23457,7 +23489,7 @@
   },
   {
     "raceId": 9399,
-    "raceName": "Junior Newcomer",
+    "raceName": "Junior Make Debut",
     "grade": 900,
     "gradeName": "Debut",
     "distance": 1600,
@@ -23483,7 +23515,7 @@
   },
   {
     "raceId": 9400,
-    "raceName": "Junior Newcomer",
+    "raceName": "Junior Make Debut",
     "grade": 900,
     "gradeName": "Debut",
     "distance": 1800,
@@ -23524,6 +23556,32 @@
     "schedules": [
       {
         "instanceId": 904195,
+        "month": 6,
+        "day": 30,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 9402,
+    "raceName": "Junior Newcomer",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 9,
+    "schedules": [
+      {
+        "instanceId": 904196,
         "month": 6,
         "day": 30,
         "half": 2,

@@ -6497,7 +6497,7 @@
   },
   {
     "id": 10250101,
-    "name": "Chasing after You",
+    "name": "Chasing After You",
     "description": "A Spark that gives a skill hint for \"Chasing after You\".",
     "rarity": 1,
     "grade": 2,
@@ -6505,7 +6505,7 @@
   },
   {
     "id": 10250102,
-    "name": "Chasing after You",
+    "name": "Chasing After You",
     "description": "A Spark that gives a skill hint for \"Chasing after You\".",
     "rarity": 2,
     "grade": 2,
@@ -6513,7 +6513,7 @@
   },
   {
     "id": 10250103,
-    "name": "Chasing after You",
+    "name": "Chasing After You",
     "description": "A Spark that gives a skill hint for \"Chasing after You\".",
     "rarity": 3,
     "grade": 2,
@@ -6731,6 +6731,30 @@
     "id": 10330103,
     "name": "Shooting Star of Dioskouroi",
     "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340101,
+    "name": "Now We're Cruisin'!",
+    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340102,
+    "name": "Now We're Cruisin'!",
+    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340103,
+    "name": "Now We're Cruisin'!",
+    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

@@ -3332,6 +3332,74 @@
     ]
   },
   {
+    "charaId": 1034,
+    "charaName": "Inari One",
+    "voiceActor": "Haruno Inoue",
+    "cardId": 103401,
+    "cardTitle": "[Edomurasaki]",
+    "supportCardId": 10068,
+    "startDate": "2026-05-28T22:00:00",
+    "baseSpeed": 108,
+    "baseStamina": 122,
+    "basePower": 133,
+    "baseGuts": 90,
+    "baseWisdom": 97,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 20,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "F",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "A",
+    "birthYear": 1984,
+    "birthMonth": 5,
+    "birthDay": 7,
+    "sex": 1,
+    "height": 0,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1034,
+    "skillIds": "100341,200202,200642,201452,201611,201612,202001,202002",
+    "potentialSkills": [
+      {
+        "skillId": 201452,
+        "needRank": 0
+      },
+      {
+        "skillId": 201611,
+        "needRank": 0
+      },
+      {
+        "skillId": 202002,
+        "needRank": 0
+      },
+      {
+        "skillId": 200202,
+        "needRank": 2
+      },
+      {
+        "skillId": 201612,
+        "needRank": 3
+      },
+      {
+        "skillId": 200642,
+        "needRank": 4
+      },
+      {
+        "skillId": 202001,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1035,
     "charaName": "Winning Ticket",
     "voiceActor": "Yui Watanabe",
@@ -4082,7 +4150,7 @@
   {
     "charaId": 1046,
     "charaName": "Smart Falcon",
-    "voiceActor": "Hitomi Ohwada",
+    "voiceActor": "Hitomi Owada",
     "cardId": 104601,
     "cardTitle": "[LOVE☆4EVER]",
     "supportCardId": 10039,
