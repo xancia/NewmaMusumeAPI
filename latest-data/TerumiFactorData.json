@@ -5328,6 +5328,30 @@
     "type": 4
   },
   {
+    "id": 2021601,
+    "name": "Restraint",
+    "description": "A Spark that gives a skill hint for \"Restraint\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021602,
+    "name": "Restraint",
+    "description": "A Spark that gives a skill hint for \"Restraint\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021603,
+    "name": "Restraint",
+    "description": "A Spark that gives a skill hint for \"Restraint\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -6971,6 +6995,30 @@
     "id": 10410103,
     "name": "Genius x Bakushin = Victory",
     "description": "A Spark that gives a skill hint for \"Genius x Bakushin = Victory\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10440101,
+    "name": "Victory Belongs to Me—Strelitzia! ☆",
+    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10440102,
+    "name": "Victory Belongs to Me—Strelitzia! ☆",
+    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10440103,
+    "name": "Victory Belongs to Me—Strelitzia! ☆",
+    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

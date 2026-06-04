@@ -4012,6 +4012,74 @@
     ]
   },
   {
+    "charaId": 1044,
+    "charaName": "Sweep Tosho",
+    "voiceActor": "Shiori Sugiura",
+    "cardId": 104401,
+    "cardTitle": "[Platanus Witch]",
+    "supportCardId": 10050,
+    "startDate": "2026-06-04T22:00:00",
+    "baseSpeed": 123,
+    "baseStamina": 104,
+    "basePower": 135,
+    "baseGuts": 79,
+    "baseWisdom": 109,
+    "talentSpeed": 10,
+    "talentStamina": 0,
+    "talentPower": 20,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "E",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "D",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "G",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "A",
+    "birthYear": 2001,
+    "birthMonth": 5,
+    "birthDay": 9,
+    "sex": 2,
+    "height": 0,
+    "bust": 0,
+    "charaCategory": 0,
+    "uraObjectives": 1044,
+    "skillIds": "100441,200642,200781,201481,201482,201511,201512,202082",
+    "potentialSkills": [
+      {
+        "skillId": 200781,
+        "needRank": 0
+      },
+      {
+        "skillId": 201482,
+        "needRank": 0
+      },
+      {
+        "skillId": 202082,
+        "needRank": 0
+      },
+      {
+        "skillId": 201512,
+        "needRank": 2
+      },
+      {
+        "skillId": 201481,
+        "needRank": 3
+      },
+      {
+        "skillId": 200642,
+        "needRank": 4
+      },
+      {
+        "skillId": 201511,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1045,
     "charaName": "Super Creek",
     "voiceActor": "Kana Yuuki",
