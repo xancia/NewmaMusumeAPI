@@ -1020,6 +1020,74 @@
     ]
   },
   {
+    "charaId": 1010,
+    "charaName": "Taiki Shuttle",
+    "voiceActor": "Yuka Otsubo",
+    "cardId": 101002,
+    "cardTitle": "[Bubblegum☆Memories]",
+    "supportCardId": 10008,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 124,
+    "baseStamina": 87,
+    "basePower": 130,
+    "baseGuts": 112,
+    "baseWisdom": 97,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 30,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "B",
+    "aptitudeShort": "A",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "E",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "E",
+    "aptitudeChaser": "G",
+    "birthYear": 1994,
+    "birthMonth": 3,
+    "birthDay": 23,
+    "sex": 1,
+    "height": 2,
+    "bust": 4,
+    "charaCategory": 0,
+    "uraObjectives": 1010,
+    "skillIds": "110101,200162,200681,200682,201042,201322,201901,201902",
+    "potentialSkills": [
+      {
+        "skillId": 200162,
+        "needRank": 0
+      },
+      {
+        "skillId": 200682,
+        "needRank": 0
+      },
+      {
+        "skillId": 201902,
+        "needRank": 0
+      },
+      {
+        "skillId": 201042,
+        "needRank": 2
+      },
+      {
+        "skillId": 200681,
+        "needRank": 3
+      },
+      {
+        "skillId": 201322,
+        "needRank": 4
+      },
+      {
+        "skillId": 201901,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1011,
     "charaName": "Grass Wonder",
     "voiceActor": "Rena Maeda",
@@ -4891,6 +4959,74 @@
       },
       {
         "skillId": 200064,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1059,
+    "charaName": "Mejiro Dober",
+    "voiceActor": "Hikari Kubota",
+    "cardId": 105902,
+    "cardTitle": "[Sapphire Sojourn]",
+    "supportCardId": 10046,
+    "startDate": "2025-12-28T22:00:00",
+    "baseSpeed": 115,
+    "baseStamina": 95,
+    "basePower": 113,
+    "baseGuts": 105,
+    "baseWisdom": 122,
+    "talentSpeed": 20,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "E",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "F",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "G",
+    "birthYear": 1994,
+    "birthMonth": 5,
+    "birthDay": 6,
+    "sex": 2,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1059,
+    "skillIds": "100591,110591,200062,201102,202081,202082,202121,202122,202152",
+    "potentialSkills": [
+      {
+        "skillId": 200062,
+        "needRank": 0
+      },
+      {
+        "skillId": 202082,
+        "needRank": 0
+      },
+      {
+        "skillId": 202122,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 2
+      },
+      {
+        "skillId": 202121,
+        "needRank": 3
+      },
+      {
+        "skillId": 202152,
+        "needRank": 4
+      },
+      {
+        "skillId": 202081,
         "needRank": 5
       }
     ]

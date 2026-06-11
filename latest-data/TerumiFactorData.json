@@ -5352,6 +5352,30 @@
     "type": 4
   },
   {
+    "id": 2021701,
+    "name": "Downhill Speedster",
+    "description": "A Spark that gives a skill hint for \"Downhill Speedster\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021702,
+    "name": "Downhill Speedster",
+    "description": "A Spark that gives a skill hint for \"Downhill Speedster\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021703,
+    "name": "Downhill Speedster",
+    "description": "A Spark that gives a skill hint for \"Downhill Speedster\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -5939,6 +5963,30 @@
     "id": 10100103,
     "name": "Shooting for Victory!",
     "description": "A Spark that gives a skill hint for \"Shooting for Victory!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10100201,
+    "name": "Joyful Voyage!",
+    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10100202,
+    "name": "Joyful Voyage!",
+    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10100203,
+    "name": "Joyful Voyage!",
+    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7307,6 +7355,30 @@
     "id": 10590103,
     "name": "Moving Past, and Beyond",
     "description": "A Spark that gives a skill hint for \"Moving Past, and Beyond\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10590201,
+    "name": "Wherever This Wonder Leads",
+    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10590202,
+    "name": "Wherever This Wonder Leads",
+    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10590203,
+    "name": "Wherever This Wonder Leads",
+    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
