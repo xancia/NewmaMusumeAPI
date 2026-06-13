@@ -1563,6 +1563,36 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 100341,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "compete_fight_count>0",
+    "precondition": "distance_rate>=50&order_rate_out40_continue==1",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      }
+    ],
+    "effectSummary": "Target Speed +0.45",
+    "iconId": 20013,
+    "skillName": "Now We're Cruisin'!",
+    "skillDesc": "When competing for the lead if positioned in the midpack or further for the first half of the race, show off some Edo spirit and greatly increase velocity.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 100351,
     "rarity": 4,
     "gradeValue": 340,
@@ -1738,6 +1768,36 @@
     "skillDesc": "Increase velocity with BAKUSHIN power when engaged in a challenge toward the front in the second half of the race.",
     "needSkillPoint": 0,
     "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 100441,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "remain_distance<=300",
+    "precondition": "order_rate_out50_continue==1&temptation_count==0&is_finalcorner==1",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20013,
+    "skillName": "Victory Belongs to Me—Strelitzia! ☆",
+    "skillDesc": "If positioned toward the back and racing calmly until the start of the final corner, when there are 300m remaining, cast a magic spell to increase velocity continuously.",
+    "needSkillPoint": 0,
+    "duration": 6,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -2128,6 +2188,41 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 100641,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/402",
+    "activationCondition": "distance_rate>=50&order_rate_in20_continue==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.055,
+        "displayText": "Stamina Recovery +0.055"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.055 | Target Speed +0.25",
+    "iconId": 20023,
+    "skillName": "Keep Pushing Ahead",
+    "skillDesc": "If positioned toward the front from the start of the race until the second half of the race, good vibes recover endurance and moderately increase velocity steadily.",
+    "needSkillPoint": 0,
+    "duration": 6,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 100671,
     "rarity": 5,
     "gradeValue": 340,
@@ -2490,6 +2585,47 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 110101,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "distance_diff_top<=5&order>=2&order_rate<=40&remain_distance<=201&remain_distance>=199",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      },
+      {
+        "type": "Type22",
+        "value": 0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20013,
+    "skillName": "Joyful Voyage!",
+    "skillDesc": "If positioned toward the front with 200m remaining, increase velocity. Then, if also positioned near the leading Umamusume, gather strength to move slightly forward.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "order>=2&order_rate<=40&remain_distance<=201&remain_distance>=199",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.35",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 110111,
     "rarity": 5,
     "gradeValue": 340,
@@ -2717,6 +2853,47 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 110221,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance>=401&phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.1,
+        "displayText": "Acceleration +0.1"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35 | Acceleration +0.1",
+    "iconId": 20013,
+    "skillName": "Best Day Ever",
+    "skillDesc": "If well-positioned late-race on the final corner or later, increase velocity. If there's a large distance left to the finish, also increase acceleration very slightly with perfect form.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.35",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 110231,
     "rarity": 5,
     "gradeValue": 340,
@@ -2883,6 +3060,41 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 110381,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance<=350&order_rate<=40&order_rate>=20&bashin_diff_behind<=1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.3,
+        "displayText": "Acceleration +0.3"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25 | Acceleration +0.3",
+    "iconId": 20013,
+    "skillName": "One True Color",
+    "skillDesc": "If positioned toward the front with 350m or less remaining and there is another Umamusume close behind, the determination to stay ahead makes it easier to break out of the pack.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 110401,
     "rarity": 5,
     "gradeValue": 340,
@@ -3001,6 +3213,36 @@
     "iconId": 20013,
     "skillName": "Bountiful Harvest",
     "skillDesc": "Increase velocity with a surge of great fortune when pressured by another runner toward the back in the second half of the race.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 110591,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "distance_rate>=60&slope==2&phase==1&order_rate>=40&order_rate<=80&remain_distance>=500",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20013,
+    "skillName": "Wherever This Wonder Leads",
+    "skillDesc": "If positioned midpack on a downhill just before late-race and there's a large distance left to the finish, enjoy the race to the fullest, increasing velocity.",
     "needSkillPoint": 0,
     "duration": 5,
     "cooldownTime": 500,
@@ -3345,7 +3587,7 @@
     "needSkillPoint": 90,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10007,20039,30005",
+    "supportCardIds": "10007,20039,30005,30104",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -4280,7 +4522,7 @@
     "needSkillPoint": 90,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10011,10038,10041,10063,20013,20027,30007,30018,30039,30082,30096",
+    "supportCardIds": "10011,10038,10041,10063,20013,20027,30007,30018,30039,30082,30096,30102",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -4585,7 +4827,7 @@
     "needSkillPoint": 90,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10001,10029,10031,10033,10039,10066,10067,10071,20006,20008,20010,20031,20038,20043,20045,30001,30017,30022,30025,30043,30048,30075,30091",
+    "supportCardIds": "10001,10029,10031,10033,10039,10066,10067,10071,20006,20008,20010,20031,20038,20043,20045,30001,30017,30022,30025,30043,30048,30053,30075,30091",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -5975,7 +6217,7 @@
     "needSkillPoint": 180,
     "duration": 3,
     "cooldownTime": 30,
-    "supportCardIds": "10005,10047,10078,20019,20026,30024,30054,30097",
+    "supportCardIds": "10005,10047,10078,20019,20026,20048,30024,30054,30097",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6065,7 +6307,7 @@
     "needSkillPoint": 170,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10019,10039,10048,10055,20020,30016,30017,30028,30056",
+    "supportCardIds": "10019,10039,10048,10055,20020,30016,30017,30028,30056,30103",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6545,7 +6787,7 @@
     "needSkillPoint": 160,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10026,10040,10047,10053,10057,20005,20014,20019,20025,20026,30030,30054,30063,30073",
+    "supportCardIds": "10026,10040,10047,10053,10057,20005,20014,20019,20025,20026,30030,30054,30063,30073,30103",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6725,7 +6967,7 @@
     "needSkillPoint": 170,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10025,10057,10061,20004,20029,30030",
+    "supportCardIds": "10025,10057,10061,20004,20029,30030,30103",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6785,7 +7027,7 @@
     "needSkillPoint": 170,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10026,10040,10044,10053,20005,20014,20016,20025,30063,30073,30078",
+    "supportCardIds": "10026,10040,10044,10053,20005,20014,20016,20025,30063,30073,30078,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6855,7 +7097,7 @@
     "needSkillPoint": 150,
     "duration": 3,
     "cooldownTime": 30,
-    "supportCardIds": "10003,10005,10028,10030,10059,20007,20028,20037,20047,30003,30010,30024,30065,30072",
+    "supportCardIds": "10003,10005,10028,10030,10059,20007,20028,20037,20047,20048,30003,30010,30024,30065,30072,30103",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -6975,7 +7217,7 @@
     "needSkillPoint": 170,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10001,10005,10007,10009,10019,10058,10078,20039,20043,30001,30005,30006,30016,30024,30025,30032,30094,30097",
+    "supportCardIds": "10001,10005,10007,10009,10019,10058,10078,20039,20043,20048,30001,30005,30006,30016,30024,30025,30032,30094,30097,30103",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -7305,7 +7547,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10008,10013,10023,10063,10069,10072,10077,20002,20034,30039,30044,30047,30069,30086,30093,30096",
+    "supportCardIds": "10008,10013,10023,10063,10069,10072,10077,20002,20034,30039,30044,30047,30069,30086,30093,30096,30102",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -7365,7 +7607,7 @@
     "needSkillPoint": 180,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "10008,10011,10023,10058,10066,10071,10077,20002,20031,20038,30007,30022,30032,30047,30086,30093,30095",
+    "supportCardIds": "10008,10011,10023,10058,10066,10071,10077,20002,20031,20038,30007,30022,30032,30047,30086,30093,30095,30102",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -7425,7 +7667,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10009,10016,10070,20035,30006,30012,30033,30046,30084,30088",
+    "supportCardIds": "10009,10016,10070,20035,30006,30012,30033,30046,30084,30088,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -7950,7 +8192,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10004,10008,10042,30020",
+    "supportCardIds": "10004,10008,10042,30020,30053",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8200,7 +8442,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10005,10011,10012,10023,10025,10033,10036,10046,10058,20002,20004,20010,20012,20018,20040,30007,30024,30032,30041,30047,30048,30092",
+    "supportCardIds": "10005,10011,10012,10023,10025,10033,10036,10046,10058,20002,20004,20010,20012,20018,20040,30007,30024,30032,30041,30047,30048,30092,30104",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -8330,7 +8572,7 @@
     "needSkillPoint": 160,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10010,10015,10057,30022,30023,30030,30034",
+    "supportCardIds": "10010,10015,10057,30022,30023,30030,30034,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -9610,7 +9852,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10007,10008,10026,10065,20005,20039,30005,30042,30085,30094",
+    "supportCardIds": "10007,10008,10026,10065,20005,20039,30005,30042,30053,30085,30094",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -9730,7 +9972,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10004,10008,10023,10052,10062,20002,20024,30038,30047,30071",
+    "supportCardIds": "10004,10008,10023,10052,10062,20002,20024,30038,30047,30053,30071",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -9790,7 +10032,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10004,10005,10017,10065,30014,30024,30042",
+    "supportCardIds": "10004,10005,10017,10065,20048,30014,30024,30042,30053",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -9850,7 +10092,7 @@
     "needSkillPoint": 120,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10049,10061,20001,20029",
+    "supportCardIds": "10049,10061,20001,20029,20048",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -9920,7 +10162,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10035,10052,20024,20030,30011,30071",
+    "supportCardIds": "10035,10052,20024,20030,30011,30053,30071",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -10130,7 +10372,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10027,10034,10036,10056,10062,10070,10071,10072,10078,20011,20012,20022,20035,20038,30009,30029,30031,30038,30044,30064,30069,30070,30084,30090,30091,30097",
+    "supportCardIds": "10027,10034,10036,10056,10062,10070,10071,10072,10078,20011,20012,20022,20035,20038,30009,30029,30031,30038,30044,30064,30069,30070,30084,30090,30091,30097,30104",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -10190,7 +10432,7 @@
     "needSkillPoint": 110,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10011,10045,10053,20017,20025,30007,30063,30079",
+    "supportCardIds": "10011,10045,10053,20017,20025,30007,30063,30079,30102",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -10380,7 +10622,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10009,10013,10036,10056,10075,20012,20041,30006,30029,30077,30090",
+    "supportCardIds": "10009,10013,10036,10056,10075,20012,20041,30006,30029,30077,30090,30104",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11360,7 +11602,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10011,10012,10070,20035,20043,30007,30084",
+    "supportCardIds": "10011,10012,10070,20035,20043,30007,30084,30102",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11420,7 +11662,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10041,10069,20027,20034,30018,30082,30093",
+    "supportCardIds": "10041,10069,20027,20034,30018,30082,30093,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11540,7 +11782,7 @@
     "needSkillPoint": 120,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10015,30023,30034,30093",
+    "supportCardIds": "10015,30023,30034,30093,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11720,7 +11962,7 @@
     "needSkillPoint": 110,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10010,10015,10073,20044,30023,30034,30068",
+    "supportCardIds": "10010,10015,10073,20044,30023,30034,30068,30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -11840,7 +12082,7 @@
     "needSkillPoint": 130,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10038,10044,20013,20016,30078,30088",
+    "supportCardIds": "10038,10044,20013,20016,30078,30088,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12080,7 +12322,7 @@
     "needSkillPoint": 120,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10012,10053,10056,10059,20025,20028,30029,30063,30065",
+    "supportCardIds": "10012,10053,10056,10059,20025,20028,30029,30063,30065,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12140,7 +12382,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10047,10053,10067,10068,20019,20025,20026,20032,30043,30054,30063,30095",
+    "supportCardIds": "10047,10053,10067,10068,20019,20025,20026,20032,30043,30054,30063,30095,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12700,7 +12942,7 @@
     "needSkillPoint": 110,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10013,10024,10059,10062,10069,20003,20028,20034,30038,30065,30095",
+    "supportCardIds": "10013,10024,10059,10062,10069,20003,20028,20034,30038,30065,30095,30100,30102,30104",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -12770,7 +13012,7 @@
     "needSkillPoint": 110,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "10001,10046,10059,20018,20028,30001,30025,30041,30065,30088,30095",
+    "supportCardIds": "10001,10046,10059,20018,20028,30001,30025,30041,30065,30088,30095,30099,30104",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13070,7 +13312,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10005,10006,10013,10025,20004,30004,30024,30057",
+    "supportCardIds": "10005,10006,10013,10025,20004,20048,30004,30024,30057",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13160,7 +13402,7 @@
     "needSkillPoint": 100,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10045,20017,30079",
+    "supportCardIds": "10045,20017,30079,30103",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13281,6 +13523,36 @@
     "duration": 3,
     "cooldownTime": 30,
     "supportCardIds": "10035,20030,30011",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 201662,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "401",
+    "activationCondition": "behind_near_lane_time>=3&accumulatetime>=10",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20012,
+    "skillName": "See Ya Later!",
+    "skillDesc": "Increase velocity when followed by another runner directly behind for a long time.",
+    "needSkillPoint": 160,
+    "duration": 3,
+    "cooldownTime": 30,
+    "supportCardIds": "",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13470,7 +13742,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "30088,30091",
+    "supportCardIds": "30088,30091,30099",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13620,7 +13892,42 @@
     "needSkillPoint": 180,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "30095",
+    "supportCardIds": "30095,30102",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202001,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Recovery",
+    "tagId": "302/401/402/502",
+    "activationCondition": "ground_type==2&phase_random==1&order_rate>=50",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.055,
+        "displayText": "Stamina Recovery +0.055"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.055 | Target Speed +0.35",
+    "iconId": 20022,
+    "skillName": "Master of the Sands",
+    "skillDesc": "Recover endurance and increase velocity when positioned toward the back mid-race. (Dirt)",
+    "needSkillPoint": 200,
+    "duration": 1.8,
+    "cooldownTime": 500,
+    "supportCardIds": "",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13710,7 +14017,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "",
+    "supportCardIds": "30100",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -14280,7 +14587,7 @@
     "needSkillPoint": 160,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "",
+    "supportCardIds": "20048",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -14350,7 +14657,7 @@
     "needSkillPoint": 180,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "",
+    "supportCardIds": "20048",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -14419,6 +14726,176 @@
     "skillDesc": "When positioned toward the front mid-race, slightly increase velocity and minimally decrease the velocity of runners behind the user. (Medium)",
     "needSkillPoint": 160,
     "duration": 1.8,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202141,
+    "rarity": 1,
+    "gradeValue": -174,
+    "skillCategory": "Passive",
+    "tagId": "301/405/407",
+    "activationCondition": "always==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type14",
+        "value": 0.085,
+        "displayText": ""
+      },
+      {
+        "type": "Intelligence Stat",
+        "value": -40,
+        "displayText": "Intelligence +-40"
+      }
+    ],
+    "effectSummary": "Intelligence +-40",
+    "iconId": 20064,
+    "skillName": "You're Not the Boss of Me!",
+    "skillDesc": "Increase time lost to slow starts and moderately decrease Wit.",
+    "needSkillPoint": 0,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202151,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/302/401",
+    "activationCondition": "running_style==3&phase_random==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": -0.04,
+        "displayText": "Stamina Recovery +-0.04"
+      }
+    ],
+    "effectSummary": "Target Speed +0.45 | Stamina Recovery +-0.04",
+    "iconId": 20012,
+    "skillName": "Keep Going!",
+    "skillDesc": "Greatly consume endurance mid-race and greatly increase velocity. (Late Surger)",
+    "needSkillPoint": 160,
+    "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202152,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/302/401",
+    "activationCondition": "running_style==3&phase_random==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      },
+      {
+        "type": "Stamina Recovery",
+        "value": -0.04,
+        "displayText": "Stamina Recovery +-0.04"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25 | Stamina Recovery +-0.04",
+    "iconId": 20011,
+    "skillName": "Full Throttle",
+    "skillDesc": "Greatly consume endurance mid-race and moderately increase velocity. (Late Surger)",
+    "needSkillPoint": 160,
+    "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202161,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Passive",
+    "tagId": "405",
+    "activationCondition": "always==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Intelligence Stat",
+        "value": 60,
+        "displayText": "Intelligence +60"
+      },
+      {
+        "type": "Type29",
+        "value": -3,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Intelligence +60",
+    "iconId": 10051,
+    "skillName": "Restraint",
+    "skillDesc": "Increase Wit and moderately decrease the chance of being Rushed.",
+    "needSkillPoint": 160,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 202172,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Speed Boost",
+    "tagId": "401",
+    "activationCondition": "down_slope_random==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20011,
+    "skillName": "Downhill Speedster",
+    "skillDesc": "Slightly increase velocity on downhills.",
+    "needSkillPoint": 170,
+    "duration": 2.4,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -16212,6 +16689,36 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 900341,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "compete_fight_count>0",
+    "precondition": "distance_rate>=50&order_rate_out40_continue==1",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25",
+    "iconId": 20011,
+    "skillName": "Now We're Cruisin'!",
+    "skillDesc": "When competing for the lead if positioned in the midpack or further for the first half of the race, moderately increase velocity.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 900351,
     "rarity": 1,
     "gradeValue": 180,
@@ -16387,6 +16894,36 @@
     "skillDesc": "Slightly increase velocity when engaged in a challenge toward the front in the second half of the race.",
     "needSkillPoint": 200,
     "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 900441,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "remain_distance<=300",
+    "precondition": "order_rate_out50_continue==1&temptation_count==0&is_finalcorner==1",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20011,
+    "skillName": "Victory Belongs to Me—Strelitzia! ☆",
+    "skillDesc": "If positioned toward the back and racing calmly until the start of the final corner, when there are 300m remaining, slightly increase velocity continuously.",
+    "needSkillPoint": 200,
+    "duration": 3.6,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -16777,6 +17314,41 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 900641,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/402",
+    "activationCondition": "distance_rate>=50&order_rate_in20_continue==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.015,
+        "displayText": "Stamina Recovery +0.015"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.05,
+        "displayText": "Target Speed +0.05"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.015 | Target Speed +0.05",
+    "iconId": 20021,
+    "skillName": "Keep Pushing Ahead",
+    "skillDesc": "If positioned toward the front from the start of the race until the second half of the race, slightly recover endurance and very slightly increase velocity steadily.",
+    "needSkillPoint": 200,
+    "duration": 3.6,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 900671,
     "rarity": 1,
     "gradeValue": 180,
@@ -17139,6 +17711,47 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 910101,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "distance_diff_top<=5&order>=2&order_rate<=40&remain_distance<=201&remain_distance>=199",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      },
+      {
+        "type": "Type22",
+        "value": 0.035,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20011,
+    "skillName": "Joyful Voyage!",
+    "skillDesc": "If positioned toward the front with 200m remaining, slightly increase velocity. Then, if also positioned near the leading Umamusume, move minimally forward.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "order>=2&order_rate<=40&remain_distance<=201&remain_distance>=199",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.15",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 910111,
     "rarity": 1,
     "gradeValue": 180,
@@ -17366,6 +17979,47 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 910221,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance>=401&phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.05,
+        "displayText": "Acceleration +0.05"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15 | Acceleration +0.05",
+    "iconId": 20011,
+    "skillName": "Best day ever",
+    "skillDesc": "If well-positioned late-race on the final corner or later, slightly increase velocity. If there's a large distance left to the finish, also increase acceleration very minimally.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "phase>=2&is_finalcorner==1&order_rate>=20&order_rate<=40",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.15",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 910231,
     "rarity": 1,
     "gradeValue": 180,
@@ -17532,6 +18186,41 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 910381,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401/403",
+    "activationCondition": "remain_distance<=350&order_rate<=40&order_rate>=20&bashin_diff_behind<=1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.05,
+        "displayText": "Target Speed +0.05"
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.1,
+        "displayText": "Acceleration +0.1"
+      }
+    ],
+    "effectSummary": "Target Speed +0.05 | Acceleration +0.1",
+    "iconId": 20011,
+    "skillName": "One True Color",
+    "skillDesc": "If positioned toward the front with 350m remaining and there is another Umamusume close behind, break out of the pack slightly more easily.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 910401,
     "rarity": 1,
     "gradeValue": 180,
@@ -17650,6 +18339,36 @@
     "iconId": 20011,
     "skillName": "Bountiful Harvest",
     "skillDesc": "Slightly increase velocity with a surge of fortune when pressured by another runner toward the back in the second half of the race.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 910591,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "distance_rate>=60&slope==2&phase==1&order_rate>=40&order_rate<=80&remain_distance>=500",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20011,
+    "skillName": "Wherever This Wonder Leads",
+    "skillDesc": "If positioned midpack on a downhill just before late-race and there's a large distance left to the finish, slightly increase velocity.",
     "needSkillPoint": 200,
     "duration": 3,
     "cooldownTime": 500,

@@ -5304,6 +5304,78 @@
     "type": 4
   },
   {
+    "id": 2021501,
+    "name": "Full Throttle",
+    "description": "A Spark that gives a skill hint for \"Full Throttle\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021502,
+    "name": "Full Throttle",
+    "description": "A Spark that gives a skill hint for \"Full Throttle\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021503,
+    "name": "Full Throttle",
+    "description": "A Spark that gives a skill hint for \"Full Throttle\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021601,
+    "name": "Restraint",
+    "description": "A Spark that gives a skill hint for \"Restraint\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021602,
+    "name": "Restraint",
+    "description": "A Spark that gives a skill hint for \"Restraint\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021603,
+    "name": "Restraint",
+    "description": "A Spark that gives a skill hint for \"Restraint\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021701,
+    "name": "Downhill Speedster",
+    "description": "A Spark that gives a skill hint for \"Downhill Speedster\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021702,
+    "name": "Downhill Speedster",
+    "description": "A Spark that gives a skill hint for \"Downhill Speedster\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021703,
+    "name": "Downhill Speedster",
+    "description": "A Spark that gives a skill hint for \"Downhill Speedster\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -5896,6 +5968,30 @@
     "type": 3
   },
   {
+    "id": 10100201,
+    "name": "Joyful Voyage!",
+    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10100202,
+    "name": "Joyful Voyage!",
+    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10100203,
+    "name": "Joyful Voyage!",
+    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10110101,
     "name": "Where There's a Will, There's a Way",
     "description": "A Spark that gives a skill hint for \"Where There's a Will, There's a Way\".",
@@ -6352,6 +6448,30 @@
     "type": 3
   },
   {
+    "id": 10220201,
+    "name": "Best day ever",
+    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10220202,
+    "name": "Best day ever",
+    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10220203,
+    "name": "Best day ever",
+    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10230101,
     "name": "∴win Q.E.D.",
     "description": "A Spark that gives a skill hint for \"∴win Q.E.D.\".",
@@ -6449,7 +6569,7 @@
   },
   {
     "id": 10250101,
-    "name": "Chasing after You",
+    "name": "Chasing After You",
     "description": "A Spark that gives a skill hint for \"Chasing after You\".",
     "rarity": 1,
     "grade": 2,
@@ -6457,7 +6577,7 @@
   },
   {
     "id": 10250102,
-    "name": "Chasing after You",
+    "name": "Chasing After You",
     "description": "A Spark that gives a skill hint for \"Chasing after You\".",
     "rarity": 2,
     "grade": 2,
@@ -6465,7 +6585,7 @@
   },
   {
     "id": 10250103,
-    "name": "Chasing after You",
+    "name": "Chasing After You",
     "description": "A Spark that gives a skill hint for \"Chasing after You\".",
     "rarity": 3,
     "grade": 2,
@@ -6688,6 +6808,30 @@
     "type": 3
   },
   {
+    "id": 10340101,
+    "name": "Now We're Cruisin'!",
+    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340102,
+    "name": "Now We're Cruisin'!",
+    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340103,
+    "name": "Now We're Cruisin'!",
+    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10350101,
     "name": "Our Ticket to Win!",
     "description": "A Spark that gives a skill hint for \"Our Ticket to Win!\".",
@@ -6784,6 +6928,30 @@
     "type": 3
   },
   {
+    "id": 10380201,
+    "name": "One True Color",
+    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10380202,
+    "name": "One True Color",
+    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10380203,
+    "name": "One True Color",
+    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10390101,
     "name": "A Princess Must Seize Victory!",
     "description": "A Spark that gives a skill hint for \"A Princess Must Seize Victory!\".",
@@ -6875,6 +7043,30 @@
     "id": 10410103,
     "name": "Genius x Bakushin = Victory",
     "description": "A Spark that gives a skill hint for \"Genius x Bakushin = Victory\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10440101,
+    "name": "Victory Belongs to Me—Strelitzia! ☆",
+    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10440102,
+    "name": "Victory Belongs to Me—Strelitzia! ☆",
+    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10440103,
+    "name": "Victory Belongs to Me—Strelitzia! ☆",
+    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7168,6 +7360,30 @@
     "type": 3
   },
   {
+    "id": 10590201,
+    "name": "Wherever This Wonder Leads",
+    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10590202,
+    "name": "Wherever This Wonder Leads",
+    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10590203,
+    "name": "Wherever This Wonder Leads",
+    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10600101,
     "name": "Just a Little Farther!",
     "description": "A Spark that gives a skill hint for \"Just a Little Farther!\".",
@@ -7283,6 +7499,30 @@
     "id": 10620103,
     "name": "Go, Go, Mun!",
     "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10640101,
+    "name": "Keep Pushing Ahead",
+    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10640102,
+    "name": "Keep Pushing Ahead",
+    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10640103,
+    "name": "Keep Pushing Ahead",
+    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
