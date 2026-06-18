@@ -766,29 +766,40 @@
     "gradeValue": 340,
     "skillCategory": "Unique",
     "tagId": "401",
-    "activationCondition": "is_last_straight==1",
-    "precondition": "phase>=2&order<=3&bashin_diff_infront<=1&is_overtake==1",
+    "activationCondition": "is_last_straight==1&running_style==2&course_distance==2400",
+    "precondition": "phase>=2&order_rate<=50&bashin_diff_infront<=1&is_overtake==1",
     "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.05,
+        "displayText": "Target Speed +0.05"
+      }
+    ],
+    "effectSummary": "Target Speed +0.45 | Target Speed +0.05",
+    "iconId": 20013,
+    "skillName": "究極テイオーステップ",
+    "skillDesc": "レース終盤以降に前方で前と差が\\n詰まると最終直線で速度がすごく上がる\\n作戦が先行で2400mのレースなら効果\\n中に追い抜くと3回まで効果が増える",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "is_last_straight==1",
+    "precondition2": "phase>=2&order_rate<=50&bashin_diff_infront<=1&is_overtake==1",
+    "effects2": [
       {
         "type": "Target Speed",
         "value": 0.45,
         "displayText": "Target Speed +0.45"
       }
     ],
-    "effectSummary": "Target Speed +0.45",
-    "iconId": 20013,
-    "skillName": "究極テイオーステップ",
-    "skillDesc": "レース終盤以降に前と差が詰まると\\n最終直線で華麗な脚取りを披露し\\n速度がすごく上がる",
-    "needSkillPoint": 0,
-    "duration": 5,
-    "cooldownTime": 500,
-    "supportCardIds": "",
-    "activationCondition2": "",
-    "precondition2": "",
-    "effects2": [],
-    "effectSummary2": "",
-    "duration2": 0,
-    "cooldownTime2": 0
+    "effectSummary2": "Target Speed +0.45",
+    "duration2": 5,
+    "cooldownTime2": 500
   },
   {
     "skillId": 100041,
@@ -8593,6 +8604,42 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 111161,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "203/401",
+    "activationCondition": "remain_distance<=401&remain_distance>=399&order_rate<=50&order_rate>=20",
+    "precondition": "distance_rate>=50&distance_rate<=51&order_rate<=80&order_rate>=40&distance_type==3",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.5,
+        "displayText": "Target Speed +0.5"
+      }
+    ],
+    "effectSummary": "Target Speed +0.5",
+    "iconId": 0,
+    "skillName": "不凋なるCattleya",
+    "skillDesc": "レース中間地点で中団にいると\\n残り400m地点で速度がすごく上がる\\nスキル発動時、好位置にいると\\n効果が増える＜中距離＞",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "remain_distance<=401&remain_distance>=399",
+    "precondition2": "distance_rate>=50&distance_rate<=51&order_rate<=80&order_rate>=40&distance_type==3",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.45",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 111191,
     "rarity": 5,
     "gradeValue": 340,
@@ -9093,6 +9140,42 @@
     "effectSummary2": "",
     "duration2": 0,
     "cooldownTime2": 0
+  },
+  {
+    "skillId": 120251,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "103/402/403",
+    "activationCondition": "phase==1&running_style==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.055,
+        "displayText": "Stamina Recovery +0.055"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.055",
+    "iconId": 0,
+    "skillName": "迷える時も、幽かなる時も",
+    "skillDesc": "レース中盤に持久力を回復する\\n長距離レースならその後\\nレース後半に中団にいると前に出続ける\\n＜作戦・差し＞",
+    "needSkillPoint": 0,
+    "duration": 0,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "is_activate_other_skill_detail==1&distance_type==4&distance_rate>=50&order_rate>=30&order_rate<=70",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary2": "",
+    "duration2": 6,
+    "cooldownTime2": 500
   },
   {
     "skillId": 120301,
@@ -12639,7 +12722,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 30,
-    "supportCardIds": "10005,10030,10055,10096,10103,10116,10122,10132,20007,20036,20066,30022,30024,30028,30072,30111,30138,30146,30147,30154,30161,30164,30187,30202,30213,30215,30226,30232,30242,30264",
+    "supportCardIds": "10005,10030,10055,10096,10103,10116,10122,10132,20007,20036,20066,30022,30024,30028,30072,30111,30138,30146,30147,30154,30161,30164,30187,30202,30213,30215,30226,30232,30242,30264,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -13034,7 +13117,7 @@
     "needSkillPoint": 170,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10007,10030,10055,10098,10101,10131,20007,20039,20066,30005,30028,30072,30139,30142,30150,30152,30173,30178,30214,30261",
+    "supportCardIds": "10007,10030,10055,10098,10101,10131,20007,20039,20066,30005,30028,30072,30139,30142,30150,30152,30173,30178,30214,30261,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -14074,7 +14157,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10008,10013,10023,10063,10069,10072,10077,10126,10129,20002,20034,20053,20074,20079,20088,30039,30044,30047,30069,30086,30093,30096,30102,30119,30123,30146,30151,30209,30231,30259,30299",
+    "supportCardIds": "10008,10013,10023,10063,10069,10072,10077,10126,10129,20002,20034,20053,20074,20079,20088,30039,30044,30047,30069,30086,30093,30096,30102,30119,30123,30146,30151,30209,30231,30259,30299,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -15159,7 +15242,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10006,10072,10105,10131,20061,20097,30004,30022,30044,30057,30069,30152,30193,30221,30261,30286",
+    "supportCardIds": "10006,10072,10105,10131,20061,20097,30004,30022,30044,30057,30069,30152,30193,30221,30261,30286,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -16444,7 +16527,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10007,10008,10026,10065,10088,10114,20005,20039,30005,30042,30053,30085,30094,30109,30134,30194,30206,30229,30238,30251,30253",
+    "supportCardIds": "10007,10008,10026,10065,10088,10114,20005,20039,30005,30042,30053,30085,30094,30109,30134,30194,30206,30229,30238,30251,30253,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -16534,7 +16617,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10004,10049,10052,10086,10088,10102,20001,20024,20065,20067,20081,30071,30116,30126,30134,30153,30155,30174,30185,30218,30229,30238,30254,30271,30288",
+    "supportCardIds": "10004,10049,10052,10086,10088,10102,20001,20024,20065,20067,20081,30071,30116,30126,30134,30153,30155,30174,30185,30218,30229,30238,30254,30271,30288,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -16744,7 +16827,7 @@
     "needSkillPoint": 120,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10049,10061,10086,10093,10110,10114,10118,10121,20001,20029,20048,20065,20087,30126,30153,30156,30192,30194,30197,30202,30216,30218,30222,30229,30238,30254,30263",
+    "supportCardIds": "10049,10061,10086,10093,10110,10114,10118,10121,20001,20029,20048,20065,20087,30126,30153,30156,30192,30194,30197,30202,30216,30218,30222,30229,30238,30254,30263,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -17424,7 +17507,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10031,10072,10077,10082,10105,10131,20008,20058,30044,30069,30075,30086,30105,30110,30118,30123,30131,30139,30152,30154,30157,30193,30244,30261,30281,30286",
+    "supportCardIds": "10031,10072,10077,10082,10105,10131,20008,20058,30044,30069,30075,30086,30105,30110,30118,30123,30131,30139,30152,30154,30157,30193,30244,30261,30281,30286,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -17514,7 +17597,7 @@
     "needSkillPoint": 100,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10010,10012,10055,10085,10105,10139,20054,20058,20097,30028,30110,30125,30129,30139,30152,30154,30193,30220,30226,30260,30278,30279",
+    "supportCardIds": "10010,10012,10055,10085,10105,10139,20054,20058,20097,30028,30110,30125,30129,30139,30152,30154,30193,30220,30226,30260,30278,30279,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -19174,7 +19257,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10044,10047,10056,10085,10107,10117,20016,20019,20026,20068,20094,30029,30054,30078,30125,30199,30200,30225,30240",
+    "supportCardIds": "10044,10047,10056,10085,10107,10117,20016,20019,20026,20068,20094,30029,30054,30078,30125,30199,30200,30225,30240,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -21684,7 +21767,7 @@
     "needSkillPoint": 160,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "10118,10124,20048,20093,30174,30216,30229,30243",
+    "supportCardIds": "10118,10124,20048,20093,30174,30216,30229,30243,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -23721,7 +23804,7 @@
     "needSkillPoint": 180,
     "duration": 2,
     "cooldownTime": 500,
-    "supportCardIds": "10136,20090,30132,30153,30174,30202,30229,30236,30253,30268,30270,30285",
+    "supportCardIds": "10136,20090,30132,30153,30174,30202,30229,30236,30253,30268,30270,30285,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -24093,7 +24176,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10089,10120,10142,20056,20095,30228,30245,30248",
+    "supportCardIds": "10089,10120,10142,20056,20095,30228,30245,30248,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -24753,7 +24836,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10107,30152,30157,30199,30244,30247,30278",
+    "supportCardIds": "10107,30152,30157,30199,30244,30247,30278,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -25283,7 +25366,7 @@
     "needSkillPoint": 180,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10101,10103,10139,20080,20094,30147,30178,30187,30279,30280,30281",
+    "supportCardIds": "10101,10103,10139,20080,20094,30147,30178,30187,30279,30280,30281,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -26095,7 +26178,7 @@
     "needSkillPoint": 160,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "10098,10108,10143,20036,20073,20075,20077,20078,30173,30191,30220,30291,30299",
+    "supportCardIds": "10098,10108,10143,20036,20073,20075,20077,20078,30173,30191,30220,30291,30299,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -27097,7 +27180,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10096,20093,30215,30229,30238",
+    "supportCardIds": "10096,20093,30215,30229,30238,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -27607,7 +27690,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10124,10135,20096,30208,30219,30236,30238,30243,30254,30267,30270,30288",
+    "supportCardIds": "10124,10135,20096,30208,30219,30236,30238,30243,30254,30267,30270,30288,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -28797,7 +28880,7 @@
     "needSkillPoint": 200,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10127,10137,20091,30226,30244,30255",
+    "supportCardIds": "10127,10137,20091,30226,30244,30255,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -30267,7 +30350,7 @@
     "needSkillPoint": 200,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "30262",
+    "supportCardIds": "30262,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -30387,7 +30470,7 @@
     "needSkillPoint": 160,
     "duration": 1.8,
     "cooldownTime": 500,
-    "supportCardIds": "30285",
+    "supportCardIds": "30285,30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -30417,7 +30500,37 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "20093",
+    "supportCardIds": "20093,30301",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 203561,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "204/303/401",
+    "activationCondition": "distance_type==4&is_lastspurt==1&phase_firsthalf_random==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 0,
+    "skillName": "一所懸命",
+    "skillDesc": "レース最終盤始めの方で\\nラストスパートの最中なら速度が上がる\\n＜長距離＞",
+    "needSkillPoint": 170,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -30447,7 +30560,7 @@
     "needSkillPoint": 170,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10131,30244,30261",
+    "supportCardIds": "10131,30244,30261,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -31595,7 +31708,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10131,20097,30261,30281",
+    "supportCardIds": "10131,20097,30261,30281,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -32459,7 +32572,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "",
+    "supportCardIds": "30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -32524,7 +32637,7 @@
     "needSkillPoint": 180,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "",
+    "supportCardIds": "30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -32907,7 +33020,7 @@
     "needSkillPoint": 160,
     "duration": 1.2,
     "cooldownTime": 500,
-    "supportCardIds": "30281",
+    "supportCardIds": "30281,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -33417,7 +33530,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "30282,30297",
+    "supportCardIds": "30282,30297,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -33549,7 +33662,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "30285,30297",
+    "supportCardIds": "30285,30297,30303",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -33743,6 +33856,36 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 204171,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Speed Boost",
+    "tagId": "202/303/401",
+    "activationCondition": "distance_type==2&is_lastspurt==1&phase_firsthalf_random==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 0,
+    "skillName": "元気溌剌",
+    "skillDesc": "レース最終盤始めの方で\\nラストスパートの最中なら速度が上がる\\n＜マイル＞",
+    "needSkillPoint": 170,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 204172,
     "rarity": 1,
     "gradeValue": 217,
@@ -33764,7 +33907,7 @@
     "needSkillPoint": 170,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "",
+    "supportCardIds": "30301",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -33919,7 +34062,7 @@
     "needSkillPoint": 180,
     "duration": -0.0001,
     "cooldownTime": 0,
-    "supportCardIds": "30286",
+    "supportCardIds": "30286,30302",
     "activationCondition2": "",
     "precondition2": "",
     "effects2": [],
@@ -34358,6 +34501,66 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 204292,
+    "rarity": 1,
+    "gradeValue": 262,
+    "skillCategory": "Recovery",
+    "tagId": "204/302/402",
+    "activationCondition": "course_distance>=3000&distance_rate>=40&distance_rate<=41",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.035,
+        "displayText": "Stamina Recovery +0.035"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.035",
+    "iconId": 0,
+    "skillName": "超長距離回復◎",
+    "skillDesc": "3000m以上のレースなら\\nレース中間付近で持久力を少し回復する",
+    "needSkillPoint": 80,
+    "duration": 0,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 204293,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Recovery",
+    "tagId": "204/302/402",
+    "activationCondition": "course_distance>=3000&distance_rate>=40&distance_rate<=41",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.015,
+        "displayText": "Stamina Recovery +0.015"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.015",
+    "iconId": 0,
+    "skillName": "超長距離回復○",
+    "skillDesc": "3000m以上のレースなら\\nレース中間付近で持久力を\\nわずかに回復する",
+    "needSkillPoint": 160,
+    "duration": 0,
+    "cooldownTime": 500,
+    "supportCardIds": "30302",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 204301,
     "rarity": 2,
     "gradeValue": 508,
@@ -34729,6 +34932,66 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 204381,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Lane Effect",
+    "tagId": "204/403",
+    "activationCondition": "distance_type==4&distance_rate_after_random==50",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "光輝燦然",
+    "skillDesc": "レース後半に前に出る＜長距離＞",
+    "needSkillPoint": 180,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 204382,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Lane Effect",
+    "tagId": "204/403",
+    "activationCondition": "distance_type==4&distance_rate_after_random==50",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "輝きを放って",
+    "skillDesc": "レース後半にわずかに前に出る\\n＜長距離＞",
+    "needSkillPoint": 180,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "30302",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 204401,
     "rarity": 1,
     "gradeValue": -174,
@@ -34819,6 +35082,102 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 204431,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Acceleration",
+    "tagId": "103/303/403",
+    "activationCondition": "running_style==3&is_lastspurt==1&corner==0",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Acceleration",
+        "value": 0.4,
+        "displayText": "Acceleration +0.4"
+      }
+    ],
+    "effectSummary": "Acceleration +0.4",
+    "iconId": 0,
+    "skillName": "絶塵",
+    "skillDesc": "ラストスパートの最中なら直線で\\n加速力が上がる＜作戦・差し＞",
+    "needSkillPoint": 180,
+    "duration": 0.9,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 204432,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Acceleration",
+    "tagId": "103/303/403",
+    "activationCondition": "running_style==3&is_lastspurt==1&corner==0",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Acceleration",
+        "value": 0.2,
+        "displayText": "Acceleration +0.2"
+      }
+    ],
+    "effectSummary": "Acceleration +0.2",
+    "iconId": 0,
+    "skillName": "影より速く",
+    "skillDesc": "ラストスパートの最中なら直線で\\n加速力がわずかに上がる＜作戦・差し＞",
+    "needSkillPoint": 180,
+    "duration": 0.9,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 204442,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/302/401",
+    "activationCondition": "running_style==3&phase_random==1&distance_diff_top>=15",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25",
+    "iconId": 0,
+    "skillName": "追尾",
+    "skillDesc": "レース中盤に速度がわずかに上がる\\n先頭から6バ身以上離れていると\\n速度が少し上がる＜作戦・差し＞",
+    "needSkillPoint": 190,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "running_style==3&phase_random==1",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.15",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 204452,
     "rarity": 1,
     "gradeValue": 262,
@@ -34889,6 +35248,36 @@
     "effectSummary2": "Target Speed +0.05",
     "duration2": 3,
     "cooldownTime2": 500
+  },
+  {
+    "skillId": 204462,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Speed Boost",
+    "tagId": "202/301/401",
+    "activationCondition": "distance_type==2&phase_laterhalf_random==0&order_rate>=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 0,
+    "skillName": "いざ我が道へ！",
+    "skillDesc": "レース中盤が迫ったとき\\n中団以降にいると速度がわずかに上がる\\n＜マイル＞",
+    "needSkillPoint": 160,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "30301",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
   },
   {
     "skillId": 210011,
@@ -38199,7 +38588,7 @@
     "skillCategory": "Unique",
     "tagId": "401",
     "activationCondition": "is_last_straight==1",
-    "precondition": "phase>=2&order<=3&bashin_diff_infront<=1&is_overtake==1",
+    "precondition": "phase>=2&order_rate<=50&bashin_diff_infront<=1&is_overtake==1",
     "effects": [
       {
         "type": "Target Speed",
@@ -38210,7 +38599,7 @@
     "effectSummary": "Target Speed +0.25",
     "iconId": 20011,
     "skillName": "究極テイオーステップ",
-    "skillDesc": "レース終盤以降に前と差が詰まると\\n最終直線で速度が少し上がる",
+    "skillDesc": "レース終盤以降に前方で前と差が\\n詰まると最終直線で速度が少し上がる",
     "needSkillPoint": 200,
     "duration": 3,
     "cooldownTime": 500,
@@ -45763,6 +46152,42 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 911161,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "203/401",
+    "activationCondition": "remain_distance<=401&remain_distance>=399&order_rate<=50&order_rate>=20",
+    "precondition": "distance_rate>=50&distance_rate<=51&order_rate<=80&order_rate>=40&distance_type==3",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.3,
+        "displayText": "Target Speed +0.3"
+      }
+    ],
+    "effectSummary": "Target Speed +0.3",
+    "iconId": 0,
+    "skillName": "不凋なるCattleya",
+    "skillDesc": "レース中間地点で中団にいると\\n残り400m地点で速度が少し上がる\\nスキル発動時、好位置にいると\\n効果が増える＜中距離＞",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "remain_distance<=401&remain_distance>=399",
+    "precondition2": "distance_rate>=50&distance_rate<=51&order_rate<=80&order_rate>=40&distance_type==3",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.25",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 911191,
     "rarity": 1,
     "gradeValue": 180,
@@ -46219,6 +46644,36 @@
     "skillDesc": "レース中盤以降に先頭にいるか\\n3番手以内で追い抜こうとすると\\n持久力を少し回復しちょっと\\n前に出続ける",
     "needSkillPoint": 200,
     "duration": 3.6,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 920251,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "103/402",
+    "activationCondition": "phase==1&running_style==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Stamina Recovery",
+        "value": 0.015,
+        "displayText": "Stamina Recovery +0.015"
+      }
+    ],
+    "effectSummary": "Stamina Recovery +0.015",
+    "iconId": 0,
+    "skillName": "迷える時も、幽かなる時も",
+    "skillDesc": "レース中盤に持久力をわずかに回復する\\n＜作戦・差し＞",
+    "needSkillPoint": 200,
+    "duration": 0,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -48062,6 +48517,47 @@
     "effectSummary2": "",
     "duration2": 0,
     "cooldownTime2": 0
+  },
+  {
+    "skillId": 100301311,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Acceleration",
+    "tagId": "102/203/303/403",
+    "activationCondition": "running_style==2&distance_type==3&phase_firstquarter_random==2&order_rate<=50&track_id==10006&course_distance==2400",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Acceleration",
+        "value": 0.4,
+        "displayText": "Acceleration +0.4"
+      },
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Acceleration +0.4",
+    "iconId": 0,
+    "skillName": "皇帝を超えて",
+    "skillDesc": "レース終盤始めの方早めに\\n前方にいると加速力が上がる\\nさらに東京レース場の2400mのレース\\nなら前に出る＜先行・中距離＞",
+    "needSkillPoint": 0,
+    "duration": 1.2,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "running_style==2&distance_type==3&phase_firstquarter_random==2&order_rate<=50",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Acceleration",
+        "value": 0.4,
+        "displayText": "Acceleration +0.4"
+      }
+    ],
+    "effectSummary2": "Acceleration +0.4",
+    "duration2": 1.2,
+    "cooldownTime2": 500
   },
   {
     "skillId": 100302111,
@@ -52416,6 +52912,66 @@
     "skillDesc": "レース終盤始めの方で\\n余力十分ならすごく前に出る\\n＜追込・長距離＞",
     "needSkillPoint": 0,
     "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 102503111,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/204/303/403",
+    "activationCondition": "distance_type==4&is_finalcorner==1&corner!=0&running_style==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "超常体験",
+    "skillDesc": "最終コーナーに入ると前に出る\\n上り坂を上りきった回数に応じて\\n4回まで効果時間が増える\\n＜差し・長距離＞",
+    "needSkillPoint": 0,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 102503211,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Acceleration",
+    "tagId": "103/204/303/403",
+    "activationCondition": "running_style==3&distance_type==4&is_lastspurt==1",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Acceleration",
+        "value": 0.5,
+        "displayText": "Acceleration +0.5"
+      }
+    ],
+    "effectSummary": "Acceleration +0.5",
+    "iconId": 0,
+    "skillName": "コノヨナラザル",
+    "skillDesc": "ラストスパートの最中なら\\n加速力がすごく上がる＜差し・長距離＞",
+    "needSkillPoint": 0,
+    "duration": 0.9,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activationCondition2": "",
@@ -60609,6 +61165,52 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 107002121,
+    "rarity": 6,
+    "gradeValue": 508,
+    "skillCategory": "Passive",
+    "tagId": "401/403/604",
+    "activationCondition": "track_id==10006&course_distance==2400",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Power Stat",
+        "value": 60,
+        "displayText": "Power +60"
+      },
+      {
+        "type": "Speed Stat",
+        "value": 60,
+        "displayText": "Speed +60"
+      }
+    ],
+    "effectSummary": "Power +60 | Speed +60",
+    "iconId": 0,
+    "skillName": "すべてを焼き焦がす星",
+    "skillDesc": "東京レース場の2400mのレースなら\\nパワーとスピードが上がる、人気が高い\\n場合その後残り800m地点で中団だと加\\n速力がわずかに上がりわずかに前に出る",
+    "needSkillPoint": 0,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activationCondition2": "is_activate_other_skill_detail==1&remain_distance>=799&remain_distance<=801&order_rate>=30&order_rate<=60&popularity<=3",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Acceleration",
+        "value": 0.2,
+        "displayText": "Acceleration +0.2"
+      },
+      {
+        "type": "Type22",
+        "value": 0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary2": "Acceleration +0.2",
+    "duration2": 0.9,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 107002211,
     "rarity": 6,
     "gradeValue": 633,
@@ -66113,6 +66715,83 @@
     ],
     "effectSummary2": "Target Speed +0.45",
     "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
+    "skillId": 111602111,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Lane Effect",
+    "tagId": "202/203/403",
+    "activationCondition": "corner_random==3&order_rate>=40&course_distance==2400&track_id==10006",
+    "precondition": "distance_type==2@distance_type==3",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      },
+      {
+        "type": "Acceleration",
+        "value": 0.3,
+        "displayText": "Acceleration +0.3"
+      }
+    ],
+    "effectSummary": "Acceleration +0.3",
+    "iconId": 0,
+    "skillName": "――さあ、踊りましょう",
+    "skillDesc": "最終コーナー前の第3コーナーで\\n中団以降にいると前に出る、さらに\\n東京レース場の2400mのレースなら\\n加速力が少し上がる＜マイル/中距離＞",
+    "needSkillPoint": 0,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "corner_random==3&order_rate>=40",
+    "precondition2": "distance_type==2@distance_type==3",
+    "effects2": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary2": "",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
+    "skillId": 111602211,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Speed Boost",
+    "tagId": "103/302/401",
+    "activationCondition": "running_style==3&phase_laterhalf_random==1&order_rate>=40&course_distance==2400&track_id==10006",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.65,
+        "displayText": "Target Speed +0.65"
+      }
+    ],
+    "effectSummary": "Target Speed +0.65",
+    "iconId": 0,
+    "skillName": "最強淑女の誇り",
+    "skillDesc": "レース終盤が迫ったとき\\n中団以降にいると速度が上がる\\n東京レース場の2400mのレースなら\\nとてつもなく上がる＜作戦・差し＞",
+    "needSkillPoint": 0,
+    "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activationCondition2": "running_style==3&phase_laterhalf_random==1&order_rate>=40",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.35",
+    "duration2": 2.4,
     "cooldownTime2": 500
   },
   {
