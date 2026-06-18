@@ -6856,6 +6856,30 @@
     "type": 3
   },
   {
+    "id": 10360101,
+    "name": "trigger:BEAT",
+    "description": "A Spark that gives a skill hint for \"trigger:BEAT\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10360102,
+    "name": "trigger:BEAT",
+    "description": "A Spark that gives a skill hint for \"trigger:BEAT\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10360103,
+    "name": "trigger:BEAT",
+    "description": "A Spark that gives a skill hint for \"trigger:BEAT\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10370101,
     "name": "Schwarzes Schwert",
     "description": "A Spark that gives a skill hint for \"Schwarzes Schwert\".",

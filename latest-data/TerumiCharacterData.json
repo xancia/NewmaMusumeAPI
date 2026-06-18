@@ -1667,7 +1667,7 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1015,
-    "skillIds": "110151,200202,200252,200351,200352,201312,202011,202012",
+    "skillIds": "100151,110151,200202,200252,200351,200352,201312,202011,202012",
     "potentialSkills": [
       {
         "skillId": 200352,
@@ -3531,6 +3531,74 @@
       },
       {
         "skillId": 200591,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1036,
+    "charaName": "Air Shakur",
+    "voiceActor": "Minami Tsuda",
+    "cardId": 103601,
+    "cardTitle": "[unsigned]",
+    "supportCardId": 10037,
+    "startDate": "2026-06-18T22:00:00",
+    "baseSpeed": 120,
+    "baseStamina": 104,
+    "basePower": 116,
+    "baseGuts": 84,
+    "baseWisdom": 126,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 30,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "E",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "C",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "A",
+    "birthYear": 1997,
+    "birthMonth": 2,
+    "birthDay": 26,
+    "sex": 1,
+    "height": 2,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1036,
+    "skillIds": "100361,200462,201452,201453,201492,201502,202101,202102",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 201452,
+        "needRank": 0
+      },
+      {
+        "skillId": 202102,
+        "needRank": 0
+      },
+      {
+        "skillId": 201492,
+        "needRank": 2
+      },
+      {
+        "skillId": 202101,
+        "needRank": 3
+      },
+      {
+        "skillId": 201502,
+        "needRank": 4
+      },
+      {
+        "skillId": 201453,
         "needRank": 5
       }
     ]
