@@ -423,8 +423,12 @@ namespace UmaMusumeAPI.Controllers.Views
                 SELECT s.story_id, t.text as event_title, s.support_card_id, s.show_progress_1, s.show_progress_2
                 FROM single_mode_story_data s
                 LEFT JOIN text_data t ON s.story_id = t.`index` AND t.category = 181
-                WHERE (s.support_card_id = @supportCardId) 
-                   OR (s.support_chara_id = @charaId AND s.support_card_id = 0)
+                WHERE (s.support_card_id = @supportCardId)
+                   OR (s.support_card_id = 0 AND s.support_chara_id IN (
+                          SELECT chara_id FROM support_card_group WHERE support_card_id = @supportCardId
+                          UNION
+                          SELECT @charaId
+                      ))
                 ORDER BY s.support_card_id DESC, s.show_progress_1";
 
             await using (var connection = new MySqlConnection(_connectionString))
