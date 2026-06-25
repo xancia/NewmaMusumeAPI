@@ -13,6 +13,7 @@ namespace UmaMusumeAPI.Controllers.Views
     [ApiController]
     public class TerumiCharacterDataController : ControllerBase
     {
+        private const int PlayableCardIdLimit = 9000000;
         private readonly string _connectionString;
 
         public TerumiCharacterDataController(UmaMusumeDbContext context)
@@ -99,7 +100,10 @@ namespace UmaMusumeAPI.Controllers.Views
                     GROUP BY chara_id
                 ) scd ON scd.chara_id = cd.id
                 LEFT JOIN single_mode_route ura ON ura.chara_id = cd.id AND ura.scenario_id = 0
-                WHERE t_name.text IS NOT NULL AND card.id IS NOT NULL
+                WHERE t_name.text IS NOT NULL
+                    AND card.id IS NOT NULL
+                    AND card.id < @playableCardIdLimit
+                    AND r5.card_id IS NOT NULL
                 ORDER BY card.id";
 
             var result = new List<TerumiCharacterData>();
@@ -110,6 +114,9 @@ namespace UmaMusumeAPI.Controllers.Views
                 await using (var command = connection.CreateCommand())
                 {
                     command.CommandText = query;
+                    command.Parameters.Add(
+                        new MySqlParameter("@playableCardIdLimit", PlayableCardIdLimit)
+                    );
 
                     await using (var reader = await command.ExecuteReaderAsync())
                     {
@@ -369,7 +376,10 @@ namespace UmaMusumeAPI.Controllers.Views
                 LEFT JOIN card_rarity_data r5 ON r5.card_id = card.id AND r5.rarity = 5
                 LEFT JOIN support_card_data scd ON scd.chara_id = cd.id
                 LEFT JOIN single_mode_route ura ON ura.chara_id = cd.id AND ura.scenario_id = 0
-                WHERE cd.id = @charaId AND t_name.text IS NOT NULL
+                WHERE cd.id = @charaId
+                    AND t_name.text IS NOT NULL
+                    AND card.id < @playableCardIdLimit
+                    AND r5.card_id IS NOT NULL
                 GROUP BY cd.id";
 
             await using (var connection = new MySqlConnection(_connectionString))
@@ -379,6 +389,9 @@ namespace UmaMusumeAPI.Controllers.Views
                 {
                     command.CommandText = query;
                     command.Parameters.Add(new MySqlParameter("@charaId", charaId));
+                    command.Parameters.Add(
+                        new MySqlParameter("@playableCardIdLimit", PlayableCardIdLimit)
+                    );
 
                     await using (var reader = await command.ExecuteReaderAsync())
                     {
