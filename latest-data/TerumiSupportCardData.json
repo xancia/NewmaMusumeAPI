@@ -42122,32 +42122,20 @@
     "skillHints": [],
     "events": [
       {
-        "storyId": 830067032,
-        "eventTitle": "Dreaming the Same Dream",
+        "storyId": 830067002,
+        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067002,
+        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
         "storyId": 830067004,
         "eventTitle": "The Bright Future Ahead",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067003,
-        "eventTitle": "We'll Get Stronger, Together",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067002,
-        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067002,
-        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -42170,8 +42158,20 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830067020,
-        "eventTitle": "I Wanna Be Just Like Prez!",
+        "storyId": 830067032,
+        "eventTitle": "Dreaming the Same Dream",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067003,
+        "eventTitle": "We'll Get Stronger, Together",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067006,
+        "eventTitle": "The Monarch's Pride",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
@@ -42182,14 +42182,14 @@
         "eventOrder": 1
       },
       {
-        "storyId": 830067006,
-        "eventTitle": "The Monarch's Pride",
+        "storyId": 830067005,
+        "eventTitle": "#Studenting",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
       {
-        "storyId": 830067005,
-        "eventTitle": "#Studenting",
+        "storyId": 830067020,
+        "eventTitle": "I Wanna Be Just Like Prez!",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
@@ -42200,7 +42200,31 @@
         "eventOrder": 2
       },
       {
+        "storyId": 801073001,
+        "eventTitle": "Preparing to the MAX!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801073002,
+        "eventTitle": "Helping Out to the MAX!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003001,
+        "eventTitle": "My Way, Or...",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 801017003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003003,
         "eventTitle": "A Hint for Growth",
         "eventType": "Random Event",
         "eventOrder": 0
@@ -42214,6 +42238,18 @@
       {
         "storyId": 801017001,
         "eventTitle": "The Emperor's Encouragement",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003002,
+        "eventTitle": "My Weapon",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801073003,
+        "eventTitle": "A Hint for Growth",
         "eventType": "Random Event",
         "eventOrder": 0
       }
@@ -45605,32 +45641,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830081002,
-        "eventTitle": "We're All Shining Stars",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081003,
-        "eventTitle": "A Second Serving of Training",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081001,
-        "eventTitle": "Every One of Us Has a Dream",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081004,
-        "eventTitle": "Teamwork Makes the Dream Work!",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081021,
-        "eventTitle": "Beyond the Horizon of Our Dreams",
+        "storyId": 830081023,
+        "eventTitle": "The Luckiest Racer in Japan",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -45641,38 +45653,38 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830081023,
-        "eventTitle": "The Luckiest Racer in Japan",
+        "storyId": 830081021,
+        "eventTitle": "Beyond the Horizon of Our Dreams",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 830081020,
-        "eventTitle": "The Meaning of Support",
+        "storyId": 830081004,
+        "eventTitle": "Teamwork Makes the Dream Work!",
         "eventType": "Chain Event",
-        "eventOrder": 1
+        "eventOrder": 0
       },
       {
-        "storyId": 830081010,
-        "eventTitle": "I Want to Share My Dream",
+        "storyId": 830081001,
+        "eventTitle": "Every One of Us Has a Dream",
         "eventType": "Chain Event",
-        "eventOrder": 1
+        "eventOrder": 0
       },
       {
-        "storyId": 830081009,
-        "eventTitle": "The Scenery that Lies Beyond",
+        "storyId": 830081003,
+        "eventTitle": "A Second Serving of Training",
         "eventType": "Chain Event",
-        "eventOrder": 1
+        "eventOrder": 0
       },
       {
-        "storyId": 830081008,
-        "eventTitle": "It's Tough Being a Little Sister",
+        "storyId": 830081002,
+        "eventTitle": "We're All Shining Stars",
         "eventType": "Chain Event",
-        "eventOrder": 1
+        "eventOrder": 0
       },
       {
-        "storyId": 830081007,
-        "eventTitle": "Common Threads, Dreams Entwined",
+        "storyId": 830081005,
+        "eventTitle": "I Shall Have the Last Laugh",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
@@ -45683,10 +45695,106 @@
         "eventOrder": 1
       },
       {
-        "storyId": 830081005,
-        "eventTitle": "I Shall Have the Last Laugh",
+        "storyId": 830081007,
+        "eventTitle": "Common Threads, Dreams Entwined",
         "eventType": "Chain Event",
         "eventOrder": 1
+      },
+      {
+        "storyId": 830081008,
+        "eventTitle": "It's Tough Being a Little Sister",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081009,
+        "eventTitle": "The Scenery that Lies Beyond",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081010,
+        "eventTitle": "I Want to Share My Dream",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081020,
+        "eventTitle": "The Meaning of Support",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 801016003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801016002,
+        "eventTitle": "Lone Wolf",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801016001,
+        "eventTitle": "Student Council Member!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001002,
+        "eventTitle": "So Many Options!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801002001,
+        "eventTitle": "On and On",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801002002,
+        "eventTitle": "What Should I Do?",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801013001,
+        "eventTitle": "To Maintain My Weight",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801013002,
+        "eventTitle": "To Reach the Greatest Heights",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030001,
+        "eventTitle": "A Page of Flower Shop Assistance",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030002,
+        "eventTitle": "A Page About Cloudy Weather",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801035001,
+        "eventTitle": "Full-Power Muscles!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801035002,
+        "eventTitle": "Full-Power Racing!",
+        "eventType": "Random Event",
+        "eventOrder": 0
       },
       {
         "storyId": 801001003,
@@ -45695,8 +45803,26 @@
         "eventOrder": 0
       },
       {
-        "storyId": 801001002,
-        "eventTitle": "So Many Options!",
+        "storyId": 801002003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801013003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801035003,
+        "eventTitle": "A Hint for Growth",
         "eventType": "Random Event",
         "eventOrder": 0
       },
