@@ -136,6 +136,74 @@
     ]
   },
   {
+    "charaId": 1001,
+    "charaName": "Special Week",
+    "voiceActor": "Azumi Waki",
+    "cardId": 100103,
+    "cardTitle": "[Ruler of Japan]",
+    "supportCardId": 10001,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 117,
+    "baseStamina": 100,
+    "basePower": 115,
+    "baseGuts": 100,
+    "baseWisdom": 118,
+    "talentSpeed": 10,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "C",
+    "birthYear": 1995,
+    "birthMonth": 5,
+    "birthDay": 2,
+    "sex": 1,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1001,
+    "skillIds": "120011,200332,200612,201172,201182,201211,201212,202061",
+    "potentialSkills": [
+      {
+        "skillId": 200332,
+        "needRank": 0
+      },
+      {
+        "skillId": 200612,
+        "needRank": 0
+      },
+      {
+        "skillId": 201212,
+        "needRank": 0
+      },
+      {
+        "skillId": 201172,
+        "needRank": 2
+      },
+      {
+        "skillId": 201211,
+        "needRank": 3
+      },
+      {
+        "skillId": 201182,
+        "needRank": 4
+      },
+      {
+        "skillId": 202061,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1002,
     "charaName": "Silence Suzuka",
     "voiceActor": "Marika Kohno",
@@ -5914,5 +5982,83 @@
         "needRank": 5
       }
     ]
+  },
+  {
+    "charaId": 1001,
+    "charaName": "Special Week",
+    "voiceActor": "Azumi Waki",
+    "cardId": 9100101,
+    "cardTitle": "[Special Dreamer]",
+    "supportCardId": 10001,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": null,
+    "baseStamina": null,
+    "basePower": null,
+    "baseGuts": null,
+    "baseWisdom": null,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": null,
+    "aptitudeDirt": null,
+    "aptitudeShort": null,
+    "aptitudeMile": null,
+    "aptitudeMiddle": null,
+    "aptitudeLong": null,
+    "aptitudeRunner": null,
+    "aptitudeLeader": null,
+    "aptitudeBetweener": null,
+    "aptitudeChaser": null,
+    "birthYear": 1995,
+    "birthMonth": 5,
+    "birthDay": 2,
+    "sex": 1,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1001,
+    "skillIds": "",
+    "potentialSkills": []
+  },
+  {
+    "charaId": 1011,
+    "charaName": "Grass Wonder",
+    "voiceActor": "Rena Maeda",
+    "cardId": 9101101,
+    "cardTitle": "[Stone-Piercing Blue]",
+    "supportCardId": 10009,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": null,
+    "baseStamina": null,
+    "basePower": null,
+    "baseGuts": null,
+    "baseWisdom": null,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": null,
+    "aptitudeDirt": null,
+    "aptitudeShort": null,
+    "aptitudeMile": null,
+    "aptitudeMiddle": null,
+    "aptitudeLong": null,
+    "aptitudeRunner": null,
+    "aptitudeLeader": null,
+    "aptitudeBetweener": null,
+    "aptitudeChaser": null,
+    "birthYear": 1995,
+    "birthMonth": 2,
+    "birthDay": 18,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1011,
+    "skillIds": "",
+    "potentialSkills": []
   }
 ]

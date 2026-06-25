@@ -5656,6 +5656,30 @@
     "type": 3
   },
   {
+    "id": 10010301,
+    "name": "Dreams Donned with Pride!",
+    "description": "A Spark that gives a skill hint for \"Dreams Donned with Pride!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10010302,
+    "name": "Dreams Donned with Pride!",
+    "description": "A Spark that gives a skill hint for \"Dreams Donned with Pride!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10010303,
+    "name": "Dreams Donned with Pride!",
+    "description": "A Spark that gives a skill hint for \"Dreams Donned with Pride!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10020101,
     "name": "The View from the Lead Is Mine!",
     "description": "A Spark that gives a skill hint for \"The View from the Lead Is Mine!\".",

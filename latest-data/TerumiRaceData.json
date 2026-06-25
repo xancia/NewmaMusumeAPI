@@ -208,6 +208,54 @@
     "schedules": []
   },
   {
+    "raceId": 7020,
+    "raceName": "Team Practice",
+    "grade": 0,
+    "gradeName": "Unknown (0)",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 18,
+    "schedules": []
+  },
+  {
+    "raceId": 7021,
+    "raceName": "A Race Free of Doubt",
+    "grade": 0,
+    "gradeName": "Unknown (0)",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 18,
+    "schedules": []
+  },
+  {
+    "raceId": 7022,
+    "raceName": "Team Sirius Tryout",
+    "grade": 0,
+    "gradeName": "Unknown (0)",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 18,
+    "schedules": []
+  },
+  {
     "raceId": 1001,
     "raceName": "February Stakes",
     "grade": 100,
@@ -1086,6 +1134,32 @@
         "day": 29,
         "half": 2,
         "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1201,
+    "raceName": "Prix de l'Arc de Triomphe",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10201,
+    "trackName": "Longchamp",
+    "entryNum": 18,
+    "schedules": [
+      {
+        "instanceId": 120101,
+        "month": 10,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
         "time": 3,
         "timeName": "Afternoon"
       }
@@ -6542,6 +6616,58 @@
     "trackName": "Tokyo",
     "entryNum": 18,
     "schedules": []
+  },
+  {
+    "raceId": 7019,
+    "raceName": "Arima Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2500,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 701901,
+        "month": 12,
+        "day": 22,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 7023,
+    "raceName": "Arima Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2500,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 702301,
+        "month": 12,
+        "day": 22,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
   },
   {
     "raceId": 9500,
@@ -13901,6 +14027,240 @@
         "instanceId": 1200102,
         "month": 6,
         "day": 23,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15001,
+    "raceName": "Scout Race: Sprint",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650001,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15002,
+    "raceName": "Scout Race: Mile",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650002,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15003,
+    "raceName": "Scout Race: Mile",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650003,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15004,
+    "raceName": "Scout Race: Medium",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650004,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15005,
+    "raceName": "Scout Race: Medium",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650005,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15006,
+    "raceName": "Scout Race: Long",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 3000,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650006,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15007,
+    "raceName": "Scout Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1400,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650007,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15008,
+    "raceName": "Scout Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650008,
+        "month": 7,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15009,
+    "raceName": "Scout Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650009,
+        "month": 7,
+        "day": 21,
         "half": 2,
         "halfName": "Second Half",
         "time": 2,
