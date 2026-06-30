@@ -70034,18 +70034,6 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830067031,
-        "eventTitle": "協心戮力の果てに",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067032,
-        "eventTitle": "同じ夢を見て",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
         "storyId": 830067004,
         "eventTitle": "煌めきの先",
         "eventType": "Chain Event",
@@ -70076,6 +70064,24 @@
         "eventOrder": 0
       },
       {
+        "storyId": 830067030,
+        "eventTitle": "『並び立つ三英』",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067031,
+        "eventTitle": "協心戮力の果てに",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067032,
+        "eventTitle": "同じ夢を見て",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 830067003,
         "eventTitle": "鍛えよ共に",
         "eventType": "Chain Event",
@@ -70084,12 +70090,6 @@
       {
         "storyId": 400006114,
         "eventTitle": "連絡が届いた！",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067030,
-        "eventTitle": "『並び立つ三英』",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -70124,8 +70124,32 @@
         "eventOrder": 2
       },
       {
-        "storyId": 801017003,
-        "eventTitle": "Event 801017003",
+        "storyId": 801003002,
+        "eventTitle": "ボクの武器",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801017001,
+        "eventTitle": "“皇帝”の激励",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801073003,
+        "eventTitle": "Event 801073003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801073002,
+        "eventTitle": "精いっぱいお手伝いするぞー！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801073001,
+        "eventTitle": "精いっぱい準備するぞー！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -70136,8 +70160,20 @@
         "eventOrder": 0
       },
       {
-        "storyId": 801017001,
-        "eventTitle": "“皇帝”の激励",
+        "storyId": 801003003,
+        "eventTitle": "Event 801003003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801017003,
+        "eventTitle": "Event 801017003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003001,
+        "eventTitle": "ボクのやり方",
         "eventType": "Random Event",
         "eventOrder": 0
       }
@@ -73565,32 +73601,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830081023,
-        "eventTitle": "日本一の幸運ウマ娘",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081002,
-        "eventTitle": "それぞれが一等星",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081002,
-        "eventTitle": "それぞれが一等星",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081003,
-        "eventTitle": "おかわりトレーニング",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081001,
-        "eventTitle": "それぞれが持つ夢",
+        "storyId": 830081021,
+        "eventTitle": "夢に駆けた、その先に",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -73601,14 +73613,32 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830081021,
-        "eventTitle": "夢に駆けた、その先に",
+        "storyId": 830081001,
+        "eventTitle": "それぞれが持つ夢",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 830081022,
-        "eventTitle": "今日も夢に向かって",
+        "storyId": 830081003,
+        "eventTitle": "おかわりトレーニング",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081002,
+        "eventTitle": "それぞれが一等星",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081023,
+        "eventTitle": "日本一の幸運ウマ娘",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081002,
+        "eventTitle": "それぞれが一等星",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -73625,32 +73655,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830081020,
-        "eventTitle": "支えるということ",
+        "storyId": 830081022,
+        "eventTitle": "今日も夢に向かって",
         "eventType": "Chain Event",
-        "eventOrder": 1
+        "eventOrder": 0
       },
       {
-        "storyId": 830081010,
-        "eventTitle": "知ってほしい夢",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 830081009,
-        "eventTitle": "“景色”に続く道",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 830081008,
-        "eventTitle": "妹はつらいよ",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 830081007,
-        "eventTitle": "紡ぎはじめた想い",
+        "storyId": 830081005,
+        "eventTitle": "わからせて差し上げますわ",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
@@ -73661,10 +73673,112 @@
         "eventOrder": 1
       },
       {
-        "storyId": 830081005,
-        "eventTitle": "わからせて差し上げますわ",
+        "storyId": 830081007,
+        "eventTitle": "紡ぎはじめた想い",
         "eventType": "Chain Event",
         "eventOrder": 1
+      },
+      {
+        "storyId": 830081008,
+        "eventTitle": "妹はつらいよ",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081009,
+        "eventTitle": "“景色”に続く道",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081010,
+        "eventTitle": "知ってほしい夢",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081020,
+        "eventTitle": "支えるということ",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 801013001,
+        "eventTitle": "体重を保つ為",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801002002,
+        "eventTitle": "どうすれば",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801002001,
+        "eventTitle": "どこまでも",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001002,
+        "eventTitle": "あれもこれもで、悩んじゃいます！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801002003,
+        "eventTitle": "Event 801002003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801013002,
+        "eventTitle": "高みに至る為",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030001,
+        "eventTitle": "お花屋さんでの1ページ",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801013003,
+        "eventTitle": "Event 801013003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030003,
+        "eventTitle": "Event 801030003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801035003,
+        "eventTitle": "Event 801035003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801016001,
+        "eventTitle": "生徒会役員！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801016002,
+        "eventTitle": "孤狼",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801016003,
+        "eventTitle": "Event 801016003",
+        "eventType": "Random Event",
+        "eventOrder": 0
       },
       {
         "storyId": 801001003,
@@ -73673,8 +73787,20 @@
         "eventOrder": 0
       },
       {
-        "storyId": 801001002,
-        "eventTitle": "あれもこれもで、悩んじゃいます！",
+        "storyId": 801035002,
+        "eventTitle": "全・力・競・走！！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801035001,
+        "eventTitle": "全・力・筋・肉！！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030002,
+        "eventTitle": "曇りの日の1ページ",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -99933,6 +100059,30 @@
         "eventOrder": 0
       },
       {
+        "storyId": 830180002,
+        "eventTitle": "スターウマ娘の威厳を！",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830180003,
+        "eventTitle": "王道のトレーニングといえば",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830180003,
+        "eventTitle": "王道のトレーニングといえば",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830180004,
+        "eventTitle": "バトンを受け取って",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 830180030,
         "eventTitle": "区切りの先へ",
         "eventType": "Chain Event",
@@ -99945,26 +100095,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830180004,
-        "eventTitle": "バトンを受け取って",
+        "storyId": 830180032,
+        "eventTitle": "あなたを想って",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 830180003,
-        "eventTitle": "王道のトレーニングといえば",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830180003,
-        "eventTitle": "王道のトレーニングといえば",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830180002,
-        "eventTitle": "スターウマ娘の威厳を！",
+        "storyId": 400006114,
+        "eventTitle": "連絡が届いた！",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -99977,18 +100115,6 @@
       {
         "storyId": 830180001,
         "eventTitle": "頑張ったあとのお楽しみ",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830180032,
-        "eventTitle": "あなたを想って",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 400006114,
-        "eventTitle": "連絡が届いた！",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -100023,6 +100149,36 @@
         "eventOrder": 2
       },
       {
+        "storyId": 801003003,
+        "eventTitle": "Event 801003003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001002,
+        "eventTitle": "あれもこれもで、悩んじゃいます！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003001,
+        "eventTitle": "ボクのやり方",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003002,
+        "eventTitle": "ボクの武器",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001003,
+        "eventTitle": "Event 801001003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 801068002,
         "eventTitle": "あぁ、故郷",
         "eventType": "Random Event",
@@ -100037,6 +100193,12 @@
       {
         "storyId": 801068003,
         "eventTitle": "Event 801068003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801001001,
+        "eventTitle": "曲がり角には、気をつけます！",
         "eventType": "Random Event",
         "eventOrder": 0
       }
@@ -135790,6 +135952,695 @@
       "value02": 10,
       "value03": 0,
       "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30304,
+    "charaId": 1058,
+    "charaName": "メイショウドトウ",
+    "supportCardTitle": "[その執念は怒濤が如く]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Stamina",
+    "effectTableId": 30304,
+    "uniqueEffectId": 30304,
+    "skillSetId": 9081058,
+    "commandType": 1,
+    "commandId": 105,
+    "startDate": "2026-06-29T03:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 40
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 10,
+        "level35Value": 20,
+        "level40Value": 40,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 15
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 35
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 2,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 4
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 60,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 100
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 60,
+        "level50Value": 120
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": 2
+      },
+      {
+        "effectType": 32,
+        "effectTypeName": "Effect Type 32",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 30,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 60
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200332,
+        "skillName": "コーナー巧者○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200352,
+        "skillName": "コーナー回復○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201591,
+        "skillName": "ウマ好み",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201651,
+        "skillName": "スリップストリーム",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202012,
+        "skillName": "影打",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202172,
+        "skillName": "下り坂巧者",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202602,
+        "skillName": "イグニッション",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203642,
+        "skillName": "光明",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203652,
+        "skillName": "活路を拓く！",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204392,
+        "skillName": "息抜き上手",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204472,
+        "skillName": "奮い立つ心",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830304001,
+        "eventTitle": "何度転んでしまっても",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830304002,
+        "eventTitle": "美味しい楽しいファンサービス",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830304003,
+        "eventTitle": "覇王と共に歩む道",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801058001,
+        "eventTitle": "私……改革ですっ",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801058002,
+        "eventTitle": "にんじん……買ってくださいっ",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801058003,
+        "eventTitle": "Event 801058003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 1,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 4,
+      "value02": 1,
+      "value03": 6,
+      "value04": 1,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30305,
+    "charaId": 9001,
+    "charaName": "駿川たづな",
+    "supportCardTitle": "[一杯のノスタルジア]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 2,
+    "supportCardTypeName": "Friend",
+    "effectTableId": 30305,
+    "uniqueEffectId": 30305,
+    "skillSetId": 9089001,
+    "commandType": 0,
+    "commandId": 0,
+    "startDate": "2026-06-29T03:00:00",
+    "outingMax": 5,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": 5,
+        "level40Value": 5,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": 10,
+        "level40Value": 15,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 25,
+        "effectTypeName": "Event Recovery",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 40,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 60
+      },
+      {
+        "effectType": 26,
+        "effectTypeName": "Event Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 10,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 27,
+        "effectTypeName": "Failure Protection",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 15,
+        "level50Value": -1
+      },
+      {
+        "effectType": 28,
+        "effectTypeName": "Energy Cost Reduction",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 32,
+        "effectTypeName": "Effect Type 32",
+        "initValue": 20,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 20,
+        "level20Value": -1,
+        "level25Value": 30,
+        "level30Value": 30,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 40,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [],
+    "events": [
+      {
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001101,
+        "eventTitle": "おはようございます、たづなさん",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001121,
+        "eventTitle": "たづなとの絆・乾杯は勝利の美酒へ",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001122,
+        "eventTitle": "舞台袖の応援歌",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001123,
+        "eventTitle": "ほんの一時、息をついて",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001132,
+        "eventTitle": "期待していますね♪",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001104,
+        "eventTitle": "深夜のファミレス、あとラーメン",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001104,
+        "eventTitle": "深夜のファミレス、あとラーメン",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 400006114,
+        "eventTitle": "連絡が届いた！",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001111,
+        "eventTitle": "スーツとスティックと汗",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 809001112,
+        "eventTitle": "明日なんて知らない！",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 809001113,
+        "eventTitle": "机を寄せて、持ちよって",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 809001114,
+        "eventTitle": "ひとりぼっちの、その先で",
+        "eventType": "Chain Event",
+        "eventOrder": 4
+      },
+      {
+        "storyId": 809001115,
+        "eventTitle": "いつでも、毎秒、その時だ",
+        "eventType": "Chain Event",
+        "eventOrder": 5
+      },
+      {
+        "storyId": 400006124,
+        "eventTitle": "スピーカー越しのぬくもり",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001003,
+        "eventTitle": "お疲れ様です♪",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001001,
+        "eventTitle": "選んだ生き方",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001002,
+        "eventTitle": "理事長秘書のたづなさん",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001003,
+        "eventTitle": "お疲れ様です♪",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001004,
+        "eventTitle": "情熱のふたり",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001010,
+        "eventTitle": "『いつもの』ください！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001011,
+        "eventTitle": "たづなとの絆・憧れを託して",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001009,
+        "eventTitle": "ちょっとだけお傍で",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 400006114,
+        "eventTitle": "連絡が届いた！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001004,
+        "eventTitle": "情熱のふたり",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001005,
+        "eventTitle": "牛乳ときどきリンゴ",
+        "eventType": "Date Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 809001006,
+        "eventTitle": "驚異の逃げ脚？",
+        "eventType": "Date Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 809001007,
+        "eventTitle": "キネマの思ひ出",
+        "eventType": "Date Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 809001008,
+        "eventTitle": "ため息と絆創膏",
+        "eventType": "Date Event",
+        "eventOrder": 4
+      },
+      {
+        "storyId": 830021001,
+        "eventTitle": "ひと休みサプライズ",
+        "eventType": "Date Event",
+        "eventOrder": 5
+      }
+    ],
+    "uniqueEffect": {
+      "level": 1,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 60,
+      "value01": 4,
+      "value02": 1,
+      "value03": 30,
+      "value04": 1,
       "type1": 0,
       "type1Name": "None",
       "value1": 0,

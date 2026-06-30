@@ -5820,6 +5820,38 @@
     "schedules": []
   },
   {
+    "raceId": 6091,
+    "raceName": "チャンピオンズミーティング CLASSIC",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "東京",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6092,
+    "raceName": "チャンピオンズミーティング CLASSIC 決勝",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "東京",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6100,
     "raceName": "チームレース　短距離代表",
     "grade": 100,
@@ -18071,7 +18103,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1200102,
+        "instanceId": 1200101,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -18080,7 +18112,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200101,
+        "instanceId": 1200102,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -18106,7 +18138,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 1200201,
+        "instanceId": 1200202,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -18115,7 +18147,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200202,
+        "instanceId": 1200201,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -18281,7 +18313,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1200702,
+        "instanceId": 1200701,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -18290,7 +18322,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200701,
+        "instanceId": 1200702,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -18316,7 +18348,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 1200802,
+        "instanceId": 1200801,
         "month": 6,
         "day": 26,
         "half": 2,
@@ -18325,7 +18357,7 @@
         "timeName": "Evening"
       },
       {
-        "instanceId": 1200801,
+        "instanceId": 1200802,
         "month": 6,
         "day": 26,
         "half": 2,
@@ -18351,7 +18383,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 1200901,
+        "instanceId": 1200902,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -18360,7 +18392,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200902,
+        "instanceId": 1200901,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -18491,7 +18523,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1201302,
+        "instanceId": 1201301,
         "month": 12,
         "day": 15,
         "half": 1,
@@ -18500,7 +18532,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1201301,
+        "instanceId": 1201302,
         "month": 12,
         "day": 15,
         "half": 1,
@@ -18526,7 +18558,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1201401,
+        "instanceId": 1201402,
         "month": 3,
         "day": 24,
         "half": 2,
@@ -18535,7 +18567,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1201402,
+        "instanceId": 1201401,
         "month": 3,
         "day": 24,
         "half": 2,
@@ -18647,7 +18679,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1201801,
+        "instanceId": 1201802,
         "month": 6,
         "day": 2,
         "half": 1,
@@ -18656,7 +18688,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1201802,
+        "instanceId": 1201801,
         "month": 6,
         "day": 2,
         "half": 1,
@@ -18787,7 +18819,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1202202,
+        "instanceId": 1202201,
         "month": 10,
         "day": 20,
         "half": 2,
@@ -18796,7 +18828,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1202201,
+        "instanceId": 1202202,
         "month": 10,
         "day": 20,
         "half": 2,
@@ -18822,7 +18854,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1202301,
+        "instanceId": 1202302,
         "month": 11,
         "day": 24,
         "half": 2,
@@ -18831,7 +18863,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1202302,
+        "instanceId": 1202301,
         "month": 11,
         "day": 24,
         "half": 2,
@@ -18927,7 +18959,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1202702,
+        "instanceId": 1202701,
         "month": 4,
         "day": 7,
         "half": 1,
@@ -18936,7 +18968,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1202701,
+        "instanceId": 1202702,
         "month": 4,
         "day": 7,
         "half": 1,
@@ -18962,7 +18994,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1202801,
+        "instanceId": 1202802,
         "month": 4,
         "day": 14,
         "half": 1,
@@ -18971,7 +19003,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1202802,
+        "instanceId": 1202801,
         "month": 4,
         "day": 14,
         "half": 1,
@@ -18997,7 +19029,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1202902,
+        "instanceId": 1202901,
         "month": 4,
         "day": 28,
         "half": 2,
@@ -19006,7 +19038,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1202901,
+        "instanceId": 1202902,
         "month": 4,
         "day": 28,
         "half": 2,
@@ -19102,7 +19134,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 1203202,
+        "instanceId": 1203201,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -19111,7 +19143,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1203201,
+        "instanceId": 1203202,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -19312,7 +19344,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 1203802,
+        "instanceId": 1203801,
         "month": 2,
         "day": 22,
         "half": 2,
@@ -19321,7 +19353,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1203801,
+        "instanceId": 1203802,
         "month": 2,
         "day": 22,
         "half": 2,
@@ -19502,6 +19534,41 @@
         "halfName": "Second Half",
         "time": 2,
         "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 12045,
+    "raceName": "帝王賞",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "大井",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 1204401,
+        "month": 6,
+        "day": 26,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
+      },
+      {
+        "instanceId": 1204402,
+        "month": 6,
+        "day": 26,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
       }
     ]
   },
@@ -25643,15 +25710,6 @@
     "entryNum": 20,
     "schedules": [
       {
-        "instanceId": 931205,
-        "month": 10,
-        "day": 3,
-        "half": 1,
-        "halfName": "First Half",
-        "time": 2,
-        "timeName": "Morning"
-      },
-      {
         "instanceId": 931203,
         "month": 10,
         "day": 3,
@@ -25662,6 +25720,15 @@
       },
       {
         "instanceId": 931204,
+        "month": 10,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      },
+      {
+        "instanceId": 931205,
         "month": 10,
         "day": 3,
         "half": 1,
@@ -34048,7 +34115,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1202502,
+        "instanceId": 1202501,
         "month": 1,
         "day": 22,
         "half": 2,
@@ -34057,7 +34124,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1202501,
+        "instanceId": 1202502,
         "month": 1,
         "day": 22,
         "half": 2,
