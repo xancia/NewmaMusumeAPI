@@ -424,10 +424,19 @@ namespace UmaMusumeAPI.Controllers.Views
                 FROM single_mode_story_data s
                 LEFT JOIN text_data t ON s.story_id = t.`index` AND t.category = 181
                 WHERE (s.support_card_id = @supportCardId)
+                   OR (s.support_chara_id = @charaId AND s.support_card_id = 0
+                       AND (s.story_id NOT LIKE '83%'
+                            OR s.story_id LIKE CONCAT('83', LPAD(@supportCardId % 10000, 4, '0'), '%'))
+                       AND NOT (s.show_progress_1 > 0 AND s.show_progress_2 > 0
+                                AND EXISTS (
+                                    SELECT 1 FROM single_mode_story_data o
+                                    WHERE o.support_card_id = @supportCardId
+                                      AND o.show_progress_1 > 0 AND o.show_progress_2 > 0
+                                )))
                    OR (s.support_card_id = 0 AND s.support_chara_id IN (
-                          SELECT chara_id FROM support_card_group WHERE support_card_id = @supportCardId
-                          UNION
-                          SELECT @charaId
+                          SELECT g.chara_id FROM support_card_group g
+                          JOIN support_card_data sc ON sc.id = g.support_card_id
+                          WHERE g.support_card_id = @supportCardId AND sc.support_card_type = 3
                       ))
                 ORDER BY s.support_card_id DESC, s.show_progress_1";
 
