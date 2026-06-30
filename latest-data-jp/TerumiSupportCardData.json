@@ -12047,20 +12047,20 @@
         "eventOrder": 0
       },
       {
+        "storyId": 809006004,
+        "eventTitle": "意外な一面",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 809006003,
         "eventTitle": "お疲れ様です",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809006009,
-        "eventTitle": "かけがえのない出会いに",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809006004,
-        "eventTitle": "意外な一面",
+        "storyId": 809006002,
+        "eventTitle": "仕事人の樫本理子",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -12071,8 +12071,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809006002,
-        "eventTitle": "仕事人の樫本理子",
+        "storyId": 809006009,
+        "eventTitle": "かけがえのない出会いに",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -12099,12 +12099,6 @@
         "eventTitle": "向けられる想いと戸惑い",
         "eventType": "Date Event",
         "eventOrder": 4
-      },
-      {
-        "storyId": 830036001,
-        "eventTitle": "胸の内を少しだけ",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": null
@@ -14786,12 +14780,6 @@
         "eventTitle": "あんし～ん☆サングラス",
         "eventType": "Date Event",
         "eventOrder": 2
-      },
-      {
-        "storyId": 830080001,
-        "eventTitle": "決戦☆あんし～んよ永遠に！",
-        "eventType": "Date Event",
-        "eventOrder": 3
       }
     ],
     "uniqueEffect": null
@@ -16530,8 +16518,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809008004,
-        "eventTitle": "想いの力、受け止めて……！",
+        "storyId": 809008003,
+        "eventTitle": "お疲れ様です……！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -16542,8 +16530,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809008001,
-        "eventTitle": "ちゃっかりリサーチ♪",
+        "storyId": 809008004,
+        "eventTitle": "想いの力、受け止めて……！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -16554,14 +16542,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809008002,
-        "eventTitle": "イベント企画のライトハロー",
+        "storyId": 809008001,
+        "eventTitle": "ちゃっかりリサーチ♪",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809008003,
-        "eventTitle": "お疲れ様です……！",
+        "storyId": 809008002,
+        "eventTitle": "イベント企画のライトハロー",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -16588,12 +16576,6 @@
         "eventTitle": "ホイヘンス山、越えし君",
         "eventType": "Date Event",
         "eventOrder": 4
-      },
-      {
-        "storyId": 830052001,
-        "eventTitle": "虹の入り江にて",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": null
@@ -18917,8 +18899,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809043004,
-        "eventTitle": "時には仕事を忘れて",
+        "storyId": 809043003,
+        "eventTitle": "お疲れ様！！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -18929,8 +18911,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809043001,
-        "eventTitle": "サッカーしよう！",
+        "storyId": 809043004,
+        "eventTitle": "時には仕事を忘れて",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -18941,14 +18923,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809043002,
-        "eventTitle": "夢のトラブルシューター",
+        "storyId": 809043001,
+        "eventTitle": "サッカーしよう！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809043003,
-        "eventTitle": "お疲れ様！！",
+        "storyId": 809043002,
+        "eventTitle": "夢のトラブルシューター",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -18975,12 +18957,6 @@
         "eventTitle": "憧憬は始まりの地に",
         "eventType": "Date Event",
         "eventOrder": 4
-      },
-      {
-        "storyId": 830160001,
-        "eventTitle": "結ぶは、星空の誓い",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": null
@@ -21033,8 +21009,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809044004,
-        "eventTitle": "撃ち抜いたのは……",
+        "storyId": 809044003,
+        "eventTitle": "お疲れ様です！！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -21045,8 +21021,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809044001,
-        "eventTitle": "忙しいは楽しい！",
+        "storyId": 809044004,
+        "eventTitle": "撃ち抜いたのは……",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -21057,14 +21033,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809044002,
-        "eventTitle": "広がる笑顔",
+        "storyId": 809044001,
+        "eventTitle": "忙しいは楽しい！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809044003,
-        "eventTitle": "お疲れ様です！！",
+        "storyId": 809044002,
+        "eventTitle": "広がる笑顔",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -21091,12 +21067,6 @@
         "eventTitle": "きっと何色の未来でも",
         "eventType": "Date Event",
         "eventOrder": 4
-      },
-      {
-        "storyId": 830188001,
-        "eventTitle": "その働きに敬意を",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": null
@@ -22189,8 +22159,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809002004,
-        "eventTitle": "計画ッ！トレセンランド（仮）",
+        "storyId": 809002003,
+        "eventTitle": "激励ッ！そのまま進め！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -22201,8 +22171,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809002001,
-        "eventTitle": "出題ッ！理事長チェック！",
+        "storyId": 809002004,
+        "eventTitle": "計画ッ！トレセンランド（仮）",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -22213,14 +22183,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809002002,
-        "eventTitle": "猛歩猛歩ッ！理事長の秘技ッ！",
+        "storyId": 809002001,
+        "eventTitle": "出題ッ！理事長チェック！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809002003,
-        "eventTitle": "激励ッ！そのまま進め！",
+        "storyId": 809002002,
+        "eventTitle": "猛歩猛歩ッ！理事長の秘技ッ！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -22247,12 +22217,6 @@
         "eventTitle": "邂逅ッ！同じ空の下で",
         "eventType": "Date Event",
         "eventOrder": 4
-      },
-      {
-        "storyId": 830207001,
-        "eventTitle": "展望ッ！これからのわたしと君と",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": null
@@ -26108,14 +26072,8 @@
         "eventOrder": 2
       },
       {
-        "storyId": 809049032,
-        "eventTitle": "本能的トレーニング",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809049001,
-        "eventTitle": "無人島発、未来行き",
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -26126,8 +26084,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 400006115,
-        "eventTitle": "労いのエール",
+        "storyId": 809049001,
+        "eventTitle": "無人島発、未来行き",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809049032,
+        "eventTitle": "本能的トレーニング",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -26144,14 +26108,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 400006124,
-        "eventTitle": "スピーカー越しのぬくもり",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809049021,
-        "eventTitle": "タッカーブラインとの絆・大秘境を往け",
+        "storyId": 809049023,
+        "eventTitle": "君のおかげだ",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -26162,40 +26120,16 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809049023,
-        "eventTitle": "君のおかげだ",
+        "storyId": 809049021,
+        "eventTitle": "タッカーブラインとの絆・大秘境を往け",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809049011,
-        "eventTitle": "ドリームはジャンボにッ！",
-        "eventType": "Date Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 809049012,
-        "eventTitle": "理想のままに",
-        "eventType": "Date Event",
-        "eventOrder": 2
-      },
-      {
-        "storyId": 809049013,
-        "eventTitle": "言わなくていいこと",
-        "eventType": "Date Event",
-        "eventOrder": 3
-      },
-      {
-        "storyId": 809049014,
-        "eventTitle": "酔えど秘めごと",
-        "eventType": "Date Event",
-        "eventOrder": 4
-      },
-      {
-        "storyId": 809049015,
-        "eventTitle": "叫べ！響け！",
-        "eventType": "Date Event",
-        "eventOrder": 5
+        "storyId": 400006124,
+        "eventTitle": "スピーカー越しのぬくもり",
+        "eventType": "Random Event",
+        "eventOrder": 0
       }
     ],
     "uniqueEffect": null
@@ -28138,14 +28072,8 @@
         "eventOrder": 2
       },
       {
-        "storyId": 809050032,
-        "eventTitle": "存分に励みな！",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809050001,
-        "eventTitle": "極楽への誘い",
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -28156,8 +28084,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 400006115,
-        "eventTitle": "労いのエール",
+        "storyId": 809050001,
+        "eventTitle": "極楽への誘い",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809050032,
+        "eventTitle": "存分に励みな！",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -28174,14 +28108,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 400006124,
-        "eventTitle": "スピーカー越しのぬくもり",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809050021,
-        "eventTitle": "健子との絆・新春温泉奮闘記",
+        "storyId": 809050023,
+        "eventTitle": "ゆこまよいとこ、なんどでも……",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -28192,40 +28120,16 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809050023,
-        "eventTitle": "ゆこまよいとこ、なんどでも……",
+        "storyId": 809050021,
+        "eventTitle": "健子との絆・新春温泉奮闘記",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809050011,
-        "eventTitle": "牌で語る",
-        "eventType": "Date Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 809050012,
-        "eventTitle": "ねっ、女将♪",
-        "eventType": "Date Event",
-        "eventOrder": 2
-      },
-      {
-        "storyId": 809050013,
-        "eventTitle": "くゆる、あの日々",
-        "eventType": "Date Event",
-        "eventOrder": 3
-      },
-      {
-        "storyId": 809050014,
-        "eventTitle": "どんな道を選ぼうと",
-        "eventType": "Date Event",
-        "eventOrder": 4
-      },
-      {
-        "storyId": 809050015,
-        "eventTitle": "純情すぎる若人に",
-        "eventType": "Date Event",
-        "eventOrder": 5
+        "storyId": 400006124,
+        "eventTitle": "スピーカー越しのぬくもり",
+        "eventType": "Random Event",
+        "eventOrder": 0
       }
     ],
     "uniqueEffect": null
@@ -28886,14 +28790,8 @@
         "eventOrder": 2
       },
       {
-        "storyId": 801139032,
-        "eventTitle": "You did it!",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801139001,
-        "eventTitle": "栄光へのロードマップ",
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -28904,8 +28802,14 @@
         "eventOrder": 0
       },
       {
-        "storyId": 400006115,
-        "eventTitle": "労いのエール",
+        "storyId": 801139001,
+        "eventTitle": "栄光へのロードマップ",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801139032,
+        "eventTitle": "You did it!",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -28922,14 +28826,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 400006124,
-        "eventTitle": "スピーカー越しのぬくもり",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801139021,
-        "eventTitle": "カジノドライヴとの絆・ビジョンを胸に",
+        "storyId": 801139023,
+        "eventTitle": "My Own Trail",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -28940,40 +28838,16 @@
         "eventOrder": 0
       },
       {
-        "storyId": 801139023,
-        "eventTitle": "My Own Trail",
+        "storyId": 801139021,
+        "eventTitle": "カジノドライヴとの絆・ビジョンを胸に",
         "eventType": "Random Event",
         "eventOrder": 0
       },
       {
-        "storyId": 801139011,
-        "eventTitle": "アメリカンAfter School!",
-        "eventType": "Date Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 801139012,
-        "eventTitle": "Heroに魅せられて",
-        "eventType": "Date Event",
-        "eventOrder": 2
-      },
-      {
-        "storyId": 801139013,
-        "eventTitle": "Unwavering Drive",
-        "eventType": "Date Event",
-        "eventOrder": 3
-      },
-      {
-        "storyId": 801139014,
-        "eventTitle": "君だけのDream",
-        "eventType": "Date Event",
-        "eventOrder": 4
-      },
-      {
-        "storyId": 801139015,
-        "eventTitle": "Teach Me About Yourself",
-        "eventType": "Date Event",
-        "eventOrder": 5
+        "storyId": 400006124,
+        "eventTitle": "スピーカー越しのぬくもり",
+        "eventType": "Random Event",
+        "eventOrder": 0
       }
     ],
     "uniqueEffect": null
@@ -136446,26 +136320,20 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809001101,
-        "eventTitle": "おはようございます、たづなさん",
+        "storyId": 400006114,
+        "eventTitle": "連絡が届いた！",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809001121,
-        "eventTitle": "たづなとの絆・乾杯は勝利の美酒へ",
+        "storyId": 809001104,
+        "eventTitle": "深夜のファミレス、あとラーメン",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809001122,
-        "eventTitle": "舞台袖の応援歌",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001123,
-        "eventTitle": "ほんの一時、息をついて",
+        "storyId": 809001104,
+        "eventTitle": "深夜のファミレス、あとラーメン",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -136476,20 +136344,26 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809001104,
-        "eventTitle": "深夜のファミレス、あとラーメン",
+        "storyId": 809001123,
+        "eventTitle": "ほんの一時、息をついて",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 809001104,
-        "eventTitle": "深夜のファミレス、あとラーメン",
+        "storyId": 809001122,
+        "eventTitle": "舞台袖の応援歌",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
-        "storyId": 400006114,
-        "eventTitle": "連絡が届いた！",
+        "storyId": 809001121,
+        "eventTitle": "たづなとの絆・乾杯は勝利の美酒へ",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001101,
+        "eventTitle": "おはようございます、たづなさん",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -136524,6 +136398,60 @@
         "eventOrder": 5
       },
       {
+        "storyId": 809001004,
+        "eventTitle": "情熱のふたり",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001003,
+        "eventTitle": "お疲れ様です♪",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001002,
+        "eventTitle": "理事長秘書のたづなさん",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001001,
+        "eventTitle": "選んだ生き方",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001009,
+        "eventTitle": "ちょっとだけお傍で",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001011,
+        "eventTitle": "たづなとの絆・憧れを託して",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 809001004,
+        "eventTitle": "情熱のふたり",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 400006115,
+        "eventTitle": "労いのエール",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 400006114,
+        "eventTitle": "連絡が届いた！",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 400006124,
         "eventTitle": "スピーカー越しのぬくもり",
         "eventType": "Random Event",
@@ -136542,94 +136470,10 @@
         "eventOrder": 0
       },
       {
-        "storyId": 809001001,
-        "eventTitle": "選んだ生き方",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001002,
-        "eventTitle": "理事長秘書のたづなさん",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001003,
-        "eventTitle": "お疲れ様です♪",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001004,
-        "eventTitle": "情熱のふたり",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
         "storyId": 809001010,
         "eventTitle": "『いつもの』ください！",
         "eventType": "Random Event",
         "eventOrder": 0
-      },
-      {
-        "storyId": 809001011,
-        "eventTitle": "たづなとの絆・憧れを託して",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 400006115,
-        "eventTitle": "労いのエール",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001009,
-        "eventTitle": "ちょっとだけお傍で",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 400006114,
-        "eventTitle": "連絡が届いた！",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001004,
-        "eventTitle": "情熱のふたり",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 809001005,
-        "eventTitle": "牛乳ときどきリンゴ",
-        "eventType": "Date Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 809001006,
-        "eventTitle": "驚異の逃げ脚？",
-        "eventType": "Date Event",
-        "eventOrder": 2
-      },
-      {
-        "storyId": 809001007,
-        "eventTitle": "キネマの思ひ出",
-        "eventType": "Date Event",
-        "eventOrder": 3
-      },
-      {
-        "storyId": 809001008,
-        "eventTitle": "ため息と絆創膏",
-        "eventType": "Date Event",
-        "eventOrder": 4
-      },
-      {
-        "storyId": 830021001,
-        "eventTitle": "ひと休みサプライズ",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": {
