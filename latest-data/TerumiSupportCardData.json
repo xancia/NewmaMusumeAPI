@@ -11991,12 +11991,6 @@
         "eventTitle": "Confused by Kindness",
         "eventType": "Date Event",
         "eventOrder": 4
-      },
-      {
-        "storyId": 830036001,
-        "eventTitle": "A Peek at Her Heart",
-        "eventType": "Date Event",
-        "eventOrder": 5
       }
     ],
     "uniqueEffect": null
@@ -14584,6 +14578,12 @@
         "eventOrder": 0
       },
       {
+        "storyId": 809005000,
+        "eventTitle": "An Assuring Acupuncturist Appears! ☆",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 809005012,
         "eventTitle": "Just a Poke ☆",
         "eventType": "Random Event",
@@ -14636,12 +14636,6 @@
         "eventTitle": "Storied ☆ Sunglasses",
         "eventType": "Date Event",
         "eventOrder": 2
-      },
-      {
-        "storyId": 830080001,
-        "eventTitle": "The Final Race ☆ For a Worry-Free\\nFuture!",
-        "eventType": "Date Event",
-        "eventOrder": 3
       }
     ],
     "uniqueEffect": null
@@ -31509,7 +31503,7 @@
       },
       {
         "storyId": 830017003,
-        "eventTitle": "My Umadol Way ☆",
+        "eventTitle": "My Umadol Way! ☆",
         "eventType": "Chain Event",
         "eventOrder": 3
       },
@@ -40085,7 +40079,48 @@
         "level50Value": 20
       }
     ],
-    "skillHints": [],
+    "skillHints": [
+      {
+        "skillId": 200452,
+        "skillName": "Prudent Positioning",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200492,
+        "skillName": "Nimble Navigator",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200502,
+        "skillName": "Go with the Flow",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201132,
+        "skillName": "Thunderbolt Step",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201142,
+        "skillName": "Soft Step",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201332,
+        "skillName": "Shrewd Step",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Power",
+        "skillLevel": 0
+      }
+    ],
     "events": [
       {
         "storyId": 830058001,
@@ -40281,7 +40316,38 @@
         "level50Value": -1
       }
     ],
-    "skillHints": [],
+    "skillHints": [
+      {
+        "skillId": 200242,
+        "skillName": "Snowy Days ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200532,
+        "skillName": "Early Lead",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201242,
+        "skillName": "Front Runner Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201252,
+        "skillName": "Front Runner Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Guts",
+        "skillLevel": 0
+      }
+    ],
     "events": [
       {
         "storyId": 830059001,
@@ -40462,7 +40528,53 @@
         "level50Value": 20
       }
     ],
-    "skillHints": [],
+    "skillHints": [
+      {
+        "skillId": 200282,
+        "skillName": "Competitive Spirit ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200292,
+        "skillName": "Target in Sight ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200532,
+        "skillName": "Early Lead",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200542,
+        "skillName": "Fast-Paced",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201272,
+        "skillName": "Leader's Pride",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201282,
+        "skillName": "Moxie",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Guts",
+        "skillLevel": 0
+      }
+    ],
     "events": [
       {
         "storyId": 830060001,
@@ -40658,7 +40770,43 @@
         "level50Value": 3
       }
     ],
-    "skillHints": [],
+    "skillHints": [
+      {
+        "skillId": 200052,
+        "skillName": "Hanshin Racecourse ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200162,
+        "skillName": "Wet Conditions ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200222,
+        "skillName": "Cloudy Days ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200262,
+        "skillName": "Outer Post Proficiency ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200821,
+        "skillName": "Frenzied End Closers",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Wits",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+5 Skill Pt",
+        "skillLevel": 0
+      }
+    ],
     "events": [
       {
         "storyId": 830061001,
@@ -42122,20 +42270,32 @@
     "skillHints": [],
     "events": [
       {
-        "storyId": 830067002,
-        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067002,
-        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
+        "storyId": 830067003,
+        "eventTitle": "We'll Get Stronger, Together",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
       {
         "storyId": 830067004,
         "eventTitle": "The Bright Future Ahead",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067003,
+        "eventTitle": "We'll Get Stronger, Together",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067002,
+        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830067002,
+        "eventTitle": "Emulation Is the Sincerest Form of\\nFlattery",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -42164,26 +42324,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 830067003,
-        "eventTitle": "We'll Get Stronger, Together",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830067006,
-        "eventTitle": "The Monarch's Pride",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
         "storyId": 830067007,
         "eventTitle": "A Leisurely Stroll for Two",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 830067005,
-        "eventTitle": "#Studenting",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
@@ -42194,14 +42336,26 @@
         "eventOrder": 1
       },
       {
+        "storyId": 830067006,
+        "eventTitle": "The Monarch's Pride",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830067005,
+        "eventTitle": "#Studenting",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
         "storyId": 830067021,
         "eventTitle": "I Want to Be Just Like President Rudolf!",
         "eventType": "Chain Event",
         "eventOrder": 2
       },
       {
-        "storyId": 801073001,
-        "eventTitle": "Preparing to the MAX!",
+        "storyId": 801073003,
+        "eventTitle": "A Hint for Growth",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -42212,32 +42366,8 @@
         "eventOrder": 0
       },
       {
-        "storyId": 801003001,
-        "eventTitle": "My Way, Or...",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801017003,
-        "eventTitle": "A Hint for Growth",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801003003,
-        "eventTitle": "A Hint for Growth",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801017002,
-        "eventTitle": "The Student Council President's\\nThoughtfulness",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801017001,
-        "eventTitle": "The Emperor's Encouragement",
+        "storyId": 801073001,
+        "eventTitle": "Preparing to the MAX!",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -42248,8 +42378,32 @@
         "eventOrder": 0
       },
       {
-        "storyId": 801073003,
+        "storyId": 801017001,
+        "eventTitle": "The Emperor's Encouragement",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801017002,
+        "eventTitle": "The Student Council President's\\nThoughtfulness",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003003,
         "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801017003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801003001,
+        "eventTitle": "My Way, Or...",
         "eventType": "Random Event",
         "eventOrder": 0
       }
@@ -45385,6 +45539,12 @@
         "eventOrder": 0
       },
       {
+        "storyId": 809005000,
+        "eventTitle": "An Assuring Acupuncturist Appears! ☆",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
         "storyId": 809005012,
         "eventTitle": "Just a Poke ☆",
         "eventType": "Random Event",
@@ -45635,20 +45795,8 @@
     "skillHints": [],
     "events": [
       {
-        "storyId": 830081002,
-        "eventTitle": "We're All Shining Stars",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081023,
-        "eventTitle": "The Luckiest Racer in Japan",
-        "eventType": "Chain Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 830081022,
-        "eventTitle": "Another Day, Another Step Towards Our\\nDream",
+        "storyId": 830081003,
+        "eventTitle": "A Second Serving of Training",
         "eventType": "Chain Event",
         "eventOrder": 0
       },
@@ -45683,6 +45831,48 @@
         "eventOrder": 0
       },
       {
+        "storyId": 830081022,
+        "eventTitle": "Another Day, Another Step Towards Our\\nDream",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 800001001,
+        "eventTitle": "Taking a Break",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081002,
+        "eventTitle": "We're All Shining Stars",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081023,
+        "eventTitle": "The Luckiest Racer in Japan",
+        "eventType": "Chain Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 830081008,
+        "eventTitle": "It's Tough Being a Little Sister",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081020,
+        "eventTitle": "The Meaning of Support",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830081010,
+        "eventTitle": "I Want to Share My Dream",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
         "storyId": 830081005,
         "eventTitle": "I Shall Have the Last Laugh",
         "eventType": "Chain Event",
@@ -45695,32 +45885,14 @@
         "eventOrder": 1
       },
       {
-        "storyId": 830081007,
-        "eventTitle": "Common Threads, Dreams Entwined",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 830081008,
-        "eventTitle": "It's Tough Being a Little Sister",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
         "storyId": 830081009,
         "eventTitle": "The Scenery that Lies Beyond",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
       {
-        "storyId": 830081010,
-        "eventTitle": "I Want to Share My Dream",
-        "eventType": "Chain Event",
-        "eventOrder": 1
-      },
-      {
-        "storyId": 830081020,
-        "eventTitle": "The Meaning of Support",
+        "storyId": 830081007,
+        "eventTitle": "Common Threads, Dreams Entwined",
         "eventType": "Chain Event",
         "eventOrder": 1
       },
@@ -45733,12 +45905,6 @@
       {
         "storyId": 801016002,
         "eventTitle": "Lone Wolf",
-        "eventType": "Random Event",
-        "eventOrder": 0
-      },
-      {
-        "storyId": 801016001,
-        "eventTitle": "Student Council Member!",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -45823,6 +45989,12 @@
       {
         "storyId": 801035003,
         "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801016001,
+        "eventTitle": "Student Council Member!",
         "eventType": "Random Event",
         "eventOrder": 0
       },
@@ -52019,6 +52191,858 @@
       "value01": 5,
       "value02": 1,
       "value03": 30,
+      "value04": 1,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30107,
+    "charaId": 1004,
+    "charaName": "Maruzensky",
+    "supportCardTitle": "[Sentimental Flare ♪]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Speed",
+    "effectTableId": 30107,
+    "uniqueEffectId": 30107,
+    "skillSetId": 9081004,
+    "commandType": 1,
+    "commandId": 101,
+    "startDate": "2026-07-02T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 25,
+        "level50Value": -1
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 3,
+        "effectTypeName": "Speed Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 5,
+        "effectTypeName": "Power Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 5,
+        "level50Value": -1
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 10,
+        "level50Value": -1
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 2,
+        "level50Value": -1
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 35,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200182,
+        "skillName": "Summer Runner ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200432,
+        "skillName": "Focus",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200532,
+        "skillName": "Early Lead",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201242,
+        "skillName": "Front Runner Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201252,
+        "skillName": "Front Runner Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201272,
+        "skillName": "Leader's Pride",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201571,
+        "skillName": "Triple 7s",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201601,
+        "skillName": "Groundwork",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201651,
+        "skillName": "Slipstream",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201661,
+        "skillName": "Playtime's Over!",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Power",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830107001,
+        "eventTitle": "A Seaside Resort, Love is in the Air",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830107002,
+        "eventTitle": "Thrilling Memories Still in My Heart",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830107003,
+        "eventTitle": "Shine On Forever",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801004001,
+        "eventTitle": "For an Adorable Younger Student",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801004002,
+        "eventTitle": "Drive Destination",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801004003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 30,
+      "type0": 111,
+      "type0Name": "Effect Type 111",
+      "value0": 8,
+      "value01": 5,
+      "value02": 0,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30108,
+    "charaId": 1049,
+    "charaName": "Nakayama Festa",
+    "supportCardTitle": "[Trusting the Dice]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Intelligence",
+    "effectTableId": 30108,
+    "uniqueEffectId": 30108,
+    "skillSetId": 9081049,
+    "commandType": 1,
+    "commandId": 106,
+    "startDate": "2026-07-02T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 40,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 60
+      },
+      {
+        "effectType": 7,
+        "effectTypeName": "Wit Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 15
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 5,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 10,
+        "level50Value": 15
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 2,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 3
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 40,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 50
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 31,
+        "effectTypeName": "Wit Friendship Recovery",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 3,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 5
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200162,
+        "skillName": "Wet Conditions ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200182,
+        "skillName": "Summer Runner ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200302,
+        "skillName": "Long Shot ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200492,
+        "skillName": "Nimble Navigator",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200602,
+        "skillName": "Slick Surge",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200732,
+        "skillName": "Steadfast",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201382,
+        "skillName": "Late Surger Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201562,
+        "skillName": "Lucky Seven",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201571,
+        "skillName": "Triple 7s",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201591,
+        "skillName": "Uma Stan",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201702,
+        "skillName": "All I've Got",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202032,
+        "skillName": "Risky Business",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Wits",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+5 Skill Pt",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830108001,
+        "eventTitle": "All In",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830108002,
+        "eventTitle": "Eat 'Em and Weep",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830108003,
+        "eventTitle": "Upping the Ante",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 830108004,
+        "eventTitle": "Upping the Ante",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801049001,
+        "eventTitle": "Sundown Showdown",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801049002,
+        "eventTitle": "Sundown Solo Supper",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801049003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 30,
+      "type0": 112,
+      "type0Name": "Effect Type 112",
+      "value0": 20,
+      "value01": 0,
+      "value02": 0,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30109,
+    "charaId": 1069,
+    "charaName": "Sakura Chiyono O",
+    "supportCardTitle": "[A Good Heart Blossoms to Its Fullest]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Guts",
+    "effectTableId": 30109,
+    "uniqueEffectId": 30109,
+    "skillSetId": 9081069,
+    "commandType": 1,
+    "commandId": 103,
+    "startDate": "2026-07-02T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 25,
+        "level50Value": -1
+      },
+      {
+        "effectType": 3,
+        "effectTypeName": "Speed Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 6,
+        "effectTypeName": "Guts Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 9,
+        "effectTypeName": "Initial Speed",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 11,
+        "effectTypeName": "Initial Power",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 50,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 65
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200182,
+        "skillName": "Summer Runner ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201032,
+        "skillName": "Mile Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201052,
+        "skillName": "Shifting Gears",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201312,
+        "skillName": "Pace Chaser Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201322,
+        "skillName": "Pace Chaser Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201532,
+        "skillName": "Pace Chaser Savvy ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201902,
+        "skillName": "Head-On",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830109001,
+        "eventTitle": "Repaying Your Kindness",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830109002,
+        "eventTitle": "Because I Want You to Smile",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830109003,
+        "eventTitle": "I Gift You Fun and Joy!",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801069003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801069001,
+        "eventTitle": "Today's Words of Wisdom!",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801069002,
+        "eventTitle": "Until I Bloom...",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 40,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 8,
+      "value02": 10,
+      "value03": 0,
       "value04": 1,
       "type1": 0,
       "type1Name": "None",

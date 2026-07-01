@@ -2122,7 +2122,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 595503,
@@ -2762,6 +2762,22 @@
     "schedules": []
   },
   {
+    "raceId": 6032,
+    "raceName": "Champions Meeting: Leo Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6041,
     "raceName": "Champions Meeting: Taurus Cup Finals",
     "grade": 100,
@@ -2806,6 +2822,22 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6044,
+    "raceName": "Champions Meeting: Leo Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
     "entryNum": 9,
     "schedules": []
   },
@@ -9880,7 +9912,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920001,
@@ -9906,7 +9938,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920002,
@@ -9958,7 +9990,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920004,
@@ -9984,7 +10016,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920005,
@@ -10010,7 +10042,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920006,
@@ -10036,7 +10068,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920007,
@@ -10062,7 +10094,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920008,
@@ -10088,7 +10120,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920009,
@@ -10114,7 +10146,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920010,
@@ -10140,7 +10172,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920011,
@@ -10166,7 +10198,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920012,
@@ -10244,7 +10276,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920015,
@@ -10296,7 +10328,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920017,
@@ -10322,7 +10354,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920018,
@@ -10348,7 +10380,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920019,
@@ -10374,7 +10406,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920020,
@@ -10400,7 +10432,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920021,
@@ -10426,7 +10458,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920022,
@@ -10452,7 +10484,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920023,
@@ -10478,7 +10510,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920024,
@@ -10504,7 +10536,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920025,
@@ -10530,7 +10562,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920026,
@@ -10556,7 +10588,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920027,
@@ -10634,7 +10666,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920030,
@@ -10660,7 +10692,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920031,
@@ -10946,7 +10978,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920042,
@@ -10972,7 +11004,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920043,
@@ -11024,7 +11056,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920045,
@@ -11050,7 +11082,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920046,
@@ -11076,7 +11108,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920047,
@@ -11102,7 +11134,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920048,
@@ -11128,7 +11160,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920049,
@@ -11154,7 +11186,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920050,
@@ -11180,7 +11212,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920051,
@@ -11206,7 +11238,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920052,
@@ -11232,7 +11264,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920053,
@@ -11310,7 +11342,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920056,
@@ -11362,7 +11394,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920058,
@@ -11388,7 +11420,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920059,
@@ -11414,7 +11446,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920060,
@@ -11440,7 +11472,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920061,
@@ -11466,7 +11498,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920062,
@@ -11492,7 +11524,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920063,
@@ -11518,7 +11550,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920064,
@@ -11544,7 +11576,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920065,
@@ -11570,7 +11602,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920066,
@@ -11596,7 +11628,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920067,
@@ -11622,7 +11654,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920068,
@@ -11700,7 +11732,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920071,
@@ -11726,7 +11758,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920072,
@@ -12012,7 +12044,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920083,
@@ -12038,7 +12070,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920084,
@@ -12090,7 +12122,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920086,
@@ -12116,7 +12148,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920087,
@@ -12142,7 +12174,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920088,
@@ -12168,7 +12200,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920089,
@@ -12194,7 +12226,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920090,
@@ -12220,7 +12252,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920091,
@@ -12246,7 +12278,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920092,
@@ -12272,7 +12304,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920093,
@@ -12298,7 +12330,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920094,
@@ -12376,7 +12408,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920097,
@@ -12428,7 +12460,7 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920099,
@@ -12454,7 +12486,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920100,
@@ -12480,7 +12512,7 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920101,
@@ -12506,7 +12538,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920102,
@@ -12532,7 +12564,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920103,
@@ -12558,7 +12590,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920104,
@@ -12584,7 +12616,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920105,
@@ -12610,7 +12642,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920106,
@@ -12636,7 +12668,7 @@
     "turnName": "Left",
     "trackId": 10007,
     "trackName": "Chukyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920107,
@@ -12662,7 +12694,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920108,
@@ -12688,7 +12720,7 @@
     "turnName": "Right",
     "trackId": 10008,
     "trackName": "Kyoto",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920109,
@@ -12766,7 +12798,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920112,
@@ -12792,7 +12824,7 @@
     "turnName": "Left",
     "trackId": 10006,
     "trackName": "Tokyo",
-    "entryNum": 18,
+    "entryNum": 16,
     "schedules": [
       {
         "instanceId": 920113,
@@ -23968,7 +24000,7 @@
   },
   {
     "raceId": 9401,
-    "raceName": "Junior Newcomer",
+    "raceName": "Junior Make Debut",
     "grade": 900,
     "gradeName": "Debut",
     "distance": 1200,
@@ -23994,7 +24026,7 @@
   },
   {
     "raceId": 9402,
-    "raceName": "Junior Newcomer",
+    "raceName": "Junior Make Debut",
     "grade": 900,
     "gradeName": "Debut",
     "distance": 1800,
@@ -24009,6 +24041,32 @@
     "schedules": [
       {
         "instanceId": 904196,
+        "month": 6,
+        "day": 30,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 9403,
+    "raceName": "Junior Make Debut",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 9,
+    "schedules": [
+      {
+        "instanceId": 904197,
         "month": 6,
         "day": 30,
         "half": 2,

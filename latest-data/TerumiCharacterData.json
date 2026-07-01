@@ -783,7 +783,7 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1006,
-    "skillIds": "110061,200751,200752,201351,201352,201422,201571,201621",
+    "skillIds": "100061,110061,200751,200752,201351,201352,201422,201571,201621",
     "potentialSkills": [
       {
         "skillId": 200752,
@@ -879,6 +879,74 @@
       },
       {
         "skillId": 201481,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1007,
+    "charaName": "Gold Ship",
+    "voiceActor": "Hitomi Ueda",
+    "cardId": 100702,
+    "cardTitle": "[RUN! RUIN! LAUNCHER!]",
+    "supportCardId": 10006,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 96,
+    "baseStamina": 113,
+    "basePower": 137,
+    "baseGuts": 89,
+    "baseWisdom": 115,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 20,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "A",
+    "birthYear": 2009,
+    "birthMonth": 3,
+    "birthDay": 6,
+    "sex": 1,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1007,
+    "skillIds": "110071,200751,200752,201482,201562,202032,202101,202102",
+    "potentialSkills": [
+      {
+        "skillId": 200752,
+        "needRank": 0
+      },
+      {
+        "skillId": 201482,
+        "needRank": 0
+      },
+      {
+        "skillId": 201562,
+        "needRank": 0
+      },
+      {
+        "skillId": 202102,
+        "needRank": 2
+      },
+      {
+        "skillId": 200751,
+        "needRank": 3
+      },
+      {
+        "skillId": 202032,
+        "needRank": 4
+      },
+      {
+        "skillId": 202101,
         "needRank": 5
       }
     ]
@@ -1228,7 +1296,7 @@
     "charaName": "Grass Wonder",
     "voiceActor": "Rena Maeda",
     "cardId": 101102,
-    "cardTitle": "[Saintly Jade Cleric ]",
+    "cardTitle": "[Saintly Jade Cleric]",
     "supportCardId": 10009,
     "startDate": "2017-01-01T00:00:00",
     "baseSpeed": 111,
@@ -1491,6 +1559,74 @@
       },
       {
         "skillId": 200361,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1013,
+    "charaName": "Mejiro McQueen",
+    "voiceActor": "Saori Onishi",
+    "cardId": 101303,
+    "cardTitle": "[Fair Lady of the Waves]",
+    "supportCardId": 10010,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 100,
+    "baseStamina": 104,
+    "basePower": 100,
+    "baseGuts": 138,
+    "baseWisdom": 108,
+    "talentSpeed": 8,
+    "talentStamina": 8,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 14,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "E",
+    "aptitudeShort": "G",
+    "aptitudeMile": "F",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "B",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "D",
+    "aptitudeChaser": "F",
+    "birthYear": 1987,
+    "birthMonth": 4,
+    "birthDay": 3,
+    "sex": 1,
+    "height": 1,
+    "bust": 0,
+    "charaCategory": 0,
+    "uraObjectives": 1013,
+    "skillIds": "110131,120131,200432,200562,201532,202011,202012,202191,202192",
+    "potentialSkills": [
+      {
+        "skillId": 200432,
+        "needRank": 0
+      },
+      {
+        "skillId": 201532,
+        "needRank": 0
+      },
+      {
+        "skillId": 202012,
+        "needRank": 0
+      },
+      {
+        "skillId": 202192,
+        "needRank": 2
+      },
+      {
+        "skillId": 202011,
+        "needRank": 3
+      },
+      {
+        "skillId": 200562,
+        "needRank": 4
+      },
+      {
+        "skillId": 202191,
         "needRank": 5
       }
     ]
@@ -3336,7 +3472,7 @@
     "charaName": "Agnes Tachyon",
     "voiceActor": "Sumire Uesaka",
     "cardId": 103201,
-    "cardTitle": "[Tach-nology]",
+    "cardTitle": "[tach-nology]",
     "supportCardId": 10036,
     "startDate": "2017-01-01T00:00:00",
     "baseSpeed": 112,
@@ -4823,6 +4959,74 @@
       },
       {
         "skillId": 201401,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1053,
+    "charaName": "Bamboo Memory",
+    "voiceActor": "Kotomi Aihara",
+    "cardId": 105301,
+    "cardTitle": "[Iron Ambition]",
+    "supportCardId": 10065,
+    "startDate": "2026-07-07T22:00:00",
+    "baseSpeed": 119,
+    "baseStamina": 90,
+    "basePower": 127,
+    "baseGuts": 112,
+    "baseWisdom": 102,
+    "talentSpeed": 10,
+    "talentStamina": 0,
+    "talentPower": 10,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "D",
+    "aptitudeShort": "A",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "C",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "E",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "C",
+    "birthYear": 1985,
+    "birthMonth": 5,
+    "birthDay": 14,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1053,
+    "skillIds": "100531,200462,200611,200612,200972,202111,202112,202122",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 200612,
+        "needRank": 0
+      },
+      {
+        "skillId": 202112,
+        "needRank": 0
+      },
+      {
+        "skillId": 200972,
+        "needRank": 2
+      },
+      {
+        "skillId": 200611,
+        "needRank": 3
+      },
+      {
+        "skillId": 202122,
+        "needRank": 4
+      },
+      {
+        "skillId": 202111,
         "needRank": 5
       }
     ]

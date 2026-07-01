@@ -44,6 +44,10 @@
     "relationPoint": 2
   },
   {
+    "relationType": 205,
+    "relationPoint": 2
+  },
+  {
     "relationType": 301,
     "relationPoint": 2
   },
@@ -412,6 +416,70 @@
     "relationPoint": 2
   },
   {
+    "relationType": 405,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 406,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 407,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 408,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 409,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 410,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 411,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 412,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 413,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 414,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 415,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 416,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 417,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 418,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 419,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 420,
+    "relationPoint": 2
+  },
+  {
     "relationType": 501,
     "relationPoint": 2
   },
@@ -441,15 +509,15 @@
   },
   {
     "relationType": 508,
-    "relationPoint": 2
+    "relationPoint": 8
   },
   {
     "relationType": 509,
-    "relationPoint": 2
+    "relationPoint": 8
   },
   {
     "relationType": 510,
-    "relationPoint": 2
+    "relationPoint": 8
   },
   {
     "relationType": 511,
@@ -504,6 +572,118 @@
     "relationPoint": 2
   },
   {
+    "relationType": 524,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 525,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 526,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 527,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 528,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 529,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 530,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 531,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 532,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 533,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 534,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 535,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 536,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 537,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 538,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 539,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 540,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 541,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 542,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 543,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 544,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 545,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 546,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 547,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 548,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 549,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 550,
+    "relationPoint": 8
+  },
+  {
+    "relationType": 551,
+    "relationPoint": 8
+  },
+  {
     "relationType": 2001,
     "relationPoint": 1
   },
@@ -525,6 +705,10 @@
   },
   {
     "relationType": 2006,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2008,
     "relationPoint": 1
   },
   {
@@ -557,6 +741,10 @@
   },
   {
     "relationType": 2108,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2110,
     "relationPoint": 1
   },
   {
@@ -641,6 +829,14 @@
   },
   {
     "relationType": 2409,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2410,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2411,
     "relationPoint": 1
   },
   {
@@ -768,6 +964,10 @@
     "relationPoint": 1
   },
   {
+    "relationType": 2534,
+    "relationPoint": 1
+  },
+  {
     "relationType": 2601,
     "relationPoint": 1
   },
@@ -805,6 +1005,90 @@
   },
   {
     "relationType": 2706,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2707,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2708,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2709,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2710,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2711,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2712,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2713,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2714,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2715,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2716,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2717,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2718,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2719,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2720,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2721,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2722,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2723,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2724,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2725,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2726,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2727,
     "relationPoint": 1
   },
   {
@@ -908,6 +1192,18 @@
     "relationPoint": 1
   },
   {
+    "relationType": 2826,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2827,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 2828,
+    "relationPoint": 1
+  },
+  {
     "relationType": 2901,
     "relationPoint": 7
   },
@@ -969,6 +1265,50 @@
   },
   {
     "relationType": 3206,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3301,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3401,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3501,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3502,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3503,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3504,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3505,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 3506,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 3507,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 3508,
+    "relationPoint": 2
+  },
+  {
+    "relationType": 3509,
     "relationPoint": 1
   },
   {
@@ -3773,6 +4113,62 @@
   },
   {
     "relationType": 8652,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8693,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8730,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8763,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8789,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8863,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8870,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8918,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8950,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 8982,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 9027,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 9109,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 9169,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 9201,
+    "relationPoint": 1
+  },
+  {
+    "relationType": 9228,
     "relationPoint": 1
   }
 ]
