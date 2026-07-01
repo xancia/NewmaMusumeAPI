@@ -2,7 +2,7 @@
   {
     "id": 101,
     "name": "Speed",
-    "description": "A Spark that increases Speed.",
+    "description": "A Spark that increases Speed and max Speed value.",
     "rarity": 1,
     "grade": 1,
     "type": 1
@@ -10,7 +10,7 @@
   {
     "id": 102,
     "name": "Speed",
-    "description": "A Spark that increases Speed.",
+    "description": "A Spark that increases Speed and max Speed value.",
     "rarity": 2,
     "grade": 1,
     "type": 1
@@ -18,7 +18,7 @@
   {
     "id": 103,
     "name": "Speed",
-    "description": "A Spark that increases Speed.",
+    "description": "A Spark that increases Speed and max Speed value.",
     "rarity": 3,
     "grade": 1,
     "type": 1
@@ -26,7 +26,7 @@
   {
     "id": 201,
     "name": "Stamina",
-    "description": "A Spark that increases Stamina.",
+    "description": "A Spark that increases Stamina and max Stamina value.",
     "rarity": 1,
     "grade": 1,
     "type": 1
@@ -34,7 +34,7 @@
   {
     "id": 202,
     "name": "Stamina",
-    "description": "A Spark that increases Stamina.",
+    "description": "A Spark that increases Stamina and max Stamina value.",
     "rarity": 2,
     "grade": 1,
     "type": 1
@@ -42,7 +42,7 @@
   {
     "id": 203,
     "name": "Stamina",
-    "description": "A Spark that increases Stamina.",
+    "description": "A Spark that increases Stamina and max Stamina value.",
     "rarity": 3,
     "grade": 1,
     "type": 1
@@ -50,7 +50,7 @@
   {
     "id": 301,
     "name": "Power",
-    "description": "A Spark that increases Power.",
+    "description": "A Spark that increases Power and max Power value.",
     "rarity": 1,
     "grade": 1,
     "type": 1
@@ -58,7 +58,7 @@
   {
     "id": 302,
     "name": "Power",
-    "description": "A Spark that increases Power.",
+    "description": "A Spark that increases Power and max Power value.",
     "rarity": 2,
     "grade": 1,
     "type": 1
@@ -66,7 +66,7 @@
   {
     "id": 303,
     "name": "Power",
-    "description": "A Spark that increases Power.",
+    "description": "A Spark that increases Power and max Power value.",
     "rarity": 3,
     "grade": 1,
     "type": 1
@@ -74,7 +74,7 @@
   {
     "id": 401,
     "name": "Guts",
-    "description": "A Spark that increases Guts.",
+    "description": "A Spark that increases Guts and max Guts value.",
     "rarity": 1,
     "grade": 1,
     "type": 1
@@ -82,7 +82,7 @@
   {
     "id": 402,
     "name": "Guts",
-    "description": "A Spark that increases Guts.",
+    "description": "A Spark that increases Guts and max Guts value.",
     "rarity": 2,
     "grade": 1,
     "type": 1
@@ -90,7 +90,7 @@
   {
     "id": 403,
     "name": "Guts",
-    "description": "A Spark that increases Guts.",
+    "description": "A Spark that increases Guts and max Guts value.",
     "rarity": 3,
     "grade": 1,
     "type": 1
@@ -98,7 +98,7 @@
   {
     "id": 501,
     "name": "Wit",
-    "description": "A Spark that increases Wit.",
+    "description": "A Spark that increases Wit and max Wit value.",
     "rarity": 1,
     "grade": 1,
     "type": 1
@@ -106,7 +106,7 @@
   {
     "id": 502,
     "name": "Wit",
-    "description": "A Spark that increases Wit.",
+    "description": "A Spark that increases Wit and max Wit value.",
     "rarity": 2,
     "grade": 1,
     "type": 1
@@ -114,7 +114,7 @@
   {
     "id": 503,
     "name": "Wit",
-    "description": "A Spark that increases Wit.",
+    "description": "A Spark that increases Wit and max Wit value.",
     "rarity": 3,
     "grade": 1,
     "type": 1
@@ -5376,6 +5376,534 @@
     "type": 4
   },
   {
+    "id": 2021901,
+    "name": "All Set",
+    "description": "A Spark that gives a skill hint for \"All Set\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021902,
+    "name": "All Set",
+    "description": "A Spark that gives a skill hint for \"All Set\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2021903,
+    "name": "All Set",
+    "description": "A Spark that gives a skill hint for \"All Set\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022501,
+    "name": "Collaborative Graded Races ○",
+    "description": "A Spark that gives a skill hint for \"Collaborative Graded Races ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022502,
+    "name": "Collaborative Graded Races ○",
+    "description": "A Spark that gives a skill hint for \"Collaborative Graded Races ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022503,
+    "name": "Collaborative Graded Races ○",
+    "description": "A Spark that gives a skill hint for \"Collaborative Graded Races ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022601,
+    "name": "Sunny Sign",
+    "description": "A Spark that gives a skill hint for \"Sunny Sign\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022602,
+    "name": "Sunny Sign",
+    "description": "A Spark that gives a skill hint for \"Sunny Sign\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022603,
+    "name": "Sunny Sign",
+    "description": "A Spark that gives a skill hint for \"Sunny Sign\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022801,
+    "name": "Full Tilt",
+    "description": "A Spark that gives a skill hint for \"Full Tilt\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022802,
+    "name": "Full Tilt",
+    "description": "A Spark that gives a skill hint for \"Full Tilt\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022803,
+    "name": "Full Tilt",
+    "description": "A Spark that gives a skill hint for \"Full Tilt\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023001,
+    "name": "Down in the Dirt ○",
+    "description": "A Spark that gives a skill hint for \"Down in the Dirt ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023002,
+    "name": "Down in the Dirt ○",
+    "description": "A Spark that gives a skill hint for \"Down in the Dirt ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023003,
+    "name": "Down in the Dirt ○",
+    "description": "A Spark that gives a skill hint for \"Down in the Dirt ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023101,
+    "name": "Got the Spirit!",
+    "description": "A Spark that gives a skill hint for \"Got the Spirit!\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023102,
+    "name": "Got the Spirit!",
+    "description": "A Spark that gives a skill hint for \"Got the Spirit!\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023103,
+    "name": "Got the Spirit!",
+    "description": "A Spark that gives a skill hint for \"Got the Spirit!\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023201,
+    "name": "Rapid Gain",
+    "description": "A Spark that gives a skill hint for \"Rapid Gain\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023202,
+    "name": "Rapid Gain",
+    "description": "A Spark that gives a skill hint for \"Rapid Gain\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023203,
+    "name": "Rapid Gain",
+    "description": "A Spark that gives a skill hint for \"Rapid Gain\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023301,
+    "name": "Solid Steps",
+    "description": "A Spark that gives a skill hint for \"Solid Steps\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023302,
+    "name": "Solid Steps",
+    "description": "A Spark that gives a skill hint for \"Solid Steps\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023303,
+    "name": "Solid Steps",
+    "description": "A Spark that gives a skill hint for \"Solid Steps\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023401,
+    "name": "Muddy ○",
+    "description": "A Spark that gives a skill hint for \"Muddy ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023402,
+    "name": "Muddy ○",
+    "description": "A Spark that gives a skill hint for \"Muddy ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023403,
+    "name": "Muddy ○",
+    "description": "A Spark that gives a skill hint for \"Muddy ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023501,
+    "name": "Dust Cloud",
+    "description": "A Spark that gives a skill hint for \"Dust Cloud\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023502,
+    "name": "Dust Cloud",
+    "description": "A Spark that gives a skill hint for \"Dust Cloud\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023503,
+    "name": "Dust Cloud",
+    "description": "A Spark that gives a skill hint for \"Dust Cloud\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023601,
+    "name": "Oppression",
+    "description": "A Spark that gives a skill hint for \"Oppression\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023602,
+    "name": "Oppression",
+    "description": "A Spark that gives a skill hint for \"Oppression\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023603,
+    "name": "Oppression",
+    "description": "A Spark that gives a skill hint for \"Oppression\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023701,
+    "name": "On the Attack",
+    "description": "A Spark that gives a skill hint for \"On the Attack\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023702,
+    "name": "On the Attack",
+    "description": "A Spark that gives a skill hint for \"On the Attack\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023703,
+    "name": "On the Attack",
+    "description": "A Spark that gives a skill hint for \"On the Attack\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023801,
+    "name": "Breakin' Out",
+    "description": "A Spark that gives a skill hint for \"Breakin' Out\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023802,
+    "name": "Breakin' Out",
+    "description": "A Spark that gives a skill hint for \"Breakin' Out\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023803,
+    "name": "Breakin' Out",
+    "description": "A Spark that gives a skill hint for \"Breakin' Out\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024001,
+    "name": "Leap Forward",
+    "description": "A Spark that gives a skill hint for \"Leap Forward\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024002,
+    "name": "Leap Forward",
+    "description": "A Spark that gives a skill hint for \"Leap Forward\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024003,
+    "name": "Leap Forward",
+    "description": "A Spark that gives a skill hint for \"Leap Forward\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024101,
+    "name": "Aspire",
+    "description": "A Spark that gives a skill hint for \"Aspire\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024102,
+    "name": "Aspire",
+    "description": "A Spark that gives a skill hint for \"Aspire\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024103,
+    "name": "Aspire",
+    "description": "A Spark that gives a skill hint for \"Aspire\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024201,
+    "name": "Scramble",
+    "description": "A Spark that gives a skill hint for \"Scramble\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024202,
+    "name": "Scramble",
+    "description": "A Spark that gives a skill hint for \"Scramble\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024203,
+    "name": "Scramble",
+    "description": "A Spark that gives a skill hint for \"Scramble\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024301,
+    "name": "Steady Gait",
+    "description": "A Spark that gives a skill hint for \"Steady Gait\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024302,
+    "name": "Steady Gait",
+    "description": "A Spark that gives a skill hint for \"Steady Gait\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024303,
+    "name": "Steady Gait",
+    "description": "A Spark that gives a skill hint for \"Steady Gait\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024501,
+    "name": "Pedal to the Metal",
+    "description": "A Spark that gives a skill hint for \"Pedal to the Metal\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024502,
+    "name": "Pedal to the Metal",
+    "description": "A Spark that gives a skill hint for \"Pedal to the Metal\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024503,
+    "name": "Pedal to the Metal",
+    "description": "A Spark that gives a skill hint for \"Pedal to the Metal\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024601,
+    "name": "Firm Resolve",
+    "description": "A Spark that gives a skill hint for \"Firm Resolve\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024602,
+    "name": "Firm Resolve",
+    "description": "A Spark that gives a skill hint for \"Firm Resolve\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024603,
+    "name": "Firm Resolve",
+    "description": "A Spark that gives a skill hint for \"Firm Resolve\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024701,
+    "name": "Latch On",
+    "description": "A Spark that gives a skill hint for \"Latch On\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024702,
+    "name": "Latch On",
+    "description": "A Spark that gives a skill hint for \"Latch On\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024703,
+    "name": "Latch On",
+    "description": "A Spark that gives a skill hint for \"Latch On\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024801,
+    "name": "My True Strength",
+    "description": "A Spark that gives a skill hint for \"My True Strength\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024802,
+    "name": "My True Strength",
+    "description": "A Spark that gives a skill hint for \"My True Strength\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2024803,
+    "name": "My True Strength",
+    "description": "A Spark that gives a skill hint for \"My True Strength\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2025001,
+    "name": "No Looking Back",
+    "description": "A Spark that gives a skill hint for \"No Looking Back\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2025002,
+    "name": "No Looking Back",
+    "description": "A Spark that gives a skill hint for \"No Looking Back\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2025003,
+    "name": "No Looking Back",
+    "description": "A Spark that gives a skill hint for \"No Looking Back\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "Ignited Spirit SPD",
     "description": "A Spark that gives a skill hint for \"Ignited Spirit SPD\".",
@@ -5520,6 +6048,438 @@
     "type": 4
   },
   {
+    "id": 2100801,
+    "name": "Racing Spirit: Speed",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Speed\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100802,
+    "name": "Racing Spirit: Speed",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Speed\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100803,
+    "name": "Racing Spirit: Speed",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Speed\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100901,
+    "name": "Racing Spirit: Stamina",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Stamina\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100902,
+    "name": "Racing Spirit: Stamina",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Stamina\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100903,
+    "name": "Racing Spirit: Stamina",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Stamina\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101001,
+    "name": "Racing Spirit: Power",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Power\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101002,
+    "name": "Racing Spirit: Power",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Power\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101003,
+    "name": "Racing Spirit: Power",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Power\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101101,
+    "name": "Racing Spirit: Guts",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Guts\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101102,
+    "name": "Racing Spirit: Guts",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Guts\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101103,
+    "name": "Racing Spirit: Guts",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Guts\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101201,
+    "name": "Racing Spirit: Wit",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Wit\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101202,
+    "name": "Racing Spirit: Wit",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Wit\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101203,
+    "name": "Racing Spirit: Wit",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Wit\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101301,
+    "name": "Racing Spirit: Mood",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Mood\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101302,
+    "name": "Racing Spirit: Mood",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Mood\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101303,
+    "name": "Racing Spirit: Mood",
+    "description": "A Spark that gives a skill hint for \"Racing Spirit: Mood\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101401,
+    "name": "Racing Spirit: Speed +",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Racing Spirit: Speed\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101402,
+    "name": "Racing Spirit: Speed +",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Racing Spirit: Speed\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101403,
+    "name": "Racing Spirit: Speed +",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Racing Spirit: Speed\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101501,
+    "name": "Racing Spirit: Stamina +",
+    "description": "A Spark that increases Stamina and gives a skill hint for \"Racing Spirit: Stamina\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101502,
+    "name": "Racing Spirit: Stamina +",
+    "description": "A Spark that increases Stamina and gives a skill hint for \"Racing Spirit: Stamina\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101503,
+    "name": "Racing Spirit: Stamina +",
+    "description": "A Spark that increases Stamina and gives a skill hint for \"Racing Spirit: Stamina\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101601,
+    "name": "Racing Spirit: Power +",
+    "description": "A Spark that increases Power and gives a skill hint for \"Racing Spirit: Power\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101602,
+    "name": "Racing Spirit: Power +",
+    "description": "A Spark that increases Power and gives a skill hint for \"Racing Spirit: Power\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101603,
+    "name": "Racing Spirit: Power +",
+    "description": "A Spark that increases Power and gives a skill hint for \"Racing Spirit: Power\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101701,
+    "name": "Racing Spirit: Guts +",
+    "description": "A Spark that increases Guts and gives a skill hint for \"Racing Spirit: Guts\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101702,
+    "name": "Racing Spirit: Guts +",
+    "description": "A Spark that increases Guts and gives a skill hint for \"Racing Spirit: Guts\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101703,
+    "name": "Racing Spirit: Guts +",
+    "description": "A Spark that increases Guts and gives a skill hint for \"Racing Spirit: Guts\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101801,
+    "name": "Racing Spirit: Wit +",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Racing Spirit: Wit\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101802,
+    "name": "Racing Spirit: Wit +",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Racing Spirit: Wit\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101803,
+    "name": "Racing Spirit: Wit +",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Racing Spirit: Wit\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101901,
+    "name": "Racing Spirit: Mood +",
+    "description": "A Spark that increases Skill Points and gives a skill hint for \"Racing Spirit: Mood\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101902,
+    "name": "Racing Spirit: Mood +",
+    "description": "A Spark that increases Skill Points and gives a skill hint for \"Racing Spirit: Mood\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2101903,
+    "name": "Racing Spirit: Mood +",
+    "description": "A Spark that increases Skill Points and gives a skill hint for \"Racing Spirit: Mood\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102001,
+    "name": "Eyes on the Goal",
+    "description": "A Spark that gives a skill hint for \"Eyes on the Goal\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102002,
+    "name": "Eyes on the Goal",
+    "description": "A Spark that gives a skill hint for \"Eyes on the Goal\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102003,
+    "name": "Eyes on the Goal",
+    "description": "A Spark that gives a skill hint for \"Eyes on the Goal\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102101,
+    "name": "Ignited Spirit: Speed +",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Ignited Spirit: Speed\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102102,
+    "name": "Ignited Spirit: Speed +",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Ignited Spirit: Speed\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102103,
+    "name": "Ignited Spirit: Speed +",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Ignited Spirit: Speed\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102201,
+    "name": "Ignited Spirit: Stamina +",
+    "description": "A Spark that increases Stamina and gives a skill hint for \"Ignited Spirit: Stamina\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102202,
+    "name": "Ignited Spirit: Stamina +",
+    "description": "A Spark that increases Stamina and gives a skill hint for \"Ignited Spirit: Stamina\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102203,
+    "name": "Ignited Spirit: Stamina +",
+    "description": "A Spark that increases Stamina and gives a skill hint for \"Ignited Spirit: Stamina\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102301,
+    "name": "Ignited Spirit: Power +",
+    "description": "A Spark that increases Power and gives a skill hint for \"Ignited Spirit: Power\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102302,
+    "name": "Ignited Spirit: Power +",
+    "description": "A Spark that increases Power and gives a skill hint for \"Ignited Spirit: Power\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102303,
+    "name": "Ignited Spirit: Power +",
+    "description": "A Spark that increases Power and gives a skill hint for \"Ignited Spirit: Power\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102401,
+    "name": "Ignited Spirit: Guts +",
+    "description": "A Spark that increases Guts and gives a skill hint for \"Ignited Spirit: Guts\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102402,
+    "name": "Ignited Spirit: Guts +",
+    "description": "A Spark that increases Guts and gives a skill hint for \"Ignited Spirit: Guts\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102403,
+    "name": "Ignited Spirit: Guts +",
+    "description": "A Spark that increases Guts and gives a skill hint for \"Ignited Spirit: Guts\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102501,
+    "name": "Ignited Spirit: Wit +",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Ignited Spirit: Wit\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102502,
+    "name": "Ignited Spirit: Wit +",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Ignited Spirit: Wit\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2102503,
+    "name": "Ignited Spirit: Wit +",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Ignited Spirit: Wit\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 3000101,
     "name": "URA Finale",
     "description": "A Spark that increases Speed and Stamina.",
@@ -5610,7 +6570,7 @@
   {
     "id": 10010101,
     "name": "Shooting Star",
-    "description": "A Spark that gives a skill hint for \"Shooting Star\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Shooting Star\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5618,7 +6578,7 @@
   {
     "id": 10010102,
     "name": "Shooting Star",
-    "description": "A Spark that gives a skill hint for \"Shooting Star\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Shooting Star\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5626,7 +6586,7 @@
   {
     "id": 10010103,
     "name": "Shooting Star",
-    "description": "A Spark that gives a skill hint for \"Shooting Star\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Shooting Star\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5634,7 +6594,7 @@
   {
     "id": 10010201,
     "name": "Dazzl'n ♪ Diver",
-    "description": "A Spark that gives a skill hint for \"Dazzl'n ♪ Diver\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Guts. Gives a skill hint for \"Dazzl'n ♪ Diver\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5642,7 +6602,7 @@
   {
     "id": 10010202,
     "name": "Dazzl'n ♪ Diver",
-    "description": "A Spark that gives a skill hint for \"Dazzl'n ♪ Diver\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Guts. Gives a skill hint for \"Dazzl'n ♪ Diver\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5650,7 +6610,7 @@
   {
     "id": 10010203,
     "name": "Dazzl'n ♪ Diver",
-    "description": "A Spark that gives a skill hint for \"Dazzl'n ♪ Diver\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Guts. Gives a skill hint for \"Dazzl'n ♪ Diver\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5658,7 +6618,7 @@
   {
     "id": 10010301,
     "name": "Dreams Donned with Pride!",
-    "description": "A Spark that gives a skill hint for \"Dreams Donned with Pride!\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Dreams Donned with Pride!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5666,7 +6626,7 @@
   {
     "id": 10010302,
     "name": "Dreams Donned with Pride!",
-    "description": "A Spark that gives a skill hint for \"Dreams Donned with Pride!\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Dreams Donned with Pride!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5674,7 +6634,7 @@
   {
     "id": 10010303,
     "name": "Dreams Donned with Pride!",
-    "description": "A Spark that gives a skill hint for \"Dreams Donned with Pride!\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Dreams Donned with Pride!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5682,7 +6642,7 @@
   {
     "id": 10020101,
     "name": "The View from the Lead Is Mine!",
-    "description": "A Spark that gives a skill hint for \"The View from the Lead Is Mine!\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"The View from the Lead Is Mine!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5690,7 +6650,7 @@
   {
     "id": 10020102,
     "name": "The View from the Lead Is Mine!",
-    "description": "A Spark that gives a skill hint for \"The View from the Lead Is Mine!\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"The View from the Lead Is Mine!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5698,7 +6658,7 @@
   {
     "id": 10020103,
     "name": "The View from the Lead Is Mine!",
-    "description": "A Spark that gives a skill hint for \"The View from the Lead Is Mine!\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"The View from the Lead Is Mine!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5706,7 +6666,7 @@
   {
     "id": 10030101,
     "name": "Sky-High Teio Step",
-    "description": "A Spark that gives a skill hint for \"Sky-High Teio Step\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Sky-High Teio Step\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5714,7 +6674,7 @@
   {
     "id": 10030102,
     "name": "Sky-High Teio Step",
-    "description": "A Spark that gives a skill hint for \"Sky-High Teio Step\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Sky-High Teio Step\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5722,7 +6682,7 @@
   {
     "id": 10030103,
     "name": "Sky-High Teio Step",
-    "description": "A Spark that gives a skill hint for \"Sky-High Teio Step\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Sky-High Teio Step\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5730,7 +6690,7 @@
   {
     "id": 10030201,
     "name": "Certain Victory",
-    "description": "A Spark that gives a skill hint for \"Certain Victory\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Invincible Me\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5738,7 +6698,7 @@
   {
     "id": 10030202,
     "name": "Certain Victory",
-    "description": "A Spark that gives a skill hint for \"Certain Victory\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Invincible Me\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5746,7 +6706,7 @@
   {
     "id": 10030203,
     "name": "Certain Victory",
-    "description": "A Spark that gives a skill hint for \"Certain Victory\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Invincible Me\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5754,7 +6714,7 @@
   {
     "id": 10040101,
     "name": "Red Shift/LP1211-M",
-    "description": "A Spark that gives a skill hint for \"Red Shift/LP1211-M\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Red Shift/LP1211-M\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5762,7 +6722,7 @@
   {
     "id": 10040102,
     "name": "Red Shift/LP1211-M",
-    "description": "A Spark that gives a skill hint for \"Red Shift/LP1211-M\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Red Shift/LP1211-M\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5770,7 +6730,7 @@
   {
     "id": 10040103,
     "name": "Red Shift/LP1211-M",
-    "description": "A Spark that gives a skill hint for \"Red Shift/LP1211-M\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Red Shift/LP1211-M\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5778,7 +6738,7 @@
   {
     "id": 10040201,
     "name": "A Kiss for Courage",
-    "description": "A Spark that gives a skill hint for \"A Kiss for Courage\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"A Kiss for Courage\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5786,7 +6746,7 @@
   {
     "id": 10040202,
     "name": "A Kiss for Courage",
-    "description": "A Spark that gives a skill hint for \"A Kiss for Courage\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"A Kiss for Courage\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5794,7 +6754,7 @@
   {
     "id": 10040203,
     "name": "A Kiss for Courage",
-    "description": "A Spark that gives a skill hint for \"A Kiss for Courage\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"A Kiss for Courage\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5802,7 +6762,7 @@
   {
     "id": 10050101,
     "name": "Lights of Vaudeville",
-    "description": "A Spark that gives a skill hint for \"Lights of Vaudeville\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Lights of Vaudeville\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5810,7 +6770,7 @@
   {
     "id": 10050102,
     "name": "Lights of Vaudeville",
-    "description": "A Spark that gives a skill hint for \"Lights of Vaudeville\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Lights of Vaudeville\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5818,7 +6778,7 @@
   {
     "id": 10050103,
     "name": "Lights of Vaudeville",
-    "description": "A Spark that gives a skill hint for \"Lights of Vaudeville\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Lights of Vaudeville\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5826,7 +6786,7 @@
   {
     "id": 10050201,
     "name": "Ravissant",
-    "description": "A Spark that gives a skill hint for \"Ravissant\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"Ravissant\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5834,7 +6794,7 @@
   {
     "id": 10050202,
     "name": "Ravissant",
-    "description": "A Spark that gives a skill hint for \"Ravissant\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"Ravissant\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5842,7 +6802,7 @@
   {
     "id": 10050203,
     "name": "Ravissant",
-    "description": "A Spark that gives a skill hint for \"Ravissant\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"Ravissant\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5850,7 +6810,7 @@
   {
     "id": 10060101,
     "name": "Triumphant Pulse",
-    "description": "A Spark that gives a skill hint for \"Triumphant Pulse\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Triumphant Pulse\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5858,7 +6818,7 @@
   {
     "id": 10060102,
     "name": "Triumphant Pulse",
-    "description": "A Spark that gives a skill hint for \"Triumphant Pulse\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Triumphant Pulse\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5866,7 +6826,7 @@
   {
     "id": 10060103,
     "name": "Triumphant Pulse",
-    "description": "A Spark that gives a skill hint for \"Triumphant Pulse\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Triumphant Pulse\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5874,7 +6834,7 @@
   {
     "id": 10060201,
     "name": "Festive Miracle",
-    "description": "A Spark that gives a skill hint for \"Festive Miracle\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Festive Miracle\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5882,7 +6842,7 @@
   {
     "id": 10060202,
     "name": "Festive Miracle",
-    "description": "A Spark that gives a skill hint for \"Festive Miracle\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Festive Miracle\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5890,7 +6850,7 @@
   {
     "id": 10060203,
     "name": "Festive Miracle",
-    "description": "A Spark that gives a skill hint for \"Festive Miracle\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Festive Miracle\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5898,7 +6858,7 @@
   {
     "id": 10070101,
     "name": "Anchors Aweigh!",
-    "description": "A Spark that gives a skill hint for \"Anchors Aweigh!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Anchors Aweigh!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5906,7 +6866,7 @@
   {
     "id": 10070102,
     "name": "Anchors Aweigh!",
-    "description": "A Spark that gives a skill hint for \"Anchors Aweigh!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Anchors Aweigh!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5914,7 +6874,31 @@
   {
     "id": 10070103,
     "name": "Anchors Aweigh!",
-    "description": "A Spark that gives a skill hint for \"Anchors Aweigh!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Anchors Aweigh!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10070201,
+    "name": "564 Escapades",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"564 Escapades\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10070202,
+    "name": "564 Escapades",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"564 Escapades\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10070203,
+    "name": "564 Escapades",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"564 Escapades\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5922,7 +6906,7 @@
   {
     "id": 10080101,
     "name": "Cut and Drive!",
-    "description": "A Spark that gives a skill hint for \"Cut and Drive!\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Cut and Drive!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5930,7 +6914,7 @@
   {
     "id": 10080102,
     "name": "Cut and Drive!",
-    "description": "A Spark that gives a skill hint for \"Cut and Drive!\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Cut and Drive!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5938,7 +6922,7 @@
   {
     "id": 10080103,
     "name": "Cut and Drive!",
-    "description": "A Spark that gives a skill hint for \"Cut and Drive!\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Cut and Drive!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5946,7 +6930,7 @@
   {
     "id": 10090101,
     "name": "Resplendent Red Ace",
-    "description": "A Spark that gives a skill hint for \"Resplendent Red Ace\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Resplendent Red Ace\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5954,7 +6938,7 @@
   {
     "id": 10090102,
     "name": "Resplendent Red Ace",
-    "description": "A Spark that gives a skill hint for \"Resplendent Red Ace\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Resplendent Red Ace\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5962,7 +6946,7 @@
   {
     "id": 10090103,
     "name": "Resplendent Red Ace",
-    "description": "A Spark that gives a skill hint for \"Resplendent Red Ace\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Resplendent Red Ace\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5970,7 +6954,7 @@
   {
     "id": 10100101,
     "name": "Shooting for Victory!",
-    "description": "A Spark that gives a skill hint for \"Shooting for Victory!\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Shooting for Victory!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -5978,7 +6962,7 @@
   {
     "id": 10100102,
     "name": "Shooting for Victory!",
-    "description": "A Spark that gives a skill hint for \"Shooting for Victory!\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Shooting for Victory!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -5986,7 +6970,7 @@
   {
     "id": 10100103,
     "name": "Shooting for Victory!",
-    "description": "A Spark that gives a skill hint for \"Shooting for Victory!\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Shooting for Victory!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -5994,7 +6978,7 @@
   {
     "id": 10100201,
     "name": "Joyful Voyage!",
-    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "description": "A Spark that increases max Power value and gives a skill hint for \"Joyful Voyage!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6002,7 +6986,7 @@
   {
     "id": 10100202,
     "name": "Joyful Voyage!",
-    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "description": "A Spark that increases max Power value and gives a skill hint for \"Joyful Voyage!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6010,7 +6994,7 @@
   {
     "id": 10100203,
     "name": "Joyful Voyage!",
-    "description": "A Spark that gives a skill hint for \"Joyful Voyage!\".",
+    "description": "A Spark that increases max Power value and gives a skill hint for \"Joyful Voyage!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6018,7 +7002,7 @@
   {
     "id": 10110101,
     "name": "Where There's a Will, There's a Way",
-    "description": "A Spark that gives a skill hint for \"Where There's a Will, There's a Way\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Where There's a Will, There's a Way\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6026,7 +7010,7 @@
   {
     "id": 10110102,
     "name": "Where There's a Will, There's a Way",
-    "description": "A Spark that gives a skill hint for \"Where There's a Will, There's a Way\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Where There's a Will, There's a Way\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6034,7 +7018,7 @@
   {
     "id": 10110103,
     "name": "Where There's a Will, There's a Way",
-    "description": "A Spark that gives a skill hint for \"Where There's a Will, There's a Way\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Where There's a Will, There's a Way\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6042,7 +7026,7 @@
   {
     "id": 10110201,
     "name": "Superior Heal",
-    "description": "A Spark that gives a skill hint for \"Superior Heal\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Superior Heal\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6050,7 +7034,7 @@
   {
     "id": 10110202,
     "name": "Superior Heal",
-    "description": "A Spark that gives a skill hint for \"Superior Heal\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Superior Heal\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6058,7 +7042,7 @@
   {
     "id": 10110203,
     "name": "Superior Heal",
-    "description": "A Spark that gives a skill hint for \"Superior Heal\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Superior Heal\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6066,7 +7050,7 @@
   {
     "id": 10120101,
     "name": "You and Me! One-on-One!",
-    "description": "A Spark that gives a skill hint for \"You and Me! One-on-One!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"You and Me! One-on-One!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6074,7 +7058,7 @@
   {
     "id": 10120102,
     "name": "You and Me! One-on-One!",
-    "description": "A Spark that gives a skill hint for \"You and Me! One-on-One!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"You and Me! One-on-One!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6082,7 +7066,7 @@
   {
     "id": 10120103,
     "name": "You and Me! One-on-One!",
-    "description": "A Spark that gives a skill hint for \"You and Me! One-on-One!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"You and Me! One-on-One!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6090,7 +7074,7 @@
   {
     "id": 10130101,
     "name": "The Duty of Dignity Calls",
-    "description": "A Spark that gives a skill hint for \"The Duty of Dignity Calls\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"The Duty of Dignity Calls\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6098,7 +7082,7 @@
   {
     "id": 10130102,
     "name": "The Duty of Dignity Calls",
-    "description": "A Spark that gives a skill hint for \"The Duty of Dignity Calls\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"The Duty of Dignity Calls\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6106,7 +7090,7 @@
   {
     "id": 10130103,
     "name": "The Duty of Dignity Calls",
-    "description": "A Spark that gives a skill hint for \"The Duty of Dignity Calls\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"The Duty of Dignity Calls\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6114,7 +7098,7 @@
   {
     "id": 10130201,
     "name": "Legacy of the Strong",
-    "description": "A Spark that gives a skill hint for \"Legacy of the Strong\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Legacy of the Strong\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6122,7 +7106,7 @@
   {
     "id": 10130202,
     "name": "Legacy of the Strong",
-    "description": "A Spark that gives a skill hint for \"Legacy of the Strong\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Legacy of the Strong\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6130,7 +7114,31 @@
   {
     "id": 10130203,
     "name": "Legacy of the Strong",
-    "description": "A Spark that gives a skill hint for \"Legacy of the Strong\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Legacy of the Strong\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10130301,
+    "name": "Your Smile Sparkles as the Waves",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Your Smile Sparkles as the Waves\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10130302,
+    "name": "Your Smile Sparkles as the Waves",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Your Smile Sparkles as the Waves\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10130303,
+    "name": "Your Smile Sparkles as the Waves",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Your Smile Sparkles as the Waves\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6138,7 +7146,7 @@
   {
     "id": 10140101,
     "name": "Victoria por plancha ☆",
-    "description": "A Spark that gives a skill hint for \"Victoria por plancha ☆\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Victoria por plancha ☆\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6146,7 +7154,7 @@
   {
     "id": 10140102,
     "name": "Victoria por plancha ☆",
-    "description": "A Spark that gives a skill hint for \"Victoria por plancha ☆\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Victoria por plancha ☆\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6154,7 +7162,7 @@
   {
     "id": 10140103,
     "name": "Victoria por plancha ☆",
-    "description": "A Spark that gives a skill hint for \"Victoria por plancha ☆\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Victoria por plancha ☆\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6162,7 +7170,7 @@
   {
     "id": 10140201,
     "name": "Condor's Fury",
-    "description": "A Spark that gives a skill hint for \"Condor's Fury\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Condor's Fury\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6170,7 +7178,7 @@
   {
     "id": 10140202,
     "name": "Condor's Fury",
-    "description": "A Spark that gives a skill hint for \"Condor's Fury\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Condor's Fury\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6178,7 +7186,7 @@
   {
     "id": 10140203,
     "name": "Condor's Fury",
-    "description": "A Spark that gives a skill hint for \"Condor's Fury\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Condor's Fury\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6186,7 +7194,7 @@
   {
     "id": 10150101,
     "name": "This Dance Is for Vittoria!",
-    "description": "A Spark that gives a skill hint for \"This Dance Is for Vittoria!\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"This Dance Is for Vittoria!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6194,7 +7202,7 @@
   {
     "id": 10150102,
     "name": "This Dance Is for Vittoria!",
-    "description": "A Spark that gives a skill hint for \"This Dance Is for Vittoria!\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"This Dance Is for Vittoria!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6202,7 +7210,7 @@
   {
     "id": 10150103,
     "name": "This Dance Is for Vittoria!",
-    "description": "A Spark that gives a skill hint for \"This Dance Is for Vittoria!\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"This Dance Is for Vittoria!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6210,7 +7218,7 @@
   {
     "id": 10150201,
     "name": "Barcarole of Blessings",
-    "description": "A Spark that gives a skill hint for \"Barcarole of Blessings\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Barcarole of Blessings\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6218,7 +7226,7 @@
   {
     "id": 10150202,
     "name": "Barcarole of Blessings",
-    "description": "A Spark that gives a skill hint for \"Barcarole of Blessings\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Barcarole of Blessings\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6226,7 +7234,7 @@
   {
     "id": 10150203,
     "name": "Barcarole of Blessings",
-    "description": "A Spark that gives a skill hint for \"Barcarole of Blessings\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Barcarole of Blessings\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6234,7 +7242,7 @@
   {
     "id": 10160101,
     "name": "Shadow Break",
-    "description": "A Spark that gives a skill hint for \"Shadow Break\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Shadow Break\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6242,7 +7250,7 @@
   {
     "id": 10160102,
     "name": "Shadow Break",
-    "description": "A Spark that gives a skill hint for \"Shadow Break\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Shadow Break\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6250,7 +7258,7 @@
   {
     "id": 10160103,
     "name": "Shadow Break",
-    "description": "A Spark that gives a skill hint for \"Shadow Break\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Shadow Break\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6258,7 +7266,7 @@
   {
     "id": 10170101,
     "name": "Behold Thine Emperor's Divine Might",
-    "description": "A Spark that gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6266,7 +7274,7 @@
   {
     "id": 10170102,
     "name": "Behold Thine Emperor's Divine Might",
-    "description": "A Spark that gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6274,7 +7282,7 @@
   {
     "id": 10170103,
     "name": "Behold Thine Emperor's Divine Might",
-    "description": "A Spark that gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6282,7 +7290,7 @@
   {
     "id": 10170201,
     "name": "Arrows Whistle, Shadows Disperse",
-    "description": "A Spark that gives a skill hint for \"Arrows Whistle, Shadows Disperse\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Arrows Whistle, Shadows Disperse\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6290,7 +7298,7 @@
   {
     "id": 10170202,
     "name": "Arrows Whistle, Shadows Disperse",
-    "description": "A Spark that gives a skill hint for \"Arrows Whistle, Shadows Disperse\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Arrows Whistle, Shadows Disperse\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6298,7 +7306,7 @@
   {
     "id": 10170203,
     "name": "Arrows Whistle, Shadows Disperse",
-    "description": "A Spark that gives a skill hint for \"Arrows Whistle, Shadows Disperse\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Arrows Whistle, Shadows Disperse\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6306,7 +7314,7 @@
   {
     "id": 10180101,
     "name": "Blazing Pride",
-    "description": "A Spark that gives a skill hint for \"Blazing Pride\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Blazing Pride\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6314,7 +7322,7 @@
   {
     "id": 10180102,
     "name": "Blazing Pride",
-    "description": "A Spark that gives a skill hint for \"Blazing Pride\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Blazing Pride\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6322,7 +7330,7 @@
   {
     "id": 10180103,
     "name": "Blazing Pride",
-    "description": "A Spark that gives a skill hint for \"Blazing Pride\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Blazing Pride\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6330,7 +7338,7 @@
   {
     "id": 10180201,
     "name": "Eternal Moments",
-    "description": "A Spark that gives a skill hint for \"Eternal Moments\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Eternal Moments\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6338,7 +7346,7 @@
   {
     "id": 10180202,
     "name": "Eternal Moments",
-    "description": "A Spark that gives a skill hint for \"Eternal Moments\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Eternal Moments\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6346,7 +7354,7 @@
   {
     "id": 10180203,
     "name": "Eternal Moments",
-    "description": "A Spark that gives a skill hint for \"Eternal Moments\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Eternal Moments\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6354,7 +7362,7 @@
   {
     "id": 10190101,
     "name": "OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆",
-    "description": "A Spark that gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6362,7 +7370,7 @@
   {
     "id": 10190102,
     "name": "OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆",
-    "description": "A Spark that gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6370,7 +7378,7 @@
   {
     "id": 10190103,
     "name": "OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆",
-    "description": "A Spark that gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6378,7 +7386,7 @@
   {
     "id": 10200101,
     "name": "Angling and Scheming",
-    "description": "A Spark that gives a skill hint for \"Angling and Scheming\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Angling and Scheming\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6386,7 +7394,7 @@
   {
     "id": 10200102,
     "name": "Angling and Scheming",
-    "description": "A Spark that gives a skill hint for \"Angling and Scheming\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Angling and Scheming\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6394,7 +7402,7 @@
   {
     "id": 10200103,
     "name": "Angling and Scheming",
-    "description": "A Spark that gives a skill hint for \"Angling and Scheming\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Angling and Scheming\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6402,7 +7410,7 @@
   {
     "id": 10200201,
     "name": "Break It Down!",
-    "description": "A Spark that gives a skill hint for \"Break It Down!\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Break It Down!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6410,7 +7418,7 @@
   {
     "id": 10200202,
     "name": "Break It Down!",
-    "description": "A Spark that gives a skill hint for \"Break It Down!\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Break It Down!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6418,7 +7426,7 @@
   {
     "id": 10200203,
     "name": "Break It Down!",
-    "description": "A Spark that gives a skill hint for \"Break It Down!\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Break It Down!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6426,7 +7434,7 @@
   {
     "id": 10210101,
     "name": "White Lightning Comin' Through!",
-    "description": "A Spark that gives a skill hint for \"White Lightning Comin' Through!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"White Lightning Comin' Through!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6434,7 +7442,7 @@
   {
     "id": 10210102,
     "name": "White Lightning Comin' Through!",
-    "description": "A Spark that gives a skill hint for \"White Lightning Comin' Through!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"White Lightning Comin' Through!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6442,7 +7450,7 @@
   {
     "id": 10210103,
     "name": "White Lightning Comin' Through!",
-    "description": "A Spark that gives a skill hint for \"White Lightning Comin' Through!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"White Lightning Comin' Through!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6450,7 +7458,7 @@
   {
     "id": 10220101,
     "name": "Fairy Tale",
-    "description": "A Spark that gives a skill hint for \"Fairy Tale\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Fairy Tale\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6458,7 +7466,7 @@
   {
     "id": 10220102,
     "name": "Fairy Tale",
-    "description": "A Spark that gives a skill hint for \"Fairy Tale\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Fairy Tale\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6466,7 +7474,7 @@
   {
     "id": 10220103,
     "name": "Fairy Tale",
-    "description": "A Spark that gives a skill hint for \"Fairy Tale\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Fairy Tale\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6474,7 +7482,7 @@
   {
     "id": 10220201,
     "name": "Best day ever",
-    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6482,7 +7490,7 @@
   {
     "id": 10220202,
     "name": "Best day ever",
-    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6490,7 +7498,7 @@
   {
     "id": 10220203,
     "name": "Best day ever",
-    "description": "A Spark that gives a skill hint for \"Best Day Ever\".",
+    "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6498,7 +7506,7 @@
   {
     "id": 10230101,
     "name": "∴win Q.E.D.",
-    "description": "A Spark that gives a skill hint for \"∴win Q.E.D.\".",
+    "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"∴win Q.E.D.\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6506,7 +7514,7 @@
   {
     "id": 10230102,
     "name": "∴win Q.E.D.",
-    "description": "A Spark that gives a skill hint for \"∴win Q.E.D.\".",
+    "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"∴win Q.E.D.\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6514,7 +7522,7 @@
   {
     "id": 10230103,
     "name": "∴win Q.E.D.",
-    "description": "A Spark that gives a skill hint for \"∴win Q.E.D.\".",
+    "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"∴win Q.E.D.\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6522,7 +7530,7 @@
   {
     "id": 10230201,
     "name": "Presents from X",
-    "description": "A Spark that gives a skill hint for \"Presents from X\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Presents from X\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6530,7 +7538,7 @@
   {
     "id": 10230202,
     "name": "Presents from X",
-    "description": "A Spark that gives a skill hint for \"Presents from X\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Presents from X\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6538,7 +7546,7 @@
   {
     "id": 10230203,
     "name": "Presents from X",
-    "description": "A Spark that gives a skill hint for \"Presents from X\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Presents from X\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6546,7 +7554,7 @@
   {
     "id": 10240101,
     "name": "Flashy☆Landing",
-    "description": "A Spark that gives a skill hint for \"Flashy☆Landing\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Flashy☆Landing\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6554,7 +7562,7 @@
   {
     "id": 10240102,
     "name": "Flashy☆Landing",
-    "description": "A Spark that gives a skill hint for \"Flashy☆Landing\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Flashy☆Landing\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6562,7 +7570,7 @@
   {
     "id": 10240103,
     "name": "Flashy☆Landing",
-    "description": "A Spark that gives a skill hint for \"Flashy☆Landing\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Flashy☆Landing\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6570,7 +7578,7 @@
   {
     "id": 10240201,
     "name": "Flowery☆Maneuver",
-    "description": "A Spark that gives a skill hint for \"Flowery☆Maneuver\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Flowery☆Maneuver\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6578,7 +7586,7 @@
   {
     "id": 10240202,
     "name": "Flowery☆Maneuver",
-    "description": "A Spark that gives a skill hint for \"Flowery☆Maneuver\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Flowery☆Maneuver\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6586,31 +7594,31 @@
   {
     "id": 10240203,
     "name": "Flowery☆Maneuver",
-    "description": "A Spark that gives a skill hint for \"Flowery☆Maneuver\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Flowery☆Maneuver\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
   },
   {
     "id": 10250101,
-    "name": "Chasing After You",
-    "description": "A Spark that gives a skill hint for \"Chasing after You\".",
+    "name": "Chasing after You",
+    "description": "A Spark that increases max Stamina value and gives a skill hint for \"Chasing after You\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
   },
   {
     "id": 10250102,
-    "name": "Chasing After You",
-    "description": "A Spark that gives a skill hint for \"Chasing after You\".",
+    "name": "Chasing after You",
+    "description": "A Spark that increases max Stamina value and gives a skill hint for \"Chasing after You\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
   },
   {
     "id": 10250103,
-    "name": "Chasing After You",
-    "description": "A Spark that gives a skill hint for \"Chasing after You\".",
+    "name": "Chasing after You",
+    "description": "A Spark that increases max Stamina value and gives a skill hint for \"Chasing after You\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6618,7 +7626,7 @@
   {
     "id": 10260101,
     "name": "G00 1st. F∞;",
-    "description": "A Spark that gives a skill hint for \"G00 1st. F∞;\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"G00 1st.F∞;\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6626,7 +7634,7 @@
   {
     "id": 10260102,
     "name": "G00 1st. F∞;",
-    "description": "A Spark that gives a skill hint for \"G00 1st. F∞;\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"G00 1st.F∞;\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6634,7 +7642,7 @@
   {
     "id": 10260103,
     "name": "G00 1st. F∞;",
-    "description": "A Spark that gives a skill hint for \"G00 1st. F∞;\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"G00 1st.F∞;\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6642,7 +7650,7 @@
   {
     "id": 10260201,
     "name": "Operation Cacao",
-    "description": "A Spark that gives a skill hint for \"Operation Cacao\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"Operation Cacao\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6650,7 +7658,7 @@
   {
     "id": 10260202,
     "name": "Operation Cacao",
-    "description": "A Spark that gives a skill hint for \"Operation Cacao\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"Operation Cacao\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6658,7 +7666,7 @@
   {
     "id": 10260203,
     "name": "Operation Cacao",
-    "description": "A Spark that gives a skill hint for \"Operation Cacao\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"Operation Cacao\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6666,7 +7674,7 @@
   {
     "id": 10270101,
     "name": "Let's Pump Some Iron!",
-    "description": "A Spark that gives a skill hint for \"Let's Pump Some Iron!\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Let's Pump Some Iron!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6674,7 +7682,7 @@
   {
     "id": 10270102,
     "name": "Let's Pump Some Iron!",
-    "description": "A Spark that gives a skill hint for \"Let's Pump Some Iron!\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Let's Pump Some Iron!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6682,7 +7690,7 @@
   {
     "id": 10270103,
     "name": "Let's Pump Some Iron!",
-    "description": "A Spark that gives a skill hint for \"Let's Pump Some Iron!\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Let's Pump Some Iron!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6690,7 +7698,7 @@
   {
     "id": 10280101,
     "name": "YUMMY☆SPEED!",
-    "description": "A Spark that gives a skill hint for \"YUMMY☆SPEED!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"YUMMY☆SPEED!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6698,7 +7706,7 @@
   {
     "id": 10280102,
     "name": "YUMMY☆SPEED!",
-    "description": "A Spark that gives a skill hint for \"YUMMY☆SPEED!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"YUMMY☆SPEED!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6706,7 +7714,7 @@
   {
     "id": 10280103,
     "name": "YUMMY☆SPEED!",
-    "description": "A Spark that gives a skill hint for \"YUMMY☆SPEED!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"YUMMY☆SPEED!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6714,7 +7722,7 @@
   {
     "id": 10300101,
     "name": "Blue Rose Closer",
-    "description": "A Spark that gives a skill hint for \"Blue Rose Closer\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Blue Rose Closer\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6722,7 +7730,7 @@
   {
     "id": 10300102,
     "name": "Blue Rose Closer",
-    "description": "A Spark that gives a skill hint for \"Blue Rose Closer\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Blue Rose Closer\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6730,7 +7738,7 @@
   {
     "id": 10300103,
     "name": "Blue Rose Closer",
-    "description": "A Spark that gives a skill hint for \"Blue Rose Closer\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Blue Rose Closer\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6738,7 +7746,7 @@
   {
     "id": 10300201,
     "name": "Every Rose Has Its Fangs",
-    "description": "A Spark that gives a skill hint for \"Every Rose Has Its Fangs\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Every Rose Has Its Fangs\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6746,7 +7754,7 @@
   {
     "id": 10300202,
     "name": "Every Rose Has Its Fangs",
-    "description": "A Spark that gives a skill hint for \"Every Rose Has Its Fangs\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Every Rose Has Its Fangs\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6754,7 +7762,7 @@
   {
     "id": 10300203,
     "name": "Every Rose Has Its Fangs",
-    "description": "A Spark that gives a skill hint for \"Every Rose Has Its Fangs\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Every Rose Has Its Fangs\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6762,7 +7770,7 @@
   {
     "id": 10310101,
     "name": "All Charged! It's Go Time!",
-    "description": "A Spark that gives a skill hint for \"All Charged! It's Go Time!\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"All Charged! It's Go Time!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6770,7 +7778,7 @@
   {
     "id": 10310102,
     "name": "All Charged! It's Go Time!",
-    "description": "A Spark that gives a skill hint for \"All Charged! It's Go Time!\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"All Charged! It's Go Time!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6778,7 +7786,7 @@
   {
     "id": 10310103,
     "name": "All Charged! It's Go Time!",
-    "description": "A Spark that gives a skill hint for \"All Charged! It's Go Time!\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"All Charged! It's Go Time!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6786,7 +7794,7 @@
   {
     "id": 10320101,
     "name": "U=ma2",
-    "description": "A Spark that gives a skill hint for \"U=ma2\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"U=ma2\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6794,7 +7802,7 @@
   {
     "id": 10320102,
     "name": "U=ma2",
-    "description": "A Spark that gives a skill hint for \"U=ma2\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"U=ma2\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6802,7 +7810,7 @@
   {
     "id": 10320103,
     "name": "U=ma2",
-    "description": "A Spark that gives a skill hint for \"U=ma2\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"U=ma2\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6810,7 +7818,7 @@
   {
     "id": 10330101,
     "name": "Shooting Star of Dioskouroi",
-    "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Shooting Star of Dioskouroi\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6818,7 +7826,7 @@
   {
     "id": 10330102,
     "name": "Shooting Star of Dioskouroi",
-    "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Shooting Star of Dioskouroi\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6826,7 +7834,7 @@
   {
     "id": 10330103,
     "name": "Shooting Star of Dioskouroi",
-    "description": "A Spark that gives a skill hint for \"Shooting Star of Dioskouroi\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Shooting Star of Dioskouroi\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6834,7 +7842,7 @@
   {
     "id": 10340101,
     "name": "Now We're Cruisin'!",
-    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Now We're Cruisin'!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6842,7 +7850,7 @@
   {
     "id": 10340102,
     "name": "Now We're Cruisin'!",
-    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Now We're Cruisin'!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6850,7 +7858,7 @@
   {
     "id": 10340103,
     "name": "Now We're Cruisin'!",
-    "description": "A Spark that gives a skill hint for \"Now We're Cruisin'!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Now We're Cruisin'!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6858,7 +7866,7 @@
   {
     "id": 10350101,
     "name": "Our Ticket to Win!",
-    "description": "A Spark that gives a skill hint for \"Our Ticket to Win!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Our Ticket to Win!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6866,7 +7874,7 @@
   {
     "id": 10350102,
     "name": "Our Ticket to Win!",
-    "description": "A Spark that gives a skill hint for \"Our Ticket to Win!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Our Ticket to Win!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6874,7 +7882,7 @@
   {
     "id": 10350103,
     "name": "Our Ticket to Win!",
-    "description": "A Spark that gives a skill hint for \"Our Ticket to Win!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Our Ticket to Win!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6882,7 +7890,7 @@
   {
     "id": 10360101,
     "name": "trigger:BEAT",
-    "description": "A Spark that gives a skill hint for \"trigger:BEAT\".",
+    "description": "A Spark that increases max Wit value and gives a skill hint for \"trigger:BEAT\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6890,7 +7898,7 @@
   {
     "id": 10360102,
     "name": "trigger:BEAT",
-    "description": "A Spark that gives a skill hint for \"trigger:BEAT\".",
+    "description": "A Spark that increases max Wit value and gives a skill hint for \"trigger:BEAT\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6898,7 +7906,7 @@
   {
     "id": 10360103,
     "name": "trigger:BEAT",
-    "description": "A Spark that gives a skill hint for \"trigger:BEAT\".",
+    "description": "A Spark that increases max Wit value and gives a skill hint for \"trigger:BEAT\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6906,7 +7914,7 @@
   {
     "id": 10370101,
     "name": "Schwarzes Schwert",
-    "description": "A Spark that gives a skill hint for \"Schwarzes Schwert\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Schwarzes Schwert\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6914,7 +7922,7 @@
   {
     "id": 10370102,
     "name": "Schwarzes Schwert",
-    "description": "A Spark that gives a skill hint for \"Schwarzes Schwert\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Schwarzes Schwert\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6922,7 +7930,7 @@
   {
     "id": 10370103,
     "name": "Schwarzes Schwert",
-    "description": "A Spark that gives a skill hint for \"Schwarzes Schwert\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Schwarzes Schwert\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6930,7 +7938,7 @@
   {
     "id": 10370201,
     "name": "Guten Appetit ♪",
-    "description": "A Spark that gives a skill hint for \"Guten Appetit ♪\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Guten Appetit ♪\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6938,7 +7946,7 @@
   {
     "id": 10370202,
     "name": "Guten Appetit ♪",
-    "description": "A Spark that gives a skill hint for \"Guten Appetit ♪\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Guten Appetit ♪\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6946,7 +7954,7 @@
   {
     "id": 10370203,
     "name": "Guten Appetit ♪",
-    "description": "A Spark that gives a skill hint for \"Guten Appetit ♪\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Guten Appetit ♪\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6954,7 +7962,7 @@
   {
     "id": 10380101,
     "name": "#LookatCurren",
-    "description": "A Spark that gives a skill hint for \"#LookatCurren\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"#LookatCurren\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6962,7 +7970,7 @@
   {
     "id": 10380102,
     "name": "#LookatCurren",
-    "description": "A Spark that gives a skill hint for \"#LookatCurren\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"#LookatCurren\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6970,7 +7978,7 @@
   {
     "id": 10380103,
     "name": "#LookatCurren",
-    "description": "A Spark that gives a skill hint for \"#LookatCurren\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"#LookatCurren\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -6978,7 +7986,7 @@
   {
     "id": 10380201,
     "name": "One True Color",
-    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"One True Color\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -6986,7 +7994,7 @@
   {
     "id": 10380202,
     "name": "One True Color",
-    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"One True Color\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -6994,7 +8002,7 @@
   {
     "id": 10380203,
     "name": "One True Color",
-    "description": "A Spark that gives a skill hint for \"One True Color\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"One True Color\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7002,7 +8010,7 @@
   {
     "id": 10390101,
     "name": "A Princess Must Seize Victory!",
-    "description": "A Spark that gives a skill hint for \"A Princess Must Seize Victory!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"A Princess Must Seize Victory!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7010,7 +8018,7 @@
   {
     "id": 10390102,
     "name": "A Princess Must Seize Victory!",
-    "description": "A Spark that gives a skill hint for \"A Princess Must Seize Victory!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"A Princess Must Seize Victory!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7018,7 +8026,7 @@
   {
     "id": 10390103,
     "name": "A Princess Must Seize Victory!",
-    "description": "A Spark that gives a skill hint for \"A Princess Must Seize Victory!\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"A Princess Must Seize Victory!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7026,7 +8034,7 @@
   {
     "id": 10400101,
     "name": "KEEP IT REAL.",
-    "description": "A Spark that gives a skill hint for \"KEEP IT REAL.\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"KEEP IT REAL.\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7034,7 +8042,7 @@
   {
     "id": 10400102,
     "name": "KEEP IT REAL.",
-    "description": "A Spark that gives a skill hint for \"KEEP IT REAL.\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"KEEP IT REAL.\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7042,7 +8050,7 @@
   {
     "id": 10400103,
     "name": "KEEP IT REAL.",
-    "description": "A Spark that gives a skill hint for \"KEEP IT REAL.\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"KEEP IT REAL.\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7050,7 +8058,7 @@
   {
     "id": 10400201,
     "name": "Dancing in the Leaves",
-    "description": "A Spark that gives a skill hint for \"Dancing in the Leaves\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"Dancing in the Leaves\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7058,7 +8066,7 @@
   {
     "id": 10400202,
     "name": "Dancing in the Leaves",
-    "description": "A Spark that gives a skill hint for \"Dancing in the Leaves\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"Dancing in the Leaves\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7066,7 +8074,7 @@
   {
     "id": 10400203,
     "name": "Dancing in the Leaves",
-    "description": "A Spark that gives a skill hint for \"Dancing in the Leaves\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Wit. Gives a skill hint for \"Dancing in the Leaves\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7074,7 +8082,7 @@
   {
     "id": 10410101,
     "name": "Genius x Bakushin = Victory",
-    "description": "A Spark that gives a skill hint for \"Genius x Bakushin = Victory\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Genius x Bakushin = Victory\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7082,7 +8090,7 @@
   {
     "id": 10410102,
     "name": "Genius x Bakushin = Victory",
-    "description": "A Spark that gives a skill hint for \"Genius x Bakushin = Victory\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Genius x Bakushin = Victory\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7090,31 +8098,31 @@
   {
     "id": 10410103,
     "name": "Genius x Bakushin = Victory",
-    "description": "A Spark that gives a skill hint for \"Genius x Bakushin = Victory\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Genius x Bakushin = Victory\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
   },
   {
     "id": 10440101,
-    "name": "Victory Belongs to Me—Strelitzia! ☆",
-    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "name": "Victory belongs to me—Strelitzia! ☆",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
   },
   {
     "id": 10440102,
-    "name": "Victory Belongs to Me—Strelitzia! ☆",
-    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "name": "Victory belongs to me—Strelitzia! ☆",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
   },
   {
     "id": 10440103,
-    "name": "Victory Belongs to Me—Strelitzia! ☆",
-    "description": "A Spark that gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
+    "name": "Victory belongs to me—Strelitzia! ☆",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Victory Belongs to Me—Strelitzia! ☆\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7122,7 +8130,7 @@
   {
     "id": 10450101,
     "name": "Pure Heart",
-    "description": "A Spark that gives a skill hint for \"Pure Heart\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Pure Heart\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7130,7 +8138,7 @@
   {
     "id": 10450102,
     "name": "Pure Heart",
-    "description": "A Spark that gives a skill hint for \"Pure Heart\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Pure Heart\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7138,7 +8146,7 @@
   {
     "id": 10450103,
     "name": "Pure Heart",
-    "description": "A Spark that gives a skill hint for \"Pure Heart\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Pure Heart\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7146,7 +8154,7 @@
   {
     "id": 10450201,
     "name": "Give Mummy a Hug ♡",
-    "description": "A Spark that gives a skill hint for \"Give Mummy a Hug ♡\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Give Mummy a Hug ♡\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7154,7 +8162,7 @@
   {
     "id": 10450202,
     "name": "Give Mummy a Hug ♡",
-    "description": "A Spark that gives a skill hint for \"Give Mummy a Hug ♡\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Give Mummy a Hug ♡\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7162,7 +8170,7 @@
   {
     "id": 10450203,
     "name": "Give Mummy a Hug ♡",
-    "description": "A Spark that gives a skill hint for \"Give Mummy a Hug ♡\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Give Mummy a Hug ♡\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7170,7 +8178,7 @@
   {
     "id": 10460101,
     "name": "SPARKLY☆STARDOM",
-    "description": "A Spark that gives a skill hint for \"SPARKLY☆STARDOM\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"SPARKLY☆STARDOM\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7178,7 +8186,7 @@
   {
     "id": 10460102,
     "name": "SPARKLY☆STARDOM",
-    "description": "A Spark that gives a skill hint for \"SPARKLY☆STARDOM\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"SPARKLY☆STARDOM\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7186,7 +8194,7 @@
   {
     "id": 10460103,
     "name": "SPARKLY☆STARDOM",
-    "description": "A Spark that gives a skill hint for \"SPARKLY☆STARDOM\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"SPARKLY☆STARDOM\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7194,7 +8202,7 @@
   {
     "id": 10480101,
     "name": "Pop & Polish",
-    "description": "A Spark that gives a skill hint for \"Pop & Polish\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Pop & Polish\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7202,7 +8210,7 @@
   {
     "id": 10480102,
     "name": "Pop & Polish",
-    "description": "A Spark that gives a skill hint for \"Pop & Polish\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Pop & Polish\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7210,7 +8218,7 @@
   {
     "id": 10480103,
     "name": "Pop & Polish",
-    "description": "A Spark that gives a skill hint for \"Pop & Polish\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Pop & Polish\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7218,7 +8226,7 @@
   {
     "id": 10500101,
     "name": "Nemesis",
-    "description": "A Spark that gives a skill hint for \"Nemesis\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Nemesis\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7226,7 +8234,7 @@
   {
     "id": 10500102,
     "name": "Nemesis",
-    "description": "A Spark that gives a skill hint for \"Nemesis\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Nemesis\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7234,7 +8242,7 @@
   {
     "id": 10500103,
     "name": "Nemesis",
-    "description": "A Spark that gives a skill hint for \"Nemesis\".",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Nemesis\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7242,7 +8250,7 @@
   {
     "id": 10510101,
     "name": "Budding Blossom",
-    "description": "A Spark that gives a skill hint for \"Budding Blossom\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Budding Blossom\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7250,7 +8258,7 @@
   {
     "id": 10510102,
     "name": "Budding Blossom",
-    "description": "A Spark that gives a skill hint for \"Budding Blossom\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Budding Blossom\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7258,7 +8266,7 @@
   {
     "id": 10510103,
     "name": "Budding Blossom",
-    "description": "A Spark that gives a skill hint for \"Budding Blossom\".",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Budding Blossom\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7266,7 +8274,7 @@
   {
     "id": 10520101,
     "name": "Super-Duper Climax",
-    "description": "A Spark that gives a skill hint for \"Super-Duper Climax\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Super-Duper Climax\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7274,7 +8282,7 @@
   {
     "id": 10520102,
     "name": "Super-Duper Climax",
-    "description": "A Spark that gives a skill hint for \"Super-Duper Climax\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Super-Duper Climax\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7282,7 +8290,7 @@
   {
     "id": 10520103,
     "name": "Super-Duper Climax",
-    "description": "A Spark that gives a skill hint for \"Super-Duper Climax\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Super-Duper Climax\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7290,7 +8298,7 @@
   {
     "id": 10520201,
     "name": "114th Time's the Charm",
-    "description": "A Spark that gives a skill hint for \"114th Time's the Charm\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"114th Time's the Charm\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7298,7 +8306,7 @@
   {
     "id": 10520202,
     "name": "114th Time's the Charm",
-    "description": "A Spark that gives a skill hint for \"114th Time's the Charm\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"114th Time's the Charm\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7306,7 +8314,31 @@
   {
     "id": 10520203,
     "name": "114th Time's the Charm",
-    "description": "A Spark that gives a skill hint for \"114th Time's the Charm\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"114th Time's the Charm\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10530101,
+    "name": "Red-Hot Discipline!",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Red-Hot Discipline!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10530102,
+    "name": "Red-Hot Discipline!",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Red-Hot Discipline!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10530103,
+    "name": "Red-Hot Discipline!",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Red-Hot Discipline!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7314,7 +8346,7 @@
   {
     "id": 10560101,
     "name": "I See Victory in My Future!",
-    "description": "A Spark that gives a skill hint for \"I See Victory in My Future!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"I See Victory in My Future!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7322,7 +8354,7 @@
   {
     "id": 10560102,
     "name": "I See Victory in My Future!",
-    "description": "A Spark that gives a skill hint for \"I See Victory in My Future!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"I See Victory in My Future!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7330,7 +8362,7 @@
   {
     "id": 10560103,
     "name": "I See Victory in My Future!",
-    "description": "A Spark that gives a skill hint for \"I See Victory in My Future!\".",
+    "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"I See Victory in My Future!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7338,7 +8370,7 @@
   {
     "id": 10560201,
     "name": "Bountiful Harvest",
-    "description": "A Spark that gives a skill hint for \"Bountiful Harvest\".",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Bountiful Harvest\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7346,7 +8378,7 @@
   {
     "id": 10560202,
     "name": "Bountiful Harvest",
-    "description": "A Spark that gives a skill hint for \"Bountiful Harvest\".",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Bountiful Harvest\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7354,7 +8386,7 @@
   {
     "id": 10560203,
     "name": "Bountiful Harvest",
-    "description": "A Spark that gives a skill hint for \"Bountiful Harvest\".",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Bountiful Harvest\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7362,7 +8394,7 @@
   {
     "id": 10580101,
     "name": "I Never Goof Up!",
-    "description": "A Spark that gives a skill hint for \"I Never Goof Up!\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"I Never Goof Up!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7370,7 +8402,7 @@
   {
     "id": 10580102,
     "name": "I Never Goof Up!",
-    "description": "A Spark that gives a skill hint for \"I Never Goof Up!\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"I Never Goof Up!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7378,7 +8410,7 @@
   {
     "id": 10580103,
     "name": "I Never Goof Up!",
-    "description": "A Spark that gives a skill hint for \"I Never Goof Up!\".",
+    "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"I Never Goof Up!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7386,7 +8418,7 @@
   {
     "id": 10590101,
     "name": "Moving Past, and Beyond",
-    "description": "A Spark that gives a skill hint for \"Moving Past, and Beyond\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Moving Past, and Beyond\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7394,7 +8426,7 @@
   {
     "id": 10590102,
     "name": "Moving Past, and Beyond",
-    "description": "A Spark that gives a skill hint for \"Moving Past, and Beyond\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Moving Past, and Beyond\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7402,7 +8434,7 @@
   {
     "id": 10590103,
     "name": "Moving Past, and Beyond",
-    "description": "A Spark that gives a skill hint for \"Moving Past, and Beyond\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Moving Past, and Beyond\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7410,7 +8442,7 @@
   {
     "id": 10590201,
     "name": "Wherever This Wonder Leads",
-    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Wherever This Wonder Leads\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7418,7 +8450,7 @@
   {
     "id": 10590202,
     "name": "Wherever This Wonder Leads",
-    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Wherever This Wonder Leads\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7426,7 +8458,7 @@
   {
     "id": 10590203,
     "name": "Wherever This Wonder Leads",
-    "description": "A Spark that gives a skill hint for \"Wherever This Wonder Leads\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Wherever This Wonder Leads\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7434,7 +8466,7 @@
   {
     "id": 10600101,
     "name": "Just a Little Farther!",
-    "description": "A Spark that gives a skill hint for \"Just a Little Farther!\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Just a Little Farther!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7442,7 +8474,7 @@
   {
     "id": 10600102,
     "name": "Just a Little Farther!",
-    "description": "A Spark that gives a skill hint for \"Just a Little Farther!\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Just a Little Farther!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7450,7 +8482,7 @@
   {
     "id": 10600103,
     "name": "Just a Little Farther!",
-    "description": "A Spark that gives a skill hint for \"Just a Little Farther!\".",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Just a Little Farther!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7458,7 +8490,7 @@
   {
     "id": 10600201,
     "name": "Go☆Go☆Goal!",
-    "description": "A Spark that gives a skill hint for \"Go☆Go☆Goal!\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Go☆Go☆Goal!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7466,7 +8498,7 @@
   {
     "id": 10600202,
     "name": "Go☆Go☆Goal!",
-    "description": "A Spark that gives a skill hint for \"Go☆Go☆Goal!\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Go☆Go☆Goal!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7474,7 +8506,7 @@
   {
     "id": 10600203,
     "name": "Go☆Go☆Goal!",
-    "description": "A Spark that gives a skill hint for \"Go☆Go☆Goal!\".",
+    "description": "A Spark that increases the max values of Stamina, Power, and Wit. Gives a skill hint for \"Go☆Go☆Goal!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7482,7 +8514,7 @@
   {
     "id": 10610101,
     "name": "Prideful King",
-    "description": "A Spark that gives a skill hint for \"Prideful King\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Prideful King\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7490,7 +8522,7 @@
   {
     "id": 10610102,
     "name": "Prideful King",
-    "description": "A Spark that gives a skill hint for \"Prideful King\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Prideful King\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7498,7 +8530,7 @@
   {
     "id": 10610103,
     "name": "Prideful King",
-    "description": "A Spark that gives a skill hint for \"Prideful King\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Prideful King\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7506,7 +8538,7 @@
   {
     "id": 10610201,
     "name": "Louder! Tracen Cheer!",
-    "description": "A Spark that gives a skill hint for \"Louder! Tracen Cheer!\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Louder! Tracen Cheer!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7514,7 +8546,7 @@
   {
     "id": 10610202,
     "name": "Louder! Tracen Cheer!",
-    "description": "A Spark that gives a skill hint for \"Louder! Tracen Cheer!\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Louder! Tracen Cheer!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7522,7 +8554,7 @@
   {
     "id": 10610203,
     "name": "Louder! Tracen Cheer!",
-    "description": "A Spark that gives a skill hint for \"Louder! Tracen Cheer!\".",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Louder! Tracen Cheer!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7530,7 +8562,7 @@
   {
     "id": 10620101,
     "name": "Go, Go, Mun!",
-    "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Go, Go, Mun!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7538,7 +8570,7 @@
   {
     "id": 10620102,
     "name": "Go, Go, Mun!",
-    "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Go, Go, Mun!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7546,7 +8578,7 @@
   {
     "id": 10620103,
     "name": "Go, Go, Mun!",
-    "description": "A Spark that gives a skill hint for \"Go, Go, Mun!\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Go, Go, Mun!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7554,7 +8586,7 @@
   {
     "id": 10640101,
     "name": "Keep Pushing Ahead",
-    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Keep Pushing Ahead\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7562,7 +8594,7 @@
   {
     "id": 10640102,
     "name": "Keep Pushing Ahead",
-    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Keep Pushing Ahead\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7570,7 +8602,7 @@
   {
     "id": 10640103,
     "name": "Keep Pushing Ahead",
-    "description": "A Spark that gives a skill hint for \"Keep Pushing Ahead\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Keep Pushing Ahead\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7578,7 +8610,7 @@
   {
     "id": 10670101,
     "name": "Eternal Encompassing Shine",
-    "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Eternal Encompassing Shine\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7586,7 +8618,7 @@
   {
     "id": 10670102,
     "name": "Eternal Encompassing Shine",
-    "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Eternal Encompassing Shine\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7594,7 +8626,7 @@
   {
     "id": 10670103,
     "name": "Eternal Encompassing Shine",
-    "description": "A Spark that gives a skill hint for \"Eternal Encompassing Shine\".",
+    "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Eternal Encompassing Shine\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7602,7 +8634,7 @@
   {
     "id": 10680101,
     "name": "Victory Cheer!",
-    "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Victory Cheer!\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7610,7 +8642,7 @@
   {
     "id": 10680102,
     "name": "Victory Cheer!",
-    "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Victory Cheer!\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7618,7 +8650,7 @@
   {
     "id": 10680103,
     "name": "Victory Cheer!",
-    "description": "A Spark that gives a skill hint for \"Victory Cheer!\".",
+    "description": "A Spark that increases max Speed value and max Stamina value. Gives a skill hint for \"Victory Cheer!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7626,7 +8658,7 @@
   {
     "id": 10690101,
     "name": "Ambition to Surpass the Sakura",
-    "description": "A Spark that gives a skill hint for \"Ambition to Surpass the Sakura\".",
+    "description": "A Spark that increases the max values of Speed, Guts, and Wit. Gives a skill hint for \"Ambition to Surpass the Sakura\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7634,7 +8666,7 @@
   {
     "id": 10690102,
     "name": "Ambition to Surpass the Sakura",
-    "description": "A Spark that gives a skill hint for \"Ambition to Surpass the Sakura\".",
+    "description": "A Spark that increases the max values of Speed, Guts, and Wit. Gives a skill hint for \"Ambition to Surpass the Sakura\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7642,7 +8674,7 @@
   {
     "id": 10690103,
     "name": "Ambition to Surpass the Sakura",
-    "description": "A Spark that gives a skill hint for \"Ambition to Surpass the Sakura\".",
+    "description": "A Spark that increases the max values of Speed, Guts, and Wit. Gives a skill hint for \"Ambition to Surpass the Sakura\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7650,7 +8682,7 @@
   {
     "id": 10710101,
     "name": "A Lifelong Dream, A Moment's Flight",
-    "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7658,7 +8690,7 @@
   {
     "id": 10710102,
     "name": "A Lifelong Dream, A Moment's Flight",
-    "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7666,7 +8698,7 @@
   {
     "id": 10710103,
     "name": "A Lifelong Dream, A Moment's Flight",
-    "description": "A Spark that gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"A Lifelong Dream, A Moment's Flight\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7674,7 +8706,7 @@
   {
     "id": 10720101,
     "name": "Peerless Dance of Flowering Flames",
-    "description": "A Spark that gives a skill hint for \"Peerless Dance of Flowering Flames\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Peerless Dance of Flowering Flames\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7682,7 +8714,7 @@
   {
     "id": 10720102,
     "name": "Peerless Dance of Flowering Flames",
-    "description": "A Spark that gives a skill hint for \"Peerless Dance of Flowering Flames\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Peerless Dance of Flowering Flames\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7690,7 +8722,7 @@
   {
     "id": 10720103,
     "name": "Peerless Dance of Flowering Flames",
-    "description": "A Spark that gives a skill hint for \"Peerless Dance of Flowering Flames\".",
+    "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"Peerless Dance of Flowering Flames\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7698,7 +8730,7 @@
   {
     "id": 10740101,
     "name": "Lovely Spring Breeze",
-    "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Lovely Spring Breeze\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7706,7 +8738,7 @@
   {
     "id": 10740102,
     "name": "Lovely Spring Breeze",
-    "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Lovely Spring Breeze\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7714,7 +8746,7 @@
   {
     "id": 10740103,
     "name": "Lovely Spring Breeze",
-    "description": "A Spark that gives a skill hint for \"Lovely Spring Breeze\".",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Lovely Spring Breeze\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
