@@ -127,6 +127,7 @@ Exported files:
 - `TerumiCharacterData.json`
 - `TerumiSupportCardData.json`
 - `TerumiRaceData.json`
+- `TerumiCasualUmaData.json`
 - `SuccessionRelationMember.json`
 - `SuccessionRelation.json`
 

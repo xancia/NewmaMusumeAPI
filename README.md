@@ -55,6 +55,76 @@ curl -X GET "http://localhost:5000/api/TerumiSimpleSkillData/200162" -H "accept:
 - `effectSummary`: Concatenated string of all effects (e.g., "Power +40 | Speed +20")
 - `needSkillPoint`: Skill points required to learn (from `single_mode_skill_need_point` table)
 
+### TerumiCasualUmaData
+Casual/"fun facts" data per playable Uma Musume, intended for a non-mechanics character tab: outfits, casual wear, songs, Valentine's gifts, and Legend Race trophies.
+
+**Endpoints:**
+- `GET /api/TerumiCasualUmaData` - Returns all playable characters
+- `GET /api/TerumiCasualUmaData/{charaId}` - Returns a specific character by chara ID (e.g. `1001`)
+
+**Example Response (one record):**
+```json
+{
+  "charaId": 1001,
+  "charaName": "Special Week",
+  "outfits": [
+    {
+      "cardId": 100101,
+      "cardTitle": "[Special Dreamer]",
+      "dressId": 100101,
+      "dressName": "Special Dreamer",
+      "dressDescription": "Special Week's original outfit."
+    }
+  ],
+  "casualOutfit": {
+    "cardId": null,
+    "cardTitle": null,
+    "dressId": 901001,
+    "dressName": "Special Week's Casual Wear",
+    "dressDescription": "Special Week's casual attire."
+  },
+  "songs": [
+    {
+      "musicId": 1004,
+      "title": "Never Looking Back",
+      "credits": "Lyrics: yura\\nMusic / Arrangement: ...",
+      "description": "Our rivalry is what brought us together...",
+      "isSoloSong": false,
+      "allCharasSong": false,
+      "hasLivePerformance": true,
+      "liveMemberCount": 18,
+      "releasedAt": "2025-06-26T22:00:00"
+    }
+  ],
+  "valentineGifts": [
+    {
+      "giftId": 100101,
+      "giftName": "Special Week's\\nSuper Swell Choco Carrot",
+      "messageMaleTrainer": "...",
+      "messageFemaleTrainer": "..."
+    }
+  ],
+  "legendRaceTrophies": [
+    {
+      "raceInstanceId": 592002,
+      "raceName": "Japan Cup (Hard)",
+      "trophyId": 5921,
+      "rewardDressId": 100101,
+      "rewardDressName": "Special Dreamer"
+    }
+  ]
+}
+```
+
+**Data Sources & Semantics:**
+- `outfits`: One entry per playable card (alternate versions of the character). The racing outfit comes from `card_rarity_data.race_dress_id` joined to `dress_data`/`text_data` (categories 14/15 for name/description).
+- `casualOutfit`: `dress_data` rows with `condition_type = 6` (dress ID pattern `900000 + charaId`). `null` for characters whose casual wear isn't released yet.
+- `songs`: Songs the character has vocals for, from `live_permission_data` plus songs every uma can sing (`live_data.song_chara_type = 1`, e.g. "Umapyoi Legend", flagged `allCharasSong`). A song where the character is the *only* permitted singer is flagged `isSoloSong` (their solo song). Note: jukebox-only songs with fixed baked-in singers (e.g. "Bakushin Bakushin Bakushinshin") have no permission data in `master.mdb` and are not attributable per character.
+- `valentineGifts`: From `text_data` categories 273 (gift name), 271 (message, male-trainer variant), and 272 (message, female-trainer variant). Gift IDs are `charaId * 100 + variant`.
+- `legendRaceTrophies`: Legend Races where the character appears as the boss (`legend_race` / `daily_legend_race` → `legend_race_boss_npc`). `trophyId` comes from `race_trophy` (`event_type = 1`) and the first-clear reward is the character's racing outfit (`first_clear_item_category_1 = 102` → dress).
+
+> **Note:** Unique skill animations and winning animations are not stored in `master.mdb` (they are game assets). Those are expected to be provided by the consuming app (e.g. a curated YouTube playlist keyed by `charaId`/`cardId`).
+
 # Initial Setup
 Under `UmaMusumeAPI/Properties/launchSettings.json`, set the `MARIA_CONNECTION_STRING` environment variable to your MariaDB database for "development" and on the hosting site's config variables section for "release".
 

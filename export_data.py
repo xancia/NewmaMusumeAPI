@@ -38,6 +38,7 @@ ENDPOINTS = [
     "TerumiCharacterData",
     "TerumiSupportCardData",
     "TerumiRaceData",
+    "TerumiCasualUmaData",
     "SuccessionRelationMember",
     "SuccessionRelation",
 ]

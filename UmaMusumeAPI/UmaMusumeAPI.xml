@@ -4,6 +4,18 @@
         <name>UmaMusumeAPI</name>
     </assembly>
     <members>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiCasualUmaDataController.GetTerumiCasualUmaData">
+            <summary>
+            Get casual/fun information for all playable Uma Musume: outfits per card,
+            casual wear, songs they have vocals for (including their solo song),
+            Valentine's gifts, and Legend Race trophies.
+            </summary>
+        </member>
+        <member name="M:UmaMusumeAPI.Controllers.Views.TerumiCasualUmaDataController.GetTerumiCasualUmaData(System.Int32)">
+            <summary>
+            Get casual/fun information for a specific Uma Musume by chara ID
+            </summary>
+        </member>
         <member name="M:UmaMusumeAPI.Controllers.Views.TerumiCharacterDataController.GetTerumiCharacterData">
             <summary>
             Get all Uma Musume characters with detailed information
