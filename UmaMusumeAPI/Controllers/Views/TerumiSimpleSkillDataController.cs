@@ -63,6 +63,7 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_time_2 as duration2,
                         s.float_cooldown_time_2 as cooldownTime2,
                         s.icon_id as iconId,
+                        s.activate_lot as activateLot,
                         smsnp.need_skill_point as needSkillPoint,
                         t_name.text as skillName,
                         t_desc.text as skillDesc,
@@ -118,6 +119,7 @@ namespace UmaMusumeAPI.Controllers.Views
                                 ? ""
                                 : reader.GetString("precondition2"),
                             IconId = reader.GetInt32("iconId"),
+                            ActivateLot = reader.GetInt32("activateLot"),
                             NeedSkillPoint = reader.IsDBNull(reader.GetOrdinal("needSkillPoint"))
                                 ? 0
                                 : reader.GetInt32("needSkillPoint"),
@@ -236,6 +238,7 @@ namespace UmaMusumeAPI.Controllers.Views
                         s.float_ability_time_2 as duration2,
                         s.float_cooldown_time_2 as cooldownTime2,
                         s.icon_id as iconId,
+                        s.activate_lot as activateLot,
                         smsnp.need_skill_point as needSkillPoint,
                         t_name.text as skillName,
                         t_desc.text as skillDesc,
@@ -295,6 +298,7 @@ namespace UmaMusumeAPI.Controllers.Views
                                     ? ""
                                     : reader.GetString("precondition2"),
                                 IconId = reader.GetInt32("iconId"),
+                                ActivateLot = reader.GetInt32("activateLot"),
                                 NeedSkillPoint = reader.IsDBNull(
                                     reader.GetOrdinal("needSkillPoint")
                                 )

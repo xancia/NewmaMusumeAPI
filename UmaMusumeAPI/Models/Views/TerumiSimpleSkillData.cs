@@ -21,6 +21,9 @@ namespace UmaMusumeAPI.Models.Views
         public decimal? CooldownTime { get; set; }
         public string SupportCardIds { get; set; }
 
+        // 1 = skill rolls the wit-based activation check, 0 = always activates when conditions are met
+        public int ActivateLot { get; set; }
+
         // Hybrid skill fields (condition 2)
         public string ActivationCondition2 { get; set; }
         public string Precondition2 { get; set; }
