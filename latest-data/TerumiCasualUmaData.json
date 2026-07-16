@@ -6924,5 +6924,63 @@
         "rewardDressName": "Brunissage Line"
       }
     ]
+  },
+  {
+    "charaId": 1098,
+    "charaName": "Copano Rickey",
+    "outfits": [
+      {
+        "cardId": 109801,
+        "cardTitle": "[Eightfold☆Fortune]",
+        "dressId": 109801,
+        "dressName": "Eightfold☆Fortune",
+        "dressDescription": "Copano Rickey's special outfit."
+      }
+    ],
+    "casualOutfit": null,
+    "songs": [
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 109801,
+        "giftName": "Copano Rickey's\\nGood Luck Mendiants",
+        "messageMaleTrainer": "☆Rickey's Lucky Chocolates☆\\nNuts give luck in business, chocolate brings\\nriches, and the fruits invite serendipity!\\nMay these treats bring us both happiness!",
+        "messageFemaleTrainer": "☆Rickey's Lucky Chocolates☆\\nNuts give luck in business, chocolate brings\\nriches, and the fruits invite serendipity!\\nMay these treats bring us both happiness!"
+      }
+    ],
+    "legendRaceTrophies": []
   }
 ]

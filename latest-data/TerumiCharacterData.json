@@ -6186,5 +6186,73 @@
         "needRank": 5
       }
     ]
+  },
+  {
+    "charaId": 1098,
+    "charaName": "Copano Rickey",
+    "voiceActor": "Konomi Inagaki",
+    "cardId": 109801,
+    "cardTitle": "[Eightfold☆Fortune]",
+    "supportCardId": null,
+    "startDate": "2026-07-16T22:00:00",
+    "baseSpeed": 114,
+    "baseStamina": 107,
+    "basePower": 113,
+    "baseGuts": 106,
+    "baseWisdom": 110,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 10,
+    "talentGuts": 0,
+    "talentWisdom": 20,
+    "aptitudeTurf": "F",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "C",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "C",
+    "aptitudeChaser": "G",
+    "birthYear": 2010,
+    "birthMonth": 3,
+    "birthDay": 24,
+    "sex": 1,
+    "height": 2,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1098,
+    "skillIds": "100981,201112,201532,202252,202261,202262,202331,202332",
+    "potentialSkills": [
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 201532,
+        "needRank": 0
+      },
+      {
+        "skillId": 202262,
+        "needRank": 0
+      },
+      {
+        "skillId": 202332,
+        "needRank": 2
+      },
+      {
+        "skillId": 202261,
+        "needRank": 3
+      },
+      {
+        "skillId": 202252,
+        "needRank": 4
+      },
+      {
+        "skillId": 202331,
+        "needRank": 5
+      }
+    ]
   }
 ]

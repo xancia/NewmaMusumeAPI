@@ -1080,6 +1080,102 @@
     "type": 5
   },
   {
+    "id": 1003101,
+    "name": "M.C. Nambu Hai",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Morioka Racecourse ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003102,
+    "name": "M.C. Nambu Hai",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Morioka Racecourse ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003103,
+    "name": "M.C. Nambu Hai",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Morioka Racecourse ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003201,
+    "name": "Kashiwa Kinen",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Funabashi Racecourse ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003202,
+    "name": "Kashiwa Kinen",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Funabashi Racecourse ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003203,
+    "name": "Kashiwa Kinen",
+    "description": "A Spark that increases Speed and gives a skill hint for \"Funabashi Racecourse ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003301,
+    "name": "Zen-Nippon Junior Yushun",
+    "description": "A Spark that increases Power and gives a skill hint for \"Night Races ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003302,
+    "name": "Zen-Nippon Junior Yushun",
+    "description": "A Spark that increases Power and gives a skill hint for \"Night Races ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003303,
+    "name": "Zen-Nippon Junior Yushun",
+    "description": "A Spark that increases Power and gives a skill hint for \"Night Races ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003401,
+    "name": "Kawasaki Kinen",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Kawasaki Racecourse ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003402,
+    "name": "Kawasaki Kinen",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Kawasaki Racecourse ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 5
+  },
+  {
+    "id": 1003403,
+    "name": "Kawasaki Kinen",
+    "description": "A Spark that increases Wit and gives a skill hint for \"Kawasaki Racecourse ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 5
+  },
+  {
     "id": 2000101,
     "name": "Right-Handed ○",
     "description": "A Spark that gives a skill hint for \"Right-Handed ○\".",
@@ -5400,6 +5496,126 @@
     "type": 4
   },
   {
+    "id": 2022001,
+    "name": "Kawasaki Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Kawasaki Racecourse ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022002,
+    "name": "Kawasaki Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Kawasaki Racecourse ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022003,
+    "name": "Kawasaki Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Kawasaki Racecourse ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022101,
+    "name": "Funabashi Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Funabashi Racecourse ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022102,
+    "name": "Funabashi Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Funabashi Racecourse ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022103,
+    "name": "Funabashi Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Funabashi Racecourse ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022201,
+    "name": "Morioka Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Morioka Racecourse ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022202,
+    "name": "Morioka Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Morioka Racecourse ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022203,
+    "name": "Morioka Racecourse ○",
+    "description": "A Spark that gives a skill hint for \"Morioka Racecourse ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022301,
+    "name": "Night Races ○",
+    "description": "A Spark that gives a skill hint for \"Night Races ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022302,
+    "name": "Night Races ○",
+    "description": "A Spark that gives a skill hint for \"Night Races ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022303,
+    "name": "Night Races ○",
+    "description": "A Spark that gives a skill hint for \"Night Races ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022401,
+    "name": "Sharp Turns ○",
+    "description": "A Spark that gives a skill hint for \"Sharp Turns ○\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022402,
+    "name": "Sharp Turns ○",
+    "description": "A Spark that gives a skill hint for \"Sharp Turns ○\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022403,
+    "name": "Sharp Turns ○",
+    "description": "A Spark that gives a skill hint for \"Sharp Turns ○\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2022501,
     "name": "Collaborative Graded Races ○",
     "description": "A Spark that gives a skill hint for \"Collaborative Graded Races ○\".",
@@ -5448,6 +5664,30 @@
     "type": 4
   },
   {
+    "id": 2022701,
+    "name": "Comeback",
+    "description": "A Spark that gives a skill hint for \"Comeback\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022702,
+    "name": "Comeback",
+    "description": "A Spark that gives a skill hint for \"Comeback\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022703,
+    "name": "Comeback",
+    "description": "A Spark that gives a skill hint for \"Comeback\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2022801,
     "name": "Full Tilt",
     "description": "A Spark that gives a skill hint for \"Full Tilt\".",
@@ -5467,6 +5707,30 @@
     "id": 2022803,
     "name": "Full Tilt",
     "description": "A Spark that gives a skill hint for \"Full Tilt\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022901,
+    "name": "Rational",
+    "description": "A Spark that gives a skill hint for \"Rational\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022902,
+    "name": "Rational",
+    "description": "A Spark that gives a skill hint for \"Rational\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2022903,
+    "name": "Rational",
+    "description": "A Spark that gives a skill hint for \"Rational\".",
     "rarity": 3,
     "grade": 1,
     "type": 4
@@ -8747,6 +9011,30 @@
     "id": 10740103,
     "name": "Lovely Spring Breeze",
     "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Lovely Spring Breeze\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10980101,
+    "name": "Luck Runs My Way",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Luck Runs My Way\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10980102,
+    "name": "Luck Runs My Way",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Luck Runs My Way\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10980103,
+    "name": "Luck Runs My Way",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Luck Runs My Way\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

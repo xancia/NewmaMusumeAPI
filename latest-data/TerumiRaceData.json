@@ -1140,6 +1140,344 @@
     ]
   },
   {
+    "raceId": 1107,
+    "raceName": "Kawasaki Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 110701,
+        "month": 2,
+        "day": 2,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1108,
+    "raceName": "Zen-Nippon Junior Yushun",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 110801,
+        "month": 12,
+        "day": 16,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 1109,
+    "raceName": "Kashiwa Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 110901,
+        "month": 5,
+        "day": 5,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 1110,
+    "raceName": "Mile Championship Nambu Hai",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 111001,
+        "month": 10,
+        "day": 10,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 1111,
+    "raceName": "JBC Ladies’ Classic",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 111101,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1112,
+    "raceName": "JBC Sprint",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1400,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 111201,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1113,
+    "raceName": "JBC Classic",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 111301,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1114,
+    "raceName": "JBC Ladies’ Classic",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 111401,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1115,
+    "raceName": "JBC Sprint",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1000,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 111501,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1116,
+    "raceName": "JBC Classic",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 111601,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1117,
+    "raceName": "JBC Ladies’ Classic",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 111701,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1118,
+    "raceName": "JBC Sprint",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 111801,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 1119,
+    "raceName": "JBC Classic",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 111901,
+        "month": 11,
+        "day": 3,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
     "raceId": 1201,
     "raceName": "Prix de l'Arc de Triomphe",
     "grade": 100,
@@ -1646,6 +1984,110 @@
     "schedules": []
   },
   {
+    "raceId": 5138,
+    "raceName": "Practice: Kawasaki Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 513801,
+        "month": 2,
+        "day": 2,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 5139,
+    "raceName": "Practice: Zen-Nippon Junior Yushun",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 513901,
+        "month": 12,
+        "day": 16,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 5140,
+    "raceName": "Practice: Kashiwa Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 514001,
+        "month": 5,
+        "day": 5,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 5141,
+    "raceName": "Practice: Mile Championship Nambu Hai",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 514101,
+        "month": 10,
+        "day": 10,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
     "raceId": 5920,
     "raceName": "Japan Cup",
     "grade": 100,
@@ -1840,7 +2282,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 593503,
+        "instanceId": 593501,
         "month": 5,
         "day": 26,
         "half": 2,
@@ -1858,7 +2300,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 593501,
+        "instanceId": 593503,
         "month": 5,
         "day": 26,
         "half": 2,
@@ -2213,7 +2655,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 596503,
+        "instanceId": 596501,
         "month": 10,
         "day": 29,
         "half": 2,
@@ -2231,7 +2673,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 596501,
+        "instanceId": 596503,
         "month": 10,
         "day": 29,
         "half": 2,
@@ -2257,7 +2699,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 597001,
+        "instanceId": 597003,
         "month": 12,
         "day": 8,
         "half": 1,
@@ -2275,7 +2717,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 597003,
+        "instanceId": 597001,
         "month": 12,
         "day": 8,
         "half": 1,
@@ -2301,7 +2743,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 597503,
+        "instanceId": 597501,
         "month": 4,
         "day": 14,
         "half": 1,
@@ -2319,7 +2761,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 597501,
+        "instanceId": 597503,
         "month": 4,
         "day": 14,
         "half": 1,
@@ -6582,6 +7024,246 @@
     "turnName": "Right",
     "trackId": 10101,
     "trackName": "Oi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6337,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6338,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6339,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6340,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6341,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6342,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6343,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6344,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6345,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6346,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6347,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6348,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6349,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6350,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 6351,
+    "raceName": "Team Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
     "entryNum": 12,
     "schedules": []
   },
@@ -13904,6 +14586,110 @@
     ]
   },
   {
+    "raceId": 10190,
+    "raceName": "Room Match: Kawasaki Kinen Conditions",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 800135,
+        "month": 2,
+        "day": 2,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 10191,
+    "raceName": "Room Match: Zen-Nippon Junior Yushun Conditions",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 800136,
+        "month": 12,
+        "day": 16,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 10192,
+    "raceName": "Room Match: Kashiwa Kinen Conditions",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 800137,
+        "month": 5,
+        "day": 5,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 10193,
+    "raceName": "Room Match: Mile Championship Nambu Hai Conditions",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 800138,
+        "month": 10,
+        "day": 10,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
     "raceId": 11005,
     "raceName": "Challenge Race (Very Hard)",
     "grade": 100,
@@ -14003,7 +14789,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1200001,
+        "instanceId": 1200003,
         "month": 4,
         "day": 28,
         "half": 2,
@@ -14021,7 +14807,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200003,
+        "instanceId": 1200001,
         "month": 4,
         "day": 28,
         "half": 2,
@@ -15207,6 +15993,162 @@
         "halfName": "Second Half",
         "time": 2,
         "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 2036,
+    "raceName": "Ladies' Prelude",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "Oi",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 203601,
+        "month": 10,
+        "day": 6,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 2037,
+    "raceName": "Tokyo Hai",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "Oi",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 203701,
+        "month": 10,
+        "day": 5,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 2038,
+    "raceName": "Empress Hai",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 203801,
+        "month": 3,
+        "day": 2,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 2039,
+    "raceName": "Kanto Oaks",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 203901,
+        "month": 6,
+        "day": 15,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 2040,
+    "raceName": "Diolite Kinen",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 204001,
+        "month": 3,
+        "day": 23,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 2041,
+    "raceName": "Sazanka TV Hai",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 204101,
+        "month": 9,
+        "day": 28,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
       }
     ]
   },
@@ -17195,6 +18137,188 @@
         "halfName": "First Half",
         "time": 2,
         "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 3071,
+    "raceName": "TCK Jo-o Hai",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "Oi",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 307101,
+        "month": 1,
+        "day": 26,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 3072,
+    "raceName": "Tokyo Sprint",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "Oi",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 307201,
+        "month": 4,
+        "day": 20,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 3073,
+    "raceName": "Sparking Lady Cup",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 307301,
+        "month": 7,
+        "day": 6,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 3074,
+    "raceName": "Marine Cup",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 307401,
+        "month": 4,
+        "day": 13,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 3075,
+    "raceName": "Queen Sho",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 307501,
+        "month": 12,
+        "day": 1,
+        "half": 1,
+        "halfName": "First Half",
+        "time": 4,
+        "timeName": "Evening"
+      }
+    ]
+  },
+  {
+    "raceId": 3076,
+    "raceName": "Mercury Cup",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 307601,
+        "month": 7,
+        "day": 18,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 3077,
+    "raceName": "Cluster Cup",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 307701,
+        "month": 8,
+        "day": 16,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
       }
     ]
   },
@@ -23453,6 +24577,182 @@
     ]
   },
   {
+    "raceId": 5142,
+    "raceName": "Practice: Kawasaki Dirt Left 2100m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 2100,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": []
+  },
+  {
+    "raceId": 5143,
+    "raceName": "Practice: Kawasaki Dirt Left 1600m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 14,
+    "schedules": []
+  },
+  {
+    "raceId": 5144,
+    "raceName": "Practice: Kawasaki Dirt Left 1400m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1400,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10103,
+    "trackName": "Kawasaki",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 5145,
+    "raceName": "Practice: Funabashi Dirt Left 2400m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": []
+  },
+  {
+    "raceId": 5146,
+    "raceName": "Practice: Funabashi Dirt Left 1800m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": []
+  },
+  {
+    "raceId": 5147,
+    "raceName": "Practice: Funabashi Dirt Left 1600m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": []
+  },
+  {
+    "raceId": 5148,
+    "raceName": "Practice: Funabashi Dirt Left 1000m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1000,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10104,
+    "trackName": "Funabashi",
+    "entryNum": 14,
+    "schedules": []
+  },
+  {
+    "raceId": 5149,
+    "raceName": "Practice: Morioka Dirt Left 2000m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": []
+  },
+  {
+    "raceId": 5150,
+    "raceName": "Practice: Morioka Dirt Left 1800m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": []
+  },
+  {
+    "raceId": 5151,
+    "raceName": "Practice: Morioka Dirt Left 1600m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": []
+  },
+  {
+    "raceId": 5152,
+    "raceName": "Practice: Morioka Dirt Left 1200m",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 16,
+    "schedules": []
+  },
+  {
     "raceId": 9080,
     "raceName": "Junior Make Debut",
     "grade": 900,
@@ -24067,6 +25367,32 @@
     "schedules": [
       {
         "instanceId": 904197,
+        "month": 6,
+        "day": 30,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 9404,
+    "raceName": "Junior Make Debut",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 9,
+    "schedules": [
+      {
+        "instanceId": 904198,
         "month": 6,
         "day": 30,
         "half": 2,
