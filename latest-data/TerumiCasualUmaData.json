@@ -78,6 +78,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -98,6 +109,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 5,
         "releasedAt": "2026-03-23T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1037,
@@ -131,6 +153,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 7,
         "releasedAt": "2026-06-25T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -249,6 +282,17 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -258,6 +302,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 15,
         "releasedAt": "2025-07-16T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1037,
@@ -291,6 +346,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 7,
         "releasedAt": "2026-06-25T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -416,6 +482,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -427,6 +504,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -436,6 +524,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -550,6 +649,28 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -570,6 +691,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -678,6 +810,28 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -698,6 +852,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -823,6 +988,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -832,6 +1019,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -957,6 +1155,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -966,6 +1175,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 15,
         "releasedAt": "2025-07-16T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1050,
@@ -988,6 +1208,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 7,
         "releasedAt": "2026-06-25T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -1106,6 +1337,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -1117,6 +1359,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -1126,6 +1379,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -1244,6 +1508,17 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -1255,6 +1530,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -1264,6 +1550,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -1381,6 +1678,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -1392,6 +1700,17 @@
         "releasedAt": "2025-11-06T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -1401,6 +1720,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -1526,6 +1856,17 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1034,
         "title": "Hoppity Sunny Days♪",
         "credits": "Lyrics: corochi (Cygames)\\nMusic / Arrangement: Tetsuya Uchida (Cygames)",
@@ -1537,6 +1878,17 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -1546,6 +1898,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -1645,6 +2008,28 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-23T22:00:00"
+      },
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1048,
@@ -1810,6 +2195,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -1819,6 +2215,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 15,
         "releasedAt": "2025-07-16T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1048,
@@ -1984,6 +2391,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1034,
         "title": "Hoppity Sunny Days♪",
         "credits": "Lyrics: corochi (Cygames)\\nMusic / Arrangement: Tetsuya Uchida (Cygames)",
@@ -1995,6 +2413,17 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -2004,6 +2433,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -2123,6 +2563,28 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -2132,6 +2594,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -2233,6 +2706,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1031,
         "title": "BLAZE",
         "credits": "Lyrics: Sasa Ando\\nMusic / Arrangement: Yamato",
@@ -2242,6 +2726,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 1,
         "releasedAt": "2025-10-07T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1048,
@@ -2275,6 +2770,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 7,
         "releasedAt": "2026-06-25T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -2400,6 +2906,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -2420,6 +2948,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -2545,6 +3084,28 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1037,
         "title": "Transforming",
         "credits": "Lyrics: Yuriko Mori\\nMusic / Arrangement: Hidekazu Tanaka (MONACA)",
@@ -2655,6 +3216,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -2664,6 +3247,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -2772,6 +3366,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1034,
         "title": "Hoppity Sunny Days♪",
         "credits": "Lyrics: corochi (Cygames)\\nMusic / Arrangement: Tetsuya Uchida (Cygames)",
@@ -2783,6 +3388,17 @@
         "releasedAt": "2026-03-23T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -2792,6 +3408,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -2869,6 +3496,28 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1048,
@@ -2977,6 +3626,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -2997,6 +3668,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -3086,6 +3768,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1030,
         "title": "Those Tears Are for Tomorrow's Sake!",
         "credits": "Lyrics: Erica Masaki\\nMusic: Atsushi Harada (Arte Refact)\\nArrangement: Masatomi Waki (Arte Refact)",
@@ -3108,6 +3801,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -3117,6 +3821,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -3231,6 +3946,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -3240,6 +3977,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -3319,6 +4067,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -3339,6 +4109,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -3423,6 +4204,17 @@
         "releasedAt": "2025-11-03T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -3443,6 +4235,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2025-11-06T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1050,
@@ -3539,6 +4342,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -3550,6 +4364,17 @@
         "releasedAt": "2025-11-06T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -3559,6 +4384,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -3636,6 +4472,28 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1048,
@@ -3764,6 +4622,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -3784,6 +4653,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2025-11-06T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1050,
@@ -3874,6 +4754,28 @@
     "casualOutfit": null,
     "songs": [
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "Umapyoi Legend",
         "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
@@ -3958,6 +4860,28 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1037,
@@ -4059,6 +4983,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -4068,6 +5014,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -4127,6 +5084,39 @@
     ],
     "casualOutfit": null,
     "songs": [
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
       {
         "musicId": 1001,
         "title": "Umapyoi Legend",
@@ -4225,6 +5215,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1030,
         "title": "Those Tears Are for Tomorrow's Sake!",
         "credits": "Lyrics: Erica Masaki\\nMusic: Atsushi Harada (Arte Refact)\\nArrangement: Masatomi Waki (Arte Refact)",
@@ -4234,6 +5235,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 3,
         "releasedAt": "2025-08-03T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1050,
@@ -4256,6 +5268,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 7,
         "releasedAt": "2026-06-25T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -4323,6 +5346,28 @@
     ],
     "casualOutfit": null,
     "songs": [
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
       {
         "musicId": 1001,
         "title": "Umapyoi Legend",
@@ -4400,6 +5445,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -4420,6 +5487,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -4512,6 +5590,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1048,
         "title": "Blow My Gale",
         "credits": "Lyrics: Erica Masaki\\nMusic: Kyohei Yamamoto (Arte Refact)\\nArrangement: Taishi Kawai (Arte Refact)",
@@ -4532,6 +5632,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -4611,6 +5722,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -4620,6 +5742,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2025-11-06T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1050,
@@ -4726,6 +5859,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -4735,6 +5890,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -4831,6 +5997,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -4842,6 +6019,17 @@
         "releasedAt": "2025-11-06T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -4851,6 +6039,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -4928,6 +6127,28 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5023,6 +6244,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5032,6 +6275,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5095,6 +6349,13 @@
         "dressId": 104601,
         "dressName": "LOVE☆4EVER",
         "dressDescription": "Smart Falcon's special outfit."
+      },
+      {
+        "cardId": 104602,
+        "cardTitle": "[Twilight Triumph]",
+        "dressId": 104602,
+        "dressName": "Twilight Triumph",
+        "dressDescription": "Smart Falcon's special outfit."
       }
     ],
     "casualOutfit": {
@@ -5117,6 +6378,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -5128,6 +6400,17 @@
         "releasedAt": "2025-11-06T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5137,6 +6420,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5225,6 +6519,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5234,6 +6550,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5316,6 +6643,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1030,
         "title": "Those Tears Are for Tomorrow's Sake!",
         "credits": "Lyrics: Erica Masaki\\nMusic: Atsushi Harada (Arte Refact)\\nArrangement: Masatomi Waki (Arte Refact)",
@@ -5327,6 +6665,17 @@
         "releasedAt": "2025-08-03T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5336,6 +6685,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5413,6 +6773,39 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5519,6 +6912,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -5530,6 +6934,17 @@
         "releasedAt": "2025-11-06T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5539,6 +6954,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5598,6 +7024,28 @@
     ],
     "casualOutfit": null,
     "songs": [
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
       {
         "musicId": 1001,
         "title": "Umapyoi Legend",
@@ -5703,6 +7151,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -5712,6 +7171,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2025-11-06T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1037,
@@ -5734,6 +7204,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5824,6 +7305,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5833,6 +7336,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -5930,6 +7444,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -5939,6 +7475,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6053,6 +7600,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -6064,6 +7622,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6073,6 +7642,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6176,6 +7756,17 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1034,
         "title": "Hoppity Sunny Days♪",
         "credits": "Lyrics: corochi (Cygames)\\nMusic / Arrangement: Tetsuya Uchida (Cygames)",
@@ -6198,6 +7789,17 @@
         "releasedAt": "2025-11-06T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6207,6 +7809,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6275,6 +7888,17 @@
     "casualOutfit": null,
     "songs": [
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -6286,6 +7910,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6295,6 +7930,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6372,6 +8018,17 @@
         "releasedAt": "2025-11-03T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -6381,6 +8038,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 15,
         "releasedAt": "2025-07-16T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6452,6 +8120,17 @@
         "releasedAt": "2025-11-03T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -6463,6 +8142,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6472,6 +8162,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6543,6 +8244,17 @@
         "releasedAt": "2025-11-03T22:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1032,
         "title": "Run for Our Dream!",
         "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
@@ -6554,6 +8266,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6563,6 +8286,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6634,6 +8368,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6643,6 +8399,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6714,6 +8481,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6723,6 +8512,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6783,6 +8583,28 @@
     "casualOutfit": null,
     "songs": [
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6792,6 +8614,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6863,6 +8696,28 @@
         "releasedAt": "2019-07-01T15:00:00"
       },
       {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
         "musicId": 1050,
         "title": "We are DREAMERS!!",
         "credits": "Lyrics: Aiko Takase\\nMusic: Yusuke Onodera\\nArrangement: Satoshi Setsune, Yusuke Onodera",
@@ -6872,6 +8727,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-03-12T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
       },
       {
         "musicId": 1001,
@@ -6939,6 +8805,39 @@
     ],
     "casualOutfit": null,
     "songs": [
+      {
+        "musicId": 1029,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "I wanna win with you. Holding their dreams close, these girls take to the stage and shine—brighter than any of the lights around them.",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1036,
+        "title": "Girls' Legend U",
+        "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
+        "description": "Our harmonious song that surpasses the bounds of seasons, turning beating hearts into rhythm... This is how I finally get to see everyone!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 6,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
       {
         "musicId": 1001,
         "title": "Umapyoi Legend",
