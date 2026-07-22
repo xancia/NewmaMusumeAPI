@@ -4624,6 +4624,74 @@
     ]
   },
   {
+    "charaId": 1046,
+    "charaName": "Smart Falcon",
+    "voiceActor": "Hitomi Owada",
+    "cardId": 104602,
+    "cardTitle": "[Twilight Triumph]",
+    "supportCardId": 10039,
+    "startDate": "2025-08-11T22:00:00",
+    "baseSpeed": 121,
+    "baseStamina": 100,
+    "basePower": 100,
+    "baseGuts": 128,
+    "baseWisdom": 101,
+    "talentSpeed": 20,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "E",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "B",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "D",
+    "aptitudeBetweener": "G",
+    "aptitudeChaser": "G",
+    "birthYear": 2005,
+    "birthMonth": 4,
+    "birthDay": 4,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1046,
+    "skillIds": "110461,201252,201671,201672,202132,202311,202312,202352",
+    "potentialSkills": [
+      {
+        "skillId": 201252,
+        "needRank": 0
+      },
+      {
+        "skillId": 201672,
+        "needRank": 0
+      },
+      {
+        "skillId": 202132,
+        "needRank": 0
+      },
+      {
+        "skillId": 202312,
+        "needRank": 2
+      },
+      {
+        "skillId": 201671,
+        "needRank": 3
+      },
+      {
+        "skillId": 202352,
+        "needRank": 4
+      },
+      {
+        "skillId": 202311,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1048,
     "charaName": "Tosen Jordan",
     "voiceActor": "Eri Suzuki",

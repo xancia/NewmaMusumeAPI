@@ -6312,6 +6312,30 @@
     "type": 4
   },
   {
+    "id": 2100701,
+    "name": "On the Way to Our Dream",
+    "description": "A Spark that gives a skill hint for \"On the Way to Our Dream\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100702,
+    "name": "On the Way to Our Dream",
+    "description": "A Spark that gives a skill hint for \"On the Way to Our Dream\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2100703,
+    "name": "On the Way to Our Dream",
+    "description": "A Spark that gives a skill hint for \"On the Way to Our Dream\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100801,
     "name": "Racing Spirit: Speed",
     "description": "A Spark that gives a skill hint for \"Racing Spirit: Speed\".",
@@ -6811,6 +6835,30 @@
     "id": 3000303,
     "name": "TS Climax Scenario",
     "description": "A Spark that increases Stamina and Guts.",
+    "rarity": 3,
+    "grade": 1,
+    "type": 6
+  },
+  {
+    "id": 3000401,
+    "name": "Our Grand Concert",
+    "description": "A Spark that increases Speed and Guts.",
+    "rarity": 1,
+    "grade": 1,
+    "type": 6
+  },
+  {
+    "id": 3000402,
+    "name": "Our Grand Concert",
+    "description": "A Spark that increases Speed and Guts.",
+    "rarity": 2,
+    "grade": 1,
+    "type": 6
+  },
+  {
+    "id": 3000403,
+    "name": "Our Grand Concert",
+    "description": "A Spark that increases Speed and Guts.",
     "rarity": 3,
     "grade": 1,
     "type": 6
@@ -8459,6 +8507,30 @@
     "id": 10460103,
     "name": "SPARKLY☆STARDOM",
     "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"SPARKLY☆STARDOM\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10460201,
+    "name": "α-star*",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"α-star*\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10460202,
+    "name": "α-star*",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"α-star*\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10460203,
+    "name": "α-star*",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"α-star*\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
