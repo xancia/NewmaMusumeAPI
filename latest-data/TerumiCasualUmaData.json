@@ -5171,6 +5171,13 @@
         "dressId": 103501,
         "dressName": "Get to Winning!",
         "dressDescription": "Winning Ticket's special outfit."
+      },
+      {
+        "cardId": 103502,
+        "cardTitle": "[Dream Deliverer]",
+        "dressId": 103516,
+        "dressName": "Dream Deliverer",
+        "dressDescription": "Winning Ticket's special outfit."
       }
     ],
     "casualOutfit": {
@@ -6615,6 +6622,13 @@
         "cardTitle": "[Nevertheless]",
         "dressId": 105001,
         "dressName": "Nevertheless",
+        "dressDescription": "Narita Taishin's special outfit."
+      },
+      {
+        "cardId": 105002,
+        "cardTitle": "[Difference Engineer]",
+        "dressId": 105016,
+        "dressName": "Difference Engineer",
         "dressDescription": "Narita Taishin's special outfit."
       }
     ],

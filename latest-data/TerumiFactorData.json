@@ -5952,6 +5952,30 @@
     "type": 4
   },
   {
+    "id": 2023901,
+    "name": "Mad Dash",
+    "description": "A Spark that gives a skill hint for \"Mad Dash\".",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023902,
+    "name": "Mad Dash",
+    "description": "A Spark that gives a skill hint for \"Mad Dash\".",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2023903,
+    "name": "Mad Dash",
+    "description": "A Spark that gives a skill hint for \"Mad Dash\".",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2024001,
     "name": "Leap Forward",
     "description": "A Spark that gives a skill hint for \"Leap Forward\".",
@@ -8200,6 +8224,30 @@
     "type": 3
   },
   {
+    "id": 10350201,
+    "name": "Ticket to Your Dreams!",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Ticket to Your Dreams!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10350202,
+    "name": "Ticket to Your Dreams!",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Ticket to Your Dreams!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10350203,
+    "name": "Ticket to Your Dreams!",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"Ticket to Your Dreams!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10360101,
     "name": "trigger:BEAT",
     "description": "A Spark that increases max Wit value and gives a skill hint for \"trigger:BEAT\".",
@@ -8579,6 +8627,30 @@
     "id": 10500103,
     "name": "Nemesis",
     "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Nemesis\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10500201,
+    "name": "Hephaestus",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Hephaestus\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10500202,
+    "name": "Hephaestus",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Hephaestus\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10500203,
+    "name": "Hephaestus",
+    "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Hephaestus\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

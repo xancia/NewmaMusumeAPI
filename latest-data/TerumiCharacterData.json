@@ -3740,6 +3740,74 @@
     ]
   },
   {
+    "charaId": 1035,
+    "charaName": "Winning Ticket",
+    "voiceActor": "Yui Watanabe",
+    "cardId": 103502,
+    "cardTitle": "[Dream Deliverer]",
+    "supportCardId": 10016,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 123,
+    "baseStamina": 90,
+    "basePower": 133,
+    "baseGuts": 106,
+    "baseWisdom": 98,
+    "talentSpeed": 8,
+    "talentStamina": 0,
+    "talentPower": 14,
+    "talentGuts": 8,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "F",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "B",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "G",
+    "birthYear": 1990,
+    "birthMonth": 3,
+    "birthDay": 21,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1035,
+    "skillIds": "110351,200592,201411,201412,201701,201702,202152,202172",
+    "potentialSkills": [
+      {
+        "skillId": 201412,
+        "needRank": 0
+      },
+      {
+        "skillId": 201702,
+        "needRank": 0
+      },
+      {
+        "skillId": 202172,
+        "needRank": 0
+      },
+      {
+        "skillId": 200592,
+        "needRank": 2
+      },
+      {
+        "skillId": 201411,
+        "needRank": 3
+      },
+      {
+        "skillId": 202152,
+        "needRank": 4
+      },
+      {
+        "skillId": 201701,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1036,
     "charaName": "Air Shakur",
     "voiceActor": "Minami Tsuda",
@@ -4823,6 +4891,74 @@
       },
       {
         "skillId": 200641,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1050,
+    "charaName": "Narita Taishin",
+    "voiceActor": "Keiko Watanabe",
+    "cardId": 105002,
+    "cardTitle": "[Difference Engineer]",
+    "supportCardId": 10040,
+    "startDate": "2025-08-03T22:00:00",
+    "baseSpeed": 110,
+    "baseStamina": 103,
+    "basePower": 113,
+    "baseGuts": 100,
+    "baseWisdom": 124,
+    "talentSpeed": 0,
+    "talentStamina": 8,
+    "talentPower": 0,
+    "talentGuts": 8,
+    "talentWisdom": 14,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "D",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "F",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "A",
+    "birthYear": 1990,
+    "birthMonth": 6,
+    "birthDay": 10,
+    "sex": 1,
+    "height": 1,
+    "bust": 0,
+    "charaCategory": 0,
+    "uraObjectives": 1050,
+    "skillIds": "110501,200492,201452,201552,202081,202082,202381,202382",
+    "potentialSkills": [
+      {
+        "skillId": 200492,
+        "needRank": 0
+      },
+      {
+        "skillId": 202082,
+        "needRank": 0
+      },
+      {
+        "skillId": 202382,
+        "needRank": 0
+      },
+      {
+        "skillId": 201552,
+        "needRank": 2
+      },
+      {
+        "skillId": 202381,
+        "needRank": 3
+      },
+      {
+        "skillId": 201452,
+        "needRank": 4
+      },
+      {
+        "skillId": 202081,
         "needRank": 5
       }
     ]
