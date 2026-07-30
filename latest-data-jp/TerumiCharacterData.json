@@ -247,7 +247,7 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1002,
-    "skillIds": "100021,200022,200431,200432,200542,200551,200552,200712",
+    "skillIds": "100021,200022,200024,200431,200432,200542,200551,200552,200712,204262",
     "potentialSkills": [
       {
         "skillId": 200432,
@@ -276,6 +276,14 @@
       {
         "skillId": 200551,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 200024,
+        "needRank": 7
       }
     ]
   },
@@ -3343,6 +3351,74 @@
       },
       {
         "skillId": 201271,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1020,
+    "charaName": "セイウンスカイ",
+    "voiceActor": "鬼頭明里",
+    "cardId": 102003,
+    "cardTitle": "[渚のきまぐれオランジュ]",
+    "supportCardId": 10014,
+    "startDate": "2021-06-10T03:00:00",
+    "baseSpeed": 118,
+    "baseStamina": 108,
+    "basePower": 97,
+    "baseGuts": 109,
+    "baseWisdom": 118,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 5,
+    "talentGuts": 10,
+    "talentWisdom": 15,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "D",
+    "aptitudeChaser": "E",
+    "birthYear": 1995,
+    "birthMonth": 4,
+    "birthDay": 26,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1020,
+    "skillIds": "100201,120201,200541,200542,203392,204541,204542,204552,204562",
+    "potentialSkills": [
+      {
+        "skillId": 200542,
+        "needRank": 0
+      },
+      {
+        "skillId": 204542,
+        "needRank": 0
+      },
+      {
+        "skillId": 204562,
+        "needRank": 0
+      },
+      {
+        "skillId": 204552,
+        "needRank": 2
+      },
+      {
+        "skillId": 200541,
+        "needRank": 3
+      },
+      {
+        "skillId": 203392,
+        "needRank": 4
+      },
+      {
+        "skillId": 204541,
         "needRank": 5
       }
     ]
@@ -11712,6 +11788,74 @@
     ]
   },
   {
+    "charaId": 1074,
+    "charaName": "メジロブライト",
+    "voiceActor": "大西綺華",
+    "cardId": 107403,
+    "cardTitle": "[海辺のエレガンスシフォン]",
+    "supportCardId": 10076,
+    "startDate": "2022-03-18T03:00:00",
+    "baseSpeed": 118,
+    "baseStamina": 111,
+    "basePower": 118,
+    "baseGuts": 93,
+    "baseWisdom": 110,
+    "talentSpeed": 5,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 5,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "D",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "A",
+    "birthYear": 1994,
+    "birthMonth": 4,
+    "birthDay": 19,
+    "sex": 1,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1074,
+    "skillIds": "120741,200012,202561,202562,202591,202592,202622,203252",
+    "potentialSkills": [
+      {
+        "skillId": 202562,
+        "needRank": 0
+      },
+      {
+        "skillId": 202592,
+        "needRank": 0
+      },
+      {
+        "skillId": 202622,
+        "needRank": 0
+      },
+      {
+        "skillId": 200012,
+        "needRank": 2
+      },
+      {
+        "skillId": 202561,
+        "needRank": 3
+      },
+      {
+        "skillId": 203252,
+        "needRank": 4
+      },
+      {
+        "skillId": 202591,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1076,
     "charaName": "サクラローレル",
     "voiceActor": "真野美月",
@@ -17497,7 +17641,7 @@
     "voiceActor": "星希成奏",
     "cardId": 113701,
     "cardTitle": "[Miracle Author]",
-    "supportCardId": null,
+    "supportCardId": 10145,
     "startDate": "2026-01-19T03:00:00",
     "baseSpeed": 118,
     "baseStamina": 119,
@@ -17623,6 +17767,74 @@
       },
       {
         "skillId": 202521,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1145,
+    "charaName": "ルーラーシップ",
+    "voiceActor": "海野水玉",
+    "cardId": 114501,
+    "cardTitle": "[Monochrome GM]",
+    "supportCardId": null,
+    "startDate": "2026-07-21T03:00:00",
+    "baseSpeed": 119,
+    "baseStamina": 106,
+    "basePower": 119,
+    "baseGuts": 88,
+    "baseWisdom": 118,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 10,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "B",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "A",
+    "birthYear": 2007,
+    "birthMonth": 5,
+    "birthDay": 15,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1145,
+    "skillIds": "101451,200431,200432,202662,202971,202972,204122,204202",
+    "potentialSkills": [
+      {
+        "skillId": 200432,
+        "needRank": 0
+      },
+      {
+        "skillId": 202972,
+        "needRank": 0
+      },
+      {
+        "skillId": 204202,
+        "needRank": 0
+      },
+      {
+        "skillId": 204122,
+        "needRank": 2
+      },
+      {
+        "skillId": 200431,
+        "needRank": 3
+      },
+      {
+        "skillId": 202662,
+        "needRank": 4
+      },
+      {
+        "skillId": 202971,
         "needRank": 5
       }
     ]
