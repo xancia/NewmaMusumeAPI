@@ -8056,6 +8056,30 @@
     "type": 3
   },
   {
+    "id": 10290101,
+    "name": "Snow Bright, Snow Flight",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Snow Bright, Snow Flight\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10290102,
+    "name": "Snow Bright, Snow Flight",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Snow Bright, Snow Flight\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10290103,
+    "name": "Snow Bright, Snow Flight",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Snow Bright, Snow Flight\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10300101,
     "name": "Blue Rose Closer",
     "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Blue Rose Closer\".",

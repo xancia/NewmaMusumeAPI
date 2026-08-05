@@ -3264,6 +3264,74 @@
     ]
   },
   {
+    "charaId": 1029,
+    "charaName": "Yukino Bijin",
+    "voiceActor": "Nozomi Yamamoto",
+    "cardId": 102901,
+    "cardTitle": "[Darl'n Snowflake]",
+    "supportCardId": 10034,
+    "startDate": "2026-08-05T22:00:00",
+    "baseSpeed": 117,
+    "baseStamina": 106,
+    "basePower": 102,
+    "baseGuts": 117,
+    "baseWisdom": 108,
+    "talentSpeed": 10,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 20,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "B",
+    "aptitudeShort": "D",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "F",
+    "aptitudeChaser": "G",
+    "birthYear": 1990,
+    "birthMonth": 3,
+    "birthDay": 10,
+    "sex": 2,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1029,
+    "skillIds": "100291,200242,200491,200492,201102,201322,201341,201342",
+    "potentialSkills": [
+      {
+        "skillId": 200492,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 0
+      },
+      {
+        "skillId": 201342,
+        "needRank": 0
+      },
+      {
+        "skillId": 200242,
+        "needRank": 2
+      },
+      {
+        "skillId": 200491,
+        "needRank": 3
+      },
+      {
+        "skillId": 201322,
+        "needRank": 4
+      },
+      {
+        "skillId": 201341,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1030,
     "charaName": "Rice Shower",
     "voiceActor": "Manaka Iwami",

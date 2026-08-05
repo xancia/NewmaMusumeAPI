@@ -1489,6 +1489,37 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 100291,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "distance_diff_top<=5&remain_distance<=300&order_rate<=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary": "Target Speed +0.35",
+    "iconId": 20013,
+    "skillName": "Snow Bright, Snow Flight",
+    "skillDesc": "With 300m or less remaining, increase velocity when leading or positioned toward the front close to the lead runner.",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 0,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 100301,
     "rarity": 5,
     "gradeValue": 340,
@@ -20373,6 +20404,37 @@
     "iconId": 20011,
     "skillName": "YUMMY☆SPEED!",
     "skillDesc": "Very slightly kick forward when moderately tired while well-positioned halfway through the race.",
+    "needSkillPoint": 200,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 900291,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "distance_diff_top<=5&remain_distance<=300&order_rate<=40",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.15",
+    "iconId": 20011,
+    "skillName": "Snow Bright, Snow Flight",
+    "skillDesc": "Slightly increase velocity when leading or positioned toward the front close to the lead runner with 300m or less remaining.",
     "needSkillPoint": 200,
     "duration": 3,
     "cooldownTime": 500,

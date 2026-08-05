@@ -4562,6 +4562,75 @@
     "legendRaceTrophies": []
   },
   {
+    "charaId": 1029,
+    "charaName": "Yukino Bijin",
+    "outfits": [
+      {
+        "cardId": 102901,
+        "cardTitle": "[Darl'n Snowflake]",
+        "dressId": 102901,
+        "dressName": "Darl'n Snowflake",
+        "dressDescription": "Yukino Bijin's special outfit."
+      }
+    ],
+    "casualOutfit": null,
+    "songs": [
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 102901,
+        "giftName": "Yukino Bijin's\\nChocolate Kiri Sensho",
+        "messageMaleTrainer": "These kiri sensho are a type of mochi made\\nwith black sesame 'n' walnuts from Iwate!\\nI added chocolate for a li'l zazz! ♪\\nHope you enjoy this taste of my home. ♪",
+        "messageFemaleTrainer": "These kiri sensho are a type of mochi made\\nwith black sesame 'n' walnuts from Iwate!\\nI added chocolate for a li'l zazz! ♪\\nHope you enjoy this taste of my home. ♪"
+      }
+    ],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1030,
     "charaName": "Rice Shower",
     "outfits": [

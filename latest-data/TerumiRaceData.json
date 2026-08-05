@@ -3220,6 +3220,22 @@
     "schedules": []
   },
   {
+    "raceId": 6033,
+    "raceName": "Champions Meeting Virgo Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "Oi",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6041,
     "raceName": "Champions Meeting: Taurus Cup Finals",
     "grade": 100,
@@ -3280,6 +3296,22 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6045,
+    "raceName": "Virgo Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10101,
+    "trackName": "Oi",
     "entryNum": 9,
     "schedules": []
   },
