@@ -4559,7 +4559,15 @@
         "messageFemaleTrainer": "Whether I finish a race or finish a dish,\\nyour buono face is the first thing that\\ncomes to mind. ♪ Lots of scrumptious smiles\\nare waiting for us, so buono appétit! ♪"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1200202,
+        "raceName": "Sprinters Stakes (Hard)",
+        "trophyId": 1200202,
+        "rewardDressId": 102801,
+        "rewardDressName": "Buono ☆ Alla Moda"
+      }
+    ]
   },
   {
     "charaId": 1029,
@@ -6180,6 +6188,64 @@
     ]
   },
   {
+    "charaId": 1042,
+    "charaName": "Seeking the Pearl",
+    "outfits": [
+      {
+        "cardId": 104201,
+        "cardTitle": "[Rocket☆Star]",
+        "dressId": 104201,
+        "dressName": "Rocket☆Star",
+        "dressDescription": "Seeking the Pearl's special outfit."
+      }
+    ],
+    "casualOutfit": null,
+    "songs": [
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 104201,
+        "giftName": "Seeking the Pearl's\\nA Brilliant Chocolate World",
+        "messageMaleTrainer": "A pearl only shines when pried from its\\nshell and bathed in light. Together, we can\\nbring light to the world by prying it from\\nnormality's shell! May it shine forever!",
+        "messageFemaleTrainer": "A pearl only shines when pried from its\\nshell and bathed in light. Together, we can\\nbring light to the world by prying it from\\nnormality's shell! May it shine forever!"
+      }
+    ],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1044,
     "charaName": "Sweep Tosho",
     "outfits": [
@@ -6932,7 +6998,15 @@
         "messageFemaleTrainer": "I built this tower just like you've built\\nme up. Your belief sowed the seeds, and\\nnow all our hard work will make me bloom.\\nYou need to watch over me till then, okay? ♪"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1200201,
+        "raceName": "Sprinters Stakes (Hard)",
+        "trophyId": 1200201,
+        "rewardDressId": 105101,
+        "rewardDressName": "Nishino Flower's Signature Racewear"
+      }
+    ]
   },
   {
     "charaId": 1052,

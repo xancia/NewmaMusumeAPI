@@ -6818,7 +6818,7 @@
   {
     "id": 3000201,
     "name": "Unity Cup",
-    "description": "A Spark that increases power and wits.",
+    "description": "A Spark that increases Power and Wits.",
     "rarity": 1,
     "grade": 1,
     "type": 6
@@ -6826,7 +6826,7 @@
   {
     "id": 3000202,
     "name": "Unity Cup",
-    "description": "A Spark that increases power and wits.",
+    "description": "A Spark that increases Power and Wits.",
     "rarity": 2,
     "grade": 1,
     "type": 6
@@ -6834,7 +6834,7 @@
   {
     "id": 3000203,
     "name": "Unity Cup",
-    "description": "A Spark that increases power and wits.",
+    "description": "A Spark that increases Power and Wits.",
     "rarity": 3,
     "grade": 1,
     "type": 6
@@ -7817,7 +7817,7 @@
   },
   {
     "id": 10220201,
-    "name": "Best day ever",
+    "name": "Best Day Ever",
     "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 1,
     "grade": 2,
@@ -7825,7 +7825,7 @@
   },
   {
     "id": 10220202,
-    "name": "Best day ever",
+    "name": "Best Day Ever",
     "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 2,
     "grade": 2,
@@ -7833,7 +7833,7 @@
   },
   {
     "id": 10220203,
-    "name": "Best day ever",
+    "name": "Best Day Ever",
     "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 3,
     "grade": 2,
@@ -8483,6 +8483,30 @@
     "id": 10410103,
     "name": "Genius x Bakushin = Victory",
     "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Genius x Bakushin = Victory\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10420101,
+    "name": "I'm Possible!",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"I'm Possible!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10420102,
+    "name": "I'm Possible!",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"I'm Possible!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10420103,
+    "name": "I'm Possible!",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"I'm Possible!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

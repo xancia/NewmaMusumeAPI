@@ -15393,6 +15393,367 @@
     "uniqueEffect": null
   },
   {
+    "supportCardId": 10079,
+    "charaId": 1085,
+    "charaName": "Daiichi Ruby",
+    "supportCardTitle": "[Tracen Academy]",
+    "rarity": 1,
+    "rarityDisplay": "R",
+    "supportCardType": 1,
+    "supportCardTypeName": "Power",
+    "effectTableId": 10079,
+    "uniqueEffectId": 0,
+    "skillSetId": 9081085,
+    "commandType": 1,
+    "commandId": 102,
+    "startDate": "2026-08-12T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 20,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": -1,
+        "level5Value": 1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": 5,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 5,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 11,
+        "effectTypeName": "Initial Power",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 20,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 25,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 20,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 25,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 35,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 50,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 1,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200602,
+        "skillName": "Slick Surge",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200672,
+        "skillName": "Gap Closer",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200831,
+        "skillName": "Subdued Front Runners",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200841,
+        "skillName": "Flustered Front Runners",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200851,
+        "skillName": "Hesitant Front Runners",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201022,
+        "skillName": "Stop Right There!",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201092,
+        "skillName": "Opening Gambit",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201152,
+        "skillName": "Tether",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201382,
+        "skillName": "Late Surger Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201641,
+        "skillName": "Lone Wolf",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202122,
+        "skillName": "Fearless",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Stamina",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 801085001,
+        "eventTitle": "Magnificent Dismay?",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801085002,
+        "eventTitle": "Magnificent Melodia",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801085003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": null
+  },
+  {
+    "supportCardId": 10080,
+    "charaId": 1093,
+    "charaName": "K.S.Miracle",
+    "supportCardTitle": "[Tracen Academy]",
+    "rarity": 1,
+    "rarityDisplay": "R",
+    "supportCardType": 1,
+    "supportCardTypeName": "Guts",
+    "effectTableId": 10080,
+    "uniqueEffectId": 0,
+    "skillSetId": 9081093,
+    "commandType": 1,
+    "commandId": 103,
+    "startDate": "2026-08-12T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 20,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 6,
+        "effectTypeName": "Guts Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 20,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 25,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": 10,
+        "level10Value": -1,
+        "level15Value": 15,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 20,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 35,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 50,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200702,
+        "skillName": "Updrafters",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200972,
+        "skillName": "Sprint Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200992,
+        "skillName": "Countermeasure",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201312,
+        "skillName": "Pace Chaser Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201532,
+        "skillName": "Pace Chaser Savvy ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202372,
+        "skillName": "On the Attack",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 801093001,
+        "eventTitle": "Spreading Kindness",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801093002,
+        "eventTitle": "Come Rain or River",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801093003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": null
+  },
+  {
     "supportCardId": 10081,
     "charaId": 1073,
     "charaName": "Tsurumaru Tsuyoshi",
@@ -27676,6 +28037,227 @@
       "type1": 15,
       "type1Name": "Race Bonus",
       "value1": 5,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 20051,
+    "charaId": 1093,
+    "charaName": "K.S.Miracle",
+    "supportCardTitle": "[The 3rd Miracle]",
+    "rarity": 2,
+    "rarityDisplay": "SR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Guts",
+    "effectTableId": 20051,
+    "uniqueEffectId": 20051,
+    "skillSetId": 9081093,
+    "commandType": 1,
+    "commandId": 103,
+    "startDate": "2026-08-12T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 25,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 6,
+        "effectTypeName": "Guts Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 25,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": -1,
+        "level5Value": 10,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 25,
+        "level50Value": -1
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": 2,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": 30,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 50,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 65,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200702,
+        "skillName": "Updrafters",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200972,
+        "skillName": "Sprint Corners ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200992,
+        "skillName": "Countermeasure",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201312,
+        "skillName": "Pace Chaser Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201532,
+        "skillName": "Pace Chaser Savvy ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202372,
+        "skillName": "On the Attack",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 820051001,
+        "eventTitle": "Across Still Waters",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 820051002,
+        "eventTitle": "On Thin Ice",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 801093001,
+        "eventTitle": "Spreading Kindness",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801093002,
+        "eventTitle": "Come Rain or River",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801093003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 25,
+      "type0": 1,
+      "type0Name": "Friendship Bonus",
+      "value0": 10,
+      "value01": 0,
+      "value02": 0,
+      "value03": 0,
+      "value04": 0,
+      "type1": 30,
+      "type1Name": "Skill Point Bonus",
+      "value1": 1,
       "value11": 0,
       "value12": 0,
       "value13": 0,
@@ -55152,6 +55734,253 @@
       "value0": 80,
       "value01": 8,
       "value02": 10,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30114,
+    "charaId": 1085,
+    "charaName": "Daiichi Ruby",
+    "supportCardTitle": "[Ah, Such Majesty]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Power",
+    "effectTableId": 30114,
+    "uniqueEffectId": 30114,
+    "skillSetId": 9081085,
+    "commandType": 1,
+    "commandId": 102,
+    "startDate": "2026-08-12T22:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 5,
+        "level50Value": -1
+      },
+      {
+        "effectType": 11,
+        "effectTypeName": "Initial Power",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 35
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 50,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 80
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": -1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200602,
+        "skillName": "Slick Surge",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200672,
+        "skillName": "Gap Closer",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200831,
+        "skillName": "Subdued Front Runners",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200841,
+        "skillName": "Flustered Front Runners",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200851,
+        "skillName": "Hesitant Front Runners",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201022,
+        "skillName": "Stop Right There!",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201092,
+        "skillName": "Opening Gambit",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201152,
+        "skillName": "Tether",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201382,
+        "skillName": "Late Surger Straightaways ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201641,
+        "skillName": "Lone Wolf",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202122,
+        "skillName": "Fearless",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Stamina",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830114001,
+        "eventTitle": "To Uphold Oneself with Strictness",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830114002,
+        "eventTitle": "To Exert Oneself with Diligence",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830114003,
+        "eventTitle": "To Conduct Oneself with Kindness",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801085001,
+        "eventTitle": "Magnificent Dismay?",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801085002,
+        "eventTitle": "Magnificent Melodia",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801085003,
+        "eventTitle": "A Hint for Growth",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 30,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 5,
+      "value02": 2,
       "value03": 0,
       "value04": 0,
       "type1": 0,

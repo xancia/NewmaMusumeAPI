@@ -4488,6 +4488,74 @@
     ]
   },
   {
+    "charaId": 1042,
+    "charaName": "Seeking the Pearl",
+    "voiceActor": "Ayaka Fukuhara",
+    "cardId": 104201,
+    "cardTitle": "[Rocket☆Star]",
+    "supportCardId": 10061,
+    "startDate": "2026-08-12T22:00:00",
+    "baseSpeed": 121,
+    "baseStamina": 79,
+    "basePower": 127,
+    "baseGuts": 114,
+    "baseWisdom": 109,
+    "talentSpeed": 10,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 20,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "F",
+    "aptitudeShort": "A",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "E",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "B",
+    "birthYear": 1994,
+    "birthMonth": 4,
+    "birthDay": 16,
+    "sex": 2,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1042,
+    "skillIds": "100421,200152,200962,200963,201071,201072,201902,202042",
+    "potentialSkills": [
+      {
+        "skillId": 200152,
+        "needRank": 0
+      },
+      {
+        "skillId": 200962,
+        "needRank": 0
+      },
+      {
+        "skillId": 201072,
+        "needRank": 0
+      },
+      {
+        "skillId": 202042,
+        "needRank": 2
+      },
+      {
+        "skillId": 200963,
+        "needRank": 3
+      },
+      {
+        "skillId": 201902,
+        "needRank": 4
+      },
+      {
+        "skillId": 201071,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1044,
     "charaName": "Sweep Tosho",
     "voiceActor": "Shiori Sugiura",
