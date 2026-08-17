@@ -1764,9 +1764,9 @@
     "casualOutfit": {
       "cardId": null,
       "cardTitle": null,
-      "dressId": 901007,
-      "dressName": "私服（ゴールドシップ）",
-      "dressDescription": "ゴールドシップの私服"
+      "dressId": 911007,
+      "dressName": "KFC親善大使ゴルシ",
+      "dressDescription": "ゴールドシップの特別衣装"
     },
     "songs": [
       {
@@ -23989,6 +23989,13 @@
         "cardTitle": "[Assorted Cuteness♡]",
         "dressId": 111301,
         "dressName": "Assorted Cuteness♡",
+        "dressDescription": "フサイチパンドラの特別衣装"
+      },
+      {
+        "cardId": 111302,
+        "cardTitle": "[Snatchin' Hearts ♡]",
+        "dressId": 111330,
+        "dressName": "Snatchin' Hearts ♡",
         "dressDescription": "フサイチパンドラの特別衣装"
       }
     ],

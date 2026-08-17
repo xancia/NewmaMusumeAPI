@@ -8931,6 +8931,48 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 111131,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "phase_laterhalf==1&overtake_target_time>=1&order_rate<=50&motivation==5&distance_type==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      },
+      {
+        "type": "Target Speed",
+        "value": 0.15,
+        "displayText": "Target Speed +0.15"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25 | Target Speed +0.15",
+    "iconId": 0,
+    "skillName": "渚のヴィーナスタイム♡",
+    "skillDesc": "レース終盤が迫ったとき前方で\\n近寄られると速度が少し上がる\\nさらに中距離レースで絶好調なら\\n加えて速度がわずかに上がる",
+    "needSkillPoint": 0,
+    "duration": 5,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 0,
+    "activationCondition2": "phase_laterhalf==1&overtake_target_time>=1&order_rate<=50",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.25",
+    "duration2": 5,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 111161,
     "rarity": 5,
     "gradeValue": 340,
@@ -15807,7 +15849,7 @@
     "needSkillPoint": 160,
     "duration": 3,
     "cooldownTime": 500,
-    "supportCardIds": "10001,10034,10035,10046,10057,10062,10067,10091,10123,20011,20018,20030,20043,20074,20083,20084,20099,30001,30011,30025,30030,30031,30038,30041,30043,30070,30108,30135,30148,30165,30169,30181",
+    "supportCardIds": "10001,10034,10035,10046,10057,10062,10067,10091,10123,20011,20018,20030,20043,20074,20083,20084,20099,30001,30011,30025,30030,30031,30038,30041,30043,30070,30108,30135,30148,30165,30169,30181,30310",
     "activateLot": 1,
     "activationCondition2": "",
     "precondition2": "",
@@ -18084,7 +18126,7 @@
     "needSkillPoint": 160,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10003,10027,10063,10069,10123,10126,10137,20022,20034,20047,20083,20084,20088,20091,20099,30003,30009,30039,30058,30064,30096,30111,30119,30122,30127,30140,30151",
+    "supportCardIds": "10003,10027,10063,10069,10123,10126,10137,20022,20034,20047,20083,20084,20088,20091,20099,30003,30009,30039,30058,30064,30096,30111,30119,30122,30127,30140,30151,30310",
     "activateLot": 1,
     "activationCondition2": "",
     "precondition2": "",
@@ -19581,7 +19623,7 @@
     "needSkillPoint": 180,
     "duration": 0,
     "cooldownTime": 500,
-    "supportCardIds": "10001,10005,10010,10064,10072,10111,10126,20043,20082,20086,20088,20096,30001,30024,30025,30040,30044,30069,30133,30146,30172,30260",
+    "supportCardIds": "10001,10005,10010,10064,10072,10111,10126,20043,20082,20086,20088,20096,30001,30024,30025,30040,30044,30069,30133,30146,30172,30260,30310",
     "activateLot": 1,
     "activationCondition2": "",
     "precondition2": "",
@@ -25616,7 +25658,7 @@
     "needSkillPoint": 180,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10088,10113,10132,10137,20062,20083,20091,30134,30175,30186,30196,30205,30214,30234,30250,30264,30287,30293,30294",
+    "supportCardIds": "10088,10113,10132,10137,20062,20083,20091,30134,30175,30186,30196,30205,30214,30234,30250,30264,30287,30293,30294,30310",
     "activateLot": 1,
     "activationCondition2": "",
     "precondition2": "",
@@ -26059,7 +26101,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10106,10132,10143,30198,30264,30287,30291,30300,30304,30308",
+    "supportCardIds": "10106,10132,10143,30198,30264,30287,30291,30300,30304,30308,30310",
     "activateLot": 1,
     "activationCondition2": "",
     "precondition2": "",
@@ -31802,7 +31844,7 @@
     "needSkillPoint": 160,
     "duration": 2.4,
     "cooldownTime": 500,
-    "supportCardIds": "10133,30245,30258,30265,30287,30306",
+    "supportCardIds": "10133,30245,30258,30265,30287,30306,30310",
     "activateLot": 1,
     "activationCondition2": "",
     "precondition2": "",
@@ -48594,6 +48636,37 @@
     "skillDesc": "レース最終盤でラストスパートの最中\\nなら少しの間速度が少し上がる\\n＜作戦・先行＞",
     "needSkillPoint": 200,
     "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 911131,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "phase_laterhalf==1&overtake_target_time>=1&order_rate<=50",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.05,
+        "displayText": "Target Speed +0.05"
+      }
+    ],
+    "effectSummary": "Target Speed +0.05",
+    "iconId": 0,
+    "skillName": "渚のヴィーナスタイム♡",
+    "skillDesc": "レース終盤が迫ったとき前方で\\n近寄られると速度がちょっと上がる",
+    "needSkillPoint": 200,
+    "duration": 3,
     "cooldownTime": 500,
     "supportCardIds": "",
     "activateLot": 1,
@@ -69989,6 +70062,85 @@
     ],
     "effectSummary2": "Acceleration +0.5",
     "duration2": 1.8,
+    "cooldownTime2": 500
+  },
+  {
+    "skillId": 111302111,
+    "rarity": 6,
+    "gradeValue": 508,
+    "skillCategory": "Passive",
+    "tagId": "102/203/401/402/403/404/405/614",
+    "activationCondition": "running_style==2&distance_type==3&base_speed>=1200&motivation==5",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Speed Stat",
+        "value": 80,
+        "displayText": "Speed +80"
+      },
+      {
+        "type": "Type32",
+        "value": 20,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "Speed +80",
+    "iconId": 0,
+    "skillName": "愛されすぎてマジごめん♡",
+    "skillDesc": "スピードが十二分に高いとスピードが\\nすごく上がる、さらに絶好調なら\\n全ての基礎能力がわずかに上がる\\n＜先行・中距離＞",
+    "needSkillPoint": 0,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activateLot": 0,
+    "activationCondition2": "running_style==2&distance_type==3&base_speed>=1200&motivation<=4",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Speed Stat",
+        "value": 80,
+        "displayText": "Speed +80"
+      }
+    ],
+    "effectSummary2": "Speed +80",
+    "duration2": -0.0001,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 111302211,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Speed Boost",
+    "tagId": "203/303/401",
+    "activationCondition": "distance_type==3&is_lastspurt==1&phase_firsthalf_random==3&motivation==5",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.55,
+        "displayText": "Target Speed +0.55"
+      }
+    ],
+    "effectSummary": "Target Speed +0.55",
+    "iconId": 0,
+    "skillName": "秘める気のない才気",
+    "skillDesc": "レース最終盤始めの方で\\nラストスパートの最中なら速度が上がる\\n絶好調ならものすごく上がる＜中距離＞",
+    "needSkillPoint": 0,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "distance_type==3&is_lastspurt==1&phase_firsthalf_random==3",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.35,
+        "displayText": "Target Speed +0.35"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.35",
+    "duration2": 3,
     "cooldownTime2": 500
   },
   {
