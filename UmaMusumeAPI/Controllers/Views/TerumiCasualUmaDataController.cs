@@ -70,7 +70,7 @@ namespace UmaMusumeAPI.Controllers.Views
         {
             var charas = new List<TerumiCasualUmaData>();
             var outfitsByChara = new Dictionary<int, List<TerumiUmaOutfit>>();
-            var casualByChara = new Dictionary<int, TerumiUmaOutfit>();
+            var casualByChara = new Dictionary<int, List<TerumiUmaOutfit>>();
             var giftsByChara = new Dictionary<int, List<TerumiValentineGift>>();
             var trophiesByChara = new Dictionary<int, List<TerumiLegendRaceTrophy>>();
             var permissionsByChara = new Dictionary<int, List<int>>();
@@ -100,7 +100,7 @@ namespace UmaMusumeAPI.Controllers.Views
                     chara.Outfits = outfits;
 
                 if (casualByChara.TryGetValue(chara.CharaId, out var casual))
-                    chara.CasualOutfit = casual;
+                    chara.CasualOutfits = casual;
 
                 if (giftsByChara.TryGetValue(chara.CharaId, out var gifts))
                     chara.ValentineGifts = gifts;
@@ -251,7 +251,7 @@ namespace UmaMusumeAPI.Controllers.Views
 
         private async Task LoadCasualOutfitsAsync(
             MySqlConnection connection,
-            Dictionary<int, TerumiUmaOutfit> casualByChara
+            Dictionary<int, List<TerumiUmaOutfit>> casualByChara
         )
         {
             var query =
@@ -279,18 +279,26 @@ namespace UmaMusumeAPI.Controllers.Views
             {
                 int charaId = reader.GetInt32(reader.GetOrdinal("CharaId"));
 
-                casualByChara[charaId] = new TerumiUmaOutfit
+                if (!casualByChara.TryGetValue(charaId, out var charaCasuals))
                 {
-                    CardId = null,
-                    CardTitle = null,
-                    DressId = reader.GetInt32(reader.GetOrdinal("DressId")),
-                    DressName = reader.IsDBNull(reader.GetOrdinal("DressName"))
-                        ? null
-                        : reader.GetString(reader.GetOrdinal("DressName")),
-                    DressDescription = reader.IsDBNull(reader.GetOrdinal("DressDescription"))
-                        ? null
-                        : reader.GetString(reader.GetOrdinal("DressDescription")),
-                };
+                    charaCasuals = new List<TerumiUmaOutfit>();
+                    casualByChara[charaId] = charaCasuals;
+                }
+
+                charaCasuals.Add(
+                    new TerumiUmaOutfit
+                    {
+                        CardId = null,
+                        CardTitle = null,
+                        DressId = reader.GetInt32(reader.GetOrdinal("DressId")),
+                        DressName = reader.IsDBNull(reader.GetOrdinal("DressName"))
+                            ? null
+                            : reader.GetString(reader.GetOrdinal("DressName")),
+                        DressDescription = reader.IsDBNull(reader.GetOrdinal("DressDescription"))
+                            ? null
+                            : reader.GetString(reader.GetOrdinal("DressDescription")),
+                    }
+                );
             }
         }
 
