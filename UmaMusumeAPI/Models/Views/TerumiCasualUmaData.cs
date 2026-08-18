@@ -50,8 +50,9 @@ namespace UmaMusumeAPI.Models.Views
         // One entry per playable card (alternate versions), each with its racing outfit
         public List<TerumiUmaOutfit> Outfits { get; set; } = new();
 
-        // Casual/private wear (dress_data condition_type = 6), null if not released yet
-        public TerumiUmaOutfit CasualOutfit { get; set; }
+        // Casual/private wear (dress_data condition_type = 6), empty if not released yet.
+        // Some umas have more than one (e.g. Gold Ship has 901007 and 911007).
+        public List<TerumiUmaOutfit> CasualOutfits { get; set; } = new();
 
         // Songs this uma has vocals for (live permissions + all-cast songs);
         // IsSoloSong marks the uma's solo song

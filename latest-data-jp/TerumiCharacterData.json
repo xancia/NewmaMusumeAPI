@@ -16140,6 +16140,74 @@
     ]
   },
   {
+    "charaId": 1113,
+    "charaName": "フサイチパンドラ",
+    "voiceActor": "佳原萌枝",
+    "cardId": 111302,
+    "cardTitle": "[Snatchin' Hearts ♡]",
+    "supportCardId": 10129,
+    "startDate": "2025-07-22T03:00:00",
+    "baseSpeed": 101,
+    "baseStamina": 118,
+    "basePower": 116,
+    "baseGuts": 94,
+    "baseWisdom": 121,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 14,
+    "talentGuts": 8,
+    "talentWisdom": 8,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "E",
+    "aptitudeShort": "G",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "F",
+    "birthYear": 2003,
+    "birthMonth": 2,
+    "birthDay": 27,
+    "sex": 2,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1113,
+    "skillIds": "111131,201342,202701,202702,202982,203431,203432,204412",
+    "potentialSkills": [
+      {
+        "skillId": 201342,
+        "needRank": 0
+      },
+      {
+        "skillId": 202702,
+        "needRank": 0
+      },
+      {
+        "skillId": 203432,
+        "needRank": 0
+      },
+      {
+        "skillId": 204412,
+        "needRank": 2
+      },
+      {
+        "skillId": 202701,
+        "needRank": 3
+      },
+      {
+        "skillId": 202982,
+        "needRank": 4
+      },
+      {
+        "skillId": 203431,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1114,
     "charaName": "ブエナビスタ",
     "voiceActor": "和泉風花",

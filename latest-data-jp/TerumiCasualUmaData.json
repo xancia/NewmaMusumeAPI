@@ -25,13 +25,15 @@
         "dressDescription": "スペシャルウィークの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901001,
-      "dressName": "私服（スペシャルウィーク）",
-      "dressDescription": "スペシャルウィークの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901001,
+        "dressName": "私服（スペシャルウィーク）",
+        "dressDescription": "スペシャルウィークの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -346,13 +348,15 @@
         "dressDescription": "サイレンススズカの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901002,
-      "dressName": "私服（サイレンススズカ）",
-      "dressDescription": "サイレンススズカの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901002,
+        "dressName": "私服（サイレンススズカ）",
+        "dressDescription": "サイレンススズカの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -648,13 +652,15 @@
         "dressDescription": "トウカイテイオーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901003,
-      "dressName": "私服（トウカイテイオー）",
-      "dressDescription": "トウカイテイオーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901003,
+        "dressName": "私服（トウカイテイオー）",
+        "dressDescription": "トウカイテイオーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -939,13 +945,15 @@
         "dressDescription": "マルゼンスキーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901004,
-      "dressName": "私服（マルゼンスキー）",
-      "dressDescription": "マルゼンスキーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901004,
+        "dressName": "私服（マルゼンスキー）",
+        "dressDescription": "マルゼンスキーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -1197,13 +1205,15 @@
         "dressDescription": "フジキセキの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901005,
-      "dressName": "私服（フジキセキ）",
-      "dressDescription": "フジキセキの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901005,
+        "dressName": "私服（フジキセキ）",
+        "dressDescription": "フジキセキの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -1437,13 +1447,15 @@
         "dressDescription": "オグリキャップの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901006,
-      "dressName": "私服（オグリキャップ）",
-      "dressDescription": "オグリキャップの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901006,
+        "dressName": "私服（オグリキャップ）",
+        "dressDescription": "オグリキャップの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1761,13 +1773,22 @@
         "dressDescription": "ゴールドシップの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901007,
-      "dressName": "私服（ゴールドシップ）",
-      "dressDescription": "ゴールドシップの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901007,
+        "dressName": "私服（ゴールドシップ）",
+        "dressDescription": "ゴールドシップの私服"
+      },
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 911007,
+        "dressName": "KFC親善大使ゴルシ",
+        "dressDescription": "ゴールドシップの特別衣装"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -2056,13 +2077,15 @@
         "dressDescription": "ウオッカの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901008,
-      "dressName": "私服（ウオッカ）",
-      "dressDescription": "ウオッカの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901008,
+        "dressName": "私服（ウオッカ）",
+        "dressDescription": "ウオッカの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -2340,13 +2363,15 @@
         "dressDescription": "ダイワスカーレットの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901009,
-      "dressName": "私服（ダイワスカーレット）",
-      "dressDescription": "ダイワスカーレットの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901009,
+        "dressName": "私服（ダイワスカーレット）",
+        "dressDescription": "ダイワスカーレットの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -2631,13 +2656,15 @@
         "dressDescription": "タイキシャトルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901010,
-      "dressName": "私服（タイキシャトル）",
-      "dressDescription": "タイキシャトルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901010,
+        "dressName": "私服（タイキシャトル）",
+        "dressDescription": "タイキシャトルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -2889,13 +2916,15 @@
         "dressDescription": "グラスワンダーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901011,
-      "dressName": "私服（グラスワンダー）",
-      "dressDescription": "グラスワンダーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901011,
+        "dressName": "私服（グラスワンダー）",
+        "dressDescription": "グラスワンダーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -3133,13 +3162,15 @@
         "dressDescription": "ヒシアマゾンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901012,
-      "dressName": "私服（ヒシアマゾン）",
-      "dressDescription": "ヒシアマゾンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901012,
+        "dressName": "私服（ヒシアマゾン）",
+        "dressDescription": "ヒシアマゾンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -3362,13 +3393,15 @@
         "dressDescription": "メジロマックイーンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901013,
-      "dressName": "私服（メジロマックイーン）",
-      "dressDescription": "メジロマックイーンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901013,
+        "dressName": "私服（メジロマックイーン）",
+        "dressDescription": "メジロマックイーンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -3646,13 +3679,15 @@
         "dressDescription": "エルコンドルパサーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901014,
-      "dressName": "私服（エルコンドルパサー）",
-      "dressDescription": "エルコンドルパサーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901014,
+        "dressName": "私服（エルコンドルパサー）",
+        "dressDescription": "エルコンドルパサーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -3912,13 +3947,15 @@
         "dressDescription": "テイエムオペラオーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901015,
-      "dressName": "私服（テイエムオペラオー）",
-      "dressDescription": "テイエムオペラオーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901015,
+        "dressName": "私服（テイエムオペラオー）",
+        "dressDescription": "テイエムオペラオーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4185,13 +4222,15 @@
         "dressDescription": "ナリタブライアンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901016,
-      "dressName": "私服（ナリタブライアン）",
-      "dressDescription": "ナリタブライアンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901016,
+        "dressName": "私服（ナリタブライアン）",
+        "dressDescription": "ナリタブライアンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4469,13 +4508,15 @@
         "dressDescription": "シンボリルドルフの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901017,
-      "dressName": "私服（シンボリルドルフ）",
-      "dressDescription": "シンボリルドルフの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901017,
+        "dressName": "私服（シンボリルドルフ）",
+        "dressDescription": "シンボリルドルフの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4731,13 +4772,15 @@
         "dressDescription": "エアグルーヴの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901018,
-      "dressName": "私服（エアグルーヴ）",
-      "dressDescription": "エアグルーヴの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901018,
+        "dressName": "私服（エアグルーヴ）",
+        "dressDescription": "エアグルーヴの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4971,13 +5014,15 @@
         "dressDescription": "アグネスデジタルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901019,
-      "dressName": "私服（アグネスデジタル）",
-      "dressDescription": "アグネスデジタルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901019,
+        "dressName": "私服（アグネスデジタル）",
+        "dressDescription": "アグネスデジタルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -5196,13 +5241,15 @@
         "dressDescription": "セイウンスカイの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901020,
-      "dressName": "私服（セイウンスカイ）",
-      "dressDescription": "セイウンスカイの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901020,
+        "dressName": "私服（セイウンスカイ）",
+        "dressDescription": "セイウンスカイの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -5436,13 +5483,15 @@
         "dressDescription": "タマモクロスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901021,
-      "dressName": "私服（タマモクロス）",
-      "dressDescription": "タマモクロスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901021,
+        "dressName": "私服（タマモクロス）",
+        "dressDescription": "タマモクロスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -5683,13 +5732,15 @@
         "dressDescription": "ファインモーションの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901022,
-      "dressName": "私服（ファインモーション）",
-      "dressDescription": "ファインモーションの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901022,
+        "dressName": "私服（ファインモーション）",
+        "dressDescription": "ファインモーションの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -5919,13 +5970,15 @@
         "dressDescription": "ビワハヤヒデの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901023,
-      "dressName": "私服（ビワハヤヒデ）",
-      "dressDescription": "ビワハヤヒデの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901023,
+        "dressName": "私服（ビワハヤヒデ）",
+        "dressDescription": "ビワハヤヒデの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -6166,13 +6219,15 @@
         "dressDescription": "マヤノトップガンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901024,
-      "dressName": "私服（マヤノトップガン）",
-      "dressDescription": "マヤノトップガンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901024,
+        "dressName": "私服（マヤノトップガン）",
+        "dressDescription": "マヤノトップガンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -6424,13 +6479,15 @@
         "dressDescription": "マンハッタンカフェの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901025,
-      "dressName": "私服（マンハッタンカフェ）",
-      "dressDescription": "マンハッタンカフェの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901025,
+        "dressName": "私服（マンハッタンカフェ）",
+        "dressDescription": "マンハッタンカフェの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -6668,13 +6725,15 @@
         "dressDescription": "ミホノブルボンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901026,
-      "dressName": "私服（ミホノブルボン）",
-      "dressDescription": "ミホノブルボンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901026,
+        "dressName": "私服（ミホノブルボン）",
+        "dressDescription": "ミホノブルボンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -6908,13 +6967,15 @@
         "dressDescription": "メジロライアンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901027,
-      "dressName": "私服（メジロライアン）",
-      "dressDescription": "メジロライアンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901027,
+        "dressName": "私服（メジロライアン）",
+        "dressDescription": "メジロライアンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -7137,13 +7198,15 @@
         "dressDescription": "ヒシアケボノの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901028,
-      "dressName": "私服（ヒシアケボノ）",
-      "dressDescription": "ヒシアケボノの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901028,
+        "dressName": "私服（ヒシアケボノ）",
+        "dressDescription": "ヒシアケボノの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -7381,13 +7444,15 @@
         "dressDescription": "ユキノビジンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901029,
-      "dressName": "私服（ユキノビジン）",
-      "dressDescription": "ユキノビジンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901029,
+        "dressName": "私服（ユキノビジン）",
+        "dressDescription": "ユキノビジンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -7577,13 +7642,15 @@
         "dressDescription": "ライスシャワーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901030,
-      "dressName": "私服（ライスシャワー）",
-      "dressDescription": "ライスシャワーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901030,
+        "dressName": "私服（ライスシャワー）",
+        "dressDescription": "ライスシャワーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -7857,13 +7924,15 @@
         "dressDescription": "アイネスフウジンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901031,
-      "dressName": "私服（アイネスフウジン）",
-      "dressDescription": "アイネスフウジンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901031,
+        "dressName": "私服（アイネスフウジン）",
+        "dressDescription": "アイネスフウジンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -8053,13 +8122,15 @@
         "dressDescription": "アグネスタキオンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901032,
-      "dressName": "私服（アグネスタキオン）",
-      "dressDescription": "アグネスタキオンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901032,
+        "dressName": "私服（アグネスタキオン）",
+        "dressDescription": "アグネスタキオンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -8293,13 +8364,15 @@
         "dressDescription": "アドマイヤベガの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901033,
-      "dressName": "私服（アドマイヤベガ）",
-      "dressDescription": "アドマイヤベガの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901033,
+        "dressName": "私服（アドマイヤベガ）",
+        "dressDescription": "アドマイヤベガの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -8515,13 +8588,15 @@
         "dressDescription": "イナリワンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901034,
-      "dressName": "私服（イナリワン）",
-      "dressDescription": "イナリワンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901034,
+        "dressName": "私服（イナリワン）",
+        "dressDescription": "イナリワンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -8751,13 +8826,15 @@
         "dressDescription": "ウイニングチケットの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901035,
-      "dressName": "私服（ウイニングチケット）",
-      "dressDescription": "ウイニングチケットの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901035,
+        "dressName": "私服（ウイニングチケット）",
+        "dressDescription": "ウイニングチケットの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -8991,13 +9068,15 @@
         "dressDescription": "エアシャカールの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901036,
-      "dressName": "私服（エアシャカール）",
-      "dressDescription": "エアシャカールの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901036,
+        "dressName": "私服（エアシャカール）",
+        "dressDescription": "エアシャカールの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -9187,13 +9266,15 @@
         "dressDescription": "エイシンフラッシュの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901037,
-      "dressName": "私服（エイシンフラッシュ）",
-      "dressDescription": "エイシンフラッシュの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901037,
+        "dressName": "私服（エイシンフラッシュ）",
+        "dressDescription": "エイシンフラッシュの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -9398,13 +9479,15 @@
         "dressDescription": "カレンチャンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901038,
-      "dressName": "私服（カレンチャン）",
-      "dressDescription": "カレンチャンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901038,
+        "dressName": "私服（カレンチャン）",
+        "dressDescription": "カレンチャンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -9627,13 +9710,15 @@
         "dressDescription": "カワカミプリンセスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901039,
-      "dressName": "私服（カワカミプリンセス）",
-      "dressDescription": "カワカミプリンセスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901039,
+        "dressName": "私服（カワカミプリンセス）",
+        "dressDescription": "カワカミプリンセスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -9845,13 +9930,15 @@
         "dressDescription": "ゴールドシチーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901040,
-      "dressName": "私服（ゴールドシチー）",
-      "dressDescription": "ゴールドシチーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901040,
+        "dressName": "私服（ゴールドシチー）",
+        "dressDescription": "ゴールドシチーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -10096,13 +10183,15 @@
         "dressDescription": "サクラバクシンオーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901041,
-      "dressName": "私服（サクラバクシンオー）",
-      "dressDescription": "サクラバクシンオーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901041,
+        "dressName": "私服（サクラバクシンオー）",
+        "dressDescription": "サクラバクシンオーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -10325,13 +10414,15 @@
         "dressDescription": "シーキングザパールの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901042,
-      "dressName": "私服（シーキングザパール）",
-      "dressDescription": "シーキングザパールの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901042,
+        "dressName": "私服（シーキングザパール）",
+        "dressDescription": "シーキングザパールの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -10507,13 +10598,15 @@
         "dressDescription": "シンコウウインディの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901043,
-      "dressName": "私服（シンコウウインディ）",
-      "dressDescription": "シンコウウインディの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901043,
+        "dressName": "私服（シンコウウインディ）",
+        "dressDescription": "シンコウウインディの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -10674,13 +10767,15 @@
         "dressDescription": "スイープトウショウの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901044,
-      "dressName": "私服（スイープトウショウ）",
-      "dressDescription": "スイープトウショウの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901044,
+        "dressName": "私服（スイープトウショウ）",
+        "dressDescription": "スイープトウショウの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -10892,13 +10987,15 @@
         "dressDescription": "スーパークリークの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901045,
-      "dressName": "私服（スーパークリーク）",
-      "dressDescription": "スーパークリークの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901045,
+        "dressName": "私服（スーパークリーク）",
+        "dressDescription": "スーパークリークの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -11139,13 +11236,15 @@
         "dressDescription": "スマートファルコンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901046,
-      "dressName": "私服（スマートファルコン）",
-      "dressDescription": "スマートファルコンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901046,
+        "dressName": "私服（スマートファルコン）",
+        "dressDescription": "スマートファルコンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -11379,13 +11478,15 @@
         "dressDescription": "ゼンノロブロイの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901047,
-      "dressName": "私服（ゼンノロブロイ）",
-      "dressDescription": "ゼンノロブロイの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901047,
+        "dressName": "私服（ゼンノロブロイ）",
+        "dressDescription": "ゼンノロブロイの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -11553,13 +11654,15 @@
         "dressDescription": "トーセンジョーダンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901048,
-      "dressName": "私服（トーセンジョーダン）",
-      "dressDescription": "トーセンジョーダンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901048,
+        "dressName": "私服（トーセンジョーダン）",
+        "dressDescription": "トーセンジョーダンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -11793,13 +11896,15 @@
         "dressDescription": "ナカヤマフェスタの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901049,
-      "dressName": "私服（ナカヤマフェスタ）",
-      "dressDescription": "ナカヤマフェスタの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901049,
+        "dressName": "私服（ナカヤマフェスタ）",
+        "dressDescription": "ナカヤマフェスタの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -11989,13 +12094,15 @@
         "dressDescription": "ナリタタイシンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901050,
-      "dressName": "私服（ナリタタイシン）",
-      "dressDescription": "ナリタタイシンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901050,
+        "dressName": "私服（ナリタタイシン）",
+        "dressDescription": "ナリタタイシンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -12218,13 +12325,15 @@
         "dressDescription": "ニシノフラワーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901051,
-      "dressName": "私服（ニシノフラワー）",
-      "dressDescription": "ニシノフラワーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901051,
+        "dressName": "私服（ニシノフラワー）",
+        "dressDescription": "ニシノフラワーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -12436,13 +12545,15 @@
         "dressDescription": "ハルウララの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901052,
-      "dressName": "私服（ハルウララ）",
-      "dressDescription": "ハルウララの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901052,
+        "dressName": "私服（ハルウララ）",
+        "dressDescription": "ハルウララの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -12672,13 +12783,15 @@
         "dressDescription": "バンブーメモリーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901053,
-      "dressName": "私服（バンブーメモリー）",
-      "dressDescription": "バンブーメモリーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901053,
+        "dressName": "私服（バンブーメモリー）",
+        "dressDescription": "バンブーメモリーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -12876,13 +12989,15 @@
         "dressDescription": "ビコーペガサスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901054,
-      "dressName": "私服（ビコーペガサス）",
-      "dressDescription": "ビコーペガサスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901054,
+        "dressName": "私服（ビコーペガサス）",
+        "dressDescription": "ビコーペガサスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -13087,13 +13202,15 @@
         "dressDescription": "マーベラスサンデーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901055,
-      "dressName": "私服（マーベラスサンデー）",
-      "dressDescription": "マーベラスサンデーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901055,
+        "dressName": "私服（マーベラスサンデー）",
+        "dressDescription": "マーベラスサンデーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -13287,13 +13404,15 @@
         "dressDescription": "マチカネフクキタルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901056,
-      "dressName": "私服（マチカネフクキタル）",
-      "dressDescription": "マチカネフクキタルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901056,
+        "dressName": "私服（マチカネフクキタル）",
+        "dressDescription": "マチカネフクキタルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -13520,13 +13639,15 @@
         "dressDescription": "ミスターシービーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901057,
-      "dressName": "私服（ミスターシービー）",
-      "dressDescription": "ミスターシービーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901057,
+        "dressName": "私服（ミスターシービー）",
+        "dressDescription": "ミスターシービーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -13720,13 +13841,15 @@
         "dressDescription": "メイショウドトウの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901058,
-      "dressName": "私服（メイショウドトウ）",
-      "dressDescription": "メイショウドトウの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901058,
+        "dressName": "私服（メイショウドトウ）",
+        "dressDescription": "メイショウドトウの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -13953,13 +14076,15 @@
         "dressDescription": "メジロドーベルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901059,
-      "dressName": "私服（メジロドーベル）",
-      "dressDescription": "メジロドーベルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901059,
+        "dressName": "私服（メジロドーベル）",
+        "dressDescription": "メジロドーベルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -14160,13 +14285,15 @@
         "dressDescription": "ナイスネイチャの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901060,
-      "dressName": "私服（ナイスネイチャ）",
-      "dressDescription": "ナイスネイチャの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901060,
+        "dressName": "私服（ナイスネイチャ）",
+        "dressDescription": "ナイスネイチャの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -14433,13 +14560,15 @@
         "dressDescription": "キングヘイローの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901061,
-      "dressName": "私服（キングヘイロー）",
-      "dressDescription": "キングヘイローの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901061,
+        "dressName": "私服（キングヘイロー）",
+        "dressDescription": "キングヘイローの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -14695,13 +14824,15 @@
         "dressDescription": "マチカネタンホイザの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901062,
-      "dressName": "私服（マチカネタンホイザ）",
-      "dressDescription": "マチカネタンホイザの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901062,
+        "dressName": "私服（マチカネタンホイザ）",
+        "dressDescription": "マチカネタンホイザの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1029,
@@ -14928,13 +15059,15 @@
         "dressDescription": "イクノディクタスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901063,
-      "dressName": "私服（イクノディクタス）",
-      "dressDescription": "イクノディクタスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901063,
+        "dressName": "私服（イクノディクタス）",
+        "dressDescription": "イクノディクタスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -15153,13 +15286,15 @@
         "dressDescription": "メジロパーマーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901064,
-      "dressName": "私服（メジロパーマー）",
-      "dressDescription": "メジロパーマーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901064,
+        "dressName": "私服（メジロパーマー）",
+        "dressDescription": "メジロパーマーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -15342,13 +15477,15 @@
         "dressDescription": "ダイタクヘリオスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901065,
-      "dressName": "私服（ダイタクヘリオス）",
-      "dressDescription": "ダイタクヘリオスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901065,
+        "dressName": "私服（ダイタクヘリオス）",
+        "dressDescription": "ダイタクヘリオスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -15546,13 +15683,15 @@
         "dressDescription": "ツインターボの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901066,
-      "dressName": "私服（ツインターボ）",
-      "dressDescription": "ツインターボの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901066,
+        "dressName": "私服（ツインターボ）",
+        "dressDescription": "ツインターボの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -15778,13 +15917,15 @@
         "dressDescription": "サトノダイヤモンドの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901067,
-      "dressName": "私服（サトノダイヤモンド）",
-      "dressDescription": "サトノダイヤモンドの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901067,
+        "dressName": "私服（サトノダイヤモンド）",
+        "dressDescription": "サトノダイヤモンドの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -16040,13 +16181,15 @@
         "dressDescription": "キタサンブラックの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901068,
-      "dressName": "私服（キタサンブラック）",
-      "dressDescription": "キタサンブラックの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901068,
+        "dressName": "私服（キタサンブラック）",
+        "dressDescription": "キタサンブラックの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -16284,13 +16427,15 @@
         "dressDescription": "サクラチヨノオーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901069,
-      "dressName": "私服（サクラチヨノオー）",
-      "dressDescription": "サクラチヨノオーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901069,
+        "dressName": "私服（サクラチヨノオー）",
+        "dressDescription": "サクラチヨノオーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -16535,13 +16680,15 @@
         "dressDescription": "シリウスシンボリの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901070,
-      "dressName": "私服（シリウスシンボリ）",
-      "dressDescription": "シリウスシンボリの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901070,
+        "dressName": "私服（シリウスシンボリ）",
+        "dressDescription": "シリウスシンボリの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -16738,13 +16885,15 @@
         "dressDescription": "メジロアルダンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901071,
-      "dressName": "私服（メジロアルダン）",
-      "dressDescription": "メジロアルダンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901071,
+        "dressName": "私服（メジロアルダン）",
+        "dressDescription": "メジロアルダンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -16971,13 +17120,15 @@
         "dressDescription": "ヤエノムテキの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901072,
-      "dressName": "私服（ヤエノムテキ）",
-      "dressDescription": "ヤエノムテキの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901072,
+        "dressName": "私服（ヤエノムテキ）",
+        "dressDescription": "ヤエノムテキの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -17208,13 +17359,15 @@
         "dressDescription": "ツルマルツヨシの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901073,
-      "dressName": "私服（ツルマルツヨシ）",
-      "dressDescription": "ツルマルツヨシの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901073,
+        "dressName": "私服（ツルマルツヨシ）",
+        "dressDescription": "ツルマルツヨシの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1029,
@@ -17363,13 +17516,15 @@
         "dressDescription": "メジロブライトの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901074,
-      "dressName": "私服（メジロブライト）",
-      "dressDescription": "メジロブライトの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901074,
+        "dressName": "私服（メジロブライト）",
+        "dressDescription": "メジロブライトの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -17574,13 +17729,15 @@
         "dressDescription": "サクラローレルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901076,
-      "dressName": "私服（サクラローレル）",
-      "dressDescription": "サクラローレルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901076,
+        "dressName": "私服（サクラローレル）",
+        "dressDescription": "サクラローレルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -17792,13 +17949,15 @@
         "dressDescription": "ナリタトップロードの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901077,
-      "dressName": "私服（ナリタトップロード）",
-      "dressDescription": "ナリタトップロードの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901077,
+        "dressName": "私服（ナリタトップロード）",
+        "dressDescription": "ナリタトップロードの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -18025,13 +18184,15 @@
         "dressDescription": "ヤマニンゼファーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901078,
-      "dressName": "私服（ヤマニンゼファー）",
-      "dressDescription": "ヤマニンゼファーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901078,
+        "dressName": "私服（ヤマニンゼファー）",
+        "dressDescription": "ヤマニンゼファーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -18218,13 +18379,15 @@
         "dressDescription": "フリオーソの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901079,
-      "dressName": "私服（フリオーソ）",
-      "dressDescription": "フリオーソの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901079,
+        "dressName": "私服（フリオーソ）",
+        "dressDescription": "フリオーソの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -18377,13 +18540,15 @@
         "dressDescription": "トランセンドの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901080,
-      "dressName": "私服（トランセンド）",
-      "dressDescription": "トランセンドの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901080,
+        "dressName": "私服（トランセンド）",
+        "dressDescription": "トランセンドの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -18559,13 +18724,15 @@
         "dressDescription": "エスポワールシチーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901081,
-      "dressName": "私服（エスポワールシチー）",
-      "dressDescription": "エスポワールシチーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901081,
+        "dressName": "私服（エスポワールシチー）",
+        "dressDescription": "エスポワールシチーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -18718,13 +18885,15 @@
         "dressDescription": "ノースフライトの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901082,
-      "dressName": "私服（ノースフライト）",
-      "dressDescription": "ノースフライトの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901082,
+        "dressName": "私服（ノースフライト）",
+        "dressDescription": "ノースフライトの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -18877,13 +19046,15 @@
         "dressDescription": "シンボリクリスエスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901083,
-      "dressName": "私服（シンボリクリスエス）",
-      "dressDescription": "シンボリクリスエスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901083,
+        "dressName": "私服（シンボリクリスエス）",
+        "dressDescription": "シンボリクリスエスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -19077,13 +19248,15 @@
         "dressDescription": "タニノギムレットの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901084,
-      "dressName": "私服（タニノギムレット）",
-      "dressDescription": "タニノギムレットの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901084,
+        "dressName": "私服（タニノギムレット）",
+        "dressDescription": "タニノギムレットの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -19255,13 +19428,15 @@
         "dressDescription": "ダイイチルビーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901085,
-      "dressName": "私服（ダイイチルビー）",
-      "dressDescription": "ダイイチルビーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901085,
+        "dressName": "私服（ダイイチルビー）",
+        "dressDescription": "ダイイチルビーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -19433,13 +19608,15 @@
         "dressDescription": "メジロラモーヌの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901086,
-      "dressName": "私服（メジロラモーヌ）",
-      "dressDescription": "メジロラモーヌの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901086,
+        "dressName": "私服（メジロラモーヌ）",
+        "dressDescription": "メジロラモーヌの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -19592,13 +19769,15 @@
         "dressDescription": "アストンマーチャンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901087,
-      "dressName": "私服（アストンマーチャン）",
-      "dressDescription": "アストンマーチャンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901087,
+        "dressName": "私服（アストンマーチャン）",
+        "dressDescription": "アストンマーチャンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -19792,13 +19971,15 @@
         "dressDescription": "サトノクラウンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901088,
-      "dressName": "私服（サトノクラウン）",
-      "dressDescription": "サトノクラウンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901088,
+        "dressName": "私服（サトノクラウン）",
+        "dressDescription": "サトノクラウンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1029,
@@ -19981,13 +20162,15 @@
         "dressDescription": "シュヴァルグランの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901089,
-      "dressName": "私服（シュヴァルグラン）",
-      "dressDescription": "シュヴァルグランの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901089,
+        "dressName": "私服（シュヴァルグラン）",
+        "dressDescription": "シュヴァルグランの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -20177,13 +20360,15 @@
         "dressDescription": "ヴィルシーナの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901090,
-      "dressName": "私服（ヴィルシーナ）",
-      "dressDescription": "ヴィルシーナの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901090,
+        "dressName": "私服（ヴィルシーナ）",
+        "dressDescription": "ヴィルシーナの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -20336,13 +20521,15 @@
         "dressDescription": "ヴィブロスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901091,
-      "dressName": "私服（ヴィブロス）",
-      "dressDescription": "ヴィブロスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901091,
+        "dressName": "私服（ヴィブロス）",
+        "dressDescription": "ヴィブロスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -20496,13 +20683,15 @@
         "dressDescription": "ダンツフレームの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901092,
-      "dressName": "私服（ダンツフレーム）",
-      "dressDescription": "ダンツフレームの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901092,
+        "dressName": "私服（ダンツフレーム）",
+        "dressDescription": "ダンツフレームの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -20666,13 +20855,15 @@
         "dressDescription": "ケイエスミラクルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901093,
-      "dressName": "私服（ケイエスミラクル）",
-      "dressDescription": "ケイエスミラクルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901093,
+        "dressName": "私服（ケイエスミラクル）",
+        "dressDescription": "ケイエスミラクルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -20858,13 +21049,15 @@
         "dressDescription": "ジャングルポケットの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901094,
-      "dressName": "私服（ジャングルポケット）",
-      "dressDescription": "ジャングルポケットの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901094,
+        "dressName": "私服（ジャングルポケット）",
+        "dressDescription": "ジャングルポケットの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -21032,13 +21225,15 @@
         "dressDescription": "ビリーヴの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901095,
-      "dressName": "私服（ビリーヴ）",
-      "dressDescription": "ビリーヴの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901095,
+        "dressName": "私服（ビリーヴ）",
+        "dressDescription": "ビリーヴの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -21162,13 +21357,15 @@
         "dressDescription": "ノーリーズンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901096,
-      "dressName": "私服（ノーリーズン）",
-      "dressDescription": "ノーリーズンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901096,
+        "dressName": "私服（ノーリーズン）",
+        "dressDescription": "ノーリーズンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -21314,13 +21511,15 @@
         "dressDescription": "スティルインラブの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901097,
-      "dressName": "私服（スティルインラブ）",
-      "dressDescription": "スティルインラブの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901097,
+        "dressName": "私服（スティルインラブ）",
+        "dressDescription": "スティルインラブの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -21473,13 +21672,15 @@
         "dressDescription": "コパノリッキーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901098,
-      "dressName": "私服（コパノリッキー）",
-      "dressDescription": "コパノリッキーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901098,
+        "dressName": "私服（コパノリッキー）",
+        "dressDescription": "コパノリッキーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -21680,13 +21881,15 @@
         "dressDescription": "ホッコータルマエの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901099,
-      "dressName": "私服（ホッコータルマエ）",
-      "dressDescription": "ホッコータルマエの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901099,
+        "dressName": "私服（ホッコータルマエ）",
+        "dressDescription": "ホッコータルマエの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -21902,13 +22105,15 @@
         "dressDescription": "ワンダーアキュートの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901100,
-      "dressName": "私服（ワンダーアキュート）",
-      "dressDescription": "ワンダーアキュートの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901100,
+        "dressName": "私服（ワンダーアキュート）",
+        "dressDescription": "ワンダーアキュートの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -22113,13 +22318,15 @@
         "dressDescription": "サウンズオブアースの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901102,
-      "dressName": "私服（サウンズオブアース）",
-      "dressDescription": "サウンズオブアースの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901102,
+        "dressName": "私服（サウンズオブアース）",
+        "dressDescription": "サウンズオブアースの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1029,
@@ -22265,13 +22472,15 @@
         "dressDescription": "ロイスアンドロイスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901103,
-      "dressName": "私服（ロイスアンドロイス）",
-      "dressDescription": "ロイスアンドロイスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901103,
+        "dressName": "私服（ロイスアンドロイス）",
+        "dressDescription": "ロイスアンドロイスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -22402,13 +22611,15 @@
         "dressDescription": "カツラギエースの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901104,
-      "dressName": "私服（カツラギエース）",
-      "dressDescription": "カツラギエースの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901104,
+        "dressName": "私服（カツラギエース）",
+        "dressDescription": "カツラギエースの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -22580,13 +22791,15 @@
         "dressDescription": "ネオユニヴァースの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901105,
-      "dressName": "私服（ネオユニヴァース）",
-      "dressDescription": "ネオユニヴァースの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901105,
+        "dressName": "私服（ネオユニヴァース）",
+        "dressDescription": "ネオユニヴァースの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -22769,13 +22982,15 @@
         "dressDescription": "ヒシミラクルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901106,
-      "dressName": "私服（ヒシミラクル）",
-      "dressDescription": "ヒシミラクルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901106,
+        "dressName": "私服（ヒシミラクル）",
+        "dressDescription": "ヒシミラクルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -22958,13 +23173,15 @@
         "dressDescription": "タップダンスシチーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901107,
-      "dressName": "私服（タップダンスシチー）",
-      "dressDescription": "タップダンスシチーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901107,
+        "dressName": "私服（タップダンスシチー）",
+        "dressDescription": "タップダンスシチーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -23129,13 +23346,15 @@
         "dressDescription": "ドゥラメンテの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901108,
-      "dressName": "私服（ドゥラメンテ）",
-      "dressDescription": "ドゥラメンテの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901108,
+        "dressName": "私服（ドゥラメンテ）",
+        "dressDescription": "ドゥラメンテの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -23307,13 +23526,15 @@
         "dressDescription": "ラインクラフトの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901109,
-      "dressName": "私服（ラインクラフト）",
-      "dressDescription": "ラインクラフトの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901109,
+        "dressName": "私服（ラインクラフト）",
+        "dressDescription": "ラインクラフトの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -23488,13 +23709,15 @@
         "dressDescription": "シーザリオの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901110,
-      "dressName": "私服（シーザリオ）",
-      "dressDescription": "シーザリオの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901110,
+        "dressName": "私服（シーザリオ）",
+        "dressDescription": "シーザリオの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -23695,13 +23918,15 @@
         "dressDescription": "エアメサイアの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901111,
-      "dressName": "私服（エアメサイア）",
-      "dressDescription": "エアメサイアの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901111,
+        "dressName": "私服（エアメサイア）",
+        "dressDescription": "エアメサイアの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -23858,13 +24083,15 @@
         "dressDescription": "デアリングハートの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901112,
-      "dressName": "私服（デアリングハート）",
-      "dressDescription": "デアリングハートの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901112,
+        "dressName": "私服（デアリングハート）",
+        "dressDescription": "デアリングハートの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -23990,15 +24217,24 @@
         "dressId": 111301,
         "dressName": "Assorted Cuteness♡",
         "dressDescription": "フサイチパンドラの特別衣装"
+      },
+      {
+        "cardId": 111302,
+        "cardTitle": "[Snatchin' Hearts ♡]",
+        "dressId": 111330,
+        "dressName": "Snatchin' Hearts ♡",
+        "dressDescription": "フサイチパンドラの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901113,
-      "dressName": "私服（フサイチパンドラ）",
-      "dressDescription": "フサイチパンドラの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901113,
+        "dressName": "私服（フサイチパンドラ）",
+        "dressDescription": "フサイチパンドラの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -24144,13 +24380,15 @@
         "dressDescription": "ブエナビスタの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901114,
-      "dressName": "私服（ブエナビスタ）",
-      "dressDescription": "ブエナビスタの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901114,
+        "dressName": "私服（ブエナビスタ）",
+        "dressDescription": "ブエナビスタの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -24285,13 +24523,15 @@
         "dressDescription": "オルフェーヴルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901115,
-      "dressName": "私服（オルフェーヴル）",
-      "dressDescription": "オルフェーヴルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901115,
+        "dressName": "私服（オルフェーヴル）",
+        "dressDescription": "オルフェーヴルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -24444,13 +24684,15 @@
         "dressDescription": "ジェンティルドンナの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901116,
-      "dressName": "私服（ジェンティルドンナ）",
-      "dressDescription": "ジェンティルドンナの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901116,
+        "dressName": "私服（ジェンティルドンナ）",
+        "dressDescription": "ジェンティルドンナの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -24607,13 +24849,15 @@
         "dressDescription": "ウインバリアシオンの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901117,
-      "dressName": "私服（ウインバリアシオン）",
-      "dressDescription": "ウインバリアシオンの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901117,
+        "dressName": "私服（ウインバリアシオン）",
+        "dressDescription": "ウインバリアシオンの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -24737,13 +24981,15 @@
         "dressDescription": "アドマイヤグルーヴの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901118,
-      "dressName": "私服（アドマイヤグルーヴ）",
-      "dressDescription": "アドマイヤグルーヴの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901118,
+        "dressName": "私服（アドマイヤグルーヴ）",
+        "dressDescription": "アドマイヤグルーヴの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -24823,13 +25069,15 @@
         "dressDescription": "ドリームジャーニーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901119,
-      "dressName": "私服（ドリームジャーニー）",
-      "dressDescription": "ドリームジャーニーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901119,
+        "dressName": "私服（ドリームジャーニー）",
+        "dressDescription": "ドリームジャーニーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -24972,13 +25220,15 @@
         "dressDescription": "カルストンライトオの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901120,
-      "dressName": "私服（カルストンライトオ）",
-      "dressDescription": "カルストンライトオの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901120,
+        "dressName": "私服（カルストンライトオ）",
+        "dressDescription": "カルストンライトオの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -25132,13 +25382,15 @@
         "dressDescription": "デュランダルの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901121,
-      "dressName": "私服（デュランダル）",
-      "dressDescription": "デュランダルの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901121,
+        "dressName": "私服（デュランダル）",
+        "dressDescription": "デュランダルの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -25288,13 +25540,15 @@
         "dressDescription": "バブルガムフェローの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901124,
-      "dressName": "私服（バブルガムフェロー）",
-      "dressDescription": "バブルガムフェローの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901124,
+        "dressName": "私服（バブルガムフェロー）",
+        "dressDescription": "バブルガムフェローの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -25437,13 +25691,15 @@
         "dressDescription": "フェノーメノの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901127,
-      "dressName": "私服（フェノーメノ）",
-      "dressDescription": "フェノーメノの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901127,
+        "dressName": "私服（フェノーメノ）",
+        "dressDescription": "フェノーメノの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -25578,13 +25834,15 @@
         "dressDescription": "アーモンドアイの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901129,
-      "dressName": "私服（アーモンドアイ）",
-      "dressDescription": "アーモンドアイの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901129,
+        "dressName": "私服（アーモンドアイ）",
+        "dressDescription": "アーモンドアイの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -25734,13 +25992,15 @@
         "dressDescription": "ラッキーライラックの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901130,
-      "dressName": "私服（ラッキーライラック）",
-      "dressDescription": "ラッキーライラックの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901130,
+        "dressName": "私服（ラッキーライラック）",
+        "dressDescription": "ラッキーライラックの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -25846,13 +26106,15 @@
         "dressDescription": "グランアレグリアの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901131,
-      "dressName": "私服（グランアレグリア）",
-      "dressDescription": "グランアレグリアの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901131,
+        "dressName": "私服（グランアレグリア）",
+        "dressDescription": "グランアレグリアの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -26005,13 +26267,15 @@
         "dressDescription": "ラヴズオンリーユーの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901132,
-      "dressName": "私服（ラヴズオンリーユー）",
-      "dressDescription": "ラヴズオンリーユーの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901132,
+        "dressName": "私服（ラヴズオンリーユー）",
+        "dressDescription": "ラヴズオンリーユーの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -26157,13 +26421,15 @@
         "dressDescription": "クロノジェネシスの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901133,
-      "dressName": "私服（クロノジェネシス）",
-      "dressDescription": "クロノジェネシスの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901133,
+        "dressName": "私服（クロノジェネシス）",
+        "dressDescription": "クロノジェネシスの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -26320,13 +26586,15 @@
         "dressDescription": "カレンブーケドールの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901134,
-      "dressName": "私服（カレンブーケドール）",
-      "dressDescription": "カレンブーケドールの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901134,
+        "dressName": "私服（カレンブーケドール）",
+        "dressDescription": "カレンブーケドールの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -26410,13 +26678,15 @@
         "dressDescription": "ステイゴールドの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901135,
-      "dressName": "私服（ステイゴールド）",
-      "dressDescription": "ステイゴールドの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901135,
+        "dressName": "私服（ステイゴールド）",
+        "dressDescription": "ステイゴールドの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1029,
@@ -26540,13 +26810,15 @@
         "dressDescription": "レッドディザイアの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901136,
-      "dressName": "私服（レッドディザイア）",
-      "dressDescription": "レッドディザイアの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901136,
+        "dressName": "私服（レッドディザイア）",
+        "dressDescription": "レッドディザイアの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1005,
@@ -26619,13 +26891,15 @@
         "dressDescription": "キセキの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901137,
-      "dressName": "私服（キセキ）",
-      "dressDescription": "キセキの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901137,
+        "dressName": "私服（キセキ）",
+        "dressDescription": "キセキの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1028,
@@ -26749,13 +27023,15 @@
         "dressDescription": "ヴィクトワールピサの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901143,
-      "dressName": "私服（ヴィクトワールピサ）",
-      "dressDescription": "ヴィクトワールピサの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901143,
+        "dressName": "私服（ヴィクトワールピサ）",
+        "dressDescription": "ヴィクトワールピサの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -26839,13 +27115,15 @@
         "dressDescription": "ルーラーシップの特別衣装"
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901145,
-      "dressName": "私服（ルーラーシップ）",
-      "dressDescription": "ルーラーシップの私服"
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901145,
+        "dressName": "私服（ルーラーシップ）",
+        "dressDescription": "ルーラーシップの私服"
+      }
+    ],
     "songs": [
       {
         "musicId": 1176,
