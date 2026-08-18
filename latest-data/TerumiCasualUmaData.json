@@ -3189,6 +3189,13 @@
         "dressId": 101901,
         "dressName": "Full-Color Fangirling",
         "dressDescription": "Agnes Digital's special outfit."
+      },
+      {
+        "cardId": 101902,
+        "cardTitle": "[Fanatic♡Jiangshi]",
+        "dressId": 101940,
+        "dressName": "Fanatic♡Jiangshi",
+        "dressDescription": "Agnes Digital's special outfit."
       }
     ],
     "casualOutfit": null,
@@ -7434,6 +7441,13 @@
         "cardTitle": "[Turbulent Blue]",
         "dressId": 105801,
         "dressName": "Turbulent Blue",
+        "dressDescription": "Meisho Doto's special outfit."
+      },
+      {
+        "cardId": 105802,
+        "cardTitle": "[Dot-o'-Lantern]",
+        "dressId": 105840,
+        "dressName": "Dot-o'-Lantern",
         "dressDescription": "Meisho Doto's special outfit."
       }
     ],

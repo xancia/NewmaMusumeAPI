@@ -2312,6 +2312,74 @@
     ]
   },
   {
+    "charaId": 1019,
+    "charaName": "Agnes Digital",
+    "voiceActor": "Minori Suzuki",
+    "cardId": 101902,
+    "cardTitle": "[Fanatic♡Jiangshi]",
+    "supportCardId": 10026,
+    "startDate": "2025-11-19T22:00:00",
+    "baseSpeed": 104,
+    "baseStamina": 111,
+    "basePower": 120,
+    "baseGuts": 129,
+    "baseWisdom": 86,
+    "talentSpeed": 7,
+    "talentStamina": 7,
+    "talentPower": 8,
+    "talentGuts": 8,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "F",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "B",
+    "birthYear": 1997,
+    "birthMonth": 5,
+    "birthDay": 15,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1019,
+    "skillIds": "100191,110191,200461,200462,200702,201591,201682,202271,202272",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 200702,
+        "needRank": 0
+      },
+      {
+        "skillId": 202272,
+        "needRank": 0
+      },
+      {
+        "skillId": 201591,
+        "needRank": 2
+      },
+      {
+        "skillId": 200461,
+        "needRank": 3
+      },
+      {
+        "skillId": 201682,
+        "needRank": 4
+      },
+      {
+        "skillId": 202271,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1020,
     "charaName": "Seiun Sky",
     "voiceActor": "Akari Kito",
@@ -5571,6 +5639,74 @@
       },
       {
         "skillId": 200471,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1058,
+    "charaName": "Meisho Doto",
+    "voiceActor": "Misaki Watada",
+    "cardId": 105802,
+    "cardTitle": "[Dot-o'-Lantern]",
+    "supportCardId": 10045,
+    "startDate": "2025-10-21T22:00:00",
+    "baseSpeed": 109,
+    "baseStamina": 109,
+    "basePower": 92,
+    "baseGuts": 126,
+    "baseWisdom": 114,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 15,
+    "talentGuts": 0,
+    "talentWisdom": 15,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "E",
+    "aptitudeShort": "G",
+    "aptitudeMile": "F",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "F",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "E",
+    "birthYear": 1996,
+    "birthMonth": 3,
+    "birthDay": 25,
+    "sex": 1,
+    "height": 2,
+    "bust": 4,
+    "charaCategory": 0,
+    "uraObjectives": 1058,
+    "skillIds": "100581,110581,200012,200351,200352,201102,201901,201902,202372",
+    "potentialSkills": [
+      {
+        "skillId": 200352,
+        "needRank": 0
+      },
+      {
+        "skillId": 201102,
+        "needRank": 0
+      },
+      {
+        "skillId": 201902,
+        "needRank": 0
+      },
+      {
+        "skillId": 202372,
+        "needRank": 2
+      },
+      {
+        "skillId": 201901,
+        "needRank": 3
+      },
+      {
+        "skillId": 200012,
+        "needRank": 4
+      },
+      {
+        "skillId": 200351,
         "needRank": 5
       }
     ]

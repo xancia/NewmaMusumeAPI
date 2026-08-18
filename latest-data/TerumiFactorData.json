@@ -7026,7 +7026,7 @@
   {
     "id": 10030201,
     "name": "Certain Victory",
-    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Invincible Me\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Certain Victory\".",
     "rarity": 1,
     "grade": 2,
     "type": 3
@@ -7034,7 +7034,7 @@
   {
     "id": 10030202,
     "name": "Certain Victory",
-    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Invincible Me\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Certain Victory\".",
     "rarity": 2,
     "grade": 2,
     "type": 3
@@ -7042,7 +7042,7 @@
   {
     "id": 10030203,
     "name": "Certain Victory",
-    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Invincible Me\".",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Certain Victory\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -7715,6 +7715,30 @@
     "id": 10190103,
     "name": "OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆",
     "description": "A Spark that increases the max values of Speed, Stamina, and Power. Gives a skill hint for \"OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10190201,
+    "name": "THE MOE AAAA Thanks for My Life",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"THE MOE AAAA Thanks for My Life\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10190202,
+    "name": "THE MOE AAAA Thanks for My Life",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"THE MOE AAAA Thanks for My Life\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10190203,
+    "name": "THE MOE AAAA Thanks for My Life",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"THE MOE AAAA Thanks for My Life\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -8867,6 +8891,30 @@
     "id": 10580103,
     "name": "I Never Goof Up!",
     "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"I Never Goof Up!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10580201,
+    "name": "Spooky, Scary, Happy",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Spooky, Scary, Happy\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10580202,
+    "name": "Spooky, Scary, Happy",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Spooky, Scary, Happy\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10580203,
+    "name": "Spooky, Scary, Happy",
+    "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Spooky, Scary, Happy\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
