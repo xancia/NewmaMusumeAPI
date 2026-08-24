@@ -29721,6 +29721,455 @@
     "uniqueEffect": null
   },
   {
+    "supportCardId": 10146,
+    "charaId": 1146,
+    "charaName": "エフフォーリア",
+    "supportCardTitle": "[トレセン学園]",
+    "rarity": 1,
+    "rarityDisplay": "R",
+    "supportCardType": 1,
+    "supportCardTypeName": "Speed",
+    "effectTableId": 10146,
+    "uniqueEffectId": 0,
+    "skillSetId": 9081146,
+    "commandType": 1,
+    "commandId": 101,
+    "startDate": "2026-08-24T03:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 20,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 3,
+        "effectTypeName": "Speed Bonus",
+        "initValue": 1,
+        "level5Value": 1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": 1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": 5,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 11,
+        "effectTypeName": "Initial Power",
+        "initValue": 10,
+        "level5Value": 10,
+        "level10Value": -1,
+        "level15Value": 15,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 20,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 20,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 25,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": 1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": 1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 5,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": 1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": 5,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 10,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 35,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 50,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200012,
+        "skillName": "右回り○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200332,
+        "skillName": "コーナー巧者○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200362,
+        "skillName": "直線巧者",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201312,
+        "skillName": "先行直線○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201322,
+        "skillName": "先行コーナー○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202662,
+        "skillName": "込み上げる熱",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203632,
+        "skillName": "夢への挑戦",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203862,
+        "skillName": "気ままな足取り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204012,
+        "skillName": "力業",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204202,
+        "skillName": "戦略家",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204572,
+        "skillName": "ただその先へ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204702,
+        "skillName": "突き抜ける走り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Power",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 801146001,
+        "eventTitle": "運命と共同体な淑女",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801146002,
+        "eventTitle": "運命共同体な僕ら",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": null
+  },
+  {
+    "supportCardId": 10147,
+    "charaId": 1145,
+    "charaName": "ルーラーシップ",
+    "supportCardTitle": "[トレセン学園]",
+    "rarity": 1,
+    "rarityDisplay": "R",
+    "supportCardType": 1,
+    "supportCardTypeName": "Stamina",
+    "effectTableId": 10147,
+    "uniqueEffectId": 0,
+    "skillSetId": 9081145,
+    "commandType": 1,
+    "commandId": 105,
+    "startDate": "2026-08-24T03:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": 10,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 15,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 25,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 35,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 4,
+        "effectTypeName": "Stamina Bonus",
+        "initValue": 1,
+        "level5Value": 1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": 1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 10,
+        "effectTypeName": "Initial Stamina",
+        "initValue": 10,
+        "level5Value": 10,
+        "level10Value": -1,
+        "level15Value": 15,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 20,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": 10,
+        "level10Value": -1,
+        "level15Value": 15,
+        "level20Value": 15,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 20,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": 5,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": 1,
+        "level40Value": 10,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 2,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 2,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": 30,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 40,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200162,
+        "skillName": "道悪○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200512,
+        "skillName": "末脚",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200732,
+        "skillName": "食い下がり",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201142,
+        "skillName": "軽やかステップ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202662,
+        "skillName": "込み上げる熱",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203312,
+        "skillName": "光差す方へ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203432,
+        "skillName": "躍動",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204202,
+        "skillName": "戦略家",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 801145001,
+        "eventTitle": "勝敗は裏返る",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801145002,
+        "eventTitle": "確約されていない勝利",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": null
+  },
+  {
     "supportCardId": 20001,
     "charaId": 1005,
     "charaName": "フジキセキ",
@@ -138483,6 +138932,895 @@
       "value02": 1,
       "value03": 8,
       "value04": 5,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30311,
+    "charaId": 1146,
+    "charaName": "エフフォーリア",
+    "supportCardTitle": "[As if Guided]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Speed",
+    "effectTableId": 30311,
+    "uniqueEffectId": 30311,
+    "skillSetId": 9081146,
+    "commandType": 1,
+    "commandId": 101,
+    "startDate": "2026-08-24T03:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 40
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 9,
+        "effectTypeName": "Initial Speed",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 35
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 2,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 4
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 60,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 100
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 10,
+        "level45Value": 60,
+        "level50Value": 120
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": 2
+      },
+      {
+        "effectType": 32,
+        "effectTypeName": "Effect Type 32",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 10,
+        "level35Value": 20,
+        "level40Value": 50,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200012,
+        "skillName": "右回り○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200332,
+        "skillName": "コーナー巧者○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200362,
+        "skillName": "直線巧者",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201312,
+        "skillName": "先行直線○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201322,
+        "skillName": "先行コーナー○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202662,
+        "skillName": "込み上げる熱",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203632,
+        "skillName": "夢への挑戦",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203862,
+        "skillName": "気ままな足取り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204012,
+        "skillName": "力業",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204202,
+        "skillName": "戦略家",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204572,
+        "skillName": "ただその先へ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204702,
+        "skillName": "突き抜ける走り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Power",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830311001,
+        "eventTitle": "淑女、粛々と読書中",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830311002,
+        "eventTitle": "運命の暴走散歩道",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830311003,
+        "eventTitle": "『運命』のライバル",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801146001,
+        "eventTitle": "運命と共同体な淑女",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801146002,
+        "eventTitle": "運命共同体な僕ら",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 1,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 5,
+      "value02": 1,
+      "value03": 8,
+      "value04": 5,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30312,
+    "charaId": 1057,
+    "charaName": "ミスターシービー",
+    "supportCardTitle": "[時に交わる海と空]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Speed",
+    "effectTableId": 30312,
+    "uniqueEffectId": 30312,
+    "skillSetId": 9081057,
+    "commandType": 1,
+    "commandId": 101,
+    "startDate": "2026-08-24T03:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 35
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 15,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 40,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 80
+      },
+      {
+        "effectType": 8,
+        "effectTypeName": "Training Effectiveness",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": 15,
+        "level40Value": 30,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 20
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 2
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 60,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 100
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 10,
+        "level45Value": 60,
+        "level50Value": 120
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 1,
+        "level50Value": 2
+      },
+      {
+        "effectType": 32,
+        "effectTypeName": "Effect Type 32",
+        "initValue": 20,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 20,
+        "level20Value": -1,
+        "level25Value": 30,
+        "level30Value": 30,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 40,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200642,
+        "skillName": "直線一気",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201452,
+        "skillName": "追込直線○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201462,
+        "skillName": "追込コーナー○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202022,
+        "skillName": "早仕掛け",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202382,
+        "skillName": "打開策",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202522,
+        "skillName": "型破り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202852,
+        "skillName": "ごぼう抜き",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202872,
+        "skillName": "渾身の足取り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202932,
+        "skillName": "影踏み",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203582,
+        "skillName": "捕捉",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203762,
+        "skillName": "追駆",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203902,
+        "skillName": "急降下",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204522,
+        "skillName": "潮目を掴んで",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204632,
+        "skillName": "広がる景色",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204642,
+        "skillName": "私の足取り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Power",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830312001,
+        "eventTitle": "『気分』熱意に触れて",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830312002,
+        "eventTitle": "『気分』キミの中に",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830312003,
+        "eventTitle": "『気分』思うままに",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801057001,
+        "eventTitle": "旅路は弾む",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801057002,
+        "eventTitle": "たとえタブーに触れても",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801057003,
+        "eventTitle": "Event 801057003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 1,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 5,
+      "value02": 1,
+      "value03": 33,
+      "value04": 1,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
+  },
+  {
+    "supportCardId": 30313,
+    "charaId": 1145,
+    "charaName": "ルーラーシップ",
+    "supportCardTitle": "[Endless Game]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Stamina",
+    "effectTableId": 30313,
+    "uniqueEffectId": 30313,
+    "skillSetId": 9081145,
+    "commandType": 1,
+    "commandId": 105,
+    "startDate": "2026-08-24T03:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 40,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 60
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 1,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": 5,
+        "level40Value": 10,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 1,
+        "level35Value": 10,
+        "level40Value": 15,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 35,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 50,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200162,
+        "skillName": "道悪○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200512,
+        "skillName": "末脚",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200732,
+        "skillName": "食い下がり",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201142,
+        "skillName": "軽やかステップ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 202662,
+        "skillName": "込み上げる熱",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203312,
+        "skillName": "光差す方へ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 203432,
+        "skillName": "躍動",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204202,
+        "skillName": "戦略家",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Stamina",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+2 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830313001,
+        "eventTitle": "集え、最強？の猛者たち",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830313002,
+        "eventTitle": "カードは配られた",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830313003,
+        "eventTitle": "最強のチーム",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801145001,
+        "eventTitle": "勝敗は裏返る",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801145002,
+        "eventTitle": "確約されていない勝利",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 1,
+      "type0": 101,
+      "type0Name": "Effect Type 101",
+      "value0": 80,
+      "value01": 4,
+      "value02": 1,
+      "value03": 6,
+      "value04": 1,
       "type1": 0,
       "type1Name": "None",
       "value1": 0,
