@@ -17772,6 +17772,74 @@
     ]
   },
   {
+    "charaId": 1141,
+    "charaName": "エピファネイア",
+    "voiceActor": "千賀光莉",
+    "cardId": 114101,
+    "cardTitle": "[Fate's Chosen Star]",
+    "supportCardId": null,
+    "startDate": "2026-08-24T03:00:00",
+    "baseSpeed": 112,
+    "baseStamina": 110,
+    "basePower": 115,
+    "baseGuts": 114,
+    "baseWisdom": 99,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 10,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "E",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "D",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "G",
+    "birthYear": 2010,
+    "birthMonth": 2,
+    "birthDay": 11,
+    "sex": 1,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1141,
+    "skillIds": "101411,202981,202982,204002,204372,204412,204511,204512",
+    "potentialSkills": [
+      {
+        "skillId": 202982,
+        "needRank": 0
+      },
+      {
+        "skillId": 204002,
+        "needRank": 0
+      },
+      {
+        "skillId": 204512,
+        "needRank": 0
+      },
+      {
+        "skillId": 204372,
+        "needRank": 2
+      },
+      {
+        "skillId": 202981,
+        "needRank": 3
+      },
+      {
+        "skillId": 204412,
+        "needRank": 4
+      },
+      {
+        "skillId": 204511,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1143,
     "charaName": "ヴィクトワールピサ",
     "voiceActor": "嶋野花",
@@ -17845,7 +17913,7 @@
     "voiceActor": "海野水玉",
     "cardId": 114501,
     "cardTitle": "[Monochrome GM]",
-    "supportCardId": null,
+    "supportCardId": 10147,
     "startDate": "2026-07-21T03:00:00",
     "baseSpeed": 119,
     "baseStamina": 106,
