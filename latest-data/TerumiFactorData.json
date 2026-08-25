@@ -7841,7 +7841,7 @@
   },
   {
     "id": 10220201,
-    "name": "Best Day Ever",
+    "name": "Best day ever",
     "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 1,
     "grade": 2,
@@ -7849,7 +7849,7 @@
   },
   {
     "id": 10220202,
-    "name": "Best Day Ever",
+    "name": "Best day ever",
     "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 2,
     "grade": 2,
@@ -7857,7 +7857,7 @@
   },
   {
     "id": 10220203,
-    "name": "Best Day Ever",
+    "name": "Best day ever",
     "description": "A Spark that increases max Guts value and max Wit value. Gives a skill hint for \"Best Day Ever\".",
     "rarity": 3,
     "grade": 2,
@@ -9251,6 +9251,30 @@
     "id": 10740103,
     "name": "Lovely Spring Breeze",
     "description": "A Spark that increases the max values of Stamina, Guts, and Wit. Gives a skill hint for \"Lovely Spring Breeze\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10870101,
+    "name": "Silent Letter",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Silent Letter\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10870102,
+    "name": "Silent Letter",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Silent Letter\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10870103,
+    "name": "Silent Letter",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Silent Letter\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

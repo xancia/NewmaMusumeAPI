@@ -6664,6 +6664,74 @@
     ]
   },
   {
+    "charaId": 1087,
+    "charaName": "Aston Machan",
+    "voiceActor": "Honoka Inoue",
+    "cardId": 108701,
+    "cardTitle": "[Flare]",
+    "supportCardId": null,
+    "startDate": "2026-08-25T22:00:00",
+    "baseSpeed": 121,
+    "baseStamina": 89,
+    "basePower": 118,
+    "baseGuts": 120,
+    "baseWisdom": 102,
+    "talentSpeed": 20,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "A",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "G",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "G",
+    "aptitudeChaser": "G",
+    "birthYear": 2004,
+    "birthMonth": 3,
+    "birthDay": 5,
+    "sex": 2,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1087,
+    "skillIds": "100871,200162,200531,200532,200972,201601,202041,202042",
+    "potentialSkills": [
+      {
+        "skillId": 200162,
+        "needRank": 0
+      },
+      {
+        "skillId": 200532,
+        "needRank": 0
+      },
+      {
+        "skillId": 202042,
+        "needRank": 0
+      },
+      {
+        "skillId": 200972,
+        "needRank": 2
+      },
+      {
+        "skillId": 200531,
+        "needRank": 3
+      },
+      {
+        "skillId": 201601,
+        "needRank": 4
+      },
+      {
+        "skillId": 202041,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1098,
     "charaName": "Copano Rickey",
     "voiceActor": "Konomi Inagaki",

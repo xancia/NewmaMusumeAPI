@@ -3236,6 +3236,22 @@
     "schedules": []
   },
   {
+    "raceId": 6034,
+    "raceName": "Champions Meeting Libra Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6041,
     "raceName": "Champions Meeting: Taurus Cup Finals",
     "grade": 100,
@@ -3312,6 +3328,22 @@
     "turnName": "Right",
     "trackId": 10101,
     "trackName": "Oi",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6046,
+    "raceName": "Libra Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10009,
+    "trackName": "Hanshin",
     "entryNum": 9,
     "schedules": []
   },
