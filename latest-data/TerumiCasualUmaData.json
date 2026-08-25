@@ -25,13 +25,15 @@
         "dressDescription": "Special Week's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901001,
-      "dressName": "Special Week's Casual Wear",
-      "dressDescription": "Special Week's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901001,
+        "dressName": "Special Week's Casual Wear",
+        "dressDescription": "Special Week's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -229,13 +231,15 @@
         "dressDescription": "Silence Suzuka's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901002,
-      "dressName": "Silence Suzuka's Casual Wear",
-      "dressDescription": "Silence Suzuka's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901002,
+        "dressName": "Silence Suzuka's Casual Wear",
+        "dressDescription": "Silence Suzuka's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -429,13 +433,15 @@
         "dressDescription": "Tokai Teio's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901003,
-      "dressName": "Tokai Teio's Casual Wear",
-      "dressDescription": "Tokai Teio's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901003,
+        "dressName": "Tokai Teio's Casual Wear",
+        "dressDescription": "Tokai Teio's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -607,13 +613,15 @@
         "dressDescription": "Maruzensky's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901004,
-      "dressName": "Maruzensky's Casual Wear",
-      "dressDescription": "Maruzensky's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901004,
+        "dressName": "Maruzensky's Casual Wear",
+        "dressDescription": "Maruzensky's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -774,7 +782,7 @@
         "dressDescription": "Fuji Kiseki's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1007,
@@ -935,13 +943,15 @@
         "dressDescription": "Oguri Cap's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901006,
-      "dressName": "Oguri Cap's Casual Wear",
-      "dressDescription": "Oguri Cap's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901006,
+        "dressName": "Oguri Cap's Casual Wear",
+        "dressDescription": "Oguri Cap's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1102,13 +1112,15 @@
         "dressDescription": "Gold Ship's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901007,
-      "dressName": "Gold Ship's Casual Wear",
-      "dressDescription": "Gold Ship's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901007,
+        "dressName": "Gold Ship's Casual Wear",
+        "dressDescription": "Gold Ship's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1284,13 +1296,15 @@
         "dressDescription": "Vodka's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901008,
-      "dressName": "Vodka's Casual Wear",
-      "dressDescription": "Vodka's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901008,
+        "dressName": "Vodka's Casual Wear",
+        "dressDescription": "Vodka's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1455,13 +1469,15 @@
         "dressDescription": "Daiwa Scarlet's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901009,
-      "dressName": "Daiwa Scarlet's Casual Wear",
-      "dressDescription": "Daiwa Scarlet's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901009,
+        "dressName": "Daiwa Scarlet's Casual Wear",
+        "dressDescription": "Daiwa Scarlet's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1625,13 +1641,15 @@
         "dressDescription": "Taiki Shuttle's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901010,
-      "dressName": "Taiki Shuttle's Casual Wear",
-      "dressDescription": "Taiki Shuttle's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901010,
+        "dressName": "Taiki Shuttle's Casual Wear",
+        "dressDescription": "Taiki Shuttle's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1803,13 +1821,15 @@
         "dressDescription": "Grass Wonder's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901011,
-      "dressName": "Grass Wonder's Casual Wear",
-      "dressDescription": "Grass Wonder's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901011,
+        "dressName": "Grass Wonder's Casual Wear",
+        "dressDescription": "Grass Wonder's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -1974,7 +1994,7 @@
         "dressDescription": "Hishi Amazon's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1005,
@@ -2131,13 +2151,15 @@
         "dressDescription": "Mejiro McQueen's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901013,
-      "dressName": "Mejiro McQueen's Casual Wear",
-      "dressDescription": "Mejiro McQueen's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901013,
+        "dressName": "Mejiro McQueen's Casual Wear",
+        "dressDescription": "Mejiro McQueen's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -2338,13 +2360,15 @@
         "dressDescription": "El Condor Pasa's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901014,
-      "dressName": "El Condor Pasa's Casual Wear",
-      "dressDescription": "El Condor Pasa's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901014,
+        "dressName": "El Condor Pasa's Casual Wear",
+        "dressDescription": "El Condor Pasa's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -2516,7 +2540,7 @@
         "dressDescription": "T.M. Opera O's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1004,
@@ -2670,7 +2694,7 @@
         "dressDescription": "Narita Brian's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1004,
@@ -2853,13 +2877,15 @@
         "dressDescription": "Symboli Rudolf's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901017,
-      "dressName": "Symboli Rudolf's Casual Wear",
-      "dressDescription": "Symboli Rudolf's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901017,
+        "dressName": "Symboli Rudolf's Casual Wear",
+        "dressDescription": "Symboli Rudolf's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -3031,13 +3057,15 @@
         "dressDescription": "Air Groove's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901018,
-      "dressName": "Air Groove's Casual Wear",
-      "dressDescription": "Air Groove's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901018,
+        "dressName": "Air Groove's Casual Wear",
+        "dressDescription": "Air Groove's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -3198,7 +3226,7 @@
         "dressDescription": "Agnes Digital's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1009,
@@ -3337,7 +3365,7 @@
         "dressDescription": "Seiun Sky's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1008,
@@ -3491,7 +3519,7 @@
         "dressDescription": "Tamamo Cross's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1008,
@@ -3619,7 +3647,7 @@
         "dressDescription": "Fine Motion's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1005,
@@ -3750,7 +3778,7 @@
         "dressDescription": "Biwa Hayahide's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1004,
@@ -3911,13 +3939,15 @@
         "dressDescription": "Mayano Top Gun's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901024,
-      "dressName": "Mayano Top Gun's Casual Wear",
-      "dressDescription": "Mayano Top Gun's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901024,
+        "dressName": "Mayano Top Gun's Casual Wear",
+        "dressDescription": "Mayano Top Gun's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4060,7 +4090,7 @@
         "dressDescription": "Manhattan Cafe's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1028,
@@ -4191,13 +4221,15 @@
         "dressDescription": "Mihono Bourbon's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901026,
-      "dressName": "Mihono Bourbon's Casual Wear",
-      "dressDescription": "Mihono Bourbon's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901026,
+        "dressName": "Mihono Bourbon's Casual Wear",
+        "dressDescription": "Mihono Bourbon's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4329,13 +4361,15 @@
         "dressDescription": "Mejiro Ryan's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901027,
-      "dressName": "Mejiro Ryan's Casual Wear",
-      "dressDescription": "Mejiro Ryan's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901027,
+        "dressName": "Mejiro Ryan's Casual Wear",
+        "dressDescription": "Mejiro Ryan's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1010,
@@ -4467,7 +4501,7 @@
         "dressDescription": "Hishi Akebono's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1027,
@@ -4588,7 +4622,7 @@
         "dressDescription": "Yukino Bijin's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1053,
@@ -4664,13 +4698,15 @@
         "dressDescription": "Rice Shower's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901030,
-      "dressName": "Rice Shower's Casual Wear",
-      "dressDescription": "Rice Shower's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901030,
+        "dressName": "Rice Shower's Casual Wear",
+        "dressDescription": "Rice Shower's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -4835,7 +4871,7 @@
         "dressDescription": "Ines Fujin's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
@@ -4915,13 +4951,15 @@
         "dressDescription": "Agnes Tachyon's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901032,
-      "dressName": "Agnes Tachyon's Casual Wear",
-      "dressDescription": "Agnes Tachyon's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901032,
+        "dressName": "Agnes Tachyon's Casual Wear",
+        "dressDescription": "Agnes Tachyon's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -5053,7 +5091,7 @@
         "dressDescription": "Admire Vega's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1007,
@@ -5166,7 +5204,7 @@
         "dressDescription": "Inari One's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
@@ -5264,13 +5302,15 @@
         "dressDescription": "Winning Ticket's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901035,
-      "dressName": "Winning Ticket's Casual Wear",
-      "dressDescription": "Winning Ticket's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901035,
+        "dressName": "Winning Ticket's Casual Wear",
+        "dressDescription": "Winning Ticket's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -5435,7 +5475,7 @@
         "dressDescription": "Air Shakur's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
@@ -5522,7 +5562,7 @@
         "dressDescription": "Eishin Flash's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1008,
@@ -5661,13 +5701,15 @@
         "dressDescription": "Curren Chan's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901038,
-      "dressName": "Curren Chan's Casual Wear",
-      "dressDescription": "Curren Chan's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901038,
+        "dressName": "Curren Chan's Casual Wear",
+        "dressDescription": "Curren Chan's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1027,
@@ -5799,7 +5841,7 @@
         "dressDescription": "Kawakami Princess's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1005,
@@ -5919,13 +5961,15 @@
         "dressDescription": "Gold City's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901040,
-      "dressName": "Gold City's Casual Wear",
-      "dressDescription": "Gold City's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901040,
+        "dressName": "Gold City's Casual Wear",
+        "dressDescription": "Gold City's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -6057,13 +6101,15 @@
         "dressDescription": "Sakura Bakushin O's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901041,
-      "dressName": "Sakura Bakushin O's Casual Wear",
-      "dressDescription": "Sakura Bakushin O's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901041,
+        "dressName": "Sakura Bakushin O's Casual Wear",
+        "dressDescription": "Sakura Bakushin O's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -6206,7 +6252,7 @@
         "dressDescription": "Seeking the Pearl's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1001,
@@ -6264,7 +6310,7 @@
         "dressDescription": "Sweep Tosho's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1005,
@@ -6362,13 +6408,15 @@
         "dressDescription": "Super Creek's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901045,
-      "dressName": "Super Creek's Casual Wear",
-      "dressDescription": "Super Creek's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901045,
+        "dressName": "Super Creek's Casual Wear",
+        "dressDescription": "Super Creek's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1008,
@@ -6507,13 +6555,15 @@
         "dressDescription": "Smart Falcon's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901046,
-      "dressName": "Smart Falcon's Casual Wear",
-      "dressDescription": "Smart Falcon's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901046,
+        "dressName": "Smart Falcon's Casual Wear",
+        "dressDescription": "Smart Falcon's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1009,
@@ -6637,13 +6687,15 @@
         "dressDescription": "Tosen Jordan's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901048,
-      "dressName": "Tosen Jordan's Casual Wear",
-      "dressDescription": "Tosen Jordan's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901048,
+        "dressName": "Tosen Jordan's Casual Wear",
+        "dressDescription": "Tosen Jordan's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1007,
@@ -6774,7 +6826,7 @@
         "dressDescription": "Narita Taishin's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1004,
@@ -6917,7 +6969,7 @@
         "dressDescription": "Nishino Flower's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1005,
@@ -7034,13 +7086,15 @@
         "dressDescription": "Haru Urara's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901052,
-      "dressName": "Haru Urara's Casual Wear",
-      "dressDescription": "Haru Urara's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901052,
+        "dressName": "Haru Urara's Casual Wear",
+        "dressDescription": "Haru Urara's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -7186,7 +7240,7 @@
         "dressDescription": "Bamboo Memory's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
@@ -7273,13 +7327,15 @@
         "dressDescription": "Matikanefukukitaru's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901056,
-      "dressName": "Matikanefukukitaru's Casual Wear",
-      "dressDescription": "Matikanefukukitaru's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901056,
+        "dressName": "Matikanefukukitaru's Casual Wear",
+        "dressDescription": "Matikanefukukitaru's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -7451,7 +7507,7 @@
         "dressDescription": "Meisho Doto's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1009,
@@ -7590,7 +7646,7 @@
         "dressDescription": "Mejiro Dober's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1005,
@@ -7729,13 +7785,15 @@
         "dressDescription": "Nice Nature's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901060,
-      "dressName": "Nice Nature's Casual Wear",
-      "dressDescription": "Nice Nature's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901060,
+        "dressName": "Nice Nature's Casual Wear",
+        "dressDescription": "Nice Nature's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -7896,13 +7954,15 @@
         "dressDescription": "King Halo's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901061,
-      "dressName": "King Halo's Casual Wear",
-      "dressDescription": "King Halo's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901061,
+        "dressName": "King Halo's Casual Wear",
+        "dressDescription": "King Halo's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -8056,7 +8116,7 @@
         "dressDescription": "Matikanetannhauser's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
@@ -8169,13 +8229,15 @@
         "dressDescription": "Mejiro Palmer's special outfit."
       }
     ],
-    "casualOutfit": {
-      "cardId": null,
-      "cardTitle": null,
-      "dressId": 901064,
-      "dressName": "Mejiro Palmer's Casual Wear",
-      "dressDescription": "Mejiro Palmer's casual attire."
-    },
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901064,
+        "dressName": "Mejiro Palmer's Casual Wear",
+        "dressDescription": "Mejiro Palmer's casual attire."
+      }
+    ],
     "songs": [
       {
         "musicId": 1004,
@@ -8277,7 +8339,7 @@
         "dressDescription": "Satono Diamond's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1004,
@@ -8401,7 +8463,7 @@
         "dressDescription": "Kitasan Black's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1004,
@@ -8525,7 +8587,7 @@
         "dressDescription": "Sakura Chiyono O's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1007,
@@ -8638,7 +8700,7 @@
         "dressDescription": "Mejiro Ardan's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1027,
@@ -8751,7 +8813,7 @@
         "dressDescription": "Yaeno Muteki's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
@@ -8853,7 +8915,7 @@
         "dressDescription": "Mejiro Bright's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1008,
@@ -8963,6 +9025,75 @@
     ]
   },
   {
+    "charaId": 1087,
+    "charaName": "Aston Machan",
+    "outfits": [
+      {
+        "cardId": 108701,
+        "cardTitle": "[Flare]",
+        "dressId": 108701,
+        "dressName": "Flare",
+        "dressDescription": "Aston Machan's special outfit."
+      }
+    ],
+    "casualOutfits": [],
+    "songs": [
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 108701,
+        "giftName": "Aston Machan's\\nForget-Me-Not Cookies",
+        "messageMaleTrainer": "This card is made of suuuper sturdy paper\\nthat won't fade. Be sure to keep it forever\\nand eeeverrr.",
+        "messageFemaleTrainer": "This card is made of suuuper sturdy paper\\nthat won't fade. Be sure to keep it forever\\nand eeeverrr."
+      }
+    ],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1098,
     "charaName": "Copano Rickey",
     "outfits": [
@@ -8974,7 +9105,7 @@
         "dressDescription": "Copano Rickey's special outfit."
       }
     ],
-    "casualOutfit": null,
+    "casualOutfits": [],
     "songs": [
       {
         "musicId": 1029,
