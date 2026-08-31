@@ -7232,6 +7232,74 @@
     ]
   },
   {
+    "charaId": 1043,
+    "charaName": "シンコウウインディ",
+    "voiceActor": "高田憂希",
+    "cardId": 104302,
+    "cardTitle": "[ガブガブ☆スキャンプ]",
+    "supportCardId": 10066,
+    "startDate": "2023-02-13T03:00:00",
+    "baseSpeed": 120,
+    "baseStamina": 103,
+    "basePower": 117,
+    "baseGuts": 111,
+    "baseWisdom": 99,
+    "talentSpeed": 8,
+    "talentStamina": 0,
+    "talentPower": 8,
+    "talentGuts": 14,
+    "talentWisdom": 0,
+    "aptitudeTurf": "F",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "C",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "B",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "F",
+    "birthYear": 1993,
+    "birthMonth": 4,
+    "birthDay": 14,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1043,
+    "skillIds": "110431,201072,202472,203231,203232,203601,203602,204002",
+    "potentialSkills": [
+      {
+        "skillId": 201072,
+        "needRank": 0
+      },
+      {
+        "skillId": 203232,
+        "needRank": 0
+      },
+      {
+        "skillId": 203602,
+        "needRank": 0
+      },
+      {
+        "skillId": 204002,
+        "needRank": 2
+      },
+      {
+        "skillId": 203231,
+        "needRank": 3
+      },
+      {
+        "skillId": 202472,
+        "needRank": 4
+      },
+      {
+        "skillId": 203601,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1044,
     "charaName": "スイープトウショウ",
     "voiceActor": "杉浦しおり",
@@ -17087,6 +17155,74 @@
       },
       {
         "skillId": 202481,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1127,
+    "charaName": "フェノーメノ",
+    "voiceActor": "日比優理香",
+    "cardId": 112702,
+    "cardTitle": "[剛毅なる紫焔]",
+    "supportCardId": 10139,
+    "startDate": "2025-04-21T03:00:00",
+    "baseSpeed": 97,
+    "baseStamina": 133,
+    "basePower": 110,
+    "baseGuts": 107,
+    "baseWisdom": 103,
+    "talentSpeed": 10,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "G",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "E",
+    "aptitudeChaser": "G",
+    "birthYear": 2009,
+    "birthMonth": 4,
+    "birthDay": 20,
+    "sex": 1,
+    "height": 2,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1127,
+    "skillIds": "111271,202011,202012,203132,204012,204082,204301,204302",
+    "potentialSkills": [
+      {
+        "skillId": 202012,
+        "needRank": 0
+      },
+      {
+        "skillId": 203132,
+        "needRank": 0
+      },
+      {
+        "skillId": 204302,
+        "needRank": 0
+      },
+      {
+        "skillId": 204012,
+        "needRank": 2
+      },
+      {
+        "skillId": 204301,
+        "needRank": 3
+      },
+      {
+        "skillId": 204082,
+        "needRank": 4
+      },
+      {
+        "skillId": 202011,
         "needRank": 5
       }
     ]
