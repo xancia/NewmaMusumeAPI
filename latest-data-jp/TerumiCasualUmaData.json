@@ -10684,6 +10684,13 @@
         "dressId": 104301,
         "dressName": "Wicked Punk",
         "dressDescription": "シンコウウインディの特別衣装"
+      },
+      {
+        "cardId": 104302,
+        "cardTitle": "[ガブガブ☆スキャンプ]",
+        "dressId": 104323,
+        "dressName": "ガブガブ☆スキャンプ",
+        "dressDescription": "シンコウウインディの特別衣装"
       }
     ],
     "casualOutfits": [
@@ -13084,6 +13091,13 @@
         "trophyId": 1200901,
         "rewardDressId": 105301,
         "rewardDressName": "黒鉄の大志"
+      },
+      {
+        "raceInstanceId": 1204601,
+        "raceName": "スワンステークス HARD",
+        "trophyId": 1204601,
+        "rewardDressId": 105302,
+        "rewardDressName": null
       }
     ]
   },
@@ -21226,7 +21240,15 @@
         "messageFemaleTrainer": "あなたがいつもそうしてくれるのと同じく\\n体や、できれば心も、あたたまりますように\\n\\n感謝をこめて　ケイエスミラクルより"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1204602,
+        "raceName": "スワンステークス HARD",
+        "trophyId": 1204602,
+        "rewardDressId": 109301,
+        "rewardDressName": "Prism"
+      }
+    ]
   },
   {
     "charaId": 1094,
@@ -25985,6 +26007,13 @@
         "cardTitle": "[義心の黒焔]",
         "dressId": 112701,
         "dressName": "義心の黒焔",
+        "dressDescription": "フェノーメノの特別衣装"
+      },
+      {
+        "cardId": 112702,
+        "cardTitle": "[剛毅なる紫焔]",
+        "dressId": 112723,
+        "dressName": "剛毅なる紫焔",
         "dressDescription": "フェノーメノの特別衣装"
       }
     ],
