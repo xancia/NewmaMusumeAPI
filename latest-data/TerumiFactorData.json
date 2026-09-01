@@ -9256,6 +9256,30 @@
     "type": 3
   },
   {
+    "id": 10780101,
+    "name": "Sunny Breeze",
+    "description": "A Spark that increases the max values of Speed, Guts, and Wit. Gives a skill hint for \"Sunny Breeze\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10780102,
+    "name": "Sunny Breeze",
+    "description": "A Spark that increases the max values of Speed, Guts, and Wit. Gives a skill hint for \"Sunny Breeze\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10780103,
+    "name": "Sunny Breeze",
+    "description": "A Spark that increases the max values of Speed, Guts, and Wit. Gives a skill hint for \"Sunny Breeze\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10870101,
     "name": "Silent Letter",
     "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Silent Letter\".",

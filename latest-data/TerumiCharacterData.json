@@ -6664,6 +6664,74 @@
     ]
   },
   {
+    "charaId": 1078,
+    "charaName": "Yamanin Zephyr",
+    "voiceActor": "Riona Imaizumi",
+    "cardId": 107801,
+    "cardTitle": "[Fluttertail Spirit]",
+    "supportCardId": null,
+    "startDate": "2026-09-01T22:00:00",
+    "baseSpeed": 119,
+    "baseStamina": 101,
+    "basePower": 99,
+    "baseGuts": 118,
+    "baseWisdom": 113,
+    "talentSpeed": 10,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "D",
+    "aptitudeShort": "B",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "G",
+    "aptitudeRunner": "E",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "C",
+    "aptitudeChaser": "G",
+    "birthYear": 1988,
+    "birthMonth": 5,
+    "birthDay": 27,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1078,
+    "skillIds": "100781,200302,200342,201042,201051,201052,202411,202412",
+    "potentialSkills": [
+      {
+        "skillId": 200302,
+        "needRank": 0
+      },
+      {
+        "skillId": 201052,
+        "needRank": 0
+      },
+      {
+        "skillId": 202412,
+        "needRank": 0
+      },
+      {
+        "skillId": 201042,
+        "needRank": 2
+      },
+      {
+        "skillId": 201051,
+        "needRank": 3
+      },
+      {
+        "skillId": 200342,
+        "needRank": 4
+      },
+      {
+        "skillId": 202411,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1087,
     "charaName": "Aston Machan",
     "voiceActor": "Honoka Inoue",
