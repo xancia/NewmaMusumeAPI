@@ -3757,7 +3757,15 @@
         "messageFemaleTrainer": "Dearest Trainer, please accept these sweets\\nas a show of my gratitude. My friends have\\nassured me they're delicious! Best wishes!\\n-Fine"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1200301,
+        "raceName": "Shuka Sho (Hard)",
+        "trophyId": 1200301,
+        "rewardDressId": 102201,
+        "rewardDressName": "Noble Seamair"
+      }
+    ]
   },
   {
     "charaId": 1023,
@@ -5940,7 +5948,15 @@
         "messageFemaleTrainer": "Are you ready for a tea party? ♪ I prepared\\nplenty of tea and sandwiches to leave you\\nmost satisfied! I hope this teatime will be\\nthe best <i>me</i> time you've ever had."
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1200302,
+        "raceName": "Shuka Sho (Hard)",
+        "trophyId": 1200302,
+        "rewardDressId": 103901,
+        "rewardDressName": "Princess of Pink"
+      }
+    ]
   },
   {
     "charaId": 1040,
@@ -9023,6 +9039,75 @@
         "rewardDressName": "Brunissage Line"
       }
     ]
+  },
+  {
+    "charaId": 1078,
+    "charaName": "Yamanin Zephyr",
+    "outfits": [
+      {
+        "cardId": 107801,
+        "cardTitle": "[Fluttertail Spirit]",
+        "dressId": 107801,
+        "dressName": "Fluttertail Spirit",
+        "dressDescription": "Yamanin Zephyr's special outfit."
+      }
+    ],
+    "casualOutfits": [],
+    "songs": [
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 107801,
+        "giftName": "Yamanin Zephyr's\\nWindfallen Acorn Chocolates",
+        "messageMaleTrainer": "Though the February winds bring a biting\\nchill, as I pen this message, I feel only a\\ngentle breeze in my heart. May this warm\\nwind propel us along our journey forever.",
+        "messageFemaleTrainer": "Though the February winds bring a biting\\nchill, as I pen this message, I feel only a\\ngentle breeze in my heart. May this warm\\nwind propel us along our journey forever."
+      }
+    ],
+    "legendRaceTrophies": []
   },
   {
     "charaId": 1087,
