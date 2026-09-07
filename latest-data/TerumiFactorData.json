@@ -7816,6 +7816,30 @@
     "type": 3
   },
   {
+    "id": 10210201,
+    "name": "Lightning Flare",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Lightning Flare\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10210202,
+    "name": "Lightning Flare",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Lightning Flare\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10210203,
+    "name": "Lightning Flare",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Lightning Flare\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10220101,
     "name": "Fairy Tale",
     "description": "A Spark that increases max Power value and max Wit value. Gives a skill hint for \"Fairy Tale\".",
@@ -8243,6 +8267,30 @@
     "id": 10340103,
     "name": "Now We're Cruisin'!",
     "description": "A Spark that increases max Stamina value and max Power value. Gives a skill hint for \"Now We're Cruisin'!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340201,
+    "name": "Firelight",
+    "description": "A Spark that increases the max values Speed, Power, and Wit. Gives a skill hint for \"Firelight\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340202,
+    "name": "Firelight",
+    "description": "A Spark that increases the max values Speed, Power, and Wit. Gives a skill hint for \"Firelight\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10340203,
+    "name": "Firelight",
+    "description": "A Spark that increases the max values Speed, Power, and Wit. Gives a skill hint for \"Firelight\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

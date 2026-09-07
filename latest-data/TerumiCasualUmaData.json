@@ -3517,6 +3517,13 @@
         "dressId": 102101,
         "dressName": "Fast as Lightning",
         "dressDescription": "Tamamo Cross's special outfit."
+      },
+      {
+        "cardId": 102102,
+        "cardTitle": "[Raging Thunder]",
+        "dressId": 102143,
+        "dressName": "Raging Thunder",
+        "dressDescription": "Tamamo Cross's special outfit."
       }
     ],
     "casualOutfits": [],
@@ -5209,6 +5216,13 @@
         "cardTitle": "[Edomurasaki]",
         "dressId": 103401,
         "dressName": "Edomurasaki",
+        "dressDescription": "Inari One's special outfit."
+      },
+      {
+        "cardId": 103402,
+        "cardTitle": "[Golden Dream]",
+        "dressId": 103443,
+        "dressName": "Golden Dream",
         "dressDescription": "Inari One's special outfit."
       }
     ],
