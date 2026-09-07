@@ -2584,6 +2584,74 @@
     ]
   },
   {
+    "charaId": 1021,
+    "charaName": "Tamamo Cross",
+    "voiceActor": "Naomi Ohzora",
+    "cardId": 102102,
+    "cardTitle": "[Raging Thunder]",
+    "supportCardId": 10027,
+    "startDate": "2026-01-22T22:00:00",
+    "baseSpeed": 113,
+    "baseStamina": 101,
+    "basePower": 115,
+    "baseGuts": 113,
+    "baseWisdom": 108,
+    "talentSpeed": 14,
+    "talentStamina": 8,
+    "talentPower": 0,
+    "talentGuts": 8,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "F",
+    "aptitudeShort": "G",
+    "aptitudeMile": "E",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "A",
+    "birthYear": 1984,
+    "birthMonth": 5,
+    "birthDay": 23,
+    "sex": 1,
+    "height": 0,
+    "bust": 0,
+    "charaCategory": 0,
+    "uraObjectives": 1021,
+    "skillIds": "110211,200162,200461,200462,200721,200722,201611,201902",
+    "potentialSkills": [
+      {
+        "skillId": 200462,
+        "needRank": 0
+      },
+      {
+        "skillId": 200722,
+        "needRank": 0
+      },
+      {
+        "skillId": 201902,
+        "needRank": 0
+      },
+      {
+        "skillId": 200162,
+        "needRank": 2
+      },
+      {
+        "skillId": 200721,
+        "needRank": 3
+      },
+      {
+        "skillId": 201611,
+        "needRank": 4
+      },
+      {
+        "skillId": 200461,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1022,
     "charaName": "Fine Motion",
     "voiceActor": "Chinami Hashimoto",
@@ -3803,6 +3871,74 @@
       },
       {
         "skillId": 202001,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1034,
+    "charaName": "Inari One",
+    "voiceActor": "Haruno Inoue",
+    "cardId": 103402,
+    "cardTitle": "[Golden Dream]",
+    "supportCardId": 10068,
+    "startDate": "2026-05-28T22:00:00",
+    "baseSpeed": 117,
+    "baseStamina": 108,
+    "basePower": 120,
+    "baseGuts": 95,
+    "baseWisdom": 110,
+    "talentSpeed": 14,
+    "talentStamina": 0,
+    "talentPower": 8,
+    "talentGuts": 0,
+    "talentWisdom": 8,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "F",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "A",
+    "birthYear": 1984,
+    "birthMonth": 5,
+    "birthDay": 7,
+    "sex": 1,
+    "height": 0,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1034,
+    "skillIds": "110341,200641,200642,200751,200752,200952,201472,202322",
+    "potentialSkills": [
+      {
+        "skillId": 200642,
+        "needRank": 0
+      },
+      {
+        "skillId": 200752,
+        "needRank": 0
+      },
+      {
+        "skillId": 200952,
+        "needRank": 0
+      },
+      {
+        "skillId": 201472,
+        "needRank": 2
+      },
+      {
+        "skillId": 200751,
+        "needRank": 3
+      },
+      {
+        "skillId": 202322,
+        "needRank": 4
+      },
+      {
+        "skillId": 200641,
         "needRank": 5
       }
     ]
