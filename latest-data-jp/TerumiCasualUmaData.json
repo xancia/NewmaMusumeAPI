@@ -27623,5 +27623,86 @@
     ],
     "valentineGifts": [],
     "legendRaceTrophies": []
+  },
+  {
+    "charaId": 1149,
+    "charaName": "ファレノプシス",
+    "outfits": [
+      {
+        "cardId": 114901,
+        "cardTitle": "[絶佳の暁闇]",
+        "dressId": 114901,
+        "dressName": "絶佳の暁闇",
+        "dressDescription": "ファレノプシスの特別衣装"
+      }
+    ],
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901149,
+        "dressName": "私服（ファレノプシス）",
+        "dressDescription": "ファレノプシスの私服"
+      }
+    ],
+    "songs": [
+      {
+        "musicId": 1005,
+        "title": "彩 Phantasia",
+        "credits": "作詞：五十嵐萌 (Cygames)\\n作曲：本田晃弘 (Cygames)\\n編曲：秋田真典 (INSPION)",
+        "description": "トリプルティアラを手繰り寄せた女王にのみ与えられる楽曲。\\n華やかでありながら、力強く夢を追う美しさがある。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1193,
+        "title": "Beyond",
+        "credits": "作詞：MOMIKEN\\n作曲：UZ\\n編曲：UZ・tasuku",
+        "description": "たくさん話して、向き合った。一緒に悩んで、並んで夢を見た。\\n思い出の詰まったアルバムを胸に――今までを、越えていこう！",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 10,
+        "releasedAt": "2026-08-27T09:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "うまぴょい伝説",
+        "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
+        "description": "URAファイナルズを飾るハチャメチャに楽しい楽曲。\\nうまぴょい♪うまぴょい♪大盛り上がり間違いなし！",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make debut!",
+        "credits": "作詞・作曲：新田目駿\\n編曲：新田目駿・廣澤優也",
+        "description": "デビューしたウマ娘たちに贈られる始まりの楽曲。\\n響けファンファーレ！　届けゴールまで！！",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. VICTORIA",
+        "credits": "作詞：真崎エリカ\\n作曲・編曲：堀江晶太",
+        "description": "激しく、熱く、走り抜いた勝者をたたえる楽曲。\\n歴史に刻みつけられた勝ち鬨は、永久に燃ゆる余韻を残す。",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2022-10-19T03:00:00"
+      }
+    ],
+    "valentineGifts": [],
+    "legendRaceTrophies": []
   }
 ]

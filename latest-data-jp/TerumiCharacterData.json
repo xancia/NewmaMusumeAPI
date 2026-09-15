@@ -2439,7 +2439,7 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1014,
-    "skillIds": "100141,200362,200561,200562,200722,201121,201122,201312",
+    "skillIds": "100141,200362,200561,200562,200722,201121,201122,201312,202711,204262",
     "potentialSkills": [
       {
         "skillId": 200362,
@@ -2468,6 +2468,14 @@
       {
         "skillId": 200561,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 202711,
+        "needRank": 7
       }
     ]
   },
@@ -2507,7 +2515,7 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1014,
-    "skillIds": "110141,200512,200611,200612,200701,200702,201072,201412",
+    "skillIds": "100141,110141,200512,200611,200612,200701,200702,201072,201412",
     "potentialSkills": [
       {
         "skillId": 200512,
@@ -8219,7 +8227,7 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1049,
-    "skillIds": "100491,201102,201382,201702,202031,202032,202441,202442",
+    "skillIds": "100491,201102,201382,201702,202031,202032,202441,202442,202651,204262",
     "potentialSkills": [
       {
         "skillId": 201702,
@@ -8248,6 +8256,14 @@
       {
         "skillId": 202441,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 202651,
+        "needRank": 7
       }
     ]
   },
@@ -18107,6 +18123,74 @@
       },
       {
         "skillId": 202971,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1149,
+    "charaName": "ファレノプシス",
+    "voiceActor": "浅見春那",
+    "cardId": 114901,
+    "cardTitle": "[絶佳の暁闇]",
+    "supportCardId": null,
+    "startDate": "2026-09-11T03:00:00",
+    "baseSpeed": 111,
+    "baseStamina": 99,
+    "basePower": 113,
+    "baseGuts": 120,
+    "baseWisdom": 107,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 10,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "F",
+    "aptitudeShort": "D",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "F",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "C",
+    "birthYear": 1995,
+    "birthMonth": 4,
+    "birthDay": 4,
+    "sex": 2,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1149,
+    "skillIds": "101491,200012,202171,202172,204362,204372,204691,204692",
+    "potentialSkills": [
+      {
+        "skillId": 202172,
+        "needRank": 0
+      },
+      {
+        "skillId": 204362,
+        "needRank": 0
+      },
+      {
+        "skillId": 204692,
+        "needRank": 0
+      },
+      {
+        "skillId": 200012,
+        "needRank": 2
+      },
+      {
+        "skillId": 202171,
+        "needRank": 3
+      },
+      {
+        "skillId": 204372,
+        "needRank": 4
+      },
+      {
+        "skillId": 204691,
         "needRank": 5
       }
     ]
