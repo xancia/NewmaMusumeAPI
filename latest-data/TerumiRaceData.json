@@ -2282,7 +2282,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 593501,
+        "instanceId": 593503,
         "month": 5,
         "day": 26,
         "half": 2,
@@ -2300,7 +2300,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 593503,
+        "instanceId": 593501,
         "month": 5,
         "day": 26,
         "half": 2,
@@ -2384,7 +2384,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 594003,
+        "instanceId": 594002,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -2393,7 +2393,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 594002,
+        "instanceId": 594003,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -2523,7 +2523,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 595001,
+        "instanceId": 595003,
         "month": 10,
         "day": 20,
         "half": 2,
@@ -2541,7 +2541,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 595003,
+        "instanceId": 595001,
         "month": 10,
         "day": 20,
         "half": 2,
@@ -2567,7 +2567,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 595503,
+        "instanceId": 595501,
         "month": 12,
         "day": 22,
         "half": 2,
@@ -2585,7 +2585,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 595501,
+        "instanceId": 595503,
         "month": 12,
         "day": 22,
         "half": 2,
@@ -2611,7 +2611,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 596001,
+        "instanceId": 596003,
         "month": 12,
         "day": 15,
         "half": 1,
@@ -2629,7 +2629,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 596003,
+        "instanceId": 596001,
         "month": 12,
         "day": 15,
         "half": 1,
@@ -3252,6 +3252,22 @@
     "schedules": []
   },
   {
+    "raceId": 6035,
+    "raceName": "Champions Meeting Scorpio Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6041,
     "raceName": "Champions Meeting: Taurus Cup Finals",
     "grade": 100,
@@ -3344,6 +3360,22 @@
     "turnName": "Right",
     "trackId": 10009,
     "trackName": "Hanshin",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6047,
+    "raceName": "Scorpio Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
     "entryNum": 9,
     "schedules": []
   },
@@ -15221,6 +15253,240 @@
     ]
   },
   {
+    "raceId": 15010,
+    "raceName": "Scout Race: Medium",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650010,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15011,
+    "raceName": "Scout Race: Mile",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650011,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15012,
+    "raceName": "Scout Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650012,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 15013,
+    "raceName": "Scout Race: Mile",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650013,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15014,
+    "raceName": "Scout Race: Sprint",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650014,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15015,
+    "raceName": "Scout Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650015,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
+    "raceId": 15016,
+    "raceName": "Scout Race: Long",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2500,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650016,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15017,
+    "raceName": "Scout Race: Medium",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2400,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650017,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 15018,
+    "raceName": "Scout Race: Dirt",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2000,
+    "distanceCategory": "Middle",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10105,
+    "trackName": "Morioka",
+    "entryNum": 14,
+    "schedules": [
+      {
+        "instanceId": 650018,
+        "month": 11,
+        "day": 21,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 3,
+        "timeName": "Afternoon"
+      }
+    ]
+  },
+  {
     "raceId": 2001,
     "raceName": "Nikkei Shinshun Hai",
     "grade": 200,
@@ -25553,6 +25819,32 @@
     "schedules": [
       {
         "instanceId": 904199,
+        "month": 6,
+        "day": 30,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 9406,
+    "raceName": "Junior Make Debut",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 9,
+    "schedules": [
+      {
+        "instanceId": 904200,
         "month": 6,
         "day": 30,
         "half": 2,
