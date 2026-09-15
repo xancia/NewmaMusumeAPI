@@ -5884,6 +5884,38 @@
     "schedules": []
   },
   {
+    "raceId": 6095,
+    "raceName": "チャンピオンズミーティング MILE",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "東京",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6096,
+    "raceName": "チャンピオンズミーティング MILE 決勝",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1800,
+    "distanceCategory": "Mile",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "東京",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6100,
     "raceName": "チームレース　短距離代表",
     "grade": 100,
