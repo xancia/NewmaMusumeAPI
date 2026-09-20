@@ -8091,7 +8091,7 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1048,
-    "skillIds": "110481,200302,201142,202081,202082,202121,202122,202662",
+    "skillIds": "120481,110481,200302,201142,202081,202082,202121,202122,202662",
     "potentialSkills": [
       {
         "skillId": 202082,
@@ -18055,6 +18055,74 @@
       },
       {
         "skillId": 202521,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1144,
+    "charaName": "ローズキングダム",
+    "voiceActor": "菊池ゆりな",
+    "cardId": 114401,
+    "cardTitle": "[Éclat de Roseraie]",
+    "supportCardId": null,
+    "startDate": "2026-09-18T03:00:00",
+    "baseSpeed": 114,
+    "baseStamina": 108,
+    "basePower": 108,
+    "baseGuts": 105,
+    "baseWisdom": 115,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 10,
+    "talentGuts": 10,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "C",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "G",
+    "birthYear": 2007,
+    "birthMonth": 5,
+    "birthDay": 10,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1144,
+    "skillIds": "101441,202532,202712,202741,202742,203961,203962,204082",
+    "potentialSkills": [
+      {
+        "skillId": 202712,
+        "needRank": 0
+      },
+      {
+        "skillId": 202742,
+        "needRank": 0
+      },
+      {
+        "skillId": 203962,
+        "needRank": 0
+      },
+      {
+        "skillId": 204082,
+        "needRank": 2
+      },
+      {
+        "skillId": 202741,
+        "needRank": 3
+      },
+      {
+        "skillId": 202532,
+        "needRank": 4
+      },
+      {
+        "skillId": 203961,
         "needRank": 5
       }
     ]
