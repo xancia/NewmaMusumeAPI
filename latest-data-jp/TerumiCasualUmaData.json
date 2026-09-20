@@ -27544,6 +27544,87 @@
     "legendRaceTrophies": []
   },
   {
+    "charaId": 1144,
+    "charaName": "ローズキングダム",
+    "outfits": [
+      {
+        "cardId": 114401,
+        "cardTitle": "[Éclat de Roseraie]",
+        "dressId": 114401,
+        "dressName": "Éclat de Roseraie",
+        "dressDescription": "ローズキングダムの特別衣装"
+      }
+    ],
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901144,
+        "dressName": "私服（ローズキングダム）",
+        "dressDescription": "ローズキングダムの私服"
+      }
+    ],
+    "songs": [
+      {
+        "musicId": 1007,
+        "title": "ENDLESS DREAM!!",
+        "credits": "作詞：磯谷佳江\\n作曲：内田哲也 (Cygames)\\n編曲：内田哲也 (Cygames)・滝澤俊輔 (TRYTONELABO)",
+        "description": "ジュニア級で輝いたホープたちが披露する爽やかな楽曲。\\n走り出したウマ娘たちの夢は七色に輝いている。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1176,
+        "title": "VOLTAGE",
+        "credits": "作詞・作曲・編曲：梯拓哉 (Cygames)",
+        "description": "嵐を切り裂くのは、世界にひとつだけの君の輝き――\\n纏え、繚乱たる色彩を。響け、革命の歌声よ。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 14,
+        "releasedAt": "2026-02-24T03:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "うまぴょい伝説",
+        "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
+        "description": "URAファイナルズを飾るハチャメチャに楽しい楽曲。\\nうまぴょい♪うまぴょい♪大盛り上がり間違いなし！",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make debut!",
+        "credits": "作詞・作曲：新田目駿\\n編曲：新田目駿・廣澤優也",
+        "description": "デビューしたウマ娘たちに贈られる始まりの楽曲。\\n響けファンファーレ！　届けゴールまで！！",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. VICTORIA",
+        "credits": "作詞：真崎エリカ\\n作曲・編曲：堀江晶太",
+        "description": "激しく、熱く、走り抜いた勝者をたたえる楽曲。\\n歴史に刻みつけられた勝ち鬨は、永久に燃ゆる余韻を残す。",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2022-10-19T03:00:00"
+      }
+    ],
+    "valentineGifts": [],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1145,
     "charaName": "ルーラーシップ",
     "outfits": [
