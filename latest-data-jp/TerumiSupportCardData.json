@@ -141544,5 +141544,302 @@
       "value13": 0,
       "value14": 0
     }
+  },
+  {
+    "supportCardId": 30318,
+    "charaId": 1030,
+    "charaName": "ライスシャワー",
+    "supportCardTitle": "[めぐるぐるぐるトレセン日和]",
+    "rarity": 3,
+    "rarityDisplay": "SSR",
+    "supportCardType": 1,
+    "supportCardTypeName": "Guts",
+    "effectTableId": 30318,
+    "uniqueEffectId": 30318,
+    "skillSetId": 9081030,
+    "commandType": 1,
+    "commandId": 103,
+    "startDate": "2026-09-27T14:00:00",
+    "outingMax": 0,
+    "effectId": 0,
+    "effects": [
+      {
+        "effectType": 1,
+        "effectTypeName": "Friendship Bonus",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 15,
+        "level30Value": 15,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 20,
+        "level50Value": -1
+      },
+      {
+        "effectType": 2,
+        "effectTypeName": "Mood Effect",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 10,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 30,
+        "level50Value": -1
+      },
+      {
+        "effectType": 9,
+        "effectTypeName": "Initial Speed",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": -1,
+        "level35Value": -1,
+        "level40Value": 5,
+        "level45Value": 15,
+        "level50Value": 30
+      },
+      {
+        "effectType": 12,
+        "effectTypeName": "Initial Guts",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 5,
+        "level35Value": 10,
+        "level40Value": 25,
+        "level45Value": -1,
+        "level50Value": -1
+      },
+      {
+        "effectType": 14,
+        "effectTypeName": "Initial Friendship Gauge",
+        "initValue": 10,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": -1,
+        "level30Value": 25,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 30
+      },
+      {
+        "effectType": 15,
+        "effectTypeName": "Race Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 5,
+        "level30Value": 5,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 10
+      },
+      {
+        "effectType": 16,
+        "effectTypeName": "Fan Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": 1,
+        "level15Value": -1,
+        "level20Value": -1,
+        "level25Value": 10,
+        "level30Value": 10,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": 15
+      },
+      {
+        "effectType": 17,
+        "effectTypeName": "Hint Levels",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 2,
+        "level50Value": -1
+      },
+      {
+        "effectType": 18,
+        "effectTypeName": "Hint Frequency",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 50,
+        "level50Value": -1
+      },
+      {
+        "effectType": 19,
+        "effectTypeName": "Specialty Priority",
+        "initValue": 5,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 5,
+        "level20Value": -1,
+        "level25Value": 20,
+        "level30Value": 20,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": 35,
+        "level50Value": -1
+      },
+      {
+        "effectType": 30,
+        "effectTypeName": "Skill Point Bonus",
+        "initValue": 1,
+        "level5Value": -1,
+        "level10Value": -1,
+        "level15Value": 1,
+        "level20Value": -1,
+        "level25Value": 1,
+        "level30Value": 1,
+        "level35Value": -1,
+        "level40Value": -1,
+        "level45Value": -1,
+        "level50Value": -1
+      }
+    ],
+    "skillHints": [
+      {
+        "skillId": 200062,
+        "skillName": "京都レース場○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200562,
+        "skillName": "スタミナキープ",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 200582,
+        "skillName": "抜け出し準備",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201342,
+        "skillName": "直滑降",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201532,
+        "skillName": "先行のコツ○",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201581,
+        "skillName": "登山家",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 201591,
+        "skillName": "ウマ好み",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 204332,
+        "skillName": "実直な走り",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Speed",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+1 Power",
+        "skillLevel": 0
+      },
+      {
+        "skillId": 0,
+        "skillName": "+6 Guts",
+        "skillLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "storyId": 830318001,
+        "eventTitle": "見上げた空は眩しくて",
+        "eventType": "Chain Event",
+        "eventOrder": 1
+      },
+      {
+        "storyId": 830318002,
+        "eventTitle": "手にした花は煌めいて",
+        "eventType": "Chain Event",
+        "eventOrder": 2
+      },
+      {
+        "storyId": 830318003,
+        "eventTitle": "届けた幸せは、甘く花開いて",
+        "eventType": "Chain Event",
+        "eventOrder": 3
+      },
+      {
+        "storyId": 801030001,
+        "eventTitle": "お花屋さんでの1ページ",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030002,
+        "eventTitle": "曇りの日の1ページ",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      },
+      {
+        "storyId": 801030003,
+        "eventTitle": "Event 801030003",
+        "eventType": "Random Event",
+        "eventOrder": 0
+      }
+    ],
+    "uniqueEffect": {
+      "level": 1,
+      "type0": 103,
+      "type0Name": "Effect Type 103",
+      "value0": 4,
+      "value01": 10,
+      "value02": 0,
+      "value03": 0,
+      "value04": 0,
+      "type1": 0,
+      "type1Name": "None",
+      "value1": 0,
+      "value11": 0,
+      "value12": 0,
+      "value13": 0,
+      "value14": 0
+    }
   }
 ]
