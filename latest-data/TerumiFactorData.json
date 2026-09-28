@@ -7288,6 +7288,30 @@
     "type": 3
   },
   {
+    "id": 10080201,
+    "name": "Into High Gear!",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Into High Gear!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10080202,
+    "name": "Into High Gear!",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Into High Gear!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10080203,
+    "name": "Into High Gear!",
+    "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Into High Gear!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10090101,
     "name": "Resplendent Red Ace",
     "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Resplendent Red Ace\".",
@@ -7307,6 +7331,30 @@
     "id": 10090103,
     "name": "Resplendent Red Ace",
     "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"Resplendent Red Ace\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10090201,
+    "name": "Queen's Lumination",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Queen's Lumination\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10090202,
+    "name": "Queen's Lumination",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Queen's Lumination\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10090203,
+    "name": "Queen's Lumination",
+    "description": "A Spark that increases max Speed value and max Wit value. Gives a skill hint for \"Queen's Lumination\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
