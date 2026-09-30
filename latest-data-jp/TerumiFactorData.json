@@ -11160,6 +11160,54 @@
     "type": 4
   },
   {
+    "id": 2047201,
+    "name": "怯むことなく",
+    "description": "「怯むことなく」のスキルヒントを得られる因子です",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2047202,
+    "name": "怯むことなく",
+    "description": "「怯むことなく」のスキルヒントを得られる因子です",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2047203,
+    "name": "怯むことなく",
+    "description": "「怯むことなく」のスキルヒントを得られる因子です",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2047901,
+    "name": "遊び心",
+    "description": "「遊び心」のスキルヒントを得られる因子です",
+    "rarity": 1,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2047902,
+    "name": "遊び心",
+    "description": "「遊び心」のスキルヒントを得られる因子です",
+    "rarity": 2,
+    "grade": 1,
+    "type": 4
+  },
+  {
+    "id": 2047903,
+    "name": "遊び心",
+    "description": "「遊び心」のスキルヒントを得られる因子です",
+    "rarity": 3,
+    "grade": 1,
+    "type": 4
+  },
+  {
     "id": 2100101,
     "name": "アオハル点火・速",
     "description": "「アオハル点火・速」のスキルヒントを得られる因子です",
@@ -15432,6 +15480,30 @@
     "type": 3
   },
   {
+    "id": 10170301,
+    "name": "Cascading Might",
+    "description": "スタミナ上限と根性上限と賢さ上限がアップし、\\n「Cascading Might」のスキルヒントを得られる因子です",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10170302,
+    "name": "Cascading Might",
+    "description": "スタミナ上限と根性上限と賢さ上限がアップし、\\n「Cascading Might」のスキルヒントを得られる因子です",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10170303,
+    "name": "Cascading Might",
+    "description": "スタミナ上限と根性上限と賢さ上限がアップし、\\n「Cascading Might」のスキルヒントを得られる因子です",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10180101,
     "name": "ブレイズ・オブ・プライド",
     "description": "スピード上限とパワー上限がアップし、\\n「ブレイズ・オブ・プライド」のスキルヒントを得られる因子です",
@@ -15475,6 +15547,30 @@
     "id": 10180203,
     "name": "薫風、永遠なる瞬間を",
     "description": "スピード上限とパワー上限と根性上限がアップし、\\n「薫風、永遠なる瞬間を」のスキルヒントを得られる因子です",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10180301,
+    "name": "Shadow Ancestress",
+    "description": "スピード上限と根性上限と賢さ上限がアップし、\\n「Shadow Ancestress」のスキルヒントを得られる因子です",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10180302,
+    "name": "Shadow Ancestress",
+    "description": "スピード上限と根性上限と賢さ上限がアップし、\\n「Shadow Ancestress」のスキルヒントを得られる因子です",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10180303,
+    "name": "Shadow Ancestress",
+    "description": "スピード上限と根性上限と賢さ上限がアップし、\\n「Shadow Ancestress」のスキルヒントを得られる因子です",
     "rarity": 3,
     "grade": 2,
     "type": 3
