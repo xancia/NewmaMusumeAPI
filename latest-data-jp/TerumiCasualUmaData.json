@@ -4572,6 +4572,13 @@
         "dressId": 101743,
         "dressName": "皓月の弓取り",
         "dressDescription": "シンボリルドルフの特別衣装"
+      },
+      {
+        "cardId": 101703,
+        "cardTitle": "[Adamant Sovereign]",
+        "dressId": 101740,
+        "dressName": "Adamant Sovereign",
+        "dressDescription": "シンボリルドルフの特別衣装"
       }
     ],
     "casualOutfits": [
@@ -4835,6 +4842,13 @@
         "cardTitle": "[クエルクス・キウィーリス]",
         "dressId": 101826,
         "dressName": "クエルクス・キウィーリス",
+        "dressDescription": "エアグルーヴの特別衣装"
+      },
+      {
+        "cardId": 101803,
+        "cardTitle": "[悠久なるヘカテイア]",
+        "dressId": 101840,
+        "dressName": "悠久なるヘカテイア",
         "dressDescription": "エアグルーヴの特別衣装"
       }
     ],
@@ -14391,6 +14405,13 @@
         "trophyId": 5971,
         "rewardDressId": 105901,
         "rewardDressName": "ツイステッド・ライン"
+      },
+      {
+        "raceInstanceId": 1204702,
+        "raceName": "エリザベス女王杯 HARD",
+        "trophyId": 1204702,
+        "rewardDressId": 105902,
+        "rewardDressName": null
       }
     ]
   },
@@ -19960,7 +19981,15 @@
         "messageFemaleTrainer": "（白紙だが、香水が吹きかけられているのか、\\n底のない甘さの中にスパイシーさを感じる、\\nいい香りがする……）"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1204701,
+        "raceName": "エリザベス女王杯 HARD",
+        "trophyId": 1204701,
+        "rewardDressId": 108601,
+        "rewardDressName": "オニキス・ライン"
+      }
+    ]
   },
   {
     "charaId": 1087,

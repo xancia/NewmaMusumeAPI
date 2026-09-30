@@ -2235,7 +2235,7 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1013,
-    "skillIds": "100131,200172,200561,200562,201182,201191,201192,201352",
+    "skillIds": "100131,200172,200561,200562,201182,201191,201192,201352,202481,204262",
     "potentialSkills": [
       {
         "skillId": 200172,
@@ -2264,6 +2264,14 @@
       {
         "skillId": 200561,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 202481,
+        "needRank": 7
       }
     ]
   },
@@ -2956,6 +2964,74 @@
     ]
   },
   {
+    "charaId": 1017,
+    "charaName": "シンボリルドルフ",
+    "voiceActor": "田所あずさ",
+    "cardId": 101703,
+    "cardTitle": "[Adamant Sovereign]",
+    "supportCardId": 10013,
+    "startDate": "2016-12-31T15:00:00",
+    "baseSpeed": 107,
+    "baseStamina": 132,
+    "basePower": 94,
+    "baseGuts": 107,
+    "baseWisdom": 110,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "E",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "B",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "C",
+    "birthYear": 1981,
+    "birthMonth": 3,
+    "birthDay": 13,
+    "sex": 1,
+    "height": 2,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1017,
+    "skillIds": "120171,202091,202092,202161,203301,203302,203952,204792",
+    "potentialSkills": [
+      {
+        "skillId": 202092,
+        "needRank": 0
+      },
+      {
+        "skillId": 203302,
+        "needRank": 0
+      },
+      {
+        "skillId": 203952,
+        "needRank": 0
+      },
+      {
+        "skillId": 202161,
+        "needRank": 2
+      },
+      {
+        "skillId": 202091,
+        "needRank": 3
+      },
+      {
+        "skillId": 204792,
+        "needRank": 4
+      },
+      {
+        "skillId": 203301,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1018,
     "charaName": "エアグルーヴ",
     "voiceActor": "青木瑠璃子",
@@ -3087,6 +3163,74 @@
       },
       {
         "skillId": 200341,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1018,
+    "charaName": "エアグルーヴ",
+    "voiceActor": "青木瑠璃子",
+    "cardId": 101803,
+    "cardTitle": "[悠久なるヘカテイア]",
+    "supportCardId": 10025,
+    "startDate": "2016-12-31T15:00:00",
+    "baseSpeed": 109,
+    "baseStamina": 115,
+    "basePower": 96,
+    "baseGuts": 109,
+    "baseWisdom": 121,
+    "talentSpeed": 8,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 8,
+    "talentWisdom": 14,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "C",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "D",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "G",
+    "birthYear": 1993,
+    "birthMonth": 4,
+    "birthDay": 6,
+    "sex": 2,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1018,
+    "skillIds": "120181,201112,202712,204031,204032,204041,204042,204112",
+    "potentialSkills": [
+      {
+        "skillId": 202712,
+        "needRank": 0
+      },
+      {
+        "skillId": 204032,
+        "needRank": 0
+      },
+      {
+        "skillId": 204042,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 2
+      },
+      {
+        "skillId": 204031,
+        "needRank": 3
+      },
+      {
+        "skillId": 204112,
+        "needRank": 4
+      },
+      {
+        "skillId": 204041,
         "needRank": 5
       }
     ]
