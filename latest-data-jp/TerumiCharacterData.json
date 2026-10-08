@@ -2235,7 +2235,7 @@
     "bust": 0,
     "charaCategory": 0,
     "uraObjectives": 1013,
-    "skillIds": "100131,200172,200561,200562,201182,201191,201192,201352",
+    "skillIds": "100131,200172,200561,200562,201182,201191,201192,201352,202481,204262",
     "potentialSkills": [
       {
         "skillId": 200172,
@@ -2264,6 +2264,14 @@
       {
         "skillId": 200561,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 202481,
+        "needRank": 7
       }
     ]
   },
@@ -2439,7 +2447,7 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1014,
-    "skillIds": "100141,200362,200561,200562,200722,201121,201122,201312",
+    "skillIds": "100141,200362,200561,200562,200722,201121,201122,201312,202711,204262",
     "potentialSkills": [
       {
         "skillId": 200362,
@@ -2468,6 +2476,14 @@
       {
         "skillId": 200561,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 202711,
+        "needRank": 7
       }
     ]
   },
@@ -2507,7 +2523,7 @@
     "bust": 3,
     "charaCategory": 0,
     "uraObjectives": 1014,
-    "skillIds": "110141,200512,200611,200612,200701,200702,201072,201412",
+    "skillIds": "100141,110141,200512,200611,200612,200701,200702,201072,201412",
     "potentialSkills": [
       {
         "skillId": 200512,
@@ -2948,6 +2964,74 @@
     ]
   },
   {
+    "charaId": 1017,
+    "charaName": "シンボリルドルフ",
+    "voiceActor": "田所あずさ",
+    "cardId": 101703,
+    "cardTitle": "[Adamant Sovereign]",
+    "supportCardId": 10013,
+    "startDate": "2016-12-31T15:00:00",
+    "baseSpeed": 107,
+    "baseStamina": 132,
+    "basePower": 94,
+    "baseGuts": 107,
+    "baseWisdom": 110,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "E",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "B",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "C",
+    "birthYear": 1981,
+    "birthMonth": 3,
+    "birthDay": 13,
+    "sex": 1,
+    "height": 2,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1017,
+    "skillIds": "120171,202091,202092,202161,203301,203302,203952,204792",
+    "potentialSkills": [
+      {
+        "skillId": 202092,
+        "needRank": 0
+      },
+      {
+        "skillId": 203302,
+        "needRank": 0
+      },
+      {
+        "skillId": 203952,
+        "needRank": 0
+      },
+      {
+        "skillId": 202161,
+        "needRank": 2
+      },
+      {
+        "skillId": 202091,
+        "needRank": 3
+      },
+      {
+        "skillId": 204792,
+        "needRank": 4
+      },
+      {
+        "skillId": 203301,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1018,
     "charaName": "エアグルーヴ",
     "voiceActor": "青木瑠璃子",
@@ -3079,6 +3163,74 @@
       },
       {
         "skillId": 200341,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1018,
+    "charaName": "エアグルーヴ",
+    "voiceActor": "青木瑠璃子",
+    "cardId": 101803,
+    "cardTitle": "[悠久なるヘカテイア]",
+    "supportCardId": 10025,
+    "startDate": "2016-12-31T15:00:00",
+    "baseSpeed": 109,
+    "baseStamina": 115,
+    "basePower": 96,
+    "baseGuts": 109,
+    "baseWisdom": 121,
+    "talentSpeed": 8,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 8,
+    "talentWisdom": 14,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "C",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "D",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "G",
+    "birthYear": 1993,
+    "birthMonth": 4,
+    "birthDay": 6,
+    "sex": 2,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1018,
+    "skillIds": "120181,201112,202712,204031,204032,204041,204042,204112",
+    "potentialSkills": [
+      {
+        "skillId": 202712,
+        "needRank": 0
+      },
+      {
+        "skillId": 204032,
+        "needRank": 0
+      },
+      {
+        "skillId": 204042,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 2
+      },
+      {
+        "skillId": 204031,
+        "needRank": 3
+      },
+      {
+        "skillId": 204112,
+        "needRank": 4
+      },
+      {
+        "skillId": 204041,
         "needRank": 5
       }
     ]
@@ -8083,7 +8235,7 @@
     "bust": 2,
     "charaCategory": 0,
     "uraObjectives": 1048,
-    "skillIds": "110481,200302,201142,202081,202082,202121,202122,202662",
+    "skillIds": "120481,110481,200302,201142,202081,202082,202121,202122,202662",
     "potentialSkills": [
       {
         "skillId": 202082,
@@ -8219,7 +8371,7 @@
     "bust": 1,
     "charaCategory": 0,
     "uraObjectives": 1049,
-    "skillIds": "100491,201102,201382,201702,202031,202032,202441,202442",
+    "skillIds": "100491,201102,201382,201702,202031,202032,202441,202442,202651,204262",
     "potentialSkills": [
       {
         "skillId": 201702,
@@ -8248,6 +8400,14 @@
       {
         "skillId": 202441,
         "needRank": 5
+      },
+      {
+        "skillId": 204262,
+        "needRank": 6
+      },
+      {
+        "skillId": 202651,
+        "needRank": 7
       }
     ]
   },
@@ -18044,6 +18204,74 @@
     ]
   },
   {
+    "charaId": 1144,
+    "charaName": "ローズキングダム",
+    "voiceActor": "菊池ゆりな",
+    "cardId": 114401,
+    "cardTitle": "[Éclat de Roseraie]",
+    "supportCardId": null,
+    "startDate": "2026-09-18T03:00:00",
+    "baseSpeed": 114,
+    "baseStamina": 108,
+    "basePower": 108,
+    "baseGuts": 105,
+    "baseWisdom": 115,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 10,
+    "talentGuts": 10,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "C",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "B",
+    "aptitudeChaser": "G",
+    "birthYear": 2007,
+    "birthMonth": 5,
+    "birthDay": 10,
+    "sex": 1,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1144,
+    "skillIds": "101441,202532,202712,202741,202742,203961,203962,204082",
+    "potentialSkills": [
+      {
+        "skillId": 202712,
+        "needRank": 0
+      },
+      {
+        "skillId": 202742,
+        "needRank": 0
+      },
+      {
+        "skillId": 203962,
+        "needRank": 0
+      },
+      {
+        "skillId": 204082,
+        "needRank": 2
+      },
+      {
+        "skillId": 202741,
+        "needRank": 3
+      },
+      {
+        "skillId": 202532,
+        "needRank": 4
+      },
+      {
+        "skillId": 203961,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1145,
     "charaName": "ルーラーシップ",
     "voiceActor": "海野水玉",
@@ -18107,6 +18335,74 @@
       },
       {
         "skillId": 202971,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1149,
+    "charaName": "ファレノプシス",
+    "voiceActor": "浅見春那",
+    "cardId": 114901,
+    "cardTitle": "[絶佳の暁闇]",
+    "supportCardId": null,
+    "startDate": "2026-09-11T03:00:00",
+    "baseSpeed": 111,
+    "baseStamina": 99,
+    "basePower": 113,
+    "baseGuts": 120,
+    "baseWisdom": 107,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 10,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "F",
+    "aptitudeShort": "D",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "F",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "C",
+    "birthYear": 1995,
+    "birthMonth": 4,
+    "birthDay": 4,
+    "sex": 2,
+    "height": 1,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1149,
+    "skillIds": "101491,200012,202171,202172,204362,204372,204691,204692",
+    "potentialSkills": [
+      {
+        "skillId": 202172,
+        "needRank": 0
+      },
+      {
+        "skillId": 204362,
+        "needRank": 0
+      },
+      {
+        "skillId": 204692,
+        "needRank": 0
+      },
+      {
+        "skillId": 200012,
+        "needRank": 2
+      },
+      {
+        "skillId": 202171,
+        "needRank": 3
+      },
+      {
+        "skillId": 204372,
+        "needRank": 4
+      },
+      {
+        "skillId": 204691,
         "needRank": 5
       }
     ]
