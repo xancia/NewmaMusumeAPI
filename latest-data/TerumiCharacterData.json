@@ -1020,6 +1020,74 @@
     ]
   },
   {
+    "charaId": 1008,
+    "charaName": "Vodka",
+    "voiceActor": "Ayaka Ohashi",
+    "cardId": 100802,
+    "cardTitle": "[Fiery Aqua Vitae]",
+    "supportCardId": 10007,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 120,
+    "baseStamina": 100,
+    "basePower": 122,
+    "baseGuts": 100,
+    "baseWisdom": 108,
+    "talentSpeed": 20,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "F",
+    "birthYear": 2004,
+    "birthMonth": 4,
+    "birthDay": 4,
+    "sex": 2,
+    "height": 2,
+    "bust": 1,
+    "charaCategory": 0,
+    "uraObjectives": 1008,
+    "skillIds": "110081,200491,200492,201112,201382,202152,202451,202452",
+    "potentialSkills": [
+      {
+        "skillId": 200492,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 202452,
+        "needRank": 0
+      },
+      {
+        "skillId": 202152,
+        "needRank": 2
+      },
+      {
+        "skillId": 200491,
+        "needRank": 3
+      },
+      {
+        "skillId": 201382,
+        "needRank": 4
+      },
+      {
+        "skillId": 202451,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1009,
     "charaName": "Daiwa Scarlet",
     "voiceActor": "Chisa Kimura",
@@ -1083,6 +1151,74 @@
       },
       {
         "skillId": 200571,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1009,
+    "charaName": "Daiwa Scarlet",
+    "voiceActor": "Chisa Kimura",
+    "cardId": 100902,
+    "cardTitle": "[Nuit Étoilée de Scarlet]",
+    "supportCardId": 10023,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 108,
+    "baseStamina": 100,
+    "basePower": 122,
+    "baseGuts": 120,
+    "baseWisdom": 100,
+    "talentSpeed": 20,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "E",
+    "aptitudeChaser": "G",
+    "birthYear": 2004,
+    "birthMonth": 5,
+    "birthDay": 13,
+    "sex": 2,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1009,
+    "skillIds": "110091,201172,201182,201281,201282,202012,202461,202462",
+    "potentialSkills": [
+      {
+        "skillId": 201282,
+        "needRank": 0
+      },
+      {
+        "skillId": 202012,
+        "needRank": 0
+      },
+      {
+        "skillId": 202462,
+        "needRank": 0
+      },
+      {
+        "skillId": 201172,
+        "needRank": 2
+      },
+      {
+        "skillId": 201281,
+        "needRank": 3
+      },
+      {
+        "skillId": 201182,
+        "needRank": 4
+      },
+      {
+        "skillId": 202461,
         "needRank": 5
       }
     ]
@@ -5095,6 +5231,74 @@
       },
       {
         "skillId": 202311,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1047,
+    "charaName": "Zenno Rob Roy",
+    "voiceActor": "Haruka Terui",
+    "cardId": 104701,
+    "cardTitle": "[Heroic Author]",
+    "supportCardId": 10059,
+    "startDate": "2026-10-07T22:00:00",
+    "baseSpeed": 108,
+    "baseStamina": 118,
+    "basePower": 111,
+    "baseGuts": 91,
+    "baseWisdom": 122,
+    "talentSpeed": 0,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 20,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "E",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "E",
+    "birthYear": 2000,
+    "birthMonth": 3,
+    "birthDay": 27,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1047,
+    "skillIds": "100471,200192,200571,200572,201112,201113,201172,201322",
+    "potentialSkills": [
+      {
+        "skillId": 200192,
+        "needRank": 0
+      },
+      {
+        "skillId": 200572,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 0
+      },
+      {
+        "skillId": 201322,
+        "needRank": 2
+      },
+      {
+        "skillId": 200571,
+        "needRank": 3
+      },
+      {
+        "skillId": 201172,
+        "needRank": 4
+      },
+      {
+        "skillId": 201113,
         "needRank": 5
       }
     ]

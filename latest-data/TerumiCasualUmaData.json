@@ -1294,6 +1294,13 @@
         "dressId": 100801,
         "dressName": "Wild Top Gear",
         "dressDescription": "Vodka's special outfit."
+      },
+      {
+        "cardId": 100802,
+        "cardTitle": "[Fiery Aqua Vitae]",
+        "dressId": 100846,
+        "dressName": "Firey Aqua Vitae",
+        "dressDescription": "Vodka's special outfit."
       }
     ],
     "casualOutfits": [
@@ -1466,6 +1473,13 @@
         "cardTitle": "[Peak Blue]",
         "dressId": 100901,
         "dressName": "Peak Blue",
+        "dressDescription": "Daiwa Scarlet's special outfit."
+      },
+      {
+        "cardId": 100902,
+        "cardTitle": "[Nuit Étoilée de Scarlet]",
+        "dressId": 100946,
+        "dressName": "Nuit Étoilée de Scarlet",
         "dressDescription": "Daiwa Scarlet's special outfit."
       }
     ],
@@ -6701,6 +6715,75 @@
         "giftName": "Smart Falcon's\\nChocolates for My First Fan ☆",
         "messageMaleTrainer": "☆ Trainer! ☆\\nI am so glad you're my first & biggest fan!\\nLove from fans like you keeps me going.\\nYou better watch out, 'cause I'm gonna\\n☆ keep ☆ on ☆ shining ☆ forever!\\n-Falco ☆",
         "messageFemaleTrainer": "☆ Trainer! ☆\\nI am so glad you're my first & biggest fan!\\nLove from fans like you keeps me going.\\nYou better watch out, 'cause I'm gonna\\n☆ keep ☆ on ☆ shining ☆ forever!\\n-Falco ☆"
+      }
+    ],
+    "legendRaceTrophies": []
+  },
+  {
+    "charaId": 1047,
+    "charaName": "Zenno Rob Roy",
+    "outfits": [
+      {
+        "cardId": 104701,
+        "cardTitle": "[Heroic Author]",
+        "dressId": 104701,
+        "dressName": "Heroic Author",
+        "dressDescription": "Zenno Rob Roy's special outfit."
+      }
+    ],
+    "casualOutfits": [],
+    "songs": [
+      {
+        "musicId": 1008,
+        "title": "NEXT FRONTIER",
+        "credits": "Lyrics: Uran\\nMusic / Arrangement: Akihiko Yamaguchi",
+        "description": "Only those who keep their eyes on the prize will reach the NEXT FRONTIER. The crown awaits...",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 104701,
+        "giftName": "Zenno Rob Roy's\\nHeroic Cherry Bonbons",
+        "messageMaleTrainer": "Your passion, a fruit so fiery red\\nYour kindness, a coating soft and sweet\\nMy admiration, a hero's chalice filled with\\nfragrance replete... To our growing legend.",
+        "messageFemaleTrainer": "Your passion, a fruit so fiery red\\nYour kindness, a coating soft and sweet\\nMy admiration, a hero's chalice filled with\\nfragrance replete... To our growing legend."
       }
     ],
     "legendRaceTrophies": []
