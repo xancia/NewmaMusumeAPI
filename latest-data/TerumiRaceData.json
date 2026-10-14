@@ -14961,7 +14961,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 1200102,
+        "instanceId": 1200101,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -14970,7 +14970,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200101,
+        "instanceId": 1200102,
         "month": 6,
         "day": 23,
         "half": 2,
@@ -14996,7 +14996,7 @@
     "entryNum": 16,
     "schedules": [
       {
-        "instanceId": 1200201,
+        "instanceId": 1200202,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -15005,7 +15005,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 1200202,
+        "instanceId": 1200201,
         "month": 9,
         "day": 22,
         "half": 2,
@@ -15045,6 +15045,41 @@
         "day": 13,
         "half": 1,
         "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 12004,
+    "raceName": "Arima Kinen",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2500,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 16,
+    "schedules": [
+      {
+        "instanceId": 1200401,
+        "month": 12,
+        "day": 22,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      },
+      {
+        "instanceId": 1200402,
+        "month": 12,
+        "day": 22,
+        "half": 2,
+        "halfName": "Second Half",
         "time": 2,
         "timeName": "Morning"
       }

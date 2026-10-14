@@ -2108,6 +2108,74 @@
     ]
   },
   {
+    "charaId": 1016,
+    "charaName": "Narita Brian",
+    "voiceActor": "Rika Kinugawa",
+    "cardId": 101602,
+    "cardTitle": "[Ravenous Wolf]",
+    "supportCardId": 10072,
+    "startDate": "2025-08-20T22:00:00",
+    "baseSpeed": 113,
+    "baseStamina": 120,
+    "basePower": 101,
+    "baseGuts": 118,
+    "baseWisdom": 98,
+    "talentSpeed": 10,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "D",
+    "birthYear": 1991,
+    "birthMonth": 5,
+    "birthDay": 3,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1016,
+    "skillIds": "110161,200172,200742,202192,202471,202472,202481,202482",
+    "potentialSkills": [
+      {
+        "skillId": 200172,
+        "needRank": 0
+      },
+      {
+        "skillId": 202472,
+        "needRank": 0
+      },
+      {
+        "skillId": 202482,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 2
+      },
+      {
+        "skillId": 202471,
+        "needRank": 3
+      },
+      {
+        "skillId": 202192,
+        "needRank": 4
+      },
+      {
+        "skillId": 202481,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1017,
     "charaName": "Symboli Rudolf",
     "voiceActor": "Azusa Tadokoro",
@@ -7077,7 +7145,7 @@
     "voiceActor": "Riona Imaizumi",
     "cardId": 107801,
     "cardTitle": "[Fluttertail Spirit]",
-    "supportCardId": null,
+    "supportCardId": 10086,
     "startDate": "2026-09-01T22:00:00",
     "baseSpeed": 119,
     "baseStamina": 101,
