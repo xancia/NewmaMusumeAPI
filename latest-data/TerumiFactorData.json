@@ -7672,6 +7672,30 @@
     "type": 3
   },
   {
+    "id": 10160201,
+    "name": "Free from the Ashes",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Free from the Ashes\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10160202,
+    "name": "Free from the Ashes",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Free from the Ashes\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10160203,
+    "name": "Free from the Ashes",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Free from the Ashes\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10170101,
     "name": "Behold Thine Emperor's Divine Might",
     "description": "A Spark that increases max Stamina value and max Guts value. Gives a skill hint for \"Behold Thine Emperor's Divine Might\".",
