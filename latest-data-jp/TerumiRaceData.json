@@ -9932,6 +9932,38 @@
     "schedules": []
   },
   {
+    "raceId": 6501,
+    "raceName": "チャンピオンズミーティング CLASSIC",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "京都",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6502,
+    "raceName": "チャンピオンズミーティング CLASSIC 決勝",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 2200,
+    "distanceCategory": "Middle",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "京都",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 7009,
     "raceName": "朝日杯フューチュリティステークス",
     "grade": 100,
