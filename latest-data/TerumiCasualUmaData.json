@@ -1009,6 +1009,17 @@
         "releasedAt": "2026-07-22T22:00:00"
       },
       {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
         "musicId": 1036,
         "title": "Girls' Legend U",
         "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
@@ -1380,6 +1391,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
         "musicId": 1036,
         "title": "Girls' Legend U",
         "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
@@ -1560,6 +1582,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
         "musicId": 1036,
         "title": "Girls' Legend U",
         "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
@@ -1634,7 +1667,15 @@
         "messageFemaleTrainer": "This tiara's just for you.\\n\\nYou better enjoy every last bite!"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1200402,
+        "raceName": "Arima Kinen (Hard)",
+        "trophyId": 1200402,
+        "rewardDressId": 100901,
+        "rewardDressName": "Peak Blue"
+      }
+    ]
   },
   {
     "charaId": 1010,
@@ -2706,6 +2747,13 @@
         "dressId": 101601,
         "dressName": "Maverick",
         "dressDescription": "Narita Brian's special outfit."
+      },
+      {
+        "cardId": 101602,
+        "cardTitle": "[Ravenous Wolf]",
+        "dressId": 101602,
+        "dressName": "Ravenous Wolf",
+        "dressDescription": "Narita Brian's special outfit."
       }
     ],
     "casualOutfits": [],
@@ -2764,6 +2812,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 1,
         "releasedAt": "2025-10-07T22:00:00"
+      },
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
       },
       {
         "musicId": 1036,
@@ -3135,6 +3194,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
       },
       {
         "musicId": 1036,
@@ -3865,6 +3935,17 @@
         "releasedAt": "2025-07-16T22:00:00"
       },
       {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
         "musicId": 1036,
         "title": "Girls' Legend U",
         "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
@@ -4021,6 +4102,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
       },
       {
         "musicId": 1036,
@@ -5252,6 +5344,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
       },
       {
         "musicId": 1036,
@@ -6632,6 +6735,17 @@
         "releasedAt": "2026-07-22T22:00:00"
       },
       {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
         "musicId": 1035,
         "title": "WINnin' 5",
         "credits": "Lyrics: Emi Nishida\\nMusic: Satoshi Okamura\\nArrangement: EFFY (FirstCall)",
@@ -7042,6 +7156,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 3,
         "releasedAt": "2025-08-03T22:00:00"
+      },
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
       },
       {
         "musicId": 1036,
@@ -8496,7 +8621,15 @@
         "messageFemaleTrainer": "Yo, Trainer! ☆ Eat up and get the party\\nvibes going! It took me a bit to get over\\nmyself and just run, but thanks to you,\\nI did it! Now enjoy this runaway treat! ☆★"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1200401,
+        "raceName": "Arima Kinen (Hard)",
+        "trophyId": 1200401,
+        "rewardDressId": 106401,
+        "rewardDressName": "Line Breakthrough"
+      }
+    ]
   },
   {
     "charaId": 1067,
@@ -8507,6 +8640,13 @@
         "cardTitle": "[Natural Brilliance]",
         "dressId": 106701,
         "dressName": "Natural Brilliance",
+        "dressDescription": "Satono Diamond's special outfit."
+      },
+      {
+        "cardId": 106702,
+        "cardTitle": "[Jade's Prosperity]",
+        "dressId": 106710,
+        "dressName": "Jade's Prosperity",
         "dressDescription": "Satono Diamond's special outfit."
       }
     ],
@@ -8631,6 +8771,13 @@
         "cardTitle": "[Gilded Shrine to Glory]",
         "dressId": 106801,
         "dressName": "Gilded Shrine to Glory",
+        "dressDescription": "Kitasan Black's special outfit."
+      },
+      {
+        "cardId": 106802,
+        "cardTitle": "[Crane's Ambition]",
+        "dressId": 106810,
+        "dressName": "Crane's Ambition",
         "dressDescription": "Kitasan Black's special outfit."
       }
     ],
@@ -9359,6 +9506,17 @@
         "releasedAt": "2026-07-22T22:00:00"
       },
       {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
         "musicId": 1036,
         "title": "Girls' Legend U",
         "credits": "Lyrics: Moe Igarashi (Cygames)\\nMusic: Akihiro Honda (Cygames)\\nArrangement: Kenta Higashiohji",
@@ -9425,6 +9583,86 @@
     "legendRaceTrophies": []
   },
   {
+    "charaId": 1099,
+    "charaName": "Hokko Tarumae",
+    "outfits": [
+      {
+        "cardId": 109901,
+        "cardTitle": "[Starry Lightship]",
+        "dressId": 109901,
+        "dressName": "Starry Lightship",
+        "dressDescription": "Hokko Tarumae's special outfit."
+      }
+    ],
+    "casualOutfits": [],
+    "songs": [
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 109901,
+        "giftName": "Hokko Tarumae's\\nHaskap Jam Cookies",
+        "messageMaleTrainer": "I'm planning to hand these cookies out at\\na fan event, so please tell me how they are!\\nWith your help, I know we can make them\\neven better. Thank you in advance!",
+        "messageFemaleTrainer": "I'm planning to hand these cookies out at\\na fan event, so please tell me how they are!\\nWith your help, I know we can make them\\neven better. Thank you in advance!"
+      }
+    ],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1100,
     "charaName": "Wonder Acute",
     "outfits": [
@@ -9438,6 +9676,17 @@
     ],
     "casualOutfits": [],
     "songs": [
+      {
+        "musicId": 1033,
+        "title": "Sparkly Magic Show",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Taishi Kawai (Arte Refact)",
+        "description": "An aspirational song full of hope shining brighter than the countless stars above. You can see them too, right?! All those sparkling dreams!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 3,
+        "releasedAt": "2026-10-19T04:00:00"
+      },
       {
         "musicId": 1053,
         "title": "Gaze on Me!",

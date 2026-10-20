@@ -2108,6 +2108,74 @@
     ]
   },
   {
+    "charaId": 1016,
+    "charaName": "Narita Brian",
+    "voiceActor": "Rika Kinugawa",
+    "cardId": 101602,
+    "cardTitle": "[Ravenous Wolf]",
+    "supportCardId": 10072,
+    "startDate": "2025-08-20T22:00:00",
+    "baseSpeed": 113,
+    "baseStamina": 120,
+    "basePower": 101,
+    "baseGuts": 118,
+    "baseWisdom": 98,
+    "talentSpeed": 10,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "D",
+    "birthYear": 1991,
+    "birthMonth": 5,
+    "birthDay": 3,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1016,
+    "skillIds": "110161,200172,200742,202192,202471,202472,202481,202482",
+    "potentialSkills": [
+      {
+        "skillId": 200172,
+        "needRank": 0
+      },
+      {
+        "skillId": 202472,
+        "needRank": 0
+      },
+      {
+        "skillId": 202482,
+        "needRank": 0
+      },
+      {
+        "skillId": 200742,
+        "needRank": 2
+      },
+      {
+        "skillId": 202471,
+        "needRank": 3
+      },
+      {
+        "skillId": 202192,
+        "needRank": 4
+      },
+      {
+        "skillId": 202481,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1017,
     "charaName": "Symboli Rudolf",
     "voiceActor": "Azusa Tadokoro",
@@ -6732,6 +6800,74 @@
     ]
   },
   {
+    "charaId": 1067,
+    "charaName": "Satono Diamond",
+    "voiceActor": "Hina Tachibana",
+    "cardId": 106702,
+    "cardTitle": "[Jade's Prosperity]",
+    "supportCardId": 10056,
+    "startDate": "2026-03-22T22:00:00",
+    "baseSpeed": 102,
+    "baseStamina": 118,
+    "basePower": 102,
+    "baseGuts": 113,
+    "baseWisdom": 115,
+    "talentSpeed": 15,
+    "talentStamina": 15,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "D",
+    "birthYear": 2013,
+    "birthMonth": 1,
+    "birthDay": 30,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1067,
+    "skillIds": "110671,201221,201222,201382,202122,202421,202422,202452",
+    "potentialSkills": [
+      {
+        "skillId": 201222,
+        "needRank": 0
+      },
+      {
+        "skillId": 202122,
+        "needRank": 0
+      },
+      {
+        "skillId": 202422,
+        "needRank": 0
+      },
+      {
+        "skillId": 201382,
+        "needRank": 2
+      },
+      {
+        "skillId": 202421,
+        "needRank": 3
+      },
+      {
+        "skillId": 202452,
+        "needRank": 4
+      },
+      {
+        "skillId": 201221,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1068,
     "charaName": "Kitasan Black",
     "voiceActor": "Hinaki Yano",
@@ -6795,6 +6931,74 @@
       },
       {
         "skillId": 201173,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1068,
+    "charaName": "Kitasan Black",
+    "voiceActor": "Hinaki Yano",
+    "cardId": 106802,
+    "cardTitle": "[Crane's Ambition]",
+    "supportCardId": 10055,
+    "startDate": "2026-03-12T22:00:00",
+    "baseSpeed": 122,
+    "baseStamina": 104,
+    "basePower": 108,
+    "baseGuts": 100,
+    "baseWisdom": 116,
+    "talentSpeed": 10,
+    "talentStamina": 0,
+    "talentPower": 10,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "E",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "B",
+    "aptitudeBetweener": "C",
+    "aptitudeChaser": "G",
+    "birthYear": 2012,
+    "birthMonth": 3,
+    "birthDay": 10,
+    "sex": 1,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1068,
+    "skillIds": "110681,200531,200532,200541,200542,200712,201262,201601",
+    "potentialSkills": [
+      {
+        "skillId": 200532,
+        "needRank": 0
+      },
+      {
+        "skillId": 200542,
+        "needRank": 0
+      },
+      {
+        "skillId": 201262,
+        "needRank": 0
+      },
+      {
+        "skillId": 200712,
+        "needRank": 2
+      },
+      {
+        "skillId": 200541,
+        "needRank": 3
+      },
+      {
+        "skillId": 201601,
+        "needRank": 4
+      },
+      {
+        "skillId": 200531,
         "needRank": 5
       }
     ]
@@ -7077,7 +7281,7 @@
     "voiceActor": "Riona Imaizumi",
     "cardId": 107801,
     "cardTitle": "[Fluttertail Spirit]",
-    "supportCardId": null,
+    "supportCardId": 10086,
     "startDate": "2026-09-01T22:00:00",
     "baseSpeed": 119,
     "baseStamina": 101,
@@ -7271,6 +7475,74 @@
       },
       {
         "skillId": 202331,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1099,
+    "charaName": "Hokko Tarumae",
+    "voiceActor": "Sayaka Kikuchi",
+    "cardId": 109901,
+    "cardTitle": "[Starry Lightship]",
+    "supportCardId": null,
+    "startDate": "2026-10-24T06:00:00",
+    "baseSpeed": 111,
+    "baseStamina": 118,
+    "basePower": 97,
+    "baseGuts": 105,
+    "baseWisdom": 119,
+    "talentSpeed": 10,
+    "talentStamina": 10,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "G",
+    "aptitudeDirt": "A",
+    "aptitudeShort": "F",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "B",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "G",
+    "aptitudeChaser": "G",
+    "birthYear": 2009,
+    "birthMonth": 5,
+    "birthDay": 26,
+    "sex": 1,
+    "height": 1,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1099,
+    "skillIds": "100991,200561,200562,200861,201332,201671,201672,202202",
+    "potentialSkills": [
+      {
+        "skillId": 200562,
+        "needRank": 0
+      },
+      {
+        "skillId": 201672,
+        "needRank": 0
+      },
+      {
+        "skillId": 202202,
+        "needRank": 0
+      },
+      {
+        "skillId": 201332,
+        "needRank": 2
+      },
+      {
+        "skillId": 200561,
+        "needRank": 3
+      },
+      {
+        "skillId": 200861,
+        "needRank": 4
+      },
+      {
+        "skillId": 201671,
         "needRank": 5
       }
     ]
