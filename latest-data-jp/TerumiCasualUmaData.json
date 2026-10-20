@@ -23637,6 +23637,13 @@
         "dressId": 110801,
         "dressName": "Red in Black",
         "dressDescription": "ドゥラメンテの特別衣装"
+      },
+      {
+        "cardId": 110802,
+        "cardTitle": "[Claret Nosferatu]",
+        "dressId": 110840,
+        "dressName": "Claret Nosferatu",
+        "dressDescription": "ドゥラメンテの特別衣装"
       }
     ],
     "casualOutfits": [

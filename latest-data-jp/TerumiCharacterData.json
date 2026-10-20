@@ -15892,6 +15892,74 @@
     ]
   },
   {
+    "charaId": 1108,
+    "charaName": "ドゥラメンテ",
+    "voiceActor": "秋奈",
+    "cardId": 110802,
+    "cardTitle": "[Claret Nosferatu]",
+    "supportCardId": 10101,
+    "startDate": "2024-02-24T03:00:00",
+    "baseSpeed": 123,
+    "baseStamina": 129,
+    "basePower": 111,
+    "baseGuts": 92,
+    "baseWisdom": 95,
+    "talentSpeed": 8,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 8,
+    "talentWisdom": 14,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "C",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "C",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "A",
+    "birthYear": 2012,
+    "birthMonth": 3,
+    "birthDay": 22,
+    "sex": 1,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1108,
+    "skillIds": "111081,201651,202552,203671,203672,203852,204801,204802",
+    "potentialSkills": [
+      {
+        "skillId": 203672,
+        "needRank": 0
+      },
+      {
+        "skillId": 203852,
+        "needRank": 0
+      },
+      {
+        "skillId": 204802,
+        "needRank": 0
+      },
+      {
+        "skillId": 201651,
+        "needRank": 2
+      },
+      {
+        "skillId": 203671,
+        "needRank": 3
+      },
+      {
+        "skillId": 202552,
+        "needRank": 4
+      },
+      {
+        "skillId": 204801,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1109,
     "charaName": "ラインクラフト",
     "voiceActor": "小島菜々恵",

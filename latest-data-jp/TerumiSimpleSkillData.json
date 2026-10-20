@@ -9011,6 +9011,43 @@
     "cooldownTime2": 500
   },
   {
+    "skillId": 111081,
+    "rarity": 5,
+    "gradeValue": 340,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "phase_laterhalf_random==1&order_rate<=90&order_rate>=30&distance_type==3",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.55,
+        "displayText": "Target Speed +0.55"
+      }
+    ],
+    "effectSummary": "Target Speed +0.55",
+    "iconId": 0,
+    "skillName": "かくて宿りし血は目覚め",
+    "skillDesc": "終盤が迫ったどこかで中団だと\\n少しの間速度がすごく上がる\\n中距離レースなら少しの間\\nものすごく上がる",
+    "needSkillPoint": 0,
+    "duration": 4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 0,
+    "activationCondition2": "phase_laterhalf_random==1&order_rate<=90&order_rate>=30",
+    "precondition2": "",
+    "effects2": [
+      {
+        "type": "Target Speed",
+        "value": 0.45,
+        "displayText": "Target Speed +0.45"
+      }
+    ],
+    "effectSummary2": "Target Speed +0.45",
+    "duration2": 4,
+    "cooldownTime2": 500
+  },
+  {
     "skillId": 111091,
     "rarity": 5,
     "gradeValue": 340,
@@ -38295,6 +38332,68 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 204801,
+    "rarity": 2,
+    "gradeValue": 508,
+    "skillCategory": "Recovery",
+    "tagId": "104/302/403",
+    "activationCondition": "running_style==4&phase==1&change_order_onetime<0",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "抜山蓋世",
+    "skillDesc": "レース中盤に追い抜くと\\n前に出る＜作戦・追込＞",
+    "needSkillPoint": 190,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
+    "skillId": 204802,
+    "rarity": 1,
+    "gradeValue": 217,
+    "skillCategory": "Recovery",
+    "tagId": "104/302/403",
+    "activationCondition": "running_style==4&phase==1&change_order_onetime<0",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "規格外",
+    "skillDesc": "レース中盤に追い抜くと\\nわずかに前に出る＜作戦・追込＞",
+    "needSkillPoint": 190,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 210011,
     "rarity": 2,
     "gradeValue": 633,
@@ -41584,7 +41683,7 @@
     "effectSummary": "Target Speed +0.35",
     "iconId": 20346,
     "skillName": "新しい夢への旅路",
-    "skillDesc": "レース中盤に追い抜くか先頭だと\\n速度が上がる、その後最終盤始めの方で\\nラストスパートの最中なら\\n速度がわずかに上がる",
+    "skillDesc": "レース中盤に追い抜くか先頭だと\\n速度が上がる、その後最終盤始めの\\nどこかでラストスパートの最中なら\\n速度がわずかに上がる",
     "needSkillPoint": 0,
     "duration": 2.4,
     "cooldownTime": 500,
@@ -49900,6 +49999,37 @@
     "effectSummary2": "Target Speed +0.05",
     "duration2": 3.6,
     "cooldownTime2": 500
+  },
+  {
+    "skillId": 911081,
+    "rarity": 1,
+    "gradeValue": 180,
+    "skillCategory": "Unique",
+    "tagId": "401",
+    "activationCondition": "phase_laterhalf_random==1&order_rate<=90&order_rate>=30",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Target Speed",
+        "value": 0.25,
+        "displayText": "Target Speed +0.25"
+      }
+    ],
+    "effectSummary": "Target Speed +0.25",
+    "iconId": 0,
+    "skillName": "かくて宿りし血は目覚め",
+    "skillDesc": "終盤が迫ったどこかで中団だと\\n少しの間速度が少し上がる",
+    "needSkillPoint": 200,
+    "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
   },
   {
     "skillId": 911091,
@@ -71382,6 +71512,85 @@
       }
     ],
     "effectSummary2": "Target Speed +0.15",
+    "duration2": 3,
+    "cooldownTime2": 500
+  },
+  {
+    "skillId": 110802111,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Recovery",
+    "tagId": "103/104/203/302/403",
+    "activationCondition": "phase_random==1&order_rate>=40&distance_type==3",
+    "precondition": "running_style==3@running_style==4",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.55,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "魔の刻、来たれり",
+    "skillDesc": "レース中盤のどこかで前に出る\\n中距離レースでスキル発動時\\n中団以降だとものすごく前に出る\\n＜差し/追込＞",
+    "needSkillPoint": 0,
+    "duration": 2.4,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "phase_random==1",
+    "precondition2": "running_style==3@running_style==4",
+    "effects2": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary2": "",
+    "duration2": 2.4,
+    "cooldownTime2": 500
+  },
+  {
+    "skillId": 110802211,
+    "rarity": 6,
+    "gradeValue": 633,
+    "skillCategory": "Recovery",
+    "tagId": "103/104/203/302/403",
+    "activationCondition": "phase==1&change_order_onetime<0&distance_type==3",
+    "precondition": "running_style==3@running_style==4",
+    "effects": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      },
+      {
+        "type": "Type22",
+        "value": 0.15,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 0,
+    "skillName": "喰らえども、喰らえども",
+    "skillDesc": "レース中盤に追い抜くと前に出る\\nさらに中距離レースなら加えて\\nわずかに前に出る＜差し/追込＞",
+    "needSkillPoint": 0,
+    "duration": 3,
+    "cooldownTime": 500,
+    "supportCardIds": "",
+    "activateLot": 1,
+    "activationCondition2": "phase==1&change_order_onetime<0",
+    "precondition2": "running_style==3@running_style==4",
+    "effects2": [
+      {
+        "type": "Type22",
+        "value": 0.35,
+        "displayText": ""
+      }
+    ],
+    "effectSummary2": "",
     "duration2": 3,
     "cooldownTime2": 500
   },
