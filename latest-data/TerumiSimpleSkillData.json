@@ -24039,6 +24039,42 @@
     "cooldownTime2": 0
   },
   {
+    "skillId": 1000013,
+    "rarity": 1,
+    "gradeValue": 0,
+    "skillCategory": "Special",
+    "tagId": "0",
+    "activationCondition": "",
+    "precondition": "",
+    "effects": [
+      {
+        "type": "Type502",
+        "value": 1,
+        "displayText": ""
+      },
+      {
+        "type": "Type503",
+        "value": 1,
+        "displayText": ""
+      }
+    ],
+    "effectSummary": "",
+    "iconId": 1010011,
+    "skillName": "Carnival Bonus",
+    "skillDesc": "Increase attributes by +{0}％ in the Racing Carnival. {1}％ chance to also raise runner's mood to Great. This skill will disappear when the event ends.",
+    "needSkillPoint": 0,
+    "duration": -0.0001,
+    "cooldownTime": 0,
+    "supportCardIds": "",
+    "activateLot": 0,
+    "activationCondition2": "",
+    "precondition2": "",
+    "effects2": [],
+    "effectSummary2": "",
+    "duration2": 0,
+    "cooldownTime2": 0
+  },
+  {
     "skillId": 1100011,
     "rarity": 1,
     "gradeValue": -500,

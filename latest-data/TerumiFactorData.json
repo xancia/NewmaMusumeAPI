@@ -6952,6 +6952,14 @@
     "type": 7
   },
   {
+    "id": 4000103,
+    "name": "Carnival Bonus",
+    "description": "A Spark that gives the Carnival Bonus Lvl {0} skill.\\nThis Spark will automatically disappear after the event ends.",
+    "rarity": 1,
+    "grade": 1,
+    "type": 7
+  },
+  {
     "id": 10010101,
     "name": "Shooting Star",
     "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Shooting Star\".",
