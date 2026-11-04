@@ -3156,6 +3156,22 @@
     "schedules": []
   },
   {
+    "raceId": 6025,
+    "raceName": "Champions Meeting Capricorn Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6029,
     "raceName": "Champions Meeting: Taurus Cup",
     "grade": 100,
@@ -3280,6 +3296,22 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6037,
+    "raceName": "Capricorn Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
     "entryNum": 9,
     "schedules": []
   },
