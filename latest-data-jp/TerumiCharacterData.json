@@ -1656,6 +1656,74 @@
     ]
   },
   {
+    "charaId": 1009,
+    "charaName": "ダイワスカーレット",
+    "voiceActor": "木村千咲",
+    "cardId": 100903,
+    "cardTitle": "[陣風の花紺青]",
+    "supportCardId": 10023,
+    "startDate": "2016-12-31T15:00:00",
+    "baseSpeed": 100,
+    "baseStamina": 125,
+    "basePower": 88,
+    "baseGuts": 125,
+    "baseWisdom": 112,
+    "talentSpeed": 0,
+    "talentStamina": 5,
+    "talentPower": 10,
+    "talentGuts": 0,
+    "talentWisdom": 15,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "B",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "A",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "E",
+    "aptitudeChaser": "G",
+    "birthYear": 2004,
+    "birthMonth": 5,
+    "birthDay": 13,
+    "sex": 2,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1009,
+    "skillIds": "120091,203201,203202,203212,203381,203382,204552,204892",
+    "potentialSkills": [
+      {
+        "skillId": 203202,
+        "needRank": 0
+      },
+      {
+        "skillId": 203382,
+        "needRank": 0
+      },
+      {
+        "skillId": 204892,
+        "needRank": 0
+      },
+      {
+        "skillId": 204552,
+        "needRank": 2
+      },
+      {
+        "skillId": 203201,
+        "needRank": 3
+      },
+      {
+        "skillId": 203212,
+        "needRank": 4
+      },
+      {
+        "skillId": 203381,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1010,
     "charaName": "タイキシャトル",
     "voiceActor": "大坪由佳",

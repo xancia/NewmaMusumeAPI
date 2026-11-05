@@ -337,6 +337,13 @@
         "trophyId": 5921,
         "rewardDressId": 100101,
         "rewardDressName": "スペシャルドリーマー"
+      },
+      {
+        "raceInstanceId": 1204801,
+        "raceName": "ジャパンカップ HARD",
+        "trophyId": 1204801,
+        "rewardDressId": 100102,
+        "rewardDressName": "日之本一の総大将"
       }
     ]
   },
@@ -892,6 +899,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2026-08-27T09:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
@@ -2416,6 +2434,13 @@
         "dressId": 100946,
         "dressName": "緋色のニュイ・エトワレ",
         "dressDescription": "ダイワスカーレットの特別衣装"
+      },
+      {
+        "cardId": 100903,
+        "cardTitle": "[陣風の花紺青]",
+        "dressId": 100902,
+        "dressName": "陣風の花紺青",
+        "dressDescription": "ダイワスカーレットの特別衣装"
       }
     ],
     "casualOutfits": [
@@ -2627,6 +2652,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -2681,7 +2717,7 @@
         "raceName": "有馬記念 HARD",
         "trophyId": 1202402,
         "rewardDressId": 100902,
-        "rewardDressName": null
+        "rewardDressName": "陣風の花紺青"
       }
     ]
   },
@@ -3145,6 +3181,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 4,
         "releasedAt": "2026-02-24T03:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
@@ -4768,6 +4815,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -5728,6 +5786,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -6484,6 +6553,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 14,
         "releasedAt": "2026-02-24T03:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
@@ -7654,6 +7734,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 14,
         "releasedAt": "2026-02-24T03:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
@@ -8833,6 +8924,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -9944,6 +10046,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -10195,6 +10308,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 14,
         "releasedAt": "2026-02-24T03:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
@@ -20546,6 +20670,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -20587,7 +20722,15 @@
         "messageFemaleTrainer": "色々、たくさん\\nありがとうございます\\n\\nシュヴァルグラン　＜･ ））＞◁"
       }
     ],
-    "legendRaceTrophies": []
+    "legendRaceTrophies": [
+      {
+        "raceInstanceId": 1204802,
+        "raceName": "ジャパンカップ HARD",
+        "trophyId": 1204802,
+        "rewardDressId": 108901,
+        "rewardDressName": "Grand itinéraire"
+      }
+    ]
   },
   {
     "charaId": 1090,
@@ -21716,6 +21859,17 @@
         "releasedAt": "2026-06-29T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -22530,6 +22684,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -23203,6 +23368,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2026-08-27T09:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
@@ -27128,6 +27304,17 @@
         "releasedAt": "2026-02-24T03:00:00"
       },
       {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
+      },
+      {
         "musicId": 1001,
         "title": "うまぴょい伝説",
         "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
@@ -27784,6 +27971,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 10,
         "releasedAt": "2026-08-27T09:00:00"
+      },
+      {
+        "musicId": 1195,
+        "title": "繚乱縁舞",
+        "credits": "作詞・作曲：安部大希-amazuti-・GAK-amazuti-\\n編曲：GAK-amazuti-",
+        "description": "舞い、願い、歌い、祈る。天へ想いが届くまで。\\n舞台に響みたる貴方の名が、この地に光をもたらさん。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2026-10-26T03:00:00"
       },
       {
         "musicId": 1001,
