@@ -6952,6 +6952,14 @@
     "type": 7
   },
   {
+    "id": 4000103,
+    "name": "Carnival Bonus",
+    "description": "A Spark that gives the Carnival Bonus Lvl {0} skill.\\nThis Spark will automatically disappear after the event ends.",
+    "rarity": 1,
+    "grade": 1,
+    "type": 7
+  },
+  {
     "id": 10010101,
     "name": "Shooting Star",
     "description": "A Spark that increases max Stamina value and max Wit value. Gives a skill hint for \"Shooting Star\".",
@@ -8200,6 +8208,30 @@
     "type": 3
   },
   {
+    "id": 10270201,
+    "name": "A Warm Cup for You",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"A Warm Cup for You\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10270202,
+    "name": "A Warm Cup for You",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"A Warm Cup for You\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10270203,
+    "name": "A Warm Cup for You",
+    "description": "A Spark that increases the max values of Speed, Power, and Guts. Gives a skill hint for \"A Warm Cup for You\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
     "id": 10280101,
     "name": "YUMMY☆SPEED!",
     "description": "A Spark that increases max Power value and max Guts value. Gives a skill hint for \"YUMMY☆SPEED!\".",
@@ -8315,6 +8347,30 @@
     "id": 10310103,
     "name": "All Charged! It's Go Time!",
     "description": "A Spark that increases max Speed value and max Guts value. Gives a skill hint for \"All Charged! It's Go Time!\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10310201,
+    "name": "Fresh☆Parlor",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Fresh☆Parlor\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10310202,
+    "name": "Fresh☆Parlor",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Fresh☆Parlor\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10310203,
+    "name": "Fresh☆Parlor",
+    "description": "A Spark that increases the max values of Speed, Stamina, and Guts. Gives a skill hint for \"Fresh☆Parlor\".",
     "rarity": 3,
     "grade": 2,
     "type": 3
@@ -9323,6 +9379,30 @@
     "id": 10640103,
     "name": "Keep Pushing Ahead",
     "description": "A Spark that increases the max values of Speed, Stamina, and Wit. Gives a skill hint for \"Keep Pushing Ahead\".",
+    "rarity": 3,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10650101,
+    "name": "Hands in the Air Like Ya Don't Care!",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Hands in the Air Like Ya Don't Care!\".",
+    "rarity": 1,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10650102,
+    "name": "Hands in the Air Like Ya Don't Care!",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Hands in the Air Like Ya Don't Care!\".",
+    "rarity": 2,
+    "grade": 2,
+    "type": 3
+  },
+  {
+    "id": 10650103,
+    "name": "Hands in the Air Like Ya Don't Care!",
+    "description": "A Spark that increases max Speed value and max Power value. Gives a skill hint for \"Hands in the Air Like Ya Don't Care!\".",
     "rarity": 3,
     "grade": 2,
     "type": 3

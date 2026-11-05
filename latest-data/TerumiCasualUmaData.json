@@ -4480,6 +4480,13 @@
         "dressId": 102701,
         "dressName": "Down the Line",
         "dressDescription": "Mejiro Ryan's special outfit."
+      },
+      {
+        "cardId": 102702,
+        "cardTitle": "[Marguerite Latte]",
+        "dressId": 102713,
+        "dressName": "Marguerite Latte",
+        "dressDescription": "Mejiro Ryan's special outfit."
       }
     ],
     "casualOutfits": [
@@ -4989,6 +4996,13 @@
         "cardTitle": "[Always Electrifying]",
         "dressId": 103101,
         "dressName": "Ines Fujin's Signature Racewear",
+        "dressDescription": "Ines Fujin's special outfit."
+      },
+      {
+        "cardId": 103102,
+        "cardTitle": "[Melt Your Heart]",
+        "dressId": 103113,
+        "dressName": "Melt Your Heart",
         "dressDescription": "Ines Fujin's special outfit."
       }
     ],
@@ -8632,6 +8646,105 @@
     ]
   },
   {
+    "charaId": 1065,
+    "charaName": "Daitaku Helios",
+    "outfits": [
+      {
+        "cardId": 106501,
+        "cardTitle": "[Fun☆Fun☆Party Night]",
+        "dressId": 106501,
+        "dressName": "Fun☆Fun☆Party Night",
+        "dressDescription": "Daitaku Helios's special outfit."
+      }
+    ],
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901065,
+        "dressName": "Daitaku Helios's Casual Wear",
+        "dressDescription": "Daitaku Helios's casual attire."
+      }
+    ],
+    "songs": [
+      {
+        "musicId": 1032,
+        "title": "Run for Our Dream!",
+        "credits": "Lyrics: Mike Sugiyama\\nMusic / Arrangement: Kenta Higashiohji",
+        "description": "A refreshing song performed with a rival. Placing your dreams in another, a new story begins...",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 15,
+        "releasedAt": "2025-07-16T22:00:00"
+      },
+      {
+        "musicId": 1053,
+        "title": "Gaze on Me!",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Tomohiro Nakatsuchi",
+        "description": "Let the beat take over as you dance to this hot summer song under neon lights. Don't take your eyes off me—whether I'm on stage or in a race!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1059,
+        "title": "Overrunner!",
+        "credits": "Lyrics / Music / Arrangement: Motokiyo",
+        "description": "A shocking song for both friends and competitors. To make everyone happy, we'll keep running—over and beyond the finish line!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-11-09T22:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "Umapyoi Legend",
+        "credits": "Lyrics / Music / Arrangement: Akihiro Honda (Cygames)",
+        "description": "A high-energy song perfect for the URA Finals. Let me hear you shout! Umapyoi! ♪ Umapyoi! ♪",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make Debut!",
+        "credits": "Lyrics: Shun Aratame\\nMusic: Shun Aratame\\nArrangement: Shun Aratame, Yuya Hirosawa",
+        "description": "The first song sung by Umamusume after their debut. Echo forth! Fanfare!",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T15:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. Victoria",
+        "credits": "Lyrics: Erica Masaki\\nMusic / Arrangement: Shota Horie",
+        "description": "A passionate song celebrating the racer's hard-earned victory. May her cries be forever etched into history.",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2026-07-20T22:00:00"
+      }
+    ],
+    "valentineGifts": [
+      {
+        "giftId": 106501,
+        "giftName": "Daitaku Helios's\\nThe Sweetest Flex! Major Choco Drip",
+        "messageMaleTrainer": "Eat up! The taste'll have you straight up\\nFLYIN'! ☆",
+        "messageFemaleTrainer": "Eat up! The taste'll have you straight up\\nFLYIN'! ☆"
+      }
+    ],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1067,
     "charaName": "Satono Diamond",
     "outfits": [
@@ -9366,6 +9479,17 @@
         "hasLivePerformance": true,
         "liveMemberCount": 18,
         "releasedAt": "2026-07-22T22:00:00"
+      },
+      {
+        "musicId": 1059,
+        "title": "Overrunner!",
+        "credits": "Lyrics / Music / Arrangement: Motokiyo",
+        "description": "A shocking song for both friends and competitors. To make everyone happy, we'll keep running—over and beyond the finish line!",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2026-11-09T22:00:00"
       },
       {
         "musicId": 1001,

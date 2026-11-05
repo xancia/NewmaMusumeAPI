@@ -3536,6 +3536,74 @@
     ]
   },
   {
+    "charaId": 1027,
+    "charaName": "Mejiro Ryan",
+    "voiceActor": "Afumi Hashi",
+    "cardId": 102702,
+    "cardTitle": "[Marguerite Latte]",
+    "supportCardId": 10033,
+    "startDate": "2017-01-01T00:00:00",
+    "baseSpeed": 125,
+    "baseStamina": 91,
+    "basePower": 122,
+    "baseGuts": 111,
+    "baseWisdom": 101,
+    "talentSpeed": 20,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 0,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "E",
+    "aptitudeMile": "C",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "B",
+    "aptitudeRunner": "F",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "F",
+    "birthYear": 1987,
+    "birthMonth": 4,
+    "birthDay": 11,
+    "sex": 1,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1027,
+    "skillIds": "110271,200292,201112,201322,201341,201342,202171,202172",
+    "potentialSkills": [
+      {
+        "skillId": 200292,
+        "needRank": 0
+      },
+      {
+        "skillId": 201342,
+        "needRank": 0
+      },
+      {
+        "skillId": 202172,
+        "needRank": 0
+      },
+      {
+        "skillId": 201112,
+        "needRank": 2
+      },
+      {
+        "skillId": 201341,
+        "needRank": 3
+      },
+      {
+        "skillId": 201322,
+        "needRank": 4
+      },
+      {
+        "skillId": 202171,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1028,
     "charaName": "Hishi Akebono",
     "voiceActor": "Rei Matsuzaki",
@@ -3871,6 +3939,74 @@
       },
       {
         "skillId": 202131,
+        "needRank": 5
+      }
+    ]
+  },
+  {
+    "charaId": 1031,
+    "charaName": "Ines Fujin",
+    "voiceActor": "Rika Nagae",
+    "cardId": 103102,
+    "cardTitle": "[Melt Your Heart]",
+    "supportCardId": 10035,
+    "startDate": "2026-04-30T22:00:00",
+    "baseSpeed": 125,
+    "baseStamina": 116,
+    "basePower": 88,
+    "baseGuts": 104,
+    "baseWisdom": 117,
+    "talentSpeed": 14,
+    "talentStamina": 0,
+    "talentPower": 0,
+    "talentGuts": 8,
+    "talentWisdom": 8,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "G",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "C",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "C",
+    "aptitudeBetweener": "G",
+    "aptitudeChaser": "G",
+    "birthYear": 1987,
+    "birthMonth": 4,
+    "birthDay": 10,
+    "sex": 1,
+    "height": 2,
+    "bust": 3,
+    "charaCategory": 0,
+    "uraObjectives": 1031,
+    "skillIds": "110311,200431,200432,201082,201252,201253,201522,201601",
+    "potentialSkills": [
+      {
+        "skillId": 200432,
+        "needRank": 0
+      },
+      {
+        "skillId": 201252,
+        "needRank": 0
+      },
+      {
+        "skillId": 201601,
+        "needRank": 0
+      },
+      {
+        "skillId": 201522,
+        "needRank": 2
+      },
+      {
+        "skillId": 200431,
+        "needRank": 3
+      },
+      {
+        "skillId": 201082,
+        "needRank": 4
+      },
+      {
+        "skillId": 201253,
         "needRank": 5
       }
     ]
@@ -6732,6 +6868,74 @@
     ]
   },
   {
+    "charaId": 1065,
+    "charaName": "Daitaku Helios",
+    "voiceActor": "Aya Yamane",
+    "cardId": 106501,
+    "cardTitle": "[Fun☆Fun☆Party Night]",
+    "supportCardId": 10052,
+    "startDate": "2026-11-05T22:00:00",
+    "baseSpeed": 122,
+    "baseStamina": 108,
+    "basePower": 119,
+    "baseGuts": 106,
+    "baseWisdom": 95,
+    "talentSpeed": 15,
+    "talentStamina": 0,
+    "talentPower": 15,
+    "talentGuts": 0,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "B",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "B",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "A",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "G",
+    "aptitudeChaser": "G",
+    "birthYear": 1987,
+    "birthMonth": 4,
+    "birthDay": 10,
+    "sex": 1,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1065,
+    "skillIds": "100651,200302,201032,201051,201052,201651,202501,202502",
+    "potentialSkills": [
+      {
+        "skillId": 200302,
+        "needRank": 0
+      },
+      {
+        "skillId": 201052,
+        "needRank": 0
+      },
+      {
+        "skillId": 202502,
+        "needRank": 0
+      },
+      {
+        "skillId": 201032,
+        "needRank": 2
+      },
+      {
+        "skillId": 201051,
+        "needRank": 3
+      },
+      {
+        "skillId": 201651,
+        "needRank": 4
+      },
+      {
+        "skillId": 202501,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1067,
     "charaName": "Satono Diamond",
     "voiceActor": "Hina Tachibana",
@@ -7349,7 +7553,7 @@
     "voiceActor": "Honoka Inoue",
     "cardId": 108701,
     "cardTitle": "[Flare]",
-    "supportCardId": null,
+    "supportCardId": 10087,
     "startDate": "2026-08-25T22:00:00",
     "baseSpeed": 121,
     "baseStamina": 89,

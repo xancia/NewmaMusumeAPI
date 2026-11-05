@@ -2523,7 +2523,7 @@
     "entryNum": 18,
     "schedules": [
       {
-        "instanceId": 595003,
+        "instanceId": 595001,
         "month": 10,
         "day": 20,
         "half": 2,
@@ -2541,7 +2541,7 @@
         "timeName": "Morning"
       },
       {
-        "instanceId": 595001,
+        "instanceId": 595003,
         "month": 10,
         "day": 20,
         "half": 2,
@@ -3156,6 +3156,38 @@
     "schedules": []
   },
   {
+    "raceId": 6025,
+    "raceName": "Champions Meeting Capricorn Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6026,
+    "raceName": "Champions Meeting Aquarius Cup",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
     "raceId": 6029,
     "raceName": "Champions Meeting: Taurus Cup",
     "grade": 100,
@@ -3280,6 +3312,38 @@
     "turnName": "Right",
     "trackId": 10005,
     "trackName": "Nakayama",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6037,
+    "raceName": "Capricorn Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
+    "entryNum": 9,
+    "schedules": []
+  },
+  {
+    "raceId": 6038,
+    "raceName": "Aquarius Cup Finals",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1600,
+    "distanceCategory": "Mile",
+    "ground": 2,
+    "groundName": "Dirt",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
     "entryNum": 9,
     "schedules": []
   },
@@ -14902,6 +14966,58 @@
     ]
   },
   {
+    "raceId": 11017,
+    "raceName": "Challenge Race (Very Hard)",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630017,
+        "month": 3,
+        "day": 24,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11018,
+    "raceName": "Challenge Race (Extreme)",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630018,
+        "month": 3,
+        "day": 24,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
     "raceId": 12000,
     "raceName": "Tenno Sho (Spring)",
     "grade": 100,
@@ -16834,6 +16950,84 @@
         "day": 14,
         "half": 1,
         "halfName": "First Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11013,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 1400,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630013,
+        "month": 3,
+        "day": 24,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11014,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10005,
+    "trackName": "Nakayama",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630014,
+        "month": 3,
+        "day": 24,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11015,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 200,
+    "gradeName": "G2",
+    "distance": 1400,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10006,
+    "trackName": "Tokyo",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630015,
+        "month": 3,
+        "day": 24,
+        "half": 2,
+        "halfName": "Second Half",
         "time": 2,
         "timeName": "Morning"
       }
@@ -18808,6 +19002,32 @@
         "instanceId": 405001,
         "month": 5,
         "day": 25,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 11016,
+    "raceName": "Carnival Race (Hard)",
+    "grade": 300,
+    "gradeName": "G3",
+    "distance": 1200,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 2,
+    "turnName": "Left",
+    "trackId": 10007,
+    "trackName": "Chukyo",
+    "entryNum": 12,
+    "schedules": [
+      {
+        "instanceId": 630016,
+        "month": 3,
+        "day": 24,
         "half": 2,
         "halfName": "Second Half",
         "time": 2,
@@ -25912,6 +26132,32 @@
     "schedules": [
       {
         "instanceId": 904200,
+        "month": 6,
+        "day": 30,
+        "half": 2,
+        "halfName": "Second Half",
+        "time": 2,
+        "timeName": "Morning"
+      }
+    ]
+  },
+  {
+    "raceId": 9407,
+    "raceName": "Junior Make Debut",
+    "grade": 900,
+    "gradeName": "Debut",
+    "distance": 1400,
+    "distanceCategory": "Short",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "Kyoto",
+    "entryNum": 9,
+    "schedules": [
+      {
+        "instanceId": 904201,
         "month": 6,
         "day": 30,
         "half": 2,
