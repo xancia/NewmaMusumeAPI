@@ -121,6 +121,17 @@ Exports to `latest-data-jp/` folder.
 
 The script starts the API, fetches all Terumi endpoints, saves the results as JSON files, and shuts down automatically.
 
+### Via Docker (no local .NET / Python needed)
+
+With the database container(s) already running, from any directory:
+
+```bash
+docker compose -f /path/to/NewmaMusumeAPI/docker-compose-export.yml run --rm export        # Global
+docker compose -f /path/to/NewmaMusumeAPI/docker-compose-export.yml run --rm export --jp   # JP
+```
+
+The first run builds the image and restores NuGet packages, so it takes longer. Set `DB_HOST` if the database isn't on the Docker host.
+
 Exported files:
 - `TerumiFactorData.json`
 - `TerumiSimpleSkillData.json`
