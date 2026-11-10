@@ -1,0 +1,55 @@
+# Runs export_data.py inside a container that has the .NET 8 SDK and Python,
+# so neither needs to be installed on the host.
+#
+# The database must already be running (docker-compose.yml and/or docker-compose-jp.yml).
+# Relative paths below resolve against this file, so it works from any directory:
+#
+#   docker compose -f /path/to/NewmaMusumeAPI/docker-compose-export.yml run --rm export        # Global -> latest-data/
+#   docker compose -f /path/to/NewmaMusumeAPI/docker-compose-export.yml run --rm export --jp   # JP     -> latest-data-jp/
+#
+# launchSettings.json points the API at localhost:3306 (Global) / localhost:3308 (JP).
+# Inside the container, socat forwards those ports to the host's mapped DB ports,
+# so the launch profiles work unchanged.
+
+name: umamusume-export
+
+services:
+  export:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM mcr.microsoft.com/dotnet/sdk:8.0
+        RUN apt-get update \
+         && apt-get install -y --no-install-recommends python3 socat \
+         && rm -rf /var/lib/apt/lists/*
+        # Kestrel needs a dev cert to bind https://localhost:5001 (export_data.py skips verification)
+        RUN dotnet dev-certs https
+    image: umamusume-export:latest
+    working_dir: /src
+    environment:
+      DOTNET_CLI_TELEMETRY_OPTOUT: "1"
+      DOTNET_NOLOGO: "1"
+      DB_HOST: ${DB_HOST:-host.docker.internal}
+    extra_hosts:
+      # Docker Desktop provides this automatically; needed on Linux engines.
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - .:/src
+      # Keep Linux build output and restore state out of the host's bin/obj
+      - export-bin:/src/UmaMusumeAPI/bin
+      - export-obj:/src/UmaMusumeAPI/obj
+      - export-nuget:/root/.nuget/packages
+    entrypoint:
+      - sh
+      - -c
+      - |
+        socat TCP-LISTEN:3306,fork,reuseaddr TCP:$${DB_HOST}:3306 &
+        socat TCP-LISTEN:3308,fork,reuseaddr TCP:$${DB_HOST}:3308 &
+        exec python3 export_data.py "$$@"
+      - export_data
+    command: []
+
+volumes:
+  export-bin:
+  export-obj:
+  export-nuget:
