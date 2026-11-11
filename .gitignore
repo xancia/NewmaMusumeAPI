@@ -392,3 +392,6 @@ FodyWeavers.xsd
 
 # Uma related stuff
 master.mdb
+
+# core crashes
+core.[0-9]*
