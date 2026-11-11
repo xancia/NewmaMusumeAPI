@@ -7613,6 +7613,13 @@
         "dressId": 102913,
         "dressName": "茶の子雪ん子",
         "dressDescription": "ユキノビジンの特別衣装"
+      },
+      {
+        "cardId": 102903,
+        "cardTitle": "[熟れしめでたし実り姫]",
+        "dressId": 102902,
+        "dressName": "熟れしめでたし実り姫",
+        "dressDescription": "ユキノビジンの特別衣装"
       }
     ],
     "casualOutfits": [

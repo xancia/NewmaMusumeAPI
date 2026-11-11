@@ -5140,6 +5140,74 @@
     ]
   },
   {
+    "charaId": 1029,
+    "charaName": "ユキノビジン",
+    "voiceActor": "山本希望",
+    "cardId": 102903,
+    "cardTitle": "[熟れしめでたし実り姫]",
+    "supportCardId": 10034,
+    "startDate": "2022-09-12T03:00:00",
+    "baseSpeed": 111,
+    "baseStamina": 117,
+    "basePower": 102,
+    "baseGuts": 119,
+    "baseWisdom": 101,
+    "talentSpeed": 15,
+    "talentStamina": 0,
+    "talentPower": 5,
+    "talentGuts": 10,
+    "talentWisdom": 0,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "B",
+    "aptitudeShort": "D",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "E",
+    "aptitudeRunner": "C",
+    "aptitudeLeader": "A",
+    "aptitudeBetweener": "F",
+    "aptitudeChaser": "G",
+    "birthYear": 1990,
+    "birthMonth": 3,
+    "birthDay": 10,
+    "sex": 2,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1029,
+    "skillIds": "120291,202471,202472,202742,204052,204171,204172,204692",
+    "potentialSkills": [
+      {
+        "skillId": 202472,
+        "needRank": 0
+      },
+      {
+        "skillId": 202742,
+        "needRank": 0
+      },
+      {
+        "skillId": 204172,
+        "needRank": 0
+      },
+      {
+        "skillId": 204052,
+        "needRank": 2
+      },
+      {
+        "skillId": 202471,
+        "needRank": 3
+      },
+      {
+        "skillId": 204692,
+        "needRank": 4
+      },
+      {
+        "skillId": 204171,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1030,
     "charaName": "ライスシャワー",
     "voiceActor": "石見舞菜香",
