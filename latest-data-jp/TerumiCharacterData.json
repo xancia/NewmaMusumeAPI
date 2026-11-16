@@ -12220,6 +12220,74 @@
     ]
   },
   {
+    "charaId": 1075,
+    "charaName": "デアリングタクト",
+    "voiceActor": "羊宮妃那",
+    "cardId": 107501,
+    "cardTitle": "[白光のレガリア]",
+    "supportCardId": 10120,
+    "startDate": "2026-11-16T03:00:00",
+    "baseSpeed": 121,
+    "baseStamina": 99,
+    "basePower": 121,
+    "baseGuts": 95,
+    "baseWisdom": 114,
+    "talentSpeed": 0,
+    "talentStamina": 0,
+    "talentPower": 10,
+    "talentGuts": 10,
+    "talentWisdom": 10,
+    "aptitudeTurf": "A",
+    "aptitudeDirt": "G",
+    "aptitudeShort": "F",
+    "aptitudeMile": "A",
+    "aptitudeMiddle": "A",
+    "aptitudeLong": "F",
+    "aptitudeRunner": "G",
+    "aptitudeLeader": "D",
+    "aptitudeBetweener": "A",
+    "aptitudeChaser": "F",
+    "birthYear": 2017,
+    "birthMonth": 4,
+    "birthDay": 15,
+    "sex": 2,
+    "height": 1,
+    "bust": 2,
+    "charaCategory": 0,
+    "uraObjectives": 1075,
+    "skillIds": "100751,203591,203592,203792,204322,204622,204911,204912",
+    "potentialSkills": [
+      {
+        "skillId": 203592,
+        "needRank": 0
+      },
+      {
+        "skillId": 204322,
+        "needRank": 0
+      },
+      {
+        "skillId": 204912,
+        "needRank": 0
+      },
+      {
+        "skillId": 204622,
+        "needRank": 2
+      },
+      {
+        "skillId": 204911,
+        "needRank": 3
+      },
+      {
+        "skillId": 203792,
+        "needRank": 4
+      },
+      {
+        "skillId": 203591,
+        "needRank": 5
+      }
+    ]
+  },
+  {
     "charaId": 1076,
     "charaName": "サクラローレル",
     "voiceActor": "真野美月",

@@ -18031,6 +18031,109 @@
     ]
   },
   {
+    "charaId": 1075,
+    "charaName": "デアリングタクト",
+    "outfits": [
+      {
+        "cardId": 107501,
+        "cardTitle": "[白光のレガリア]",
+        "dressId": 107501,
+        "dressName": "白光のレガリア",
+        "dressDescription": "デアリングタクトの特別衣装"
+      }
+    ],
+    "casualOutfits": [
+      {
+        "cardId": null,
+        "cardTitle": null,
+        "dressId": 901075,
+        "dressName": "私服（デアリングタクト）",
+        "dressDescription": "デアリングタクトの私服"
+      }
+    ],
+    "songs": [
+      {
+        "musicId": 1005,
+        "title": "彩 Phantasia",
+        "credits": "作詞：五十嵐萌 (Cygames)\\n作曲：本田晃弘 (Cygames)\\n編曲：秋田真典 (INSPION)",
+        "description": "トリプルティアラを手繰り寄せた女王にのみ与えられる楽曲。\\n華やかでありながら、力強く夢を追う美しさがある。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1150,
+        "title": "STARTING FORCE",
+        "credits": "作詞：マイクスギヤマ\\n作曲・編曲：東大路憲太",
+        "description": "4thを彩るFORCE――それは挑むココロ！\\nここから、キミたちの時代のゲートが開く！",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2025-02-24T03:00:00"
+      },
+      {
+        "musicId": 1156,
+        "title": "めにしゅき♡ラッシュっしゅ！",
+        "credits": "作詞：市橋卓也 (Cygames)・佐藤遥 (Cygames)\\n作曲・編曲：市橋卓也 (Cygames)",
+        "description": "みんなのおかげで――『こんなに大きくなりました♡』\\n愛のこもった感謝のめにしゅき♡お好きな場所からご覧あれ♪",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 10,
+        "releasedAt": "2025-08-27T09:00:00"
+      },
+      {
+        "musicId": 1157,
+        "title": "ゆこまロマン純情派",
+        "credits": "作詞：丹下めえな・岩井彩夏 (Cygames)\\n作曲：本田晃弘 (Cygames)\\n編曲：本田晃弘 (Cygames)・加藤慶久 (Cygames)",
+        "description": "湯煙に浮かぶあの日の記憶、忘れられない想い出なのに、かすんで\\nしっかり見えないの……「ゆこまロマン純情派」お聴きください。",
+        "isSoloSong": false,
+        "allCharasSong": false,
+        "hasLivePerformance": true,
+        "liveMemberCount": 8,
+        "releasedAt": "2025-10-29T03:00:00"
+      },
+      {
+        "musicId": 1001,
+        "title": "うまぴょい伝説",
+        "credits": "作詞・作曲・編曲：本田晃弘 (Cygames)",
+        "description": "URAファイナルズを飾るハチャメチャに楽しい楽曲。\\nうまぴょい♪うまぴょい♪大盛り上がり間違いなし！",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1006,
+        "title": "Make debut!",
+        "credits": "作詞・作曲：新田目駿\\n編曲：新田目駿・廣澤優也",
+        "description": "デビューしたウマ娘たちに贈られる始まりの楽曲。\\n響けファンファーレ！　届けゴールまで！！",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 18,
+        "releasedAt": "2019-07-01T06:00:00"
+      },
+      {
+        "musicId": 1054,
+        "title": "Ms. VICTORIA",
+        "credits": "作詞：真崎エリカ\\n作曲・編曲：堀江晶太",
+        "description": "激しく、熱く、走り抜いた勝者をたたえる楽曲。\\n歴史に刻みつけられた勝ち鬨は、永久に燃ゆる余韻を残す。",
+        "isSoloSong": false,
+        "allCharasSong": true,
+        "hasLivePerformance": true,
+        "liveMemberCount": 9,
+        "releasedAt": "2022-10-19T03:00:00"
+      }
+    ],
+    "valentineGifts": [],
+    "legendRaceTrophies": []
+  },
+  {
     "charaId": 1076,
     "charaName": "サクラローレル",
     "outfits": [
