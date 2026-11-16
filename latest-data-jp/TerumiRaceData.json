@@ -20318,6 +20318,38 @@
     "schedules": []
   },
   {
+    "raceId": 13033,
+    "raceName": "リーグ オブ ヒーローズ メインステージ",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 3000,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "京都",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
+    "raceId": 13034,
+    "raceName": "リーグ オブ ヒーローズ エクストラステージ",
+    "grade": 100,
+    "gradeName": "G1",
+    "distance": 3000,
+    "distanceCategory": "Long",
+    "ground": 1,
+    "groundName": "Turf",
+    "turn": 1,
+    "turnName": "Right",
+    "trackId": 10008,
+    "trackName": "京都",
+    "entryNum": 12,
+    "schedules": []
+  },
+  {
     "raceId": 14042,
     "raceName": "WBC",
     "grade": 100,
